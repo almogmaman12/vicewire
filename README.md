@@ -1,96 +1,141 @@
-# VICEWIRE v2 - GTA VI news, PC, emulation and leak tracker
+# VICEWIRE
 
-An independent, source-linked GTA VI news dashboard for everyday reading. Clearer fonts, longer plain-English explanations and an explicit **why it matters** + **evidence** line on every story. Built in HTML/CSS/JS with a no-dependencies Python news collector. It tracks *the launched GTA VI game*, official sources, independent news outlets, PC news, Cyberleek claims, X posts indexed by public search, and open-source console research.
+**One place to follow GTA VI news, the PC release, emulator research, and unofficial claims, without mixing reporting with proof.**
 
-## What is and is not verified (22 November 2026)
+[**Open the live dashboard**](https://almogmaman12.github.io/vicewire/) · [Latest stories (RSS)](https://almogmaman12.github.io/vicewire/data/feed.xml) · [Report a problem or suggest a source](https://github.com/almogmaman12/vicewire/issues/new) · [Update history](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
 
-- GTA VI launched on PS5 and Xbox Series X|S on November 19, 2026, as confirmed by Rockstar and Take-Two.
-- There is no verified official PC release date in the snapshot. This is **not** a forecast.
-- Leonida's own README says GTA VI does **not** boot. Translating shaders is not the same as running the game.
-- Cyberleek **claims** to have released a roughly 200-209 GB Xbox build without the main executable. The archive and its authenticity were not independently confirmed by VGC or PC Gamer. Cyberleek's promised November 23 executable is a claim, not a verified event. This site does not link to leaked game data, passwords, piracy resources, copyrighted binaries, or crypto promotions.
+[![Update VICEWIRE & deploy website](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml/badge.svg)](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
 
-Sources for the Cyberleek story:
-- VGC, Nov 19: https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/
-- PC Gamer, Nov 19: https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/
+VICEWIRE is an **independent, fan-made news tracker**. It brings together official announcements, coverage from gaming publications, development activity from GitHub, and publicly reported leak claims. The goal is to answer two questions quickly: **What happened?** and **How much of it is actually confirmed?**
 
-## Live updates that use **zero ChatGPT usage**
+## What can you find here?
 
-- Every 3 hours, the GitHub Actions workflow runs `python scripts/update.py`.
-- The script checks around **20 Google News RSS searches** covering game updates, launch coverage, PC, emulators, Cyberleek, Rockstar, Take-Two and independent outlets such as IGN, GameSpot, VGC, PC Gamer and Eurogamer.
-- It also follows **eight public GitHub repositories**, including Leonida, ScarlettX, AnyPS5, Kyty, RPCSX, Xbox2Windows, GTAVI-Recomp and PortPS5. Latest commit data, stars and issue counts refresh when available.
-- The updater commits generated JSON and RSS back to the repository, and GitHub Pages publishes the refreshed site. The browser checks the published JSON roughly every 10 minutes while open.
-- A failed source fetch is recorded, not misrepresented as a successful update. No API keys are required. If the automatic GitHub token is available, it is used only for public GitHub API calls.
-- Most automatically discovered headlines are marked **COVERAGE**, not OFFICIAL or VERIFIED. The explainer sentences are contextual editorial templates, **not a full reading or fact-check of the articles**. Developer commits show activity, not proof of a game boot.
+| Section | What it helps you follow |
+| --- | --- |
+| **Latest news** | GTA VI game updates, launch coverage, reviews, patches, performance, and gameplay reporting |
+| **Rockstar / official** | Directly reviewed Rockstar and Take-Two announcements, separated from articles *about* them |
+| **PC release watch** | Official PC announcements when available, plus third-party reporting and speculation clearly labeled |
+| **Developer radar** | Actual GitHub activity from Leonida, ScarlettX, AnyPS5, Kyty, RPCSX, Xbox2Windows, GTAVI-Recomp, and PortPS5 |
+| **Emulation and recompilation** | Console compatibility experiments, shader work, relinking, runtime progress, and what those milestones do *not* prove |
+| **Leaks and piracy reporting** | News about claims such as Cyberleek, alleged builds, unofficial ports, and cracks, without distributing game files |
+| **X / social watch** | Some publicly indexed X posts plus direct links to relevant X searches; not a complete X feed |
+| **Source-reviewed explainers** | Selected stories with a more specific summary, evidence notes, and a practical "why it matters" explanation |
 
-### What about X/Twitter?
+**Start here:** [vicewire live site](https://almogmaman12.github.io/vicewire/).
 
-The collector attempts to discover **publicly indexed X posts** using news search. X does not provide a reliable, unrestricted, free live feed API, so **this will not catch every X post**. Search results from regular publishers about X are not mislabeled as direct X posts. The website includes live links to Rockstar's X account and relevant X searches so you can check manually. A fully comprehensive, reliable X ingest would need another approved integration or paid API.
+### How to use the dashboard
 
-## Best free deployment: GitHub Pages + public GitHub Actions
+1. **Check the situation cards** for the important known facts and their source links.
+2. **Use the news filters** to focus on PC, emulation, Rockstar, leaks, game news, or social posts.
+3. **Open an article** to read its original source. VICEWIRE is a discovery and context tool, not a replacement for reporting.
+4. **Check the developer radar** for repository activity. A new commit is progress on the project, not proof GTA VI runs on PC.
+5. **Look at the last source-check time** before assuming the feed is current. The timestamp describes the crawler's check, not when every claim was verified.
 
-**Price: $0 for this typical hobby setup, within GitHub's published limits. Does not use ChatGPT credits.** A public repository is important: standard Actions minutes are free in public repositories, and GitHub Pages supports public sites on Free.
+You can also [subscribe to the RSS feed](https://almogmaman12.github.io/vicewire/data/feed.xml) instead of keeping the page open.
 
-1. Create a **public** repository on GitHub, e.g. `vicewire`.
-2. Upload the **contents** of this ZIP to the repository root. Preserve `.github/workflows/update-site.yml`; this is a hidden folder on some operating systems. Git CLI is the most reliable way to upload the hidden workflow directory:
+## What do the evidence labels mean?
 
-   ```bash
-   # From inside the unzipped VICEWIRE folder:
-   git init
-   git branch -M main
-   git add .
-   git commit -m "Launch VICEWIRE"
-   git remote add origin https://github.com/YOUR_USERNAME/vicewire.git
-   git push -u origin main
-   ```
+This distinction is the most important part of the project.
 
-   (If GitHub created a starter README first, clone the empty repo instead or reconcile before pushing.)
+| Label | Meaning | What it does **not** mean |
+| --- | --- | --- |
+| **OFFICIAL** | A selected, manually reviewed statement from Rockstar or Take-Two | That an unrelated prediction or rumor is now confirmed |
+| **DEVELOPER** | A directly attributable project update, such as a GitHub commit | That a game boots, is playable, or has reached a certain compatibility percentage |
+| **COVERAGE** | A publisher headline found in a news feed, or reporting from an independent outlet | That VICEWIRE read and independently verified every detail |
+| **UNVERIFIED** | An important claim or rumor for which the available evidence is insufficient | That the claim is necessarily false |
+| **X INDEX** | A public social post discovered through a search index | Live, comprehensive access to X, or verification of the author's claim |
 
-3. In **Settings > Pages**, set **Build and deployment > Source: GitHub Actions**.
-4. In **Actions**, enable workflows if asked, select **Update VICEWIRE & deploy website**, and click **Run workflow** once.
-5. When the run finishes successfully, your URL will be something like `https://YOUR_USERNAME.github.io/vicewire/`.
-6. Check the Actions log for `Saved N stories`, `successful checks` and the final Pages deployment. RSS queries can occasionally be blocked; the site keeps older content and reports failures.
+**Important:** A story appearing in the "Rockstar" topic does not make it OFFICIAL. Automatically indexed stories are classified as **COVERAGE**, even when their headline says "Rockstar confirms." Only reviewed first-party statements receive the OFFICIAL evidence label. The subject filter and the evidence badge serve different purposes.
 
-The schedule uses `17 */3 * * *` UTC. GitHub's scheduled jobs are best-effort, and may be delayed or disabled under its inactive-public-repository policy. Runs do not happen while the ZIP is only on your computer.
+For PC and emulator news, use this rule of thumb:
 
-## Render, also free if paired with GitHub Actions
+> **Shaders translated ≠ game boots. Game boots ≠ playable. Playable ≠ stable or performant.**
 
-- **Render static-site hosting is free** within its monthly bandwidth/build limits.
-- **Render's own cron jobs are not free:** currently $1/month minimum per cron-job service. **Do not create a Render Cron Job** if you want a $0 bill.
-- Instead use **GitHub Actions to update the JSON**, and connect Render to the same public repository. On Render select **New > Static Site**, use publish directory `site` and build command `echo "Static VICEWIRE"`. When the scheduled GitHub Action pushes updated news files, Render can redeploy from your connected branch. This still consumes zero ChatGPT messages.
-- If you don't need Render-specific features, GitHub Pages is simpler (one provider).
+The site is deliberately cautious about claims involving GTA VI console files, executable leaks, and unofficial PC releases.
 
-## Run locally
+## When does it update?
 
-Double-click `site/index.html` to see the bundled snapshot. It doesn't fetch news while local. To test the collector on a computer with an Internet connection:
+| Activity | Frequency | What actually happens |
+| --- | --- | --- |
+| **News and repository source collection** | Approximately every **3 hours** | GitHub Actions runs the Python collector, writes fresh feed files, and deploys the website |
+| **Open browser tab** | Approximately every **10 minutes** | Reloads the *already published* feed; it does not initiate a new news crawl |
+| **Refresh button** | On demand | Reloads currently published data, not the source collector |
+| **Reviewed explainers** | When manually added | Longer articles with stronger source review are **not** automatically fact-checked or rewritten by the crawler |
+
+The workflow uses `17 */3 * * *` in **UTC**. Scheduled GitHub jobs are best-effort and may start late. The dashboard shows the most recent source-check timestamp and how many checks succeeded.
+
+**Cost:** The public GitHub Pages + public-repository GitHub Actions setup is designed to run on free GitHub allowances. It **does not use ChatGPT messages or credits**. Limits and policies are controlled by GitHub.
+
+[Check the current workflow results](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml).
+
+## Where does the information come from?
+
+- **Original announcements:** [Rockstar Newswire](https://www.rockstargames.com/newswire), [Rockstar Support](https://support.rockstargames.com/), and [Take-Two](https://www.take2games.com/).
+- **Independent publishers:** Sources surfaced through Google News searches, including coverage from VGC, PC Gamer, IGN, GameSpot, Eurogamer, Digital Foundry, and others.
+- **Technical development:** Public repositories and commit metadata from the projects listed in [Developer radar](https://almogmaman12.github.io/vicewire/#projects).
+- **Social:** Public X posts discoverable via a search index. **X visibility is incomplete**, and not all posts can be collected without restricted or paid access.
+
+The collector primarily indexes **headlines, publication times, publisher links, and public GitHub metadata**. Many automatically created descriptions are **topic-based contextual notes**, not full-article summaries. Click through to the publisher before treating a new assertion as fact.
+
+If a feed fails, the site retains earlier information where possible and records the failure rather than claiming everything was checked successfully.
+
+## Running your own copy
+
+You need **Python 3.10+**. The collector uses Python's standard library; there is no `pip install` step.
 
 ```bash
-python scripts/update.py             # Fetch news and repository metadata
-python scripts/update.py --offline   # Regenerate snapshot without network
-python -m http.server --directory site 8080
+git clone https://github.com/almogmaman12/vicewire.git
+cd vicewire
+
+# Optional: refresh source data using an internet connection
+python scripts/update.py
+
+# Serve the site locally
+python -m http.server 8080 --directory site
 ```
 
-Then open `http://localhost:8080`.
+Visit **http://localhost:8080**.
 
-## File layout
+Other useful commands:
 
-- `site/index.html`: the website
-- `site/assets/styles.css`: theme and typography (Outfit + Inter, with offline system-font fallback)
-- `site/assets/app.js`: filters, search, links, timeline context, project cards
-- `site/data/news.json`: curated and generated source data
-- `site/data/bootstrap.js`: offline snapshot when opening HTML directly
-- `site/data/feed.xml`: optional RSS subscription
-- `scripts/update.py`: free RSS/GitHub collector
-- `.github/workflows/update-site.yml`: free scheduled refresh + Pages deployment
-- `tests/test_update.py`: source parsing / trust label unit checks
+```bash
+# Rebuild the static snapshot without requesting new online data
+python scripts/update.py --offline
 
-## Editorial policy and privacy
+# Run source-label and feed-format tests
+python -m unittest discover -s tests -v
+```
 
-- Source attribution matters. **OFFICIAL** refers only to manually verified Rockstar/Take-Two source posts. A Google News headline about Rockstar is labeled COVERAGE until reviewed.
-- **UNVERIFIED** does not mean false. It means a claim lacks the evidence needed to show it is true.
-- Source-check timestamps are checks, not independent verification of every article.
-- No user accounts, tracking pixels, analytics, or paid API keys are needed.
-- No copyrighted game data, cracked builds, keys, console bypass guides, crypto solicitations or executable downloads are hosted.
+To publish a fork with automatic updates, keep [`.github/workflows/update-site.yml`](.github/workflows/update-site.yml), enable **GitHub Pages → GitHub Actions** in your repository settings, and run the workflow once under **Actions**. The workflow commits the generated feed back to `main`, then deploys `site/`. The repository's GitHub Actions token needs the permissions declared in that workflow.
 
-Official references: https://www.rockstargames.com/VI and https://www.rockstargames.com/newswire?tag=vi
+### Project structure
 
-VICEWIRE is not affiliated with Rockstar Games or Take-Two.
+```text
+site/
+  index.html            Website
+  assets/               Styling, scripts, icons
+  data/news.json        Published data
+  data/bootstrap.js     Local/offline snapshot
+  data/feed.xml         RSS feed
+scripts/
+  update.py             RSS + GitHub source collector
+  editorial.json        Manually reviewed story entries
+tests/
+  test_update.py        Collector and trust-label checks
+.github/workflows/
+  update-site.yml       Scheduled update + Pages deployment
+```
+
+## Want to improve VICEWIRE?
+
+**Useful contributions include:** a trustworthy additional source, an emulator or recompilation project worth tracking, a broken link, a misleading label, accessibility improvements, and better source-specific summaries.
+
+[**Open an issue**](https://github.com/almogmaman12/vicewire/issues/new) with a source URL, what it supports, and why it's relevant. Code fixes and pull requests are welcome too. If you're reporting a claim of compatibility or a leaked build, please provide **reputable reporting or publicly verifiable development evidence**, not file-hosting links.
+
+**Please don't submit** copyrighted game data, executable downloads, decryption keys, instructions for defeating access protections, or cryptocurrency solicitations.
+
+## Disclaimer
+
+VICEWIRE is **not affiliated with or endorsed by Rockstar Games, Take-Two, Sony, or Microsoft**. Product names and trademarks belong to their respective owners.
+
+This project is for reporting, research, and source discovery. It does not host game files, unofficial builds, or piracy downloads. Reported claims are not endorsements, and a source-check timestamp is **not** a guarantee that every linked statement is true.
