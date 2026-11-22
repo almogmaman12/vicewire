@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"><channel>
+<title>VICEWIRE | GTA VI news, PC and emulation</title>
+<link>https://github.com/</link>
+<description>Source-linked GTA VI news and developer activity with evidence labels.</description>
+<language>en</language>
+<item>
+<title>Leonida's recompilation project: shaders translated, GTA VI still does not boot</title>
+<link>https://github.com/ItsNotRexed/Leonida#project-status</link>
+<guid isPermaLink="false">leonida-status-2026-11-22</guid>
+<description>The developers report translating 26,503 Xbox RDNA2 shaders. Their README explicitly states the game does not boot yet. A shader milestone is not a playable PC port. Why it matters: The key milestone is booting actual GTA VI code, not just translating shaders. A developer repository can be active long before the game runs.</description>
+<pubDate>Sun, 22 Nov 2026 10:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Grand Theft Auto VI: The Album is now available</title>
+<link>https://www.rockstargames.com/newswire/article/k4a8955a93o747/grand-theft-auto-vi-the-album-now-available</link>
+<guid isPermaLink="false">rockstar-album-2026-11-20</guid>
+<description>Rockstar announced the official GTA VI soundtrack album, released alongside the console launch week. Why it matters: This is an official game release-week update, but it doesn't announce anything about the PC port.</description>
+<pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Bitdefender investigates fake GTA VI PC streaming client distributing malware</title>
+<link>https://www.bitdefender.com/en-us/blog/labs/fake-gta-vi-pc-client-malware-clickfix</link>
+<guid isPermaLink="false">bitdefender-fake-gta6-client-2026-11-20</guid>
+<description>Security researchers documented a fake PC streaming client that uses a ClickFix-style attack. Do not treat PC client installers as evidence of an unofficial port. Why it matters: There is no verified PC client to install. Third-party installers should not be confused with a playable game.</description>
+<pubDate>Fri, 20 Nov 2026 11:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Cyberleek claims a GTA VI Xbox build leaked without its executable</title>
+<link>https://www.videogameschronicle.com/news/cyberleek-claims-to-release-development-build-of-gta-6/</link>
+<guid isPermaLink="false">cyberleek-claim-vgc-2026-11-19</guid>
+<description>VGC reported that Cyberleek claimed to distribute a November 2026 Xbox development build, with the main executable withheld. Screenshots and the group's own statements do not independently establish that the archive is genuine. Why it matters: Without the executable, nobody can demonstrate that the alleged files boot. Even an authentic Xbox executable would still require major translation or emulation work on PC.</description>
+<pubDate>Thu, 19 Nov 2026 20:27:00 +0000</pubDate>
+</item>
+<item>
+<title>Cyberleek ties a promised missing GTA VI executable to a crypto target</title>
+<link>https://www.pcgamer.com/games/grand-theft-auto/cyberleek-drops-what-they-claim-is-a-near-complete-gta-6-xbox-build-online/</link>
+<guid isPermaLink="false">cyberleek-crypto-pcgamer-2026-11-19</guid>
+<description>According to PC Gamer, Cyberleek claimed the missing Xbox executable would come on November 23 regardless, or earlier if a crypto token reached a $15 million market value. The outlet said the alleged build had not been authenticated. Why it matters: This is a future promise, not evidence of a file or a working port. The cryptocurrency condition is an additional reason to treat links and related claims cautiously.</description>
+<pubDate>Thu, 19 Nov 2026 19:00:00 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI officially launches on PlayStation 5 and Xbox Series X|S</title>
+<link>https://www.take2games.com/ir/news/grand-theft-auto-vi-now-available</link>
+<guid isPermaLink="false">take-two-launch-2026-11-19</guid>
+<description>Take-Two confirms that Grand Theft Auto VI is available on current-generation PlayStation and Xbox consoles. No PC launch was part of this release announcement. Why it matters: The console launch is confirmed. PC is a separate milestone, not an implied part of this launch.</description>
+<pubDate>Thu, 19 Nov 2026 12:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Grand Theft Auto VI Now Available: Rockstar's launch announcement</title>
+<link>https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available</link>
+<guid isPermaLink="false">rockstar-launch-2026-11-19</guid>
+<description>Rockstar's official launch post introduces GTA VI's release-day features and the state of Leonida. Why it matters: The best way to confirm Rockstar announcements is to read the publisher's original post.</description>
+<pubDate>Thu, 19 Nov 2026 10:00:00 +0000</pubDate>
+</item>
+<item>
+<title>No verified GTA VI gameplay through PS5 emulation or an unofficial PC port</title>
+<link>https://www.dsogaming.com/news/you-cannot-play-gta-6-with-a-ps5-emulator-and-there-isnt-an-unofficial-pc-port/</link>
+<guid isPermaLink="false">dsogaming-no-ps5-emu-2026-11-18</guid>
+<description>A November 18 assessment says current PS5 emulation does not provide a playable GTA VI PC experience. This is independent reporting, not an official Rockstar statement. Why it matters: Emulating basic PS5 software or homebrew is different from running a complex commercial title like GTA VI.</description>
+<pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Netcraft exposes fake GTA VI cracked builds and misleading PC download sites</title>
+<link>https://www.netcraft.com/blog/how-attackers-are-capitalizing-on-the-hype-around-the-grand-theft-auto-vi-release</link>
+<guid isPermaLink="false">netcraft-fake-cracks-2026-11-03</guid>
+<description>Netcraft analyzed phishing and malware lures presented as leaked builds, cracks or PC releases. Evidence of a fake installer is not evidence of a working port. Why it matters: A downloadable file marketed as a crack can be a malware lure. This is a security update, not proof a working crack exists.</description>
+<pubDate>Tue, 03 Nov 2026 12:00:00 +0000</pubDate>
+</item>
+<item>
+<title>Rockstar releases the Grand Theft Auto VI launch trailer</title>
+<link>https://www.rockstargames.com/newswire/article/517572321a549a/watch-the-grand-theft-auto-vi-launch-trailer</link>
+<guid isPermaLink="false">rockstar-launch-trailer-2026-10-15</guid>
+<description>The official launch trailer is available from Rockstar, with footage and the original soundtrack score. Why it matters: This is first-party marketing material, useful for official visuals but unrelated to PC availability.</description>
+<pubDate>Thu, 15 Oct 2026 12:00:00 +0000</pubDate>
+</item>
+</channel></rss>
