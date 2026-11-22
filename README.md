@@ -2,7 +2,7 @@
 
 **One place to follow GTA VI news, the PC release, emulator research, and unofficial claims, without mixing reporting with proof.**
 
-[**Open the live dashboard**](https://almogmaman12.github.io/vicewire/) · [Latest stories (RSS)](https://almogmaman12.github.io/vicewire/data/feed.xml) · [Report a problem or suggest a source](https://github.com/almogmaman12/vicewire/issues/new) · [Update history](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
+[**Open the live dashboard**](https://almogmaman12.github.io/vicewire/) · [Follow via RSS](https://almogmaman12.github.io/vicewire/subscribe.html) · [Report a problem or suggest a source](https://github.com/almogmaman12/vicewire/issues/new) · [Update history](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
 
 [![Update VICEWIRE & deploy website](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml/badge.svg)](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
 
@@ -31,7 +31,7 @@ VICEWIRE is an **independent, fan-made news tracker**. It brings together offici
 4. **Check the developer radar** for repository activity. A new commit is progress on the project, not proof GTA VI runs on PC.
 5. **Look at the last source-check time** before assuming the feed is current. The timestamp describes the crawler's check, not when every claim was verified.
 
-You can also [subscribe to the RSS feed](https://almogmaman12.github.io/vicewire/data/feed.xml) instead of keeping the page open.
+You can also [follow VICEWIRE with an RSS reader](https://almogmaman12.github.io/vicewire/subscribe.html) instead of keeping the page open. The subscription guide shows a readable headline preview and a copyable feed URL. The [raw XML feed](https://almogmaman12.github.io/vicewire/data/feed.xml) is still available for RSS apps and integrations.
 
 ## What do the evidence labels mean?
 
