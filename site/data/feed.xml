@@ -194,6 +194,13 @@
 <pubDate>Sun, 22 Nov 2026 10:49:21 +0000</pubDate>
 </item>
 <item>
+<title>A "GTA 6 native PC port" repo just exploded to 8,800 GitHub stars in 48 hours, and TikTok is already spamming download links. I opened the actual Leonida repo. The reverse engineering is insane. They already unpacked and translate</title>
+<link>https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qZTdwcWlQZ2ZBckktdEJPUndmN3lwdWhNT1paU2dWNlNocFhvdy1rU2N0eWlBQ3R6Z21nTlFyWUotVk12RGVIUjZIMUdkTWxhcW5oVTUxTWlKb1h3OTE5bC1B?oc=5</link>
+<guid isPermaLink="false">x-7eb91b74c3a65833</guid>
+<description>This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Sun, 22 Nov 2026 10:34:46 +0000</pubDate>
+</item>
+<item>
 <title>GTA 6 Leak Reportedly Fuels Thousands of Xbox Series Emulator Projects - Qoo Media</title>
 <link>https://news.google.com/rss/articles/CBMiigFBVV95cUxPUnNUX3owSW8tYktXelU4MW5LRnpsWHdjXzJWMWF2R2JFR0VkTXNoc0l3SG51TnVma2laUTNvMnZPaWtfNENqbEpWRWZ3eGpKLXZjRXk4ZXY3a2w1X2JnbXN1V1JVb2hVQVhodmlfdWdoMU9qMzFCQjFkSjdNbzJjYmJhVmNhZm5Manc?oc=5</link>
 <guid isPermaLink="false">rss-c0f4aea788c2575c</guid>
@@ -212,6 +219,13 @@
 <link>https://github.com/ItsNotRexed/Leonida#project-status</link>
 <guid isPermaLink="false">leonida-status-2026-11-22</guid>
 <description>The developers report translating 26,503 Xbox RDNA2 shaders. Their README explicitly states the game does not boot yet. A shader milestone is not a playable PC port. Why it matters: The key milestone is booting actual GTA VI code, not just translating shaders. A developer repository can be active long before the game runs.</description>
+<pubDate>Sun, 22 Nov 2026 10:00:00 +0000</pubDate>
+</item>
+<item>
+<title>How a piece of Detroit ended up inside GTA VI - ClickOnDetroit | WDIV Local 4</title>
+<link>https://news.google.com/rss/articles/CBMioAFBVV95cUxOeEs3VjVsMUhCVU1sX09CS3FTaDA5QjRuMS1Ja3NtX0ZjczRZd2NaakhSSmI0WDhadTZYMWkzNC0xX0Z6M3VqdXJNV3JqYkg4aEZ3bHFOQ0pPdm1ZSXFTakVpR2U1SmxOZjhkV24tWlBCSy1qWVZyS2xJajFWSi1CX2JiYnFjZkN0eFpEd1ZKSllZSHZGWUtUWjNYRmZlbk1k?oc=5</link>
+<guid isPermaLink="false">rss-ef974e62571cf160</guid>
+<description>This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
 <pubDate>Sun, 22 Nov 2026 10:00:00 +0000</pubDate>
 </item>
 <item>
@@ -248,6 +262,13 @@
 <guid isPermaLink="false">x-1a363b406a570331</guid>
 <description>This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Sun, 22 Nov 2026 07:22:15 +0000</pubDate>
+</item>
+<item>
+<title>Leonida is an open-source recompilation of the Xbox version of GTA 6 for PC. Worth a look at how community projects keep extending what game platforms can do: https://t.co/TeZEZzB0QH #Gaming #OpenSource - X</title>
+<link>https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYQXVQZktDOFFSWmpPdExIcFhOb19KSVZ3RTh6OE5YMWItbTZCOURWaGlaUTRkenRCNlREVlNHTl92U3h5RDBPc2ZRZjlicHVyY2JMTEQzM21wUl9icE91TA?oc=5</link>
+<guid isPermaLink="false">x-a1574d37dec4b79e</guid>
+<description>This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Sun, 22 Nov 2026 07:04:00 +0000</pubDate>
 </item>
 <item>
 <title>Oh so GTA VI fans are now going into Zelda streams just to shit talk? OK 🤣🤣🤣 - X</title>
@@ -682,26 +703,5 @@
 <guid isPermaLink="false">x-797c195f88f2320d</guid>
 <description>This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Sat, 21 Nov 2026 17:08:12 +0000</pubDate>
-</item>
-<item>
-<title>Huge news 🚨 a static recompilation project have been built up preparing to run the GTA 6 cyberleek Xbox build At this rate we might seen GTA 6 playable on pc this week and don't expect the project will stay on GitHub it will proba</title>
-<link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ZOFAwYW1sanhaX040NGRJTlJVTHdaNzA5MThqeUk3NDNsMHg2dW5PYk5qb2NpZ1ZqNk9yOWstNU5UQ192M2k2Mld1bkVPa2JNRURxQkRVaHVwR2dpc2JmWmhITFRZZw?oc=5</link>
-<guid isPermaLink="false">x-3615b4bc605245ae</guid>
-<description>This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Sat, 21 Nov 2026 17:01:58 +0000</pubDate>
-</item>
-<item>
-<title>i ranked 73 GTA 6 businesses with real numbers... here's the top 5 you can start this week with $0 every gta 6 money post says "just make content bro" fair, but nobody shows how... so i checked 73 of them, and these are the 5 that</title>
-<link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LLTFQb3FwLVJHTmI2eHE5dWlGVEw3VDdMSEl5OGxLYmV1azBmeWZJbjl6SUJJV1dFMkJwUllZNzAyZEMwbDZYamcza1NLZHZ3a0JNRWt0REpIU2Q5UVE?oc=5</link>
-<guid isPermaLink="false">x-7958769936c10041</guid>
-<description>This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Sat, 21 Nov 2026 17:01:22 +0000</pubDate>
-</item>
-<item>
-<title>RUMOR: GTA VI PC requirement leaked, What do you all think? GTA 6 at High settings and 60 FPS: 1080p — DLSS Balanced CPU: Ryzen 5 5600 GPU: RTX 3060 12GB RAM: 16GB 1440p — DLSS Balanced CPU: Ryzen 7 5700X3D GPU: RTX 4070 / RTX 5 -</title>
-<link>https://news.google.com/rss/articles/CBMiXkFVX3lxTFBVQ3lSbEFhUnM3SGFsNEJvakhkSkNBbzBCUnRSSTFvZnAyZFNNd0NMLS1FeXE4VW0tT1BxMXBTMzJBUER3RlZpMGF3dTVYNTdjbjk5cTgxaTF5SUN4SXc?oc=5</link>
-<guid isPermaLink="false">x-bda08ed470d3c908</guid>
-<description>This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Sat, 21 Nov 2026 17:01:09 +0000</pubDate>
 </item>
 </channel></rss>

@@ -1,14 +1,14 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-22T14:11:00.162726Z",
+    "checked_at": "2026-11-22T14:31:19.356621Z",
     "fetches_ok": 37,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 37,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 964
+    "new_items_seen": 963
   },
   "articles": [
     {
@@ -465,6 +465,25 @@
       "origin": "rss"
     },
     {
+      "id": "x-7eb91b74c3a65833",
+      "title": "A \"GTA 6 native PC port\" repo just exploded to 8,800 GitHub stars in 48 hours, and TikTok is already spamming download links. I opened the actual Leonida repo. The reverse engineering is insane. They already unpacked and translate",
+      "published": "2026-11-22T10:34:46Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qZTdwcWlQZ2ZBckktdEJPUndmN3lwdWhNT1paU2dWNlNocFhvdy1rU2N0eWlBQ3R6Z21nTlFyWUotVk12RGVIUjZIMUdkTWxhcW5oVTUxTWlKb1h3OTE5bC1B?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "recompilation",
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "rss-c0f4aea788c2575c",
       "title": "GTA 6 Leak Reportedly Fuels Thousands of Xbox Series Emulator Projects - Qoo Media",
       "published": "2026-11-22T10:10:41Z",
@@ -514,6 +533,22 @@
       "why_it_matters": "The key milestone is booting actual GTA VI code, not just translating shaders. A developer repository can be active long before the game runs.",
       "verification": "Developer self-report, not independent gameplay verification",
       "description": "Leonida claims all 26,503 RDNA2 shaders translated but says GTA VI does not boot yet."
+    },
+    {
+      "id": "rss-ef974e62571cf160",
+      "title": "How a piece of Detroit ended up inside GTA VI - ClickOnDetroit | WDIV Local 4",
+      "published": "2026-11-22T10:00:00Z",
+      "source": "ClickOnDetroit | WDIV Local 4",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeEs3VjVsMUhCVU1sX09CS3FTaDA5QjRuMS1Ja3NtX0ZjczRZd2NaakhSSmI0WDhadTZYMWkzNC0xX0Z6M3VqdXJNV3JqYkg4aEZ3bHFOQ0pPdm1ZSXFTakVpR2U1SmxOZjhkV24tWlBCSy1qWVZyS2xJajFWSi1CX2JiYnFjZkN0eFpEd1ZKSllZSHZGWUtUWjNYRmZlbk1k?oc=5",
+      "publisher_url": "https://www.clickondetroit.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
     },
     {
       "id": "rss-badbd33b3f4c882c",
@@ -597,6 +632,24 @@
       "credibility": "social",
       "categories": [
         "pc",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "x-a1574d37dec4b79e",
+      "title": "Leonida is an open-source recompilation of the Xbox version of GTA 6 for PC. Worth a look at how community projects keep extending what game platforms can do: https://t.co/TeZEZzB0QH #Gaming #OpenSource - X",
+      "published": "2026-11-22T07:04:00Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBYQXVQZktDOFFSWmpPdExIcFhOb19KSVZ3RTh6OE5YMWItbTZCOURWaGlaUTRkenRCNlREVlNHTl92U3h5RDBPc2ZRZjlicHVyY2JMTEQzM21wUl9icE91TA?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "recompilation",
         "social"
       ],
       "origin": "x-index"
@@ -1974,6 +2027,22 @@
       "origin": "rss"
     },
     {
+      "id": "rss-f64e964c1a36979c",
+      "title": "🎮🚔 GRAND THEFT AUTO VI: CHELAN COUNTY EDITION From our city & county roads to the mountains, lakes, and backcountry, the Chelan County Sheriff's Office covers a lot of ground. We decided to have a little fun with the GTA VI trend ",
+      "published": "2026-11-21T15:00:09Z",
+      "source": "Facebook",
+      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPVTA3dTJBSW9RekhMVWYxNWZIbjY5djRpZk84WGxvYUtQZTV3UmxmZzVGQnlVZ1ZwWC1oU0ZCOGZZMHpVa1lRd2czQzVkNWUtbUpucnlhRWN5RE1BSm9YbUtRR2h6b3RQSnpVa2s4VmQtc2Mtelhkal9nMmVSajVCNTU1bHZTOEptMVBrMjR3MnlSTGZkQ1pjWW1RSzA5UlJjZWVHLVB2TWFoa0Z4N01xN1Y2UTJlTTVhRUdJQlFia0RsRXZBdzBtTncyS09GaGZwU3Bjb2tJamtKY3lyYTRkZGJLUmNFNHRkYXNUWA?oc=5",
+      "publisher_url": "https://www.facebook.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "x-cde75f0a441569cc",
       "title": "Given AI and all the GTA VI hate, how long before a vibe coded hobbyist PC port with all the hated design flaws removed? Could literally be a month or two with enough tokens. - X",
       "published": "2026-11-21T14:53:39Z",
@@ -2728,6 +2797,55 @@
       "origin": "rss"
     },
     {
+      "id": "rss-bf293e7d77e524e8",
+      "title": "Free Veyra app uses RTX 40 and 50 GPUs to make GTA 6 on PS5 look like 60 FPS - TweakTown",
+      "published": "2026-11-21T04:39:15Z",
+      "source": "TweakTown",
+      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT1V2SDlJQzFlV2YyTm41WmJWaUhDaDNpbWNoTjNxX05Gbl9FZVI0SFAzQjlLXzZZU183QW5HS0RJbW1PQzBFSVhMZ3VBOFVCSHYtMFRPX21idTN0djlsNElxaGxGUEpWcGQ4dDZfTjZscUNnSl83X2ZQZ05HbmhxNERRaG9CTzNrdDJseERvcnc2SWs1Tjk4VzFZRG5XVVhYdXBaeXEzRHlaVWkybWpaRjFlRXI2Rkk4VjlZMEx0TmpZMm8?oc=5",
+      "publisher_url": "https://www.tweaktown.com",
+      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "emulation"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-8921c68f91967cd9",
+      "title": "GTA 6 pre-orders almost hit 16 million - and exceed $1.5 billion revenue - as the game continues to sell at a blistering pace - TweakTown",
+      "published": "2026-11-21T04:39:15Z",
+      "source": "TweakTown",
+      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMmxVOEpsckkyalJPeTljQ0FLRzNHSzBEcFR5UExsS0M0d3Q4a1E0czdoLXhRZnBpdS1YbWtLZ3lybm5haW5aMzFaRXRYUEc3eXdzeldpcXVJS0xDWHktNVhmMjNiUzFRbngyQlJWWGJlbXNuX2dvZFlJTzN0N3N2TFVISFFjYzRHRXZHc0V3aThFa0IxS2M1SmpUdFhibW1sV1o0YnhKNXBVYkxKRHhZU1hVbDdoZUtackhFY3YycVBqbEg2MnNCTk9RelJuSmZLY2JHTFA4MVFqUlVEVDI5c1lWZmVNT3BjTVpJR1czd3BnMzJqdl9KR3lSbTAyN1JBM0I5cG1pSQ?oc=5",
+      "publisher_url": "https://www.tweaktown.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-d19ffca67be52428",
+      "title": "GTA 6's dynamic, persistent weather exposed in new first look from the Weather Channel - TweakTown",
+      "published": "2026-11-21T04:39:15Z",
+      "source": "TweakTown",
+      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS3FKeWZpZFk0TUJDcnVCQjNSU0lrQkdLOThUYUp0TjM5ZVdWUWRzeDJlYjYyY2JpS2Z3R1BxNTFGNS1ZVWlWazlIemFnSjZUT18yTVVDMUtCWmVYQnVPRklMUDRvMnBpazZnWWxzZklPWlItZkxoVGE4dzk1b3BwTjNnSVo0NlB3SFp2dGR4S05GcUV5Wk9mX2NDNFdFbG5tbTdJTE16YUxPVi1MNWs1S3FsRnFSV3RFeXhtMTA4bElOb1lzTG9peUNPMUd0UQ?oc=5",
+      "publisher_url": "https://www.tweaktown.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "rss-56f71469bd4a7344",
       "title": "A 'GTA 6 PC port' scam kit is selling for $200 in Bitcoin or Tether on the dark web, NordVPN says, bundling a fake keygen that steals logged-in browser sessions, a crypto wallet drainer and a hidden miner, though GTA 6 is only out",
       "published": "2026-11-21T04:02:31Z",
@@ -2828,6 +2946,23 @@
       "origin": "x-index"
     },
     {
+      "id": "rss-a3ba93a41f6a8df2",
+      "title": "Reliable GTA 6 Updates: Official News and Support Sources - Gizmo Times",
+      "published": "2026-11-21T02:21:22Z",
+      "source": "Gizmo Times",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZW83ZEdER25OY25yOGVCbWZKWnBtR0lqOFlOaFVMdG9TaHBGSzhKNUIzLXRnN0hNSGVtZU9pZm5STWpJLVd6R185cFJ2bjBNQ1p1TGIzWElmcnVyX3BJUWdlMXk4UHBUSk41SGJBb3hNSk1hckhYYm5UTXROcTZzU011QTFWU0VmZWp5Vg?oc=5",
+      "publisher_url": "https://www.gizmotimes.com",
+      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "official"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "rss-fcc98bcb385ea2b9",
       "title": "GTA 6 on PS5, PS5 Pro and Xbox: Graphics and Performance Compared - Gizmo Times",
       "published": "2026-11-21T02:21:22Z",
@@ -2841,6 +2976,38 @@
       "categories": [
         "game",
         "emulation"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-d430b495cea64f0f",
+      "title": "How to Avoid GTA 6 Spoilers on YouTube and Instagram - Gizmo Times",
+      "published": "2026-11-21T02:21:22Z",
+      "source": "Gizmo Times",
+      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUGFMUDJ5TklmX2FXdFJXSUNrVnBQOTRPQnNZbEl4bjF6VjZQMmdmT2IzckVaOUhVQkcwYVdnUUE2UzVSbWdsUnV3bERNMkdmMkw5dWRheUNBdGY1Rmk3MDhYejAwQ1FTcHlZYU1rMFJPS1NZWDJUSGM0UW9HYlpvMW03ZnM?oc=5",
+      "publisher_url": "https://www.gizmotimes.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-2d60db56c89b81f5",
+      "title": "How to Turn GTA 6 Gameplay into YouTube Shorts and Instagram Reels - Gizmo Times",
+      "published": "2026-11-21T02:21:22Z",
+      "source": "Gizmo Times",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRDBuc2JHcjlPSEhwWGx5Z3F1eThxbHd1V3RfdHdBSHlCQmoyY2V2cHllQVlfa1FRLVEzSHhDeDVNRDcyblA3MVhXOVlBUFJMV1U3cGhOZy1oVzN6WmZGRVJUM0F3a2lwNUQ4eUR0MXlNNF9fMG5aQ1gyZXFJQUwxdi1QYkhTQ0JOazM1NTVn?oc=5",
+      "publisher_url": "https://www.gizmotimes.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
       ],
       "origin": "rss"
     },
@@ -3695,6 +3862,23 @@
       "origin": "x-index"
     },
     {
+      "id": "x-30748e5467b6ae0c",
+      "title": "GTA 6 map guide: Leonida's best locations to explore once you unlock free-roam https://t.co/9L9Yjdirxf - X",
+      "published": "2026-11-20T20:39:01Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VMGUtLVluVUw0RUN5M0oxbVE4U1d4anJpSDZKODZxWkVUekJhTGhlSzdLR2t6ZHBMempuTHpfZHc0dEtqRXlKZHEzM3ZqbjRoMldvY05RSXQwbDc5a3pFWEJB?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "x-081d545a79a4a5e0",
       "title": "It’s official now : GTA 6 on PC by Cyberleek 🤯 - X",
       "published": "2026-11-20T20:18:46Z",
@@ -3812,105 +3996,6 @@
       "origin": "rss"
     },
     {
-      "id": "rss-70def45804e33c2b",
-      "title": "GTA 6 breaks entertainment box office records with $3.79B in 1st-day sales - ABC News - Breaking News, Latest News and Videos",
-      "published": "2026-11-20T19:54:13Z",
-      "source": "ABC News - Breaking News, Latest News and Videos",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPb3dteGpmRWNZZnNsRmNERTdfSS14bnFQcENkakNaRlNxY3h0STZoUkhmTW9kUmg1S0lHcTVnX1J4ZDRMQ21qcDctbVdzSmFDc2JrUHIyWXd2TEdJU0xWWU1UaFhlSDVxeHlzdC0tMGEwLTV3SWtYU0xfVGZqb0lPejQ4b0hwYjVvWGx3LVdSdVlNNGMwLUtnR0haRW1HdjjSAaQBQVVfeXFMTlVoT1M1YnFNYkl3eUViVnJFN0JSNEJRTWNoSVgwYkFJU3dzUjk2MVNXVDQ4MVFMWXN5dFVSRlBLR242d0xHNWRMTXV6bkFOdHFkUm9RRmdDLVB5c2hrT19NMUpxMl9XTTdid1BJTm5YeHdSNnJwc0xWY182U2VCdGtfVW5rQ003em84bHpyMGhpclNuLVlrUkMzc3hPeHhVRW9tcmQ?oc=5",
-      "publisher_url": "https://abcnews.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-b8f2d61c043128a9",
-      "title": "GTA 6 Sets Even More Records - GameSpot",
-      "published": "2026-11-20T19:52:51Z",
-      "source": "GameSpot",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MbmJuY3JsaUwzUllTeS0wNGxoZ2NjNzlQNzZEamt6NXZCSWtCOVlnNm1DQ3dZZ1NfdG9peGJpNlJubTU5RHhFdUpmSDF1eDlPYnkwREo4S3d0WF9BdFYwV0RHTG1fNnU2c2toODUyeXY?oc=5",
-      "publisher_url": "https://www.gamespot.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-c559914c1aaa18df",
-      "title": "Grand Theft Auto 6 earned $3.79 billion on launch day - PC Gamer",
-      "published": "2026-11-20T19:51:48Z",
-      "source": "PC Gamer",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRjY4MzJwSF9oVkIyOGtQcGRSMkpHbHp6VTVPaE14bGx4ZlVkNjczS2NsTk9PXzhVTlNRRXR4SVVZRkxqVUhleUx5TFlvODRWOXNQWmFCcjItN2o0RTBtQUlmOXltUklfVmlybkVoZ3hyOUZPUmlGQ3ZTLW5OTjA5NkFmcExwSFRQNXdsSVdlSFppMnZHY1dESVZvX1YtZ0cwZmFmaFFn?oc=5",
-      "publisher_url": "https://www.pcgamer.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-4d78f8b9a9c51ce2",
-      "title": "GTA VI is now the 30th best selling game of all time. That's behind the lifetime sales of Wii Sports Resort, Fallout 4 plus The Legend of Zelda: Breath of the Wild. - X",
-      "published": "2026-11-20T19:50:19Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tX0Noa0pwVDd0MFFHbDRJM0VVMXNfODk2eXNuUFdya1FmVlhRNGlobTI1M3g2YmNCa0wwcmxSTW9kRjAzVVQ1dDNQNDJmQ1dCMllDZVN4dlR3V1p4VEVZNFpFaFQ?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "x-c07fc687cdb7f186",
-      "title": "I literally cannot wait for GTA VI to come out on PC. The game looks absolutely stunning! 😍 - X",
-      "published": "2026-11-20T19:47:00Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oQW9FbzQ1SzdaT21iaEsyUzNoelNiNWxydG5Fa1YyZW55Z2ZraF9WYWFCOVVzZE9vRFNXUmI0T2t0YXl2NjhZOUlKY0Q1YVo5UUFPU0R3TkxPNzNNclZtWA?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-257976d1d2c9b094",
-      "title": "GTA 6 earns $3.79 billion in one day as ‘the biggest entertainment launch in history’ - Video Games Chronicle",
-      "published": "2026-11-20T19:45:42Z",
-      "source": "Video Games Chronicle",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNeWdBNXlMM3hzOHhFel9qNy0yMTZhX2F1UXk2LXQ5S2R2Q1RCUU42aFdQQ1Jodk1Zb1QzNmcyck5xRkZPU1p6b2htQzRpc2dETkkwOWs2N3BTamJoZktONUQ0b09BN2I3R1FzUWIzSUtFeGd5TTFHaGpvUlRaWWJKcGcxbXRQcWh4d0Zmcno5VEhqWFRZbVhNa1hEcmdQYkdNOEdXMFk0S2xwSmtMTTQwYTgtR21DVHVmRFMtQmJTQjg3UQ?oc=5",
-      "publisher_url": "https://www.videogameschronicle.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "x-66335b4841b49ca3",
       "title": "Take-Two announces Grand Theft Auto VI has sold over 32.5M copies and brought in $3.79B in revenue from its first day of release. Source: https://t.co/pN4E7ip7xl - X",
       "published": "2026-11-20T19:42:03Z",
@@ -3929,22 +4014,6 @@
       "origin": "x-index"
     },
     {
-      "id": "rss-c764cc4800465164",
-      "title": "GTA 6: Is Mandy Harboring a Dark Secret? | All the Creepy Clues - IGN Benelux",
-      "published": "2026-11-20T19:41:58Z",
-      "source": "IGN Benelux",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNa0lLcEJDNmltOHdUOXVpQ2hCajhHcXlCYkZpZDkzRFBxcnlJb1dEdkhCR2NwSWFWLWdYVnQ5R2tDOW1VM2luRURPV2J0WEVha1ZLR0JjdUJMVkxXREs1dEVjRlRCQTc0bHBuMGhCbWl5UTRjNllwSmNIamdCdjFjSllLSWdXbEpYNlZoZHgwNzZDVXg0TUFEYmVDR0tHa2lUZktHSUR2TVg?oc=5",
-      "publisher_url": "https://nl.ign.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "rss-3a9e9d73f93146a4",
       "title": "Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales - Take-Two Interactive Software, Inc.",
       "published": "2026-11-20T19:31:41Z",
@@ -3960,56 +4029,6 @@
         "official"
       ],
       "origin": "rss"
-    },
-    {
-      "id": "rss-8793271712afea10",
-      "title": "GTA 6’s Astonishing $4 Billion Day One Includes 32.5 Million Copies Sold - GameSpot",
-      "published": "2026-11-20T19:30:17Z",
-      "source": "GameSpot",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPVTVTOUFKMVVia2xqUWFad1JZZzYwU0tiTHRScWxXcTBnSjJEbUFzOWE4RUJUOWEwcjFpQ3BUSmJYR3BVSU1GcWFXU0t0MjlFTEozeW1TWWFjVUV1ZVdlWXpVR2hJSXU1Y0hOZnV1SU1qVWlweUNEUlB3V3gtT2Y1QnlreWdSaWNmMkZYa1NDblh0Y21QanU4TUlHcXZ4MnhQZFkw?oc=5",
-      "publisher_url": "https://www.gamespot.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-0fb2804c17507095",
-      "title": "Have the PS5 and Xbox Console Shortages Been Exaggerated Ahead of the GTA 6 Launch? - IGN",
-      "published": "2026-11-20T19:02:28Z",
-      "source": "IGN",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMXFRRS1MbUtrajRfVnY4NVJEWWMzTEF6VmNBVi1QT0hwa0EzMXEyVjZnZDlfck9JN3p4Zl9kS2NaQUZMdFhocXZZQ1RySG5ETEJFTzY0NndfUUlKS1FzVXVhVGMyZ2FiLVBWWFdsS1JRQ3BxdHZNSEhQTm5YbXRteUxxdHV2RzY3?oc=5",
-      "publisher_url": "https://www.ign.com",
-      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "emulation"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-8407b2542e98252f",
-      "title": "Former GTA developer, giving my honest 2 day review of GTA 6 https://t.co/9ZtmmRFyP8 - X",
-      "published": "2026-11-20T18:46:10Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBDeDA0NHNhNFNIY1FvME5ic1k3dHFnS3pyOXRJMmhlZW95dzhQZmlwSkNoNWpWVTYwdHQwWXoycFktU01fQjJPRDc5YVN3ZUQzWjNGcjRkME5qcDJMSU80?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "recompilation",
-        "social"
-      ],
-      "origin": "x-index"
     },
     {
       "id": "rss-bb05aa897b388d7d",
@@ -4059,24 +4078,6 @@
       "categories": [
         "official",
         "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-e01ace92662233fa",
-      "title": "Rockstar Says PS5 Pro Can’t Handle GTA 6 at 60 FPS, Rules Out Likely Post-Launch Performance Update - TechStory",
-      "published": "2026-11-20T15:59:18Z",
-      "source": "TechStory",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZ1VDZHQ2bVdULUpyZjZGNWNkWGpGOFkwZ2N6NkNUbUZtdHB0cS1HcE9vaXA0MnlHNk04RHJFZzJZLWZYemQzajR4Q0VtZjZ5Y2RESW50S0hJeU43amtvbVo5M0xPS1p3NXhfcG5aLUE1WDY2OGNGNTd0U01hdnZ1WHpnUHgyWkFFYTAtVFJ6SnRVTzdUNkhTTXFCS3dLSEVQTU1GU2ltSzB2anY0SXdjWDd0QWdLVWVIMTVr?oc=5",
-      "publisher_url": "https://techstory.in",
-      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "official",
-        "emulation"
       ],
       "origin": "rss"
     },
@@ -4231,13 +4232,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 10623,
-        "open_issues": 276,
-        "last_push": "2026-11-22T13:35:04Z",
-        "last_commit": "2026-11-22T13:35:03Z",
-        "last_commit_title": "hw_oracle test follows #1620's per-kernel MODE skip; three tools guard stdout",
-        "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/89b047cd8fab50675a43d76722a6a8a881f55dc2",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "stars": 10831,
+        "open_issues": 274,
+        "last_push": "2026-11-22T14:13:07Z",
+        "last_commit": "2026-11-22T14:09:21Z",
+        "last_commit_title": "rdna2spirv: global atomics load EXEC before the merge, not between merge and branch",
+        "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/003e78129303643a3fdc9e5f0e31a01b09759236",
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     },
     {
@@ -4258,7 +4259,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     },
     {
@@ -4273,13 +4274,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 59981,
-        "open_issues": 2664,
-        "last_push": "2026-11-22T14:09:53Z",
-        "last_commit": "2026-11-22T14:09:53Z",
-        "last_commit_title": "Merge pull request #25653 from malekaifa/prime-d/fix-pe-rva-raw-bounds-20261122",
-        "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/526b7b19d019daa6b832372f7e12bebad437e317",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "stars": 59988,
+        "open_issues": 2668,
+        "last_push": "2026-11-22T14:31:27Z",
+        "last_commit": "2026-11-22T14:31:27Z",
+        "last_commit_title": "Merge pull request #25657 from u-instinct11/fix/cairo-glyph-error-status",
+        "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/144d41ab69facd3df1ec309bdc972b0e0fad4be9",
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     },
     {
@@ -4300,7 +4301,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     },
     {
@@ -4321,7 +4322,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     },
     {
@@ -4336,13 +4337,13 @@
       "url": "https://github.com/R0Y00/Xbox2Windows",
       "progress_url": "",
       "github": {
-        "stars": 1173,
-        "open_issues": 80,
-        "last_push": "2026-11-22T14:00:40Z",
-        "last_commit": "2026-11-22T14:00:39Z",
-        "last_commit_title": "shader: lower gfx1013 24-bit integer multiplies in pixel_aot (#542)",
-        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/bbebcad0855bce6e169c1f6de4a3a0f99c78a6de",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "stars": 1177,
+        "open_issues": 79,
+        "last_push": "2026-11-22T14:30:28Z",
+        "last_commit": "2026-11-22T14:30:27Z",
+        "last_commit_title": "Cover five integer and float conversion paths that no draw observed (#585)",
+        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/f8d11ad6d71dff29f5feabfe83c357373da12dcb",
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     },
     {
@@ -4363,7 +4364,7 @@
         "last_commit": "2026-11-21T18:20:45Z",
         "last_commit_title": "feat(bot): welcome new members and log joins and leaves",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/0c9632f60033124661cf81bf50eea645d26aee7f",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     },
     {
@@ -4384,7 +4385,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-22T14:11:00.162726Z"
+        "checked_at": "2026-11-22T14:31:19.356621Z"
       }
     }
   ]
