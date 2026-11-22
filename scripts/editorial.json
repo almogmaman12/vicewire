@@ -1,0 +1,157 @@
+[
+  {
+    "id": "review-cyberleek-crypto-2026-11-21",
+    "title": "Cyberleek's November 23 executable promise: what is actually verified?",
+    "published": "2026-11-21T12:00:00Z",
+    "source": "Decrypt",
+    "url": "https://decrypt.co/383756/gta-6-leaker-dangles-pc-port-15-million-crypto-pump",
+    "summary": "Decrypt reports Cyberleek's claim that it shared a roughly 209 GB Xbox build while withholding its executable. The group says it will release that missing file on November 23 regardless of whether a $15 million memecoin target is met. Independent verification of the files is still absent.",
+    "why_it_matters": "Even a genuine executable would not automatically make GTA VI playable on Windows: Leonida and Xbox emulation still require extensive runtime compatibility. A crypto fundraising claim is not evidence of a working port.",
+    "verification": "November 21 reporting on an unverified claim. No independently confirmed PC boot or authenticated executable.",
+    "credibility": "rumor",
+    "categories": [
+      "piracy",
+      "pc",
+      "recompilation"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
+    "id": "review-album-2026-11-20",
+    "title": "Rockstar releases Grand Theft Auto VI: The Album",
+    "published": "2026-11-20T12:00:00Z",
+    "source": "Rockstar Newswire",
+    "url": "https://www.rockstargames.com/newswire/article/k4a8955a93o747/grand-theft-auto-vi-the-album-now-available",
+    "summary": "Rockstar announced the official album is available on streaming services, with physical vinyl and CD options. This is a confirmed music release associated with the launched game, not a new patch or PC announcement.",
+    "why_it_matters": "Adds official GTA VI soundtrack coverage beyond port rumors. It does not change the status of the PC edition.",
+    "verification": "Direct Rockstar Newswire announcement dated November 20, 2026.",
+    "credibility": "official",
+    "categories": [
+      "official",
+      "game"
+    ],
+    "origin": "curated",
+    "featured": false
+  },
+  {
+    "id": "review-launch-2026-11-19",
+    "title": "GTA VI has officially launched on PS5 and Xbox Series X|S",
+    "published": "2026-11-19T12:00:00Z",
+    "source": "Take-Two Interactive",
+    "url": "https://www.take2games.com/ir/news/grand-theft-auto-vi-now-available",
+    "summary": "Take-Two and Rockstar announced that GTA VI became available on PlayStation 5 and Xbox Series X|S on November 19. The original release announcement lists the console editions, not a Windows launch.",
+    "why_it_matters": "This is the official platform baseline. Separate it from PC release predictions and third-party port experiments.",
+    "verification": "Original Take-Two investor-relations release, November 19, 2026.",
+    "credibility": "official",
+    "categories": [
+      "official",
+      "game",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
+    "id": "review-series-s-fsr-2026-11-19",
+    "title": "How Rockstar scales GTA VI: 720p Series S, 1440p PS5/Series X, PSSR on Pro",
+    "published": "2026-11-19T12:00:00Z",
+    "source": "VGC / Rockstar technical comments",
+    "url": "https://www.videogameschronicle.com/news/the-xbox-series-s-version-of-gta-6-is-seemingly-the-first-to-use-amds-fsr-4.1-upscaling/",
+    "summary": "VGC quotes Rockstar developers explaining the console rendering pipeline: Xbox Series S starts from 720p and uses AMD FSR Upscaling 4 toward 1080p, while PS5 and Series X upscale a 1440p base and PS5 Pro uses PSSR2. The specific 'FSR 4.1 first' interpretation is VGC's analysis, not a standalone Rockstar claim.",
+    "why_it_matters": "These are useful technical clues for understanding performance and potential PC hardware demands, but they do not establish actual PC system requirements.",
+    "verification": "VGC coverage of an attributed Rockstar technical statement. Implementation details are not PC benchmarks.",
+    "credibility": "coverage",
+    "categories": [
+      "game",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
+    "id": "review-series-s-df-2026-11-18",
+    "title": "Digital Foundry finds significant GTA VI frame-rate dips on Xbox Series S",
+    "published": "2026-11-18T12:00:00Z",
+    "source": "VGC / Digital Foundry",
+    "url": "https://www.videogameschronicle.com/news/gta-6-xbox-series-s-performance-analysis-admires-the-effort-but-says-significant-frame-drops-are-a-problem/",
+    "summary": "VGC summarizes Digital Foundry tests: Series S targets 30 fps but can spend normal traversal and combat in the mid-20s, with heavy scenes dropping toward 20 fps. The team also praised how much of the game's visual design survives on the lower-power console.",
+    "why_it_matters": "This is measured console performance, not speculation about a PC port. Future patches could alter the results; the reported measurements apply to the tested launch build.",
+    "verification": "Independent Digital Foundry tests reported by VGC on November 18, 2026.",
+    "credibility": "coverage",
+    "categories": [
+      "game",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
+    "id": "review-ps5-df-2026-11-18",
+    "title": "Digital Foundry: PS5 Pro stays closer to 30 fps than the base PS5",
+    "published": "2026-11-18T12:00:00Z",
+    "source": "VGC / Digital Foundry",
+    "url": "https://www.videogameschronicle.com/news/gta-6-base-ps5-performance-analysis-shows-struggle-to-maintain-30-fps-at-all-times/",
+    "summary": "Digital Foundry reports small but noticeable dips under 30 fps on standard PS5. PS5 Pro performed more consistently in their tests, with drops mainly under extreme stress conditions. These are test observations, not guaranteed performance in every situation.",
+    "why_it_matters": "The comparison helps explain GTA VI's demanding simulation and graphics. It cannot directly predict how a future Windows version or emulator will perform.",
+    "verification": "VGC's November 18 summary of independent Digital Foundry tests.",
+    "credibility": "coverage",
+    "categories": [
+      "game",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": false
+  },
+  {
+    "id": "review-ps5-accessibility-2026-11-10",
+    "title": "Official PS5 features: adjustable haptics, 3D audio and PS5 Pro visuals",
+    "published": "2026-11-10T12:00:00Z",
+    "source": "PlayStation Blog",
+    "url": "https://blog.playstation.com/2026/11/10/pre-load-grand-theft-auto-vi-on-ps5-starting-today/",
+    "summary": "PlayStation describes DualSense haptics, adaptive triggers, controller audio and Tempest 3D Audio. It says haptics and triggers can be adjusted using accessibility settings; PS5 Pro also offers PSSR-enhanced image clarity and ray-traced shadows.",
+    "why_it_matters": "Confirmed console features and accessibility options are more useful than vague marketing headlines, but none of these features constitutes a PC release announcement.",
+    "verification": "First-party Sony PlayStation Blog, November 10, 2026; not a Rockstar/Take-Two news release.",
+    "credibility": "coverage",
+    "categories": [
+      "game"
+    ],
+    "origin": "curated",
+    "featured": false
+  },
+  {
+    "id": "review-rockstar-storage-2026-11-03",
+    "title": "Rockstar says GTA VI console pre-load needs up to 212 GB of free space",
+    "published": "2026-11-03T12:00:00Z",
+    "source": "Rockstar Newswire",
+    "url": "https://www.rockstargames.com/newswire/article/k4ak9okk485712/grand-theft-auto-vi-pre-load-begins-on-november-10",
+    "summary": "Rockstar announced that the console pre-load would require up to 212 GB depending on the device. This is official console storage guidance for the launch, not a Windows download size or a leaked PC requirement.",
+    "why_it_matters": "Useful for recognizing misleading PC hardware requirement lists: a real console pre-load figure should not be repackaged as confirmed PC specifications.",
+    "verification": "Rockstar's November 3 pre-load announcement and matching Rockstar Support FAQ.",
+    "credibility": "official",
+    "categories": [
+      "official",
+      "game",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": false
+  },
+  {
+    "id": "review-pc-status-verge-2026-11-19",
+    "title": "No announced PC launch date as console owners begin GTA VI",
+    "published": "2026-11-19T12:00:00Z",
+    "source": "The Verge",
+    "url": "https://www.theverge.com/games/1036550/grand-theft-auto-6-gta-vi-pc-version-fomo",
+    "summary": "The Verge discusses the wait facing PC players now that GTA VI is on consoles. Its expectations about eventual Windows hardware optimization are commentary, not an official launch commitment.",
+    "why_it_matters": "Until Rockstar or Take-Two announces a date, claims about a release window or system requirements should be treated as predictions.",
+    "verification": "The Verge commentary published November 19; no confirmed PC launch date in the cited official platform release.",
+    "credibility": "coverage",
+    "categories": [
+      "pc",
+      "game"
+    ],
+    "origin": "curated",
+    "featured": true
+  }
+]

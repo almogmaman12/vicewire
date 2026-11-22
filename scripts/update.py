@@ -36,6 +36,9 @@ NOW = datetime.now(timezone.utc)
 LOOKBACK_DAYS = 45
 RETENTION_DAYS = 90
 MAX_ARTICLES = 250
+EDITORIAL = ROOT / 'scripts/editorial.json'
+# Keep niche PC, leak and developer coverage from being displaced by the busiest generic news query.
+CATEGORY_MINIMUMS = {'pc': 35, 'recompilation': 18, 'emulation': 16, 'piracy': 30, 'official': 18, 'social': 12}
 
 # Google News aggregates independent publishers and primary-source indexing.
 # This deliberately monitors the RELEASED game too, not just its PC port.
@@ -47,6 +50,13 @@ QUERIES = [
     ('"GTA 6" site:videogameschronicle.com OR site:pcgamer.com when:14d', ['game'], 'news'),
     ('"Grand Theft Auto VI" site:rockstargames.com when:30d', ['official','game'], 'news'),
     ('"Grand Theft Auto VI" site:take2games.com when:30d', ['official','game'], 'news'),
+    ('"GTA VI" site:blog.playstation.com when:30d', ['game'], 'news'),
+    ('"Grand Theft Auto VI" site:support.rockstargames.com when:30d', ['game','official'], 'news'),
+    ('"GTA VI" Digital Foundry console performance when:14d', ['game'], 'news'),
+    ('"GTA 6" site:videogameschronicle.com PS5 Series S performance when:21d', ['game'], 'news'),
+    ('"GTA VI" accessibility haptics controller graphics when:30d', ['game'], 'news'),
+    ('"GTA 6" site:apnews.com when:30d', ['game'], 'news'),
+    ('"Cyberleek" site:decrypt.co when:21d', ['piracy','pc'], 'news'),
     ('"GTA VI" "PC release" when:30d', ['pc'], 'news'),
     ('"GTA 6" "PC port" when:30d', ['pc'], 'news'),
     ('"GTA VI" Leonida recompilation when:30d', ['recompilation','pc'], 'news'),
@@ -57,6 +67,8 @@ QUERIES = [
     ('"GTA VI" crack unofficial port piracy when:30d', ['piracy','pc'], 'news'),
     # Indexed public X links, NOT a comprehensive live X feed (requires X access).
     ('site:x.com/RockstarGames "GTA" when:30d', ['official','social'], 'x-index'),
+    ('site:x.com/RockstarSupport "Grand Theft Auto VI" when:30d', ['social','game'], 'x-index'),
+    ('site:x.com/DigitalFoundry "GTA 6" when:30d', ['social','game'], 'x-index'),
     ('site:x.com "GTA VI" "PC" when:14d', ['social','pc'], 'x-index'),
     ('site:x.com "Leonida" "GTA" when:14d', ['social','recompilation'], 'x-index'),
     ('site:x.com "Cyberleek" "GTA" when:14d', ['social','piracy'], 'x-index'),
@@ -252,7 +264,10 @@ def build_feed(items: list[dict]) -> str:
 def main(offline: bool = False) -> None:
     data = json.loads(OUT.read_text(encoding='utf-8'))
     old = data.get('articles',[])
-    curated = [a for a in old if a.get('origin') == 'curated']
+    # Reviewed articles have direct publisher links and specific, source-checked summaries.
+    # Unlike automatically indexed headlines, these entries carry editorial verification.
+    review = json.loads(EDITORIAL.read_text(encoding='utf-8')) if EDITORIAL.exists() else []
+    curated = review + [a for a in old if a.get('origin') == 'curated' and a.get('id') not in {item.get('id') for item in review}]
     existing = [a for a in old if a.get('origin') != 'curated']
     updates = []
     success = 0
@@ -292,7 +307,26 @@ def main(offline: bool = False) -> None:
                 continue
         deduplicated.append(a)
     deduplicated.sort(key=lambda a:a['published'],reverse=True)
-    data['articles'] = deduplicated[:MAX_ARTICLES]
+    # Reserve space for reviewed pieces and less frequent subject areas. Otherwise,
+    # a busy generic search can crowd every emulator/PC/leak item off the front page.
+    picks = []
+    picked = set()
+    def keep(article):
+        if article['id'] not in picked and len(picks) < MAX_ARTICLES:
+            picked.add(article['id'])
+            picks.append(article)
+    for a in deduplicated:
+        if a.get('origin') == 'curated': keep(a)
+    for category, limit in CATEGORY_MINIMUMS.items():
+        count = 0
+        for a in deduplicated:
+            if count >= limit: break
+            if category in a.get('categories', []) and a['id'] not in picked:
+                keep(a)
+                count += 1
+    for a in deduplicated:
+        keep(a)
+    data['articles'] = sorted(picks, key=lambda a:a['published'], reverse=True)
     if not offline:
         data.setdefault('metadata',{})['checked_at'] = NOW.isoformat().replace('+00:00','Z')
         data['metadata']['fetches_ok'] = success

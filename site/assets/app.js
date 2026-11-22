@@ -24,7 +24,7 @@
   }
   function renderNews() {
     const articles = (state.data?.articles || []).filter(a => {
-      const cat = state.category === 'all' || (state.category === 'official' ? (a.credibility === 'official' || (a.categories||[]).includes('official')) : state.category === 'social' ? a.credibility === 'social' : (a.categories||[]).includes(state.category));
+      const cat = state.category === 'all' || (state.category === 'official' ? a.credibility === 'official' : state.category === 'social' ? a.credibility === 'social' : (a.categories||[]).includes(state.category));
       const search = !state.q || `${a.title} ${a.summary} ${a.why_it_matters} ${a.verification} ${a.source} ${(a.categories||[]).join(' ')}`.toLowerCase().includes(state.q);
       return cat && search;
     });
@@ -42,6 +42,19 @@
       <h3>${el(p.name)}</h3><p>${el(p.description)}</p><div class="project-status"><span class="mini-dot"></span>${el(p.status)}${p.status_as_of?' · AS OF '+el(shortDate(p.status_as_of)):''}</div>
       <div class="project-stats"><div><strong>${compact(github.stars)}</strong><small>GITHUB STARS</small></div><div><strong>${last}</strong><small>LAST COMMIT</small></div><div><strong>${issues}</strong><small>OPEN ISSUES*</small></div></div>
       ${recent}<div class="project-links"><a href="${el(validURL(p.url))}" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>${p.progress_url?`<a href="${el(validURL(p.progress_url))}" target="_blank" rel="noopener noreferrer">PROJECT PROGRESS ↗</a>`:''}</div></article>`;
+  }
+  function renderBriefing() {
+    const target = $('#briefing-grid');
+    if (!target) return;
+    const selected = (state.data?.articles || [])
+      .filter(a => a.origin === 'curated' && a.featured)
+      .sort((a,b) => (b.published||'').localeCompare(a.published||''))
+      .slice(0,6);
+    target.innerHTML = selected.length ? selected.map(a => `<a class="briefing-card" href="${el(validURL(a.url))}" target="_blank" rel="noopener noreferrer">
+      <div class="briefing-top"><span class="badge ${a.credibility==='official'?'verified':a.credibility==='rumor'?'rumor':'report'}">${el(TYPE[a.credibility]||'COVERAGE')}</span><span>${el(day(a.published))}</span></div>
+      <h3>${el(a.title)}</h3><p>${el(a.summary)}</p>
+      <div class="briefing-bottom"><strong>WHY IT MATTERS</strong><span>${el(a.why_it_matters)}</span></div>
+      <div class="briefing-source">SOURCE: ${el(a.source)} <span>↗</span></div></a>`).join('') : '<div class="loading-block">NO REVIEWED BRIEFINGS IN THIS SNAPSHOT.</div>';
   }
   function renderProjects() {
     const projects = state.data?.projects || [];
@@ -82,7 +95,7 @@
         data = await response.json();
       }
       if(!Array.isArray(data.articles) || !Array.isArray(data.projects)) throw new Error('Invalid data format');
-      state.data=data; renderNews(); renderProjects(); renderMeta();
+      state.data=data; renderNews(); renderBriefing(); renderProjects(); renderMeta();
       if(!silent) toast('Feed reloaded. New stories arrive when the scheduled source check runs.');
       if(!sessionStorage.getItem('vicewire_seen')) {
         const previous=localStorage.getItem('vicewire_last_seen');
@@ -94,7 +107,7 @@
       }
       localStorage.setItem('vicewire_last_seen', new Date().toISOString());
     } catch(err) {
-      if(window.__VICEWIRE_DATA__) { state.data=window.__VICEWIRE_DATA__; renderNews();renderProjects();renderMeta(); if(!silent) toast('Offline mode: showing last bundled snapshot.'); }
+      if(window.__VICEWIRE_DATA__) { state.data=window.__VICEWIRE_DATA__; renderNews();renderBriefing();renderProjects();renderMeta(); if(!silent) toast('Offline mode: showing last bundled snapshot.'); }
       else { $('#news-list').innerHTML='<div class="empty-state"><strong>FEED OFFLINE.</strong>Please reload. If viewing a downloaded site, serve it using a local web server.</div>'; $('#project-cards').innerHTML='<div class="loading-block">PROJECT DATA UNAVAILABLE.</div>'; if(!silent) toast('Could not refresh feed.'); }
       console.warn('VICEWIRE:', err);
     } finally { for(const b of buttons) b.disabled=false; }
