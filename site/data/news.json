@@ -1,14 +1,14 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-22T14:31:19.356621Z",
+    "checked_at": "2026-11-22T14:39:49.803215Z",
     "fetches_ok": 37,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 37,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 963
+    "new_items_seen": 942
   },
   "articles": [
     {
@@ -1488,6 +1488,25 @@
       "origin": "x-index"
     },
     {
+      "id": "x-1e7bbe7135c2b356",
+      "title": "GTA 6 has a native pc port in the works 🛑 leonida. static recompilation of the xbox series version. x86-64 code runs natively on pc. system software is reimplemented and rdna2 shaders get translated to spir-v for vulkan builds on ",
+      "published": "2026-11-21T18:45:59Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4tYjFRTEVKOHdxOEZNSEhfdW5fczZxbkwxQUtCSDZzV2Z1cC1jc1BXa1gzOV93MEotYzVJSlpyWEdaNHE2eFhuRTlfb0ZsNUcwUk83aU1hMEM2RWRnUXQtZQ?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "recompilation",
+        "emulation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "rss-15ed428a525d44e8",
       "title": "Can you romance Mandy in GTA 6? - Eurogamer.net",
       "published": "2026-11-21T18:44:50Z",
@@ -2846,6 +2865,23 @@
       "origin": "rss"
     },
     {
+      "id": "rss-5795e3ad9d73511e",
+      "title": "GTA 6 hitting a consistent 60 FPS even with PC hardware is 'doubtful' - TweakTown",
+      "published": "2026-11-21T04:39:15Z",
+      "source": "TweakTown",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU5uOHYtOHU4MEs2TWJ4dlhYMVdZNUdldHZRbEFEckV6QndfQVl4a3I1Y3BFQUNuRDZzY3ozVWZkemJnUWV6YjVwblFxbDBPX0REMEYyWDk1OWpjcS1rem9pa1M4a29fMmc3UTIteDIzTEFXbmJUYXFiei1UZ0RTNC1ZbzdiNTdMRk9sbDlQQnNXQU1yNkFtbnprQlNOaWhXSWxZN2JsejRkamFfdGo4Tndfa19fQVU?oc=5",
+      "publisher_url": "https://www.tweaktown.com",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "rss-56f71469bd4a7344",
       "title": "A 'GTA 6 PC port' scam kit is selling for $200 in Bitcoin or Tether on the dark web, NordVPN says, bundling a fake keygen that steals logged-in browser sessions, a crypto wallet drainer and a hidden miner, though GTA 6 is only out",
       "published": "2026-11-21T04:02:31Z",
@@ -3946,22 +3982,6 @@
       "origin": "rss"
     },
     {
-      "id": "rss-8f6dece2de8e905d",
-      "title": "Grand Theft Auto VI: The Album Is Now Available - Game Informer",
-      "published": "2026-11-20T20:13:00Z",
-      "source": "Game Informer",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTEs2S2hPTm0tdEcxSkdnWVBCVEVMd0xKYW5DR3BkQk9MWWNYa3dlVkRHTndTajVXdFZWTVRRRDBTd1o0OVBMQ0lyc2RPTmVZUHdFSzdmZDV0OUo1aC1YaXctS185OGRZM3c3SGlHeWNQbVBBQmM1LUc1ZG5xdjR5ZmRiREdsWllvQVE?oc=5",
-      "publisher_url": "https://gameinformer.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "x-54453adf7c6e976a",
       "title": "Rockstar says GTA VI made $3.79 billion in its first day, setting “a new record for entertainment across any medium.” The game also sold 32.5 million in pre-orders https://t.co/1Vv60AFgwg - X",
       "published": "2026-11-20T20:02:14Z",
@@ -3978,22 +3998,6 @@
         "social"
       ],
       "origin": "x-index"
-    },
-    {
-      "id": "rss-213c7ea00304667c",
-      "title": "GTA 6 is officially the biggest entertainment launch of all time, selling 32.5 million pre-sale copies and a bonkers $3.79 billion in its first day - Eurogamer.net",
-      "published": "2026-11-20T20:00:40Z",
-      "source": "Eurogamer.net",
-      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZOFJnbGY5N1hzOGJ1NC1NYkJYaUpJT0Fpank2MU1lN0hPMk5UOG80RzhLUnBkT0F1V0RGTXdDOGQ2QnVIWUJrWGFhd0NjRkUyN1IzLWtZVFVkMV9GOHpEUTVOdUw4b1Y4ZHVscA?oc=5",
-      "publisher_url": "https://www.eurogamer.net",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
     },
     {
       "id": "x-66335b4841b49ca3",
@@ -4232,13 +4236,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 10831,
-        "open_issues": 274,
+        "stars": 10899,
+        "open_issues": 286,
         "last_push": "2026-11-22T14:13:07Z",
         "last_commit": "2026-11-22T14:09:21Z",
         "last_commit_title": "rdna2spirv: global atomics load EXEC before the merge, not between merge and branch",
         "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/003e78129303643a3fdc9e5f0e31a01b09759236",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     },
     {
@@ -4259,7 +4263,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     },
     {
@@ -4274,13 +4278,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 59988,
-        "open_issues": 2668,
+        "stars": 59995,
+        "open_issues": 2675,
         "last_push": "2026-11-22T14:31:27Z",
         "last_commit": "2026-11-22T14:31:27Z",
         "last_commit_title": "Merge pull request #25657 from u-instinct11/fix/cairo-glyph-error-status",
         "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/144d41ab69facd3df1ec309bdc972b0e0fad4be9",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     },
     {
@@ -4301,7 +4305,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     },
     {
@@ -4322,7 +4326,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     },
     {
@@ -4338,12 +4342,12 @@
       "progress_url": "",
       "github": {
         "stars": 1177,
-        "open_issues": 79,
+        "open_issues": 82,
         "last_push": "2026-11-22T14:30:28Z",
         "last_commit": "2026-11-22T14:30:27Z",
         "last_commit_title": "Cover five integer and float conversion paths that no draw observed (#585)",
         "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/f8d11ad6d71dff29f5feabfe83c357373da12dcb",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     },
     {
@@ -4364,7 +4368,7 @@
         "last_commit": "2026-11-21T18:20:45Z",
         "last_commit_title": "feat(bot): welcome new members and log joins and leaves",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/0c9632f60033124661cf81bf50eea645d26aee7f",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     },
     {
@@ -4385,7 +4389,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-22T14:31:19.356621Z"
+        "checked_at": "2026-11-22T14:39:49.803215Z"
       }
     }
   ]
