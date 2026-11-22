@@ -38,14 +38,42 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Save updated feed on main branch
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add site/data/news.json site/data/bootstrap.js site/data/feed.xml
-          if ! git diff --cached --quiet; then
+
+          # Only these files are machine-generated. Preserve their new content
+          # across a refresh of origin/main and retry non-fast-forward races.
+          snapshot="$(mktemp -d)"
+          trap 'rm -rf "$snapshot"' EXIT
+          cp site/data/news.json "$snapshot/news.json"
+          cp site/data/bootstrap.js "$snapshot/bootstrap.js"
+          cp site/data/feed.xml "$snapshot/feed.xml"
+
+          saved=false
+          for attempt in 1 2 3 4 5; do
+            echo "Publishing feed, attempt $attempt"
+            git fetch origin main
+            git reset --hard origin/main
+            cp "$snapshot/news.json" site/data/news.json
+            cp "$snapshot/bootstrap.js" site/data/bootstrap.js
+            cp "$snapshot/feed.xml" site/data/feed.xml
+            git add site/data/news.json site/data/bootstrap.js site/data/feed.xml
+            if git diff --cached --quiet; then
+              echo "Feed is already up to date."
+              saved=true
+              break
+            fi
             git commit -m "chore: update GTA VI intelligence feed [skip ci]"
-            git push
-          fi
+            if git push origin HEAD:main; then
+              saved=true
+              break
+            fi
+            echo "main changed during push; retrying safely."
+          done
+          test "$saved" = true
       - uses: actions/configure-pages@v5
         with:
           enablement: true
