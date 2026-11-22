@@ -1,14 +1,14 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-22T14:09:11.375239Z",
+    "checked_at": "2026-11-22T14:10:01.349198Z",
     "fetches_ok": 37,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 37,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 949
+    "new_items_seen": 942
   },
   "articles": [
     {
@@ -1077,23 +1077,6 @@
       "origin": "x-index"
     },
     {
-      "id": "rss-43ad405e6c313ce2",
-      "title": "GTA 6 Players Report Crashes on PS5 With Error CE-108255-1 - IGN Nordic",
-      "published": "2026-11-21T21:50:21Z",
-      "source": "IGN Nordic",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTS1QcWsweW80RzFXMGRjTGJJM09sZFJkVG9WSmpLNi1MUy1pUk9ibEtsMVFZNE9wZ0ZSVkVVNUx3MTMzVDJLeFRXR3BXY0NWSjlGMXBkcldUNWVTNGF4T1RQSDJVaFB6M0hMSllneU9lVC1TX0dNSDUxNEZQbmQzSzJ5Wks0ZmhHNHJxY0FRM2tnRWxSelduT3BZMHNmQXBjM2h2VVp3SzNJYnVv?oc=5",
-      "publisher_url": "https://nordic.ign.com",
-      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "emulation"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "x-913f84bded99fa76",
       "title": "Comcast: \"At peak, GTA6 accounted for nearly a quarter of all internet traffic\" https://t.co/wnNDWf7L4l - X",
       "published": "2026-11-21T21:47:05Z",
@@ -1141,6 +1124,23 @@
       "categories": [
         "game",
         "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-43ad405e6c313ce2",
+      "title": "GTA 6 Players Report Crashes on PS5 With Error CE-108255-1 - IGN",
+      "published": "2026-11-21T21:37:37Z",
+      "source": "IGN",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPRktianZoYXhHZEc4bWcxalpmVDJkdHhRa3lXOWxTVU9NLUxtNE1IbHZNeDRMMTg3TXFhU09odmNMYUVINTc3N3JWRkVnMGRXUzg1ckQwUzNyM2ZseEZwZHR4UDZjTFVnRE11akEzazUyay1zZ0ltUVNJYW5IdDdiazg0MjRyaU51RGJkM3duVGU?oc=5",
+      "publisher_url": "https://www.ign.com",
+      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "emulation"
       ],
       "origin": "rss"
     },
@@ -2053,22 +2053,6 @@
       "origin": "x-index"
     },
     {
-      "id": "rss-70031e9aa267df3e",
-      "title": "GTA 6’s Weirdest Cow Shows Why You Should Pause the Story Early To Explore Its Vast Map - IGN Nordic",
-      "published": "2026-11-21T13:46:57Z",
-      "source": "IGN Nordic",
-      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPai1tQTJidndBRjV5S0J6bGdzOFoxVlRGMzRpV25DMEh1RXVZcTZ1NHFNcWh4QkZlVUtOUlVfNXZkRFJyeW41UTZ2QkFrSnhIUVUtajhURlV6MEs3dUxla3RNa0hRRl93VWE0VGhob2tpd0FhclduNVJDa2tEYTlSZlRQVEl2NlVOZUlvaGg0dnEwOVoxUjRuY3gxU2htTFRTTzNhdDVCSzZLSFVJai05andkRWVfT1BlczItTmhCWTY1bnB3MnFIc3FTaVBVQkNHdEE?oc=5",
-      "publisher_url": "https://nordic.ign.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "rss-695579c6322c30b9",
       "title": "GTA 6 is a cozy game - PC Gamer",
       "published": "2026-11-21T13:45:50Z",
@@ -2541,6 +2525,23 @@
       "origin": "rss"
     },
     {
+      "id": "x-4236e9772355c9ff",
+      "title": "Cyberleek lowered the early .exe release milestone to a $6M market cap for the CYBERLEEK token. The file will come in a ZIP with SHA-256 hashes, strictly meant for Xbox emulator developers. Cyberleek also warned fans to avoid fake",
+      "published": "2026-11-21T07:46:07Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9rU0djWFRwOEpPWGs5djBmU0lDQ3hjY3dfcVNfYlNXVUREVFU4d2d0a1cweG1tQ0Vkb1RQM0h2Yi1oZUJzcmpPMUlHemNmQUlIY2dOaDJocXQtUE93b0E?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "rss-ca3414050b283135",
       "title": "GTA 6 PC scam kit reportedly sold on the dark web for 200 USD to steal user data - Sportskeeda Tech",
       "published": "2026-11-21T07:42:52Z",
@@ -2587,6 +2588,24 @@
         "game"
       ],
       "origin": "rss"
+    },
+    {
+      "id": "x-133bf1e4be5c65ab",
+      "title": "I got my copy of GTA 6 on PC have you? thank you Cyberleek! ☺️ https://t.co/bHrg6sLVbd - X",
+      "published": "2026-11-21T05:56:06Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10cEhwVUluc3ZlRVpPdGhvQms5T2hrX2RMbDFFbWd6LXg2dmk4eVZURV8ySWF2QzAtLTNtVVhwSmw3bGt1WFpVV1BQQ2hrM0Z2NFczaU1vZ21ybXBDTHQ0aTU5U0laV28?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
     },
     {
       "id": "rss-926d4a807726961a",
@@ -3370,6 +3389,24 @@
       "origin": "rss"
     },
     {
+      "id": "x-5677a5712d8cc8af",
+      "title": "I got Cyberleek's GTA VI build running on PC, from the executable to the game world. I started with the package labeled \"Xbox Build 1.0.2.1 - November 2026\" and used its files as the foundation for an experimental compatibility pr",
+      "published": "2026-11-20T21:18:32Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1uZTd3bDBYcFpNbVFkaFlSQ3BMRURmQWlRMHIyT2FnVDliSkctVi1YZnFtOE1fLVdmWW9ETDA2d3pmM2MxTGRxcWRYVGtYeUVhSno1dGtabUpNRkJk?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "rss-1dfa878da047e822",
       "title": "GTA VI PC Release Date: AI Port Claim Explained, No Date Announced - stupidDOPE",
       "published": "2026-11-20T21:13:46Z",
@@ -3950,6 +3987,23 @@
       "origin": "rss"
     },
     {
+      "id": "x-2b0a9ebc48838d62",
+      "title": "GTA 6 just got a little stranger. A viral clip shows a player encountering a UFO in Grand Theft Auto 6. Apparently, we're not alone in Leonida. 🎥: nfxce_ / X - X",
+      "published": "2026-11-20T18:05:49Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5EUkYxUVhURjh1V2M2c2NDaWhCcVI4TVVkcXhKcDE5RzA2LWdCTFhmbWZFY1prcXlYcGNKOU9Ba1RhWmpIckxKeDJ4UVpuOXRReTN5bU5nMzZoYW11Z2R4cXBoQlU?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "rss-8c64333cf17a9c6d",
       "title": "Cyberleek claims GTA 6 Xbox build leak, with executable held back - games.gg",
       "published": "2026-11-20T17:53:14Z",
@@ -3980,57 +4034,6 @@
       "categories": [
         "official",
         "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-07ae0fe026b336b5",
-      "title": "GTA 6 Leaker Returns, Circulates Alleged Xbox Build of the Game - PCMag",
-      "published": "2026-11-20T16:35:45Z",
-      "source": "PCMag",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPM205ZzVpNFVWYlJEaDU1R3RLNXc4VG5yM09oTGNrMG9ZX3lkZmwzQ1d0U19xWXRGbGhjYWpYM3ZIMHAwXzh0Y1lmUF83RUpHRlhGdEhrMDdKbVN4NU9fV1JVZmxIdHlSS0ZUSnpFTndfci1zYU5WLVVjQ0d4cDcwSkJWa0pJSnZmVXJSRHRKMndWTEk?oc=5",
-      "publisher_url": "https://www.pcmag.com",
-      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-60278d2833577f85",
-      "title": "GTA 6 Xbox Leak Reportedly Lacks Executable, PC Emulation Unproven - Technobezz",
-      "published": "2026-11-20T16:30:28Z",
-      "source": "Technobezz",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFAwQ0t2MDY4cU1ZZS1KYkYwLTIzeFY1LWZfbjZhekR6OHZ1WktSTzlOcmVZck5EOVVUeHR2bjVJb3NQbnlpRWVPZG5rdE5tTTJlcVA5d0N3RDdqU1FCSW9GSm5XQVIta1hYMkdOejEzWUFpUQ?oc=5",
-      "publisher_url": "https://www.technobezz.com",
-      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-565f998b020c179e",
-      "title": "GTA 6 For PC Just Got Closer Thanks To A New Leak - Ubergizmo",
-      "published": "2026-11-20T16:00:08Z",
-      "source": "Ubergizmo",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sN0lxdk02ZENrak5Ud3pMWlNlQmpHS0FiVVplbldIYzk0enp2VWFfdE5IYVM3Qkg0ZzZxQXp3YmdnR0JsdU12elVFMUl4eGtwdTVnc2ZoVThQbXc?oc=5",
-      "publisher_url": "https://www.ubergizmo.com",
-      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
       ],
       "origin": "rss"
     },
@@ -4221,13 +4224,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 10605,
-        "open_issues": 269,
+        "stars": 10613,
+        "open_issues": 274,
         "last_push": "2026-11-22T13:35:04Z",
         "last_commit": "2026-11-22T13:35:03Z",
         "last_commit_title": "hw_oracle test follows #1620's per-kernel MODE skip; three tools guard stdout",
         "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/89b047cd8fab50675a43d76722a6a8a881f55dc2",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     },
     {
@@ -4248,7 +4251,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     },
     {
@@ -4263,13 +4266,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 59978,
-        "open_issues": 2666,
-        "last_push": "2026-11-22T14:06:25Z",
-        "last_commit": "2026-11-22T14:06:25Z",
-        "last_commit_title": "Merge pull request #25650 from u-instinct11/fix/job-reference-repeat-logs",
-        "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/35067f305f84dfd072d0982f0d0ce0032b6cff1d",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "stars": 59979,
+        "open_issues": 2664,
+        "last_push": "2026-11-22T14:09:53Z",
+        "last_commit": "2026-11-22T14:09:53Z",
+        "last_commit_title": "Merge pull request #25653 from malekaifa/prime-d/fix-pe-rva-raw-bounds-20261122",
+        "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/526b7b19d019daa6b832372f7e12bebad437e317",
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     },
     {
@@ -4290,7 +4293,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     },
     {
@@ -4311,7 +4314,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     },
     {
@@ -4332,7 +4335,7 @@
         "last_commit": "2026-11-22T14:00:39Z",
         "last_commit_title": "shader: lower gfx1013 24-bit integer multiplies in pixel_aot (#542)",
         "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/bbebcad0855bce6e169c1f6de4a3a0f99c78a6de",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     },
     {
@@ -4353,7 +4356,7 @@
         "last_commit": "2026-11-21T18:20:45Z",
         "last_commit_title": "feat(bot): welcome new members and log joins and leaves",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/0c9632f60033124661cf81bf50eea645d26aee7f",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     },
     {
@@ -4374,7 +4377,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-22T14:09:11.375239Z"
+        "checked_at": "2026-11-22T14:10:01.349198Z"
       }
     }
   ]
