@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  actions: read
   pages: write
   id-token: write
 
@@ -80,5 +81,28 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: ./site
+      - name: Wait for Pages artifact to become visible
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          # Artifact metadata can lag behind successful uploads.
+          # Pages deployment fails if it checks before the artifact is indexed.
+          for attempt in {1..15}; do
+            count="$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/artifacts" --jq '[.artifacts[] | select(.name == "github-pages")] | length')"
+            echo "Pages artifact visibility: ${count} (attempt ${attempt}/15)"
+            if [ "${count}" = 1 ]; then
+              sleep 5
+              exit 0
+            fi
+            if [ "${count}" -gt 1 ]; then
+              echo "::error::Multiple Pages artifacts found. Start a NEW workflow run rather than retrying failed jobs in the same run."
+              exit 1
+            fi
+            sleep 3
+          done
+          echo "::error::Pages artifact was not indexed in time."
+          exit 1
       - id: deployment
         uses: actions/deploy-pages@v4
