@@ -1,14 +1,14 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-22T14:39:49.803215Z",
+    "checked_at": "2026-11-22T14:42:24.985449Z",
     "fetches_ok": 37,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 37,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 942
+    "new_items_seen": 957
   },
   "articles": [
     {
@@ -2416,6 +2416,22 @@
       "featured": true
     },
     {
+      "id": "rss-82f7d05e279adbdc",
+      "title": "‘Grand Theft Auto VI’ sets record with $3.79B in first-day retail sales - WTOC",
+      "published": "2026-11-21T12:00:00Z",
+      "source": "WTOC",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUE10b1pKZ09qcjJRV05UT3F4ZjFMZWFhZ1NoY0RSVVNNQmhXTTRXZEdrcHl5U1I3VkwwYTF4U1Vwc2NpOVJtYXdidmZTZ0h0MWw4OEx2V0RvaWNqR0JGeW1ldGZRY25xd0V3bUNnSXAtYk4zdlpTd3UtVWhwbkJyQUR0UjNmWWRoTm1La084MnFneFVMeFZXVnlvVFdPUdIBsgFBVV95cUxPUHB5eGtvOUFLRmJtcW81SDM3b1h5NEpXclJFNkFxRzJraTBmQUhEZERjWDZtajAtMmswd1JFcmpkVGtRelNORDhGaDFOVUFLUFY0X1pFenJiNTZmY252ZWNaLWdEbkdLWUFJLTE0V1ZxdHcySGl3LXRVTE1wWm5YWXUwQzdQZnR1cHF1VmVOdGd4ZHlYOHlmSzRiVV96bWZpN2ZWbzFqYWczbmNjb1hKeUJB?oc=5",
+      "publisher_url": "https://www.wtoc.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "rss-9072c2ac49576dec",
       "title": "How Rockstar Made Every NPC Feel Alive in GTA 6 - IGN",
       "published": "2026-11-21T11:54:27Z",
@@ -3966,22 +3982,6 @@
       "origin": "rss"
     },
     {
-      "id": "rss-462340a9425d34f0",
-      "title": "Can your PC run GTA VI? The minimum RAM, GPU, and CPU requirements to expect - ZDNET",
-      "published": "2026-11-20T20:15:47Z",
-      "source": "ZDNET",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPT3dKeF9hajJ0LURTb3ZReWY2dlNqM1ktZk9LWmdTeDIwT0FOUS1WSDgzYzNZYjlKVEpIRTJTNFJLRWYzOHZDdi15MTBxMnVkZC1tcWRob2pGbzlhNGcwcWRuejdZNElnVjEwQ1dqRkxfZ2NCQjNIWE10OWpOWWlDeHZR?oc=5",
-      "publisher_url": "https://www.zdnet.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "x-54453adf7c6e976a",
       "title": "Rockstar says GTA VI made $3.79 billion in its first day, setting “a new record for entertainment across any medium.” The game also sold 32.5 million in pre-orders https://t.co/1Vv60AFgwg - X",
       "published": "2026-11-20T20:02:14Z",
@@ -4236,13 +4236,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 10899,
-        "open_issues": 286,
+        "stars": 10922,
+        "open_issues": 288,
         "last_push": "2026-11-22T14:13:07Z",
         "last_commit": "2026-11-22T14:09:21Z",
         "last_commit_title": "rdna2spirv: global atomics load EXEC before the merge, not between merge and branch",
         "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/003e78129303643a3fdc9e5f0e31a01b09759236",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     },
     {
@@ -4263,7 +4263,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     },
     {
@@ -4279,12 +4279,12 @@
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
         "stars": 59995,
-        "open_issues": 2675,
+        "open_issues": 2677,
         "last_push": "2026-11-22T14:31:27Z",
         "last_commit": "2026-11-22T14:31:27Z",
         "last_commit_title": "Merge pull request #25657 from u-instinct11/fix/cairo-glyph-error-status",
         "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/144d41ab69facd3df1ec309bdc972b0e0fad4be9",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     },
     {
@@ -4305,7 +4305,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     },
     {
@@ -4326,7 +4326,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     },
     {
@@ -4347,7 +4347,7 @@
         "last_commit": "2026-11-22T14:30:27Z",
         "last_commit_title": "Cover five integer and float conversion paths that no draw observed (#585)",
         "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/f8d11ad6d71dff29f5feabfe83c357373da12dcb",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     },
     {
@@ -4368,7 +4368,7 @@
         "last_commit": "2026-11-21T18:20:45Z",
         "last_commit_title": "feat(bot): welcome new members and log joins and leaves",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/0c9632f60033124661cf81bf50eea645d26aee7f",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     },
     {
@@ -4389,7 +4389,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-22T14:39:49.803215Z"
+        "checked_at": "2026-11-22T14:42:24.985449Z"
       }
     }
   ]
