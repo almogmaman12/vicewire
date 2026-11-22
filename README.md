@@ -2,7 +2,7 @@
 
 **One place to follow GTA VI news, the PC release, emulator research, and unofficial claims, without mixing reporting with proof.**
 
-[**Open the live dashboard**](https://almogmaman12.github.io/vicewire/) · [Follow via RSS](https://almogmaman12.github.io/vicewire/subscribe.html) · [Report a problem or suggest a source](https://github.com/almogmaman12/vicewire/issues/new) · [Update history](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
+[**Open the live dashboard**](https://almogmaman12.github.io/vicewire/) · [PC & emulation explainer](https://almogmaman12.github.io/vicewire/guide.html) · [Follow via RSS](https://almogmaman12.github.io/vicewire/subscribe.html) · [Report a problem or suggest a source](https://github.com/almogmaman12/vicewire/issues/new) · [Update history](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
 
 [![Update VICEWIRE & deploy website](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml/badge.svg)](https://github.com/almogmaman12/vicewire/actions/workflows/update-site.yml)
 
@@ -78,6 +78,14 @@ The workflow uses `17 */3 * * *` in **UTC**. Scheduled GitHub jobs are best-effo
 The collector primarily indexes **headlines, publication times, publisher links, and public GitHub metadata**. Many automatically created descriptions are **topic-based contextual notes**, not full-article summaries. Click through to the publisher before treating a new assertion as fact.
 
 If a feed fails, the site retains earlier information where possible and records the failure rather than claiming everything was checked successfully.
+
+## Find and share VICEWIRE
+
+- **Read the [PC and emulation explainer](https://almogmaman12.github.io/vicewire/guide.html):** Understand which milestones prove boot, gameplay, or official support. This is a standalone, source-linked article, not an automatically generated headline.
+- **Share the website:** https://almogmaman12.github.io/vicewire/
+- **Search-engine sitemap:** [sitemap.xml](https://almogmaman12.github.io/vicewire/sitemap.xml) includes the site's public HTML pages. Google may discover it automatically, or a verified site owner can submit it to Search Console. A sitemap does not guarantee rankings or indexing.
+- **Suggested repository description:** `Independent GTA 6 news, PC release & emulation tracker with source-checked reports, GitHub developer radar and free RSS updates.`
+- **Suggested GitHub topics:** `gta-6`, `gta-vi`, `rockstar-games`, `gaming-news`, `emulation`, `rss`, `github-pages`. Repository owners can add these through the GitHub **About** settings.
 
 ## Running your own copy
 
