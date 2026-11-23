@@ -11,7 +11,7 @@
     $('claim-h').textContent=pad(Math.floor((seconds%86400)/3600));
     $('claim-m').textContent=pad(Math.floor((seconds%3600)/60));
     $('claim-s').textContent=pad(seconds%60);
-    $('claim-clock-status').textContent=seconds>0?'ESTIMATED TIME UNTIL THE CLAIMED DEADLINE':'CLAIMED DEADLINE PASSED. RELEASE AND SAFETY NOT VERIFIED.';
+    $('claim-clock-status').textContent=seconds>0?'ORIGINAL ADVERTISED DEADLINE · EARLY UPLOAD CLAIM REPORTED, NOT VERIFIED':'ORIGINAL DEADLINE PASSED · RELEASE, COMPATIBILITY AND SAFETY NOT VERIFIED';
   }
   // These are automatically indexed publisher titles, not malware lab verdicts.
   const securityPublishers = /bitdefender|netcraft|malwarebytes|bleepingcomputer|eset|huntress|sophos|kaspersky|nordvpn|pc gamer|techradar|wired|ars technica|the record/i;

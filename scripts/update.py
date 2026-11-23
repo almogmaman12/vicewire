@@ -70,6 +70,9 @@ QUERIES = [
     ('"GTA VI" fake PC malware site:bitdefender.com when:30d', ['security','piracy'], 'news'),
     ('"GTA 6" fake download site:netcraft.com when:30d', ['security','piracy'], 'news'),
     ('"Cyberleek" executable independently tested malware when:14d', ['security','piracy'], 'news'),
+    ('"Cyberleek" "exe released" when:7d', ['piracy','security','pc'], 'news'),
+    ('"Cyberleek" "exe" "SHA256" "VirusTotal" when:7d', ['security','piracy'], 'news'),
+    ('"Cyberleek" executable released sandbox malware analysis when:7d', ['security','piracy'], 'news'),
     ('"GTA VI" malicious PC launcher analysis when:14d', ['security','piracy','pc'], 'news'),
     # Indexed public X links, NOT a comprehensive live X feed (requires X access).
     ('site:x.com/RockstarGames "GTA" when:30d', ['official','social'], 'x-index'),

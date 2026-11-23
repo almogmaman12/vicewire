@@ -65,3 +65,10 @@ body{font-size:15px;line-height:1.65;letter-spacing:-.005em}.grain{opacity:.035}
 .claim-evidence-rows p{font:400 12px/1.7 var(--body);color:#c8bfcb;margin:9px 0 0}
 .claim-evidence-foot{font:400 11px/1.7 var(--body);color:#c0b3c3;margin:13px 0 0}
 @media(max-width:640px){.claim-evidence-rows{grid-template-columns:1fr}}
+
+/* 23 Nov independent-evidence update: a historical countdown is not a release signal. */
+.claim-release-update{padding:18px 20px;margin:18px 0;background:linear-gradient(115deg,#402b34,#211c2d);border:1px solid #ae796f;border-left:4px solid #f9bd8e;border-radius:8px}
+.claim-update-label{display:block;color:#ffd1a5;font:800 10px var(--mono);letter-spacing:.06em;margin-bottom:10px}
+.claim-release-update>strong{display:block;color:#fff;font:800 clamp(17px,2.3vw,23px)/1.35 var(--body)}
+.claim-release-update p{margin:10px 0 0;color:#dac6d1;font:400 13px/1.75 var(--body)}
+.claim-release-update p strong{color:#fff}
