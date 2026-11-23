@@ -53,3 +53,15 @@ body{font-size:15px;line-height:1.65;letter-spacing:-.005em}.grain{opacity:.035}
 .claim-safety-reports>a small{color:#b0a2b1;font:700 9px/1.5 var(--mono)}
 .claim-safety-reports>p,.claim-safety-reports>span{color:#beb4c0;font-size:12px}
 @media(max-width:640px){.claim-safety-reports{grid-template-columns:1fr}.claim-reviewed-status{padding:13px}}
+
+/* Independent-evidence checkpoint for the Cyberleek release claim */
+.claim-clock-panel p a{color:#ffbc9f;text-decoration:underline;text-underline-offset:3px}
+.claim-evidence-check{margin:20px 0;padding:19px;border:1px solid #684d5c;background:#181722;border-radius:8px}
+.claim-evidence-check h5{margin:0 0 14px;color:#ffbe9c;font:800 13px var(--mono)}
+.claim-evidence-rows{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}
+.claim-evidence-rows>div{min-width:0;border:1px solid #483846;background:#211b2a;padding:14px}
+.claim-evidence-rows strong{display:block;color:#fff;font:700 13px/1.5 var(--body)}
+.claim-evidence-rows span{display:block;margin-top:7px;color:#ffc496;font:800 9px var(--mono)}
+.claim-evidence-rows p{font:400 12px/1.7 var(--body);color:#c8bfcb;margin:9px 0 0}
+.claim-evidence-foot{font:400 11px/1.7 var(--body);color:#c0b3c3;margin:13px 0 0}
+@media(max-width:640px){.claim-evidence-rows{grid-template-columns:1fr}}

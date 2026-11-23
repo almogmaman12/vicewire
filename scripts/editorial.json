@@ -1,5 +1,23 @@
 [
   {
+    "id": "security-vx-underground-assets-2026-11-21",
+    "title": "VX Underground examined alleged GTA VI assets; this is not an executable safety test",
+    "published": "2026-11-21T12:00:00Z",
+    "source": "PC Gamer / VX Underground",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/modders-reckon-gta-6-will-be-playable-on-pc-within-a-week/",
+    "summary": "PC Gamer reports that cybersecurity researchers at VX Underground reviewed files in the alleged Xbox game-data dump and considered the assets genuine. That is a reported assessment of the data archive, not a malware assessment of Cyberleek's promised November 23 executable.",
+    "why_it_matters": "A claim that asset files look genuine does not establish the safety of a separate executable, and it does not prove GTA VI can be played on Windows. Any future security claim needs the exact file hash and independently reviewed behavior.",
+    "verification": "PC Gamer attribution of VX Underground's initial examination. No independent clearance of the promised executable is established.",
+    "credibility": "coverage",
+    "categories": [
+      "security",
+      "piracy",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
     "id": "review-cyberleek-crypto-2026-11-21",
     "title": "Cyberleek's November 23 executable promise: what is actually verified?",
     "published": "2026-11-21T12:00:00Z",
