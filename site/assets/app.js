@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const $ = (s) => document.querySelector(s);
-  const state = { data: null, category: 'all', q: '', shown: 9 };
+  const state = { data: null, category: 'all', q: '', shown: 9, scope: 'all', sort: 'newest', details: false };
   const TYPE = { official: 'OFFICIAL', developer: 'DEVELOPER', coverage: 'COVERAGE', rumor: 'UNVERIFIED', social: 'X INDEX' };
   const el = (value) => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const validURL = url => { try { const u = new URL(url, location.href); return ['https:', 'http:'].includes(u.protocol) ? u.href : '#'; } catch { return '#'; } };
@@ -15,23 +15,50 @@
     const badge = a.credibility === 'official' ? 'verified' : a.credibility === 'developer' ? 'developer' : a.credibility === 'rumor' ? 'rumor' : a.credibility === 'social' ? 'social' : 'report';
     const domain = a.source || 'Unknown source';
     const categories = Array.isArray(a.categories) ? a.categories : [];
-    return `<a class="news-card ${i===0?'feature':''}" href="${el(validURL(a.url))}" target="_blank" rel="noopener noreferrer" aria-label="Open ${el(a.title)}">
+    const isIndexed = a.origin === 'rss' || a.origin === 'x-index' || a.headline_only === true;
+    const isSocial = a.credibility === 'social';
+    const note = isIndexed ? (isSocial ? 'Public social post. Claims not verified.' : 'Automatically indexed headline. Read the full source for details.') : '';
+    const summary = isIndexed ? `<p class="news-headline-note">${el(note)}</p>` : `<p>${el(a.summary || 'Read the original source for details.')}</p>`;
+    const details = state.details ? `<div class="news-context"><span class="context-line"><b>Why it matters:</b> ${el(a.why_it_matters || 'See the original report for context.')}</span><span class="verification"><b>Evidence:</b> ${el(a.verification || 'Headline only, not independently reviewed.')}</span></div>` : '';
+    const publishedAt = new Date(a.published);
+    const isRecent = !Number.isNaN(publishedAt.getTime()) && Date.now() - publishedAt.getTime() >= 0 && Date.now() - publishedAt.getTime() < 24 * 3600000;
+    return `<a class="news-card ${i===0?'feature':''} ${isIndexed?'indexed-story':''}" href="${el(validURL(a.url))}" target="_blank" rel="noopener noreferrer" aria-label="Read original source: ${el(a.title)}">
       <div class="news-number">${String(i+1).padStart(2,'0')}<span class="news-date">${el(day(a.published))}</span></div>
-      <div class="news-content"><div class="news-meta"><span class="badge ${badge}">${TYPE[a.credibility]||'COVERAGE'}</span><span>${el(domain)}</span><span>·</span><span>${el(categories[0]||'NEWS')}</span></div>
-      <h3>${el(a.title)}</h3><p>${el(a.summary || 'This is a linked update. Check the original report for the full details.')}</p>
-      <div class="news-context"><span class="context-line"><b>Why it matters:</b> ${el(a.why_it_matters || 'This may affect understanding of GTA VI; the original article is needed for verification.')}</span><span class="verification"><b>Evidence:</b> ${el(a.verification || 'Unreviewed syndicated headline')}</span></div></div>
-      <span class="news-arrow">↗</span></a>`;
+      <div class="news-content"><div class="news-meta"><span class="badge ${badge}">${el(TYPE[a.credibility]||'COVERAGE')}</span><span>${el(domain)}</span>${isRecent?'<span class="news-fresh">NEW · 24H</span>':''}<span>·</span><span>${el(categories[0]||'NEWS')}</span></div>
+      <h3>${el(a.title)}</h3>${summary}${details}</div><span class="news-arrow">↗</span></a>`;
+  }
+  function renderReaderIntro() {
+    const articles = state.data?.articles || [];
+    const curated = articles.filter(a => a.origin === 'curated');
+    const latestOfficial = curated.filter(a => a.credibility === 'official').sort((a,b)=>(b.published||'').localeCompare(a.published||''))[0];
+    const latestEvidence = curated.filter(a => a.credibility !== 'official').sort((a,b)=>(b.published||'').localeCompare(a.published||''))[0];
+    const checked = state.data?.metadata?.checked_at;
+    const fresh = articles.filter(a => Date.now() - Date.parse(a.published) < 24*3600000 && Date.now() - Date.parse(a.published) >= 0).length;
+    $('#news-reader-checked').textContent = `${articles.length} linked stories · ${fresh} posted in 24h · ${curated.length} reviewed`;
+    const picks = [{a:latestOfficial,label:'LATEST REVIEWED OFFICIAL UPDATE'},{a:latestEvidence,label:'OTHER REVIEWED CONTEXT'}].filter(x=>x.a);
+    $('#news-reader-highlights').innerHTML = picks.map(({a,label})=>`<a class="reader-highlight" href="${el(validURL(a.url))}" target="_blank" rel="noopener noreferrer">
+      <small>${el(label)} · ${el(day(a.published))}</small><strong>${el(a.title)}</strong><span>${el(a.summary||'Read the original source.')}</span><em>${el(a.source)} ↗</em></a>`).join('') || '<p>No reviewed stories available in this snapshot.</p>';
   }
   function renderNews() {
     const articles = (state.data?.articles || []).filter(a => {
       const cat = state.category === 'all' || (state.category === 'official' ? a.credibility === 'official' : state.category === 'social' ? a.credibility === 'social' : (a.categories||[]).includes(state.category));
+      const scope = state.scope === 'all'
+        || (state.scope === 'reviewed' && a.origin === 'curated')
+        || (state.scope === 'primary' && ['official','developer'].includes(a.credibility))
+        || (state.scope === 'reporting' && a.credibility === 'coverage');
       const search = !state.q || `${a.title} ${a.summary} ${a.why_it_matters} ${a.verification} ${a.source} ${(a.categories||[]).join(' ')}`.toLowerCase().includes(state.q);
-      return cat && search;
+      return cat && scope && search;
+    }).sort((a,b)=>{
+      if(state.sort === 'reviewed'){
+        const aa=a.origin === 'curated'?1:0,bb=b.origin === 'curated'?1:0;
+        if(aa!==bb) return bb-aa;
+      }
+      return (b.published||'').localeCompare(a.published||'');
     });
     $('#feed-total').textContent = `${articles.length} matching stories`;
     $('#visible-count').textContent = articles.length ? `Showing ${Math.min(state.shown,articles.length)} of ${articles.length}` : 'NO STORIES FOUND';
     $('#show-more').hidden = state.shown >= articles.length;
-    $('#news-list').innerHTML = articles.length ? articles.slice(0,state.shown).map(card).join('') : `<div class="empty-state"><strong>NO SIGNAL FOUND.</strong>Try another category or search term.</div>`;
+    $('#news-list').innerHTML = articles.length ? articles.slice(0,state.shown).map(card).join('') : `<div class="empty-state"><strong>NO SIGNAL FOUND.</strong>Try another category or evidence filter.</div>`;
   }
   function renderProject(p, index) {
     const github = p.github || {};
@@ -94,7 +121,7 @@
         data = await response.json();
       }
       if(!Array.isArray(data.articles) || !Array.isArray(data.projects)) throw new Error('Invalid data format');
-      state.data=data; renderNews(); renderBriefing(); renderProjects(); renderMeta(); window.dispatchEvent(new CustomEvent('vicewire:data',{detail:data}));
+      state.data=data; renderNews(); renderReaderIntro(); renderBriefing(); renderProjects(); renderMeta(); window.dispatchEvent(new CustomEvent('vicewire:data',{detail:data}));
       if(!silent) toast('Feed reloaded. New stories arrive when the scheduled source check runs.');
       if(!sessionStorage.getItem('vicewire_seen')) {
         const previous=localStorage.getItem('vicewire_last_seen');
@@ -106,13 +133,22 @@
       }
       localStorage.setItem('vicewire_last_seen', new Date().toISOString());
     } catch(err) {
-      if(window.__VICEWIRE_DATA__) { state.data=window.__VICEWIRE_DATA__; renderNews();renderBriefing();renderProjects();renderMeta();window.dispatchEvent(new CustomEvent('vicewire:data',{detail:state.data})); if(!silent) toast('Offline mode: showing last bundled snapshot.'); }
+      if(window.__VICEWIRE_DATA__) { state.data=window.__VICEWIRE_DATA__; renderNews();renderReaderIntro();renderBriefing();renderProjects();renderMeta();window.dispatchEvent(new CustomEvent('vicewire:data',{detail:state.data})); if(!silent) toast('Offline mode: showing last bundled snapshot.'); }
       else { $('#news-list').innerHTML='<div class="empty-state"><strong>FEED OFFLINE.</strong>Please reload. If viewing a downloaded site, serve it using a local web server.</div>'; $('#project-cards').innerHTML='<div class="loading-block">PROJECT DATA UNAVAILABLE.</div>'; if(!silent) toast('Could not refresh feed.'); }
       console.warn('VICEWIRE:', err);
     } finally { for(const b of buttons) b.disabled=false; }
   }
   $('#filters').addEventListener('click',e=>{const b=e.target.closest('button[data-filter]');if(!b) return;state.category=b.dataset.filter;state.shown=9;document.querySelectorAll('#filters button').forEach(x=>x.classList.toggle('active',x===b));renderNews();});
   $('#news-search').addEventListener('input',e=>{state.q=slug(e.target.value.trim());state.shown=9;renderNews();});
+  $('#news-scope').addEventListener('change',e=>{state.scope=e.target.value;state.shown=9;renderNews();});
+  $('#news-sort').addEventListener('change',e=>{state.sort=e.target.value;state.shown=9;renderNews();});
+  $('#news-detail-toggle').addEventListener('click',()=>{
+    state.details=!state.details;
+    const button=$('#news-detail-toggle');
+    button.textContent=state.details?'HIDE EXTRA CONTEXT −':'SHOW FULL CONTEXT +';
+    button.setAttribute('aria-pressed',String(state.details));
+    renderNews();
+  });
   $('#show-more').addEventListener('click',()=>{state.shown+=9;renderNews();});
   $('#refresh-top').addEventListener('click',()=>load());
   $('#refresh-bottom').addEventListener('click',()=>load());

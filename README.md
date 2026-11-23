@@ -26,8 +26,8 @@ VICEWIRE is an **independent, fan-made news tracker**. It brings together offici
 ### How to use the dashboard
 
 1. **Check the situation cards** for the important known facts and their source links.
-2. **Use the news filters** to focus on PC, emulation, Rockstar, leaks, game news, or social posts.
-3. **Open an article** to read its original source. VICEWIRE is a discovery and context tool, not a replacement for reporting.
+2. **Use the news filters and evidence controls** to focus on PC, emulation, Rockstar, leaks or security; choose **Source-reviewed** or **Official + developer** to avoid unreviewed headlines.
+3. **Start with the source-reviewed highlights**, then switch between concise headlines and **Show full context** for why-it-matters and verification notes. Open the original publisher before trusting automatically indexed claims.
 4. **Check the developer radar** for repository activity. A new commit is progress on the project, not proof GTA VI runs on PC.
 5. **Look at the last source-check time** before assuming the feed is current. The timestamp describes the crawler's check, not when every claim was verified.
 

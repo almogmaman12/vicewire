@@ -81,6 +81,17 @@
     </section>
     <section class="shell feed-layout" id="news">
       <div class="news-main"><div class="section-top section-top-feed"><div><div class="kicker">04 / ALL SOURCES, ONE NEWSROOM</div><h2>LATEST <span>NEWS & REPORTS</span></h2></div><span class="feed-total mono" id="feed-total">LOADING...</span></div>
+        <div class="news-reader-intro" aria-labelledby="news-reader-title">
+          <div class="reader-intro-head"><span class="kicker">THE SHORT VERSION / SOURCE-AWARE</span><span id="news-reader-checked">Checking the published feed...</span></div>
+          <h3 id="news-reader-title">WHAT ACTUALLY <span>MATTERS?</span></h3>
+          <p>Start with the latest human-reviewed official report, then browse the newest headlines. Automatically indexed articles are <strong>not</strong> independently verified summaries. Open the original source for the details.</p>
+          <div id="news-reader-highlights" class="news-reader-highlights" aria-live="polite"><span class="loading-block">Loading source-reviewed highlights...</span></div>
+        </div>
+        <div class="news-toolbar" role="group" aria-label="News display options">
+          <label for="news-scope">EVIDENCE <select id="news-scope"><option value="all">All headlines</option><option value="reviewed">Source-reviewed only</option><option value="primary">Official + developer</option><option value="reporting">Publisher reporting</option></select></label>
+          <label for="news-sort">ORDER <select id="news-sort"><option value="newest">Newest first</option><option value="reviewed">Reviewed first</option></select></label>
+          <button type="button" id="news-detail-toggle" aria-pressed="false">SHOW FULL CONTEXT +</button>
+        </div>
         <div class="news-controls"><div class="filters" id="filters" role="group" aria-label="Filter news"><button type="button" data-filter="all" class="active">Everything</button><button type="button" data-filter="game">Game news</button><button type="button" data-filter="official">Rockstar</button><button type="button" data-filter="pc">PC</button><button type="button" data-filter="recompilation">Leonida & ports</button><button type="button" data-filter="emulation">Emulators</button><button type="button" data-filter="piracy">Leaks / piracy</button><button type="button" data-filter="security">Security reports</button><button type="button" data-filter="social">X posts</button></div><label class="search-wrap"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m15.5 15.5 5 5"/></svg><input type="search" id="news-search" placeholder="Search news, sources, topics..." aria-label="Search news"></label></div>
         <div id="news-list" class="news-list" aria-live="polite"><div class="loading-block">ESTABLISHING DATA LINK...</div></div>
         <div class="more-bar"><span id="visible-count" class="mono"></span><button type="button" id="show-more" class="secondary-button small">LOAD MORE STORIES <span>↓</span></button></div>
