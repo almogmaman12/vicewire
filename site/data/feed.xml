@@ -5,11 +5,25 @@
 <description>Source-linked GTA VI news and developer activity with evidence labels.</description>
 <language>en</language>
 <item>
+<title>Xbox2Windows: Merge pull request #997 from R0Y00/codex/runtime-placeholder-interior</title>
+<link>https://github.com/R0Y00/Xbox2Windows/commit/3174eb3ac63b2faf6c364b096450eb5e88cfcac2</link>
+<guid isPermaLink="false">git-r0y00-xbox2windows-3174eb3ac63b</guid>
+<description>The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Mon, 23 Nov 2026 20:44:45 +0000</pubDate>
+</item>
+<item>
 <title>GTA 6 update fixes crashes, autosaving and story-progress bugs</title>
 <link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDVTQU9qemxmN2R1eGl2c2p6NmRYQWJhTV9CaWw3U0dvall1MG1XMzFNSG45a3YtcE1hUEhSOEwtclhDcGswM3NzdnBNbGZjSDJxSEpkR1lfQzl5VUFCTzNUcDljVEdCMklmTV84SVhVbldnUTRiQi1WOVB1dUpET3licWxINnR3M3FVQ0YtTHFseDZISHBwLXlBR3ZEQlhZNnJPUkNHOFl2Y0E?oc=5</link>
 <guid isPermaLink="false">rss-e30746f5c976fe5d</guid>
 <description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
 <pubDate>Mon, 23 Nov 2026 20:43:49 +0000</pubDate>
+</item>
+<item>
+<title>Cyberleek Releases Missing GTA 6 Xbox Executable</title>
+<link>https://news.google.com/rss/articles/CBMicEFVX3lxTE9nNk5MaVctZzdXYzJxQXhQanNYSHlpcmRMU0pibC1EWTVtSFF2ZnMyYnNoMmFaM3BiVUI5R3RfQ05xWnhQOFhhdnVYa1dPTzNzT09HMzZXSnN2bEU5ZFBscDJ4VW1sdnZjZlFaems1RlY?oc=5</link>
+<guid isPermaLink="false">rss-9d91410d7ff08447</guid>
+<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Mon, 23 Nov 2026 20:37:00 +0000</pubDate>
 </item>
 <item>
 <title>Fact Check Team: GTA VI generates $3.79 billion in first-day sales</title>
@@ -689,19 +703,5 @@
 <guid isPermaLink="false">rss-dd7ceeb54c7ccb0d</guid>
 <description>This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
 <pubDate>Mon, 23 Nov 2026 16:05:00 +0000</pubDate>
-</item>
-<item>
-<title>GTA VI PC Ports May Be Coming Via Xbox Emulators</title>
-<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1TMXRFb2JIcnhtbmdWVDdQWHdXTFZaWTVQWThsaGNrRWtOV2swaW90aExsR3JlY1Y0WmZQSVdXSUNMNDgyVzNOTHhPV3hGdjZ3XzcwVlp3SUF2M3hxSHZrbTJBY0dSaGs?oc=5</link>
-<guid isPermaLink="false">x-930f35dc94604323</guid>
-<description>Indexed social post about emulator and console compatibility development; the original claim has not been verified. Why it matters: An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.</description>
-<pubDate>Mon, 23 Nov 2026 16:01:31 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 Xbox build has been leaked and dumped it seems. Wild stuff.</title>
-<link>https://news.google.com/rss/articles/CBMiZkFVX3lxTE16bnJNckRaekthYmYwZjBMNVVBSnlSTGl1M1hBbUFQZlBLVjNIMzZTdlk5eG4yVG9mQW1lbHVYaG1VWFl4MzgxaHRVNVZYZnBCbnJ2Z2gzVmJMMFc2WnpBRXpkUi1CZw?oc=5</link>
-<guid isPermaLink="false">x-7ec7337993ce85e8</guid>
-<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Mon, 23 Nov 2026 16:00:53 +0000</pubDate>
 </item>
 </channel></rss>

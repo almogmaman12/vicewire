@@ -1,15 +1,15 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-23T20:44:23.765892Z",
+    "checked_at": "2026-11-23T20:45:26.930904Z",
     "fetches_ok": 58,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 60,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 1263,
-    "publishers_seen": 101,
+    "new_items_seen": 1258,
+    "publishers_seen": 100,
     "crawler": {
       "feeds_attempted": 6,
       "feeds_ok": 4,
@@ -17,12 +17,29 @@
       "blocked_robots": 1,
       "fetch_failures": 2,
       "blocked_publishers": 1,
-      "checked_at": "2026-11-23T20:44:23.765892Z",
+      "checked_at": "2026-11-23T20:45:26.930904Z",
       "method": "Allowlisted publisher RSS, robots.txt and brief page excerpts (not fact-checking)"
     },
     "crawler_coverage": "Short publisher excerpts only; no automatic verification"
   },
   "articles": [
+    {
+      "id": "git-r0y00-xbox2windows-3174eb3ac63b",
+      "title": "Xbox2Windows: Merge pull request #997 from R0Y00/codex/runtime-placeholder-interior",
+      "published": "2026-11-23T20:44:45Z",
+      "source": "Xbox2Windows / GitHub",
+      "url": "https://github.com/R0Y00/Xbox2Windows/commit/3174eb3ac63b2faf6c364b096450eb5e88cfcac2",
+      "summary": "The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run.",
+      "why_it_matters": "Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.",
+      "verification": "First-party GitHub commit metadata; no verified game compatibility implied",
+      "credibility": "developer",
+      "categories": [
+        "recompilation",
+        "emulation",
+        "pc"
+      ],
+      "origin": "git"
+    },
     {
       "id": "rss-e30746f5c976fe5d",
       "title": "GTA 6 update fixes crashes, autosaving and story-progress bugs",
@@ -36,6 +53,24 @@
       "credibility": "coverage",
       "categories": [
         "game"
+      ],
+      "origin": "rss",
+      "headline_only": true
+    },
+    {
+      "id": "rss-9d91410d7ff08447",
+      "title": "Cyberleek Releases Missing GTA 6 Xbox Executable",
+      "published": "2026-11-23T20:37:00Z",
+      "source": "www.suaralandak.co.id",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9nNk5MaVctZzdXYzJxQXhQanNYSHlpcmRMU0pibC1EWTVtSFF2ZnMyYnNoMmFaM3BiVUI5R3RfQ05xWnhQOFhhdnVYa1dPTzNzT09HMzZXSnN2bEU5ZFBscDJ4VW1sdnZjZlFaems1RlY?oc=5",
+      "publisher_url": "https://www.suaralandak.co.id",
+      "summary": "Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc",
+        "piracy"
       ],
       "origin": "rss",
       "headline_only": true
@@ -3312,6 +3347,24 @@
       "origin": "x-index"
     },
     {
+      "id": "rss-37c1aceb35a650a4",
+      "title": "Here's how to steal the Schafter V12 in GTA 6",
+      "published": "2026-11-23T13:08:09Z",
+      "source": "PC Gamer",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1CWXg5M2REX2xDQTlaMEhOOEJ2V1ltQzNHM01CS0xjQmV3amV1UzcyMEx3NEk3RUdEQkY5bW1OZmgyTkJzdF9QMWVSWno1eHJSdmNYUTJYOEpDN2ZpYzZOYzRaeGE4NnZRMVdyTGZFUzA3Z0ho?oc=5",
+      "publisher_url": "https://www.pcgamer.com",
+      "summary": "Publisher headline about the future PC version of GTA VI. Open the source for the details.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "pc"
+      ],
+      "origin": "rss",
+      "headline_only": true
+    },
+    {
       "id": "rss-96f5e9d37918a25e",
       "title": "GTA 6: All 35 requirements to unlock the ‘A Long Road’ trophy",
       "published": "2026-11-23T13:05:40Z",
@@ -3517,55 +3570,6 @@
       "source": "Cleveland.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPN0w0a3JfRHhMUXlyX2x2SVloY0NUZFYyZm9EUndVdUhYcnZ3LUhHYlp0cHlTMmNkSmtwdXNlYVZBd200RFU3X1lKZFlpYVZMVG44TGhsdFNQRV9LQUxwWXhVNkNZVmlJX3pRelZMZTN4c3FJNmNPUGQ5UkhPV2Mta2lTbDBobVA0b29mMzZUVmhJTHdfNlMtMzQtdWNpbWw4SXBDR2U1SVFXcE1vdHhIcHFDNHhjS2kyNjhBQ2RhN1hzUEw3WkhfRjdjeW0?oc=5",
       "publisher_url": "https://www.cleveland.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "crawl-df7c0602e2faae4acf",
-      "title": "First GTA VI Patch Release Time Revealed, Download Size Confirmed",
-      "url": "https://rockstarintel.com/first-gta-vi-patch-release-time-revealed-download-size-confirmed/",
-      "published": "2026-11-23T11:53:46Z",
-      "source": "Rockstar Intel",
-      "summary": "From the publisher (publisher article excerpt): Rockstar Games have released their first post-launch patch for Grand Theft Auto VI on PlayStation 5 and XBOX Series X|S. However, some players will have to wait before being able to download it. On…",
-      "why_it_matters": "This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.",
-      "verification": "Automatically fetched from the publisher page with robots.txt checks. Excerpt is not independently fact-checked.",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "web-crawl",
-      "headline_only": false,
-      "excerpt_method": "publisher article excerpt"
-    },
-    {
-      "id": "rss-467d171fea32bfe2",
-      "title": "Grand Theft Auto VI review — Scarface meets The Sims in a giant leap forward for gaming - Financial Times",
-      "published": "2026-11-23T11:53:22Z",
-      "source": "Financial Times",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5yZmJ4YnE2UVE4OU12Wk1rdFBCY2pJellLelhNYmlBU25KTUlmcmdpVmlfeGdsMTIzWnZXeWhjbTlOd1hPelV4eTdkVEw5MFNjX3ozOURCMmVnOE9CNy13eE50UnNQLTZHZUNYa0RVUE0?oc=5",
-      "publisher_url": "https://www.ft.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-20987ad286a3a305",
-      "title": "How To Get A Key Cloner In GTA 6 - GameSpot",
-      "published": "2026-11-23T11:48:20Z",
-      "source": "GameSpot",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5yV3F1WEM3ZFRtNFI4d2Q2cER1ajM1UW1pTUJjd0xQNUl2V2xUcmdHalloQlhTRElTOGJaejB1aUc3cGFmdlVVMlF1eHVNc1FSbVhhZWVuaUdmZ0s5UEdoblJ3dVhDYkM4amRmMWxEMDFXMU5CV0E?oc=5",
-      "publisher_url": "https://www.gamespot.com",
       "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
       "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
       "verification": "Automated publisher headline; the full article has not been independently fact-checked",
@@ -4425,13 +4429,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 30496,
-        "open_issues": 4503,
+        "stars": 30522,
+        "open_issues": 4514,
         "last_push": "2026-11-23T20:34:39Z",
         "last_commit": "2026-11-23T20:34:37Z",
         "last_commit_title": "xgameruntime: export XErrorReport, which XGameRuntimeInitialize requires",
         "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/6312c057f88f5627108643e3e1f572d18232c8d2",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     },
     {
@@ -4452,7 +4456,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     },
     {
@@ -4468,12 +4472,12 @@
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
         "stars": 60928,
-        "open_issues": 2858,
+        "open_issues": 2845,
         "last_push": "2026-11-23T20:32:26Z",
         "last_commit": "2026-11-23T20:32:25Z",
         "last_commit_title": "Merge pull request #25892 from MarrasFederico/test/libressl3-wycheproof-rsa-pkcs1",
         "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/2b09db6f114eda877c347a59f138f777cad7ef96",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     },
     {
@@ -4494,7 +4498,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     },
     {
@@ -4515,7 +4519,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     },
     {
@@ -4531,12 +4535,12 @@
       "progress_url": "",
       "github": {
         "stars": 1479,
-        "open_issues": 73,
-        "last_push": "2026-11-23T20:42:27Z",
-        "last_commit": "2026-11-23T20:40:23Z",
-        "last_commit_title": "Merge pull request #946 from stan495/codex/gfx1030-ds-add-f32",
-        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/da1c4473f8e2a87a61edf9f18977c4d244b2f677",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "open_issues": 72,
+        "last_push": "2026-11-23T20:44:45Z",
+        "last_commit": "2026-11-23T20:44:45Z",
+        "last_commit_title": "Merge pull request #997 from R0Y00/codex/runtime-placeholder-interior",
+        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/3174eb3ac63b2faf6c364b096450eb5e88cfcac2",
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     },
     {
@@ -4557,7 +4561,7 @@
         "last_commit": "2026-11-23T12:55:46Z",
         "last_commit_title": "ci: run the progress tooling tests",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/826d2839b9edcf4bc9d86ae8d18b653e1bcd7bb7",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     },
     {
@@ -4578,7 +4582,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-23T20:44:23.765892Z"
+        "checked_at": "2026-11-23T20:45:26.930904Z"
       }
     }
   ]
