@@ -153,5 +153,41 @@
     ],
     "origin": "curated",
     "featured": true
+  },
+  {
+    "id": "security-netcraft-fake-cyberleek-2026-11",
+    "title": "Netcraft: fake GTA VI and Cyberleek-branded downloads can carry malware",
+    "published": "2026-11-03T12:00:00Z",
+    "source": "Netcraft Research",
+    "url": "https://www.netcraft.com/blog/how-attackers-are-capitalizing-on-the-hype-around-the-grand-theft-auto-vi-release",
+    "summary": "Netcraft documented fraudulent GTA VI downloads, including a fake Cyberleek-branded executable flagged by 34 of 68 security engines. This sample is not established to be Cyberleek's claimed November 23 release.",
+    "why_it_matters": "Copycat sites are an active malware risk. Safety claims about any newly reported file need a specific hash and independent technical analysis.",
+    "verification": "Original Netcraft malware research. Distinct copycat download, not independent testing of the promised Xbox executable.",
+    "credibility": "coverage",
+    "categories": [
+      "security",
+      "piracy",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
+    "id": "security-bitdefender-gta6-client-2026-11",
+    "title": "Bitdefender: fake GTA VI PC client distributes malware",
+    "published": "2026-11-20T12:00:00Z",
+    "source": "Bitdefender Labs",
+    "url": "https://www.bitdefender.com/en-us/blog/labs/fake-gta-vi-pc-client-malware-clickfix",
+    "summary": "Bitdefender researchers found a fake GTA VI PC client delivering malware via deceptive execution techniques. It was a separate fake client, not a verified test of Cyberleek's alleged executable.",
+    "why_it_matters": "A convincing launcher, comments or a single clean antivirus result are not assurances of safety.",
+    "verification": "Original Bitdefender Labs analysis of a separate sample, November 20, 2026.",
+    "credibility": "coverage",
+    "categories": [
+      "security",
+      "piracy",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": true
   }
 ]

@@ -38,7 +38,7 @@ RETENTION_DAYS = 90
 MAX_ARTICLES = 250
 EDITORIAL = ROOT / 'scripts/editorial.json'
 # Keep niche PC, leak and developer coverage from being displaced by the busiest generic news query.
-CATEGORY_MINIMUMS = {'pc': 35, 'recompilation': 18, 'emulation': 16, 'piracy': 30, 'official': 18, 'social': 12}
+CATEGORY_MINIMUMS = {'pc': 35, 'recompilation': 18, 'emulation': 16, 'piracy': 30, 'security': 24, 'official': 18, 'social': 12}
 
 # Google News aggregates independent publishers and primary-source indexing.
 # This deliberately monitors the RELEASED game too, not just its PC port.
@@ -65,6 +65,12 @@ QUERIES = [
     ('"Cyberleek" "GTA 6" when:30d', ['piracy','pc'], 'news'),
     ('"GTA 6" leaked build executable files when:30d', ['piracy'], 'news'),
     ('"GTA VI" crack unofficial port piracy when:30d', ['piracy','pc'], 'news'),
+    # Security follow-ups: indexed reports, never automatic proof that any binary is safe.
+    ('"Cyberleek" exe malware security analysis when:7d', ['security','piracy','pc'], 'news'),
+    ('"GTA VI" fake PC malware site:bitdefender.com when:30d', ['security','piracy'], 'news'),
+    ('"GTA 6" fake download site:netcraft.com when:30d', ['security','piracy'], 'news'),
+    ('"Cyberleek" executable independently tested malware when:14d', ['security','piracy'], 'news'),
+    ('"GTA VI" malicious PC launcher analysis when:14d', ['security','piracy','pc'], 'news'),
     # Indexed public X links, NOT a comprehensive live X feed (requires X access).
     ('site:x.com/RockstarGames "GTA" when:30d', ['official','social'], 'x-index'),
     ('site:x.com/RockstarSupport "Grand Theft Auto VI" when:30d', ['social','game'], 'x-index'),
@@ -78,7 +84,7 @@ QUERIES = [
 USER_AGENT = 'VICEWIRE/2.0 (public information aggregator; contact via repository issues)'
 RELEVANT = re.compile(r'\b(?:gta\s*(?:6|vi)|grand theft auto\s*(?:6|vi)|cyberleek|leonida\s+(?:recomp|port)|scarlettx)\b', re.I)
 BAD = re.compile(r'\b(?:free download|download now|download gta\s*(?:6|vi)|torrent download|full game download|direct download link)\b', re.I)
-CATS = ('game','official','pc','recompilation','emulation','piracy','social')
+CATS = ('game','official','pc','recompilation','emulation','piracy','social','security')
 DEV_WORDS = re.compile(r'\b(?:gta|shader|gpu|rdna|spirv|vulkan|xbox|ps5|loader|runtime|recompil|emulat|compatib|rpf|boot|graphic|kernel|api|audio|render|game)\b', re.I)
 
 

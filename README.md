@@ -33,6 +33,14 @@ VICEWIRE is an **independent, fan-made news tracker**. It brings together offici
 
 You can also [follow VICEWIRE with an RSS reader](https://almogmaman12.github.io/vicewire/subscribe.html) instead of keeping the page open. The subscription guide shows a readable headline preview and a copyable feed URL. The [raw XML feed](https://almogmaman12.github.io/vicewire/data/feed.xml) is still available for RSS apps and integrations.
 
+## Cyberleek timer and security watch
+
+VICEWIRE's Cyberleek panel has a countdown based on a shared TikTok screenshot showing **November 23, 2026, at 23:00**. The timezone is unknown; the clock uses the viewer's device-local timezone as a labeled estimate. Countdown completion is **not** confirmation of an actual release.
+
+The **Security reports** feed filter follows independent coverage, and the safety panel links to Netcraft and Bitdefender investigations into *different fake GTA VI download malware*. Those investigations are not a safety assessment of the particular promised executable. The news collector refreshes roughly every three hours, but no automated headline can declare an executable safe.
+
+Stronger evidence requires a specific binary hash, independently published malware analysis, and corroborating technical findings. Comments, screenshots and a clean antivirus scan do not prove safety. VICEWIRE does not host download links or game archives.
+
 ## What do the evidence labels mean?
 
 This distinction is the most important part of the project.

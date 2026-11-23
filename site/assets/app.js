@@ -73,7 +73,6 @@
     if ($('#source-total')) $('#source-total').textContent = `${(state.data?.articles || []).length} linked stories · ${(state.data?.projects || []).length} repositories`;
     const cyber = (state.data?.articles || []).filter(a => /cyberleek/i.test(a.title));
     if ($('#leak-activity') && cyber.length) $('#leak-activity').textContent = `Latest Cyberleek-related headline: ${cyber[0].title} (${day(cyber[0].published)}). Read the feed for the source and evidence notes.`;
-    if ($('#leak-promise-note') && Date.now() >= Date.parse('2026-11-24T00:00:00Z')) $('#leak-promise-note').textContent = ' The promised date has passed. Check the latest linked reports before assuming anything was released.';
     if (location.protocol === 'file:') { $('#top-updated').textContent += ' · LOCAL SNAPSHOT'; if ($('#source-health')) $('#source-health').textContent = 'Local snapshot (not live)'; }
     // A manually verified release-date snapshot must not masquerade as a permanent live claim.
     if (Date.now() - Date.parse('2026-11-22T00:00:00Z') > 14 * 86400000) {

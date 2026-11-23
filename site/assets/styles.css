@@ -29,3 +29,12 @@ body{font-size:15px;line-height:1.65;letter-spacing:-.005em}.grain{opacity:.035}
 .briefing-source span{color:var(--orange)}
 @media(max-width:1000px){.briefing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:640px){.briefing-grid{grid-template-columns:1fr}.briefing-section{padding-bottom:50px}.briefing-card{padding:22px}}
+
+/* Claim tracker: never equate a countdown with release or safety. */
+.claim-clock-panel,.claim-safety{margin:24px 0;padding:23px;border-radius:12px;border:1px solid #986079;background:linear-gradient(125deg,#291b34,#121525 85%)}.claim-clock-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;font:800 11px var(--mono);color:#ffb49c;letter-spacing:.04em}
+.claim-clock-panel h4,.claim-safety h4{font:900 clamp(24px,3vw,37px)/1.12 var(--font-head);margin:18px 0 9px;color:#fff}
+.claim-time{font:700 11px var(--mono);color:#f9b29d}
+.claim-clock{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:11px;margin:22px 0}.claim-clock>div{display:flex;flex-direction:column;gap:8px;align-items:center;padding:17px 2px;border:1px solid #82556e;background:#141321;border-radius:7px}
+.claim-clock strong{font:900 clamp(31px,4.8vw,59px)/1 var(--font-head);font-variant-numeric:tabular-nums;color:#ffae92}.claim-clock small{font:800 10px var(--mono);color:#c8b6c6}.claim-clock-status{font:800 12px var(--mono);color:#ffdbb2}
+.claim-clock-panel>p,.claim-safety>p{font-size:13px;line-height:1.8;color:#c9bfcb}.claim-clock-panel>p strong,.claim-safety>p strong{color:#fff}.claim-links{display:flex;gap:19px;flex-wrap:wrap}.claim-links a,.claim-security-link{font-size:12px;color:#ffba9e;font-weight:800}.claim-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:22px 0}.claim-source-grid>a{display:flex;flex-direction:column;gap:11px;border:1px solid #664b60;background:#191923;border-radius:8px;padding:17px}.claim-source-grid>a:hover{border-color:#ffb69c}.claim-source-grid small{font:700 10px var(--mono);color:#f1b0b8}.claim-source-grid strong{font-size:15px;color:#fff}.claim-source-grid span{font-size:12px;line-height:1.7;color:#c3b7c5}.claim-safety .claim-disclaimer{font-size:11px;color:#e1adb6}.claim-security-link{display:inline-block;margin-top:4px}
+@media(max-width:960px){.claim-source-grid{grid-template-columns:1fr}}@media(max-width:640px){.claim-clock-panel,.claim-safety{padding:17px}.claim-clock{gap:6px}.claim-clock strong{font-size:clamp(25px,7vw,40px)}.claim-clock small{font-size:8px}}
