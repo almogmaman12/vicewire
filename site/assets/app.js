@@ -14,6 +14,7 @@
   function card(a, i) {
     const badge = a.credibility === 'official' ? 'verified' : a.credibility === 'developer' ? 'developer' : a.credibility === 'rumor' ? 'rumor' : a.credibility === 'social' ? 'social' : 'report';
     const domain = a.source || 'Unknown source';
+    const isCrawled = a.origin === 'web-crawl';
     const categories = Array.isArray(a.categories) ? a.categories : [];
     const isIndexed = a.origin === 'rss' || a.origin === 'x-index' || a.headline_only === true;
     const isSocial = a.credibility === 'social';
@@ -24,7 +25,7 @@
     const isRecent = !Number.isNaN(publishedAt.getTime()) && Date.now() - publishedAt.getTime() >= 0 && Date.now() - publishedAt.getTime() < 24 * 3600000;
     return `<a class="news-card ${i===0?'feature':''} ${isIndexed?'indexed-story':''}" href="${el(validURL(a.url))}" target="_blank" rel="noopener noreferrer" aria-label="Read original source: ${el(a.title)}">
       <div class="news-number">${String(i+1).padStart(2,'0')}<span class="news-date">${el(day(a.published))}</span></div>
-      <div class="news-content"><div class="news-meta"><span class="badge ${badge}">${el(TYPE[a.credibility]||'COVERAGE')}</span><span>${el(domain)}</span>${isRecent?'<span class="news-fresh">NEW · 24H</span>':''}<span>·</span><span>${el(categories[0]||'NEWS')}</span></div>
+      <div class="news-content"><div class="news-meta"><span class="badge ${badge}">${el(TYPE[a.credibility]||'COVERAGE')}</span><span>${el(domain)}</span>${isCrawled?'<span class="news-fresh">PUBLISHER EXCERPT</span>':''}${isRecent?'<span class="news-fresh">NEW · 24H</span>':''}<span>·</span><span>${el(categories[0]||'NEWS')}</span></div>
       <h3>${el(a.title)}</h3>${summary}${details}</div><span class="news-arrow">↗</span></a>`;
   }
   function renderReaderIntro() {
@@ -34,7 +35,9 @@
     const latestEvidence = curated.filter(a => a.credibility !== 'official').sort((a,b)=>(b.published||'').localeCompare(a.published||''))[0];
     const checked = state.data?.metadata?.checked_at;
     const fresh = articles.filter(a => Date.now() - Date.parse(a.published) < 24*3600000 && Date.now() - Date.parse(a.published) >= 0).length;
-    $('#news-reader-checked').textContent = `${articles.length} linked stories · ${fresh} posted in 24h · ${curated.length} reviewed`;
+    const excerptCount = articles.filter(a => a.origin === 'web-crawl').length;
+    const crawler = state.data?.metadata?.crawler;
+    $('#news-reader-checked').textContent = `${articles.length} stories · ${curated.length} reviewed · ${excerptCount} publisher excerpts${crawler ? ' · ' + crawler.feeds_ok + '/' + crawler.feeds_attempted + ' RSS feeds checked' : ''}`;
     const picks = [{a:latestOfficial,label:'LATEST REVIEWED OFFICIAL UPDATE'},{a:latestEvidence,label:'OTHER REVIEWED CONTEXT'}].filter(x=>x.a);
     $('#news-reader-highlights').innerHTML = picks.map(({a,label})=>`<a class="reader-highlight" href="${el(validURL(a.url))}" target="_blank" rel="noopener noreferrer">
       <small>${el(label)} · ${el(day(a.published))}</small><strong>${el(a.title)}</strong><span>${el(a.summary||'Read the original source.')}</span><em>${el(a.source)} ↗</em></a>`).join('') || '<p>No reviewed stories available in this snapshot.</p>';
@@ -44,6 +47,7 @@
       const cat = state.category === 'all' || (state.category === 'official' ? a.credibility === 'official' : state.category === 'social' ? a.credibility === 'social' : (a.categories||[]).includes(state.category));
       const scope = state.scope === 'all'
         || (state.scope === 'reviewed' && a.origin === 'curated')
+        || (state.scope === 'crawled' && a.origin === 'web-crawl')
         || (state.scope === 'primary' && ['official','developer'].includes(a.credibility))
         || (state.scope === 'reporting' && a.credibility === 'coverage');
       const search = !state.q || `${a.title} ${a.summary} ${a.why_it_matters} ${a.verification} ${a.source} ${(a.categories||[]).join(' ')}`.toLowerCase().includes(state.q);

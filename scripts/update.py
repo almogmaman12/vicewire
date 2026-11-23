@@ -20,6 +20,10 @@ import html
 import json
 import os
 from pathlib import Path
+import sys
+# Also works when update.py is loaded directly by the unit test suite.
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from crawler import Crawler
 import re
 import time
 from urllib.parse import quote, urlparse
@@ -298,6 +302,7 @@ def main(offline: bool = False) -> None:
     updates = []
     success = 0
     errors = []
+    crawler_stats = None
     if not offline:
         for query, cats, kind in QUERIES:
             url = 'https://news.google.com/rss/search?q='+quote(query)+'&hl=en-US&gl=US&ceid=US:en'
@@ -316,10 +321,30 @@ def main(offline: bool = False) -> None:
                 if entry: updates.append(entry)
             else:
                 errors.append('GitHub fetch failed: '+project.get('repo','?'))
+    if not offline:
+        # Direct publisher RSS discovery: conservative robots.txt-first crawl.
+        # No paywall bypass, untrusted hosts, binaries or remote JS execution.
+        try:
+            collector = Crawler(NOW)
+            direct_articles, crawler_stats = collector.collect(existing=old, max_articles=8)
+            updates.extend(direct_articles)
+            success += crawler_stats.get('feeds_ok', 0)
+            print(f"Publisher crawler: {len(direct_articles)} new short excerpts from "
+                  f"{crawler_stats.get('feeds_ok', 0)} feeds; "
+                  f"{crawler_stats.get('blocked_robots', 0)} robots denials")
+        except Exception as exc:
+            crawler_stats = {'feeds_attempted': 0, 'feeds_ok': 0, 'articles_crawled': 0,
+                             'blocked_robots': 0, 'fetch_failures': 1}
+            errors.append('Publisher crawler error: ' + str(exc)[:140])
+            print(f'Publisher crawler error: {exc}')
     seen_titles, seen_ids = set(), set()
     deduplicated = []
     # Curated source-based context wins over repetitive syndicated headlines.
-    for a in curated + sorted(existing + updates,key=lambda a:a.get('published',''),reverse=True):
+    # Prefer direct publisher-page excerpts over duplicate search-engine headlines.
+    # Preserve all other headlines if the crawler cannot reach a publisher.
+    crawled = [a for a in existing + updates if a.get('origin') == 'web-crawl']
+    other = [a for a in existing + updates if a.get('origin') != 'web-crawl']
+    for a in curated + sorted(crawled,key=lambda a:a.get('published',''),reverse=True) + sorted(other,key=lambda a:a.get('published',''),reverse=True):
         key = titlekey(a.get('title',''))
         if not a.get('id') or not a.get('title') or not a.get('url') or not a.get('published'):
             continue
@@ -360,6 +385,14 @@ def main(offline: bool = False) -> None:
         data['metadata']['errors'] = errors[:30]
         data['metadata']['x_method'] = 'Google News indexed public X posts; incomplete by nature'
         data['metadata']['new_items_seen'] = len(updates)
+        data['metadata']['crawler'] = {
+            **(crawler_stats or {}),
+            'checked_at': NOW.isoformat().replace('+00:00', 'Z'),
+            'method': 'Allowlisted publisher RSS, robots.txt and brief page excerpts (not fact-checking)',
+        }
+        data['metadata']['sources_attempted'] += (crawler_stats or {}).get('feeds_attempted', 0)
+        # Show crawler feed outcomes separately from its article page requests.
+        data['metadata']['crawler_coverage'] = 'Short publisher excerpts only; no automatic verification'
         data['metadata']['publishers_seen'] = len({a.get('source','').casefold() for a in data['articles'] if a.get('source') and a.get('origin') in ('rss','x-index')})
     OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     BOOTSTRAP.write_text('window.__VICEWIRE_DATA__ = '+json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';\n',encoding='utf-8')

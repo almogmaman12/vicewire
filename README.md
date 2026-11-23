@@ -95,6 +95,19 @@ If a feed fails, the site retains earlier information where possible and records
 - **Suggested repository description:** `Independent GTA 6 news, PC release & emulation tracker with source-checked reports, GitHub developer radar and free RSS updates.`
 - **Suggested GitHub topics:** `gta-6`, `gta-vi`, `rockstar-games`, `gaming-news`, `emulation`, `rss`, `github-pages`. Repository owners can add these through the GitHub **About** settings.
 
+## Lightweight publisher crawler (free)
+
+In addition to Google News search headlines, `scripts/crawler.py` checks direct RSS feeds from **VGC, Rockstar Intel, PC Gamer and GameSpot**. On each scheduled run, it may read up to **eight new recent articles** (maximum three per publisher host) to extract a **short, credited excerpt**. These articles link to the publisher's actual page, not a Google News wrapper.
+
+The crawler:
+- Uses **only the Python standard library**. No LLM subscription, proxy service, API keys, or paid hosting.
+- Checks `robots.txt` for each feed and article, skips blocked content, limits requests to the named publisher hosts, follows only HTTPS redirects to approved hosts, and enforces a per-host delay and response-size ceiling.
+- Does **not** bypass paywalls, scrape sites that disallow it, run JavaScript, scan executable downloads, or automatically certify claims as safe or official.
+- Keeps only a **brief excerpt**. A publisher excerpt is *not* an AI fact-check or a complete summary. Readers should open the original report.
+- Records `metadata.crawler` counts for feed health, successful article excerpts, skipped robots rules, and request failures. Individual publishers can refuse access or have an incompatible feed; the broader news collector still works.
+
+To test offline: `python -m unittest discover -s tests -v`. You can edit the strictly limited feed allowlist in `scripts/crawler.py` to adjust trusted news sources.
+
 ## Running your own copy
 
 You need **Python 3.10+**. The collector uses Python's standard library; there is no `pip install` step.
@@ -135,6 +148,7 @@ site/
   data/feed.xml         RSS feed
 scripts/
   update.py             RSS + GitHub source collector
+  crawler.py            Robots-aware publisher RSS and page excerpts
   editorial.json        Manually reviewed story entries
 tests/
   test_update.py        Collector and trust-label checks
