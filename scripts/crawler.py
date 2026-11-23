@@ -27,6 +27,8 @@ FEEDS = (
     ("Rockstar Intel", "https://rockstarintel.com/feed/"),
     ("PC Gamer", "https://www.pcgamer.com/feeds.xml"),
     ("GameSpot", "https://www.gamespot.com/feeds/mashup/"),
+    ("DSOGaming", "https://www.dsogaming.com/feed/"),
+    ("BleepingComputer", "https://www.bleepingcomputer.com/feed/"),
 )
 # Exact hostname matches, not loose suffix tests.
 ALLOWED_HOSTS = frozenset({
@@ -34,12 +36,17 @@ ALLOWED_HOSTS = frozenset({
     "rockstarintel.com", "www.rockstarintel.com",
     "pcgamer.com", "www.pcgamer.com",
     "gamespot.com", "www.gamespot.com",
+    "dsogaming.com", "www.dsogaming.com",
+    "bleepingcomputer.com", "www.bleepingcomputer.com",
 })
 TITLE_RE = re.compile(
     r"\b(?:gta\s*(?:6|vi)|grand theft auto\s*(?:6|vi)|cyberleek|"
     r"leonida\s+(?:recompilation|shader|port)|scarlettx)\b", re.I
 )
 BAD_RE = re.compile(r"\b(?:free\s+download|download\s+now|torrent\s+download|crack\s+download)\b", re.I)
+# A news tracker should not flood its front page with character guides,
+# chapter walkthroughs or SEO filler just because those are new articles.
+LOW_SIGNAL_RE = re.compile(r"\b(?:walkthrough|mission guide|how to find|where to find|who plays|tips and tricks|cheat codes|collectibles guide)\b", re.I)
 SKIP_DESCRIPTION = re.compile(r"(?:subscribe to our newsletter|sign up for our newsletter|enable javascript)", re.I)
 
 
@@ -135,7 +142,7 @@ class ArticleHTML(HTMLParser):
     def choose_excerpt(self) -> tuple[str, str] | None:
         # Prefer article paragraphs when a page exposes an <article> element.
         if self.paragraphs:
-            return excerpt(self.paragraphs[0]), "publisher article excerpt"
+            return excerpt(" ".join(self.paragraphs[:2])), "publisher article excerpt"
         for key in ("og:description", "description", "twitter:description"):
             value = self.metadata.get(key, "")
             if len(value) >= 45 and not SKIP_DESCRIPTION.search(value):
@@ -160,7 +167,7 @@ def parse_feed(raw: bytes, publisher: str, now: datetime) -> list[dict]:
                 if elem.get("rel", "alternate") == "alternate":
                     link = elem.get("href", "")
                     break
-        if not link or not safe_url(link) or not TITLE_RE.search(title) or BAD_RE.search(title):
+        if not link or not safe_url(link) or not TITLE_RE.search(title) or BAD_RE.search(title) or LOW_SIGNAL_RE.search(title):
             continue
         published = date_iso(node.findtext("pubDate") or node.findtext("{http://purl.org/dc/elements/1.1/}date")
                              or node.findtext("{http://www.w3.org/2005/Atom}published")
@@ -186,7 +193,7 @@ class Crawler:
         self.robots: dict[str, RobotFileParser | bool] = {}
         self.last_request: dict[str, float] = {}
         self.stats = {"feeds_attempted": 0, "feeds_ok": 0, "articles_crawled": 0,
-                      "blocked_robots": 0, "fetch_failures": 0}
+                      "blocked_robots": 0, "fetch_failures": 0, "blocked_publishers": 0}
 
     def _request(self, url: str, limit: int, accept: str) -> tuple[bytes, str]:
         if not safe_url(url):
@@ -244,7 +251,7 @@ class Crawler:
             if not self.allowed(feed_url):
                 continue
             try:
-                raw, _ = self._request(feed_url, 1_200_000, "application/rss+xml, application/atom+xml, text/xml")
+                raw, _ = self._request(feed_url, 2_800_000, "application/rss+xml, application/atom+xml, text/xml")
                 entries = parse_feed(raw, publisher, self.now)
                 candidates.extend(entries[:10])
                 self.stats["feeds_ok"] += 1
@@ -252,13 +259,13 @@ class Crawler:
                 self.stats["fetch_failures"] += 1
                 print(f"[crawler] Feed unavailable ({publisher}): {exc}")
         candidates.sort(key=lambda a: a["published"], reverse=True)
-        results, per_host, visited = [], {}, set()
+        results, per_host, visited, blocked_hosts = [], {}, set(), set()
         for item in candidates:
             if len(results) >= max_articles:
                 break
             url = item["url"]
             host = urlparse(url).hostname
-            if url in previously or url in visited or per_host.get(host, 0) >= 3:
+            if url in previously or url in visited or host in blocked_hosts or per_host.get(host, 0) >= 3:
                 continue
             visited.add(url)
             if not self.allowed(url):
@@ -296,7 +303,14 @@ class Crawler:
                 })
                 per_host[host] = per_host.get(host, 0) + 1
                 self.stats["articles_crawled"] += 1
-            except (HTTPError, URLError, TimeoutError, OSError, ValueError) as exc:
+            except HTTPError as exc:
+                self.stats["fetch_failures"] += 1
+                if exc.code in (401, 403, 429):
+                    # Do not keep retrying a publisher that is refusing article access.
+                    blocked_hosts.add(host)
+                    self.stats["blocked_publishers"] += 1
+                print(f"[crawler] Article unavailable ({host}): {exc}")
+            except (URLError, TimeoutError, OSError, ValueError) as exc:
                 self.stats["fetch_failures"] += 1
                 print(f"[crawler] Article unavailable ({host}): {exc}")
         return results, dict(self.stats)

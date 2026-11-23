@@ -23,7 +23,7 @@ from pathlib import Path
 import sys
 # Also works when update.py is loaded directly by the unit test suite.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from crawler import Crawler
+from crawler import Crawler, LOW_SIGNAL_RE
 import re
 import time
 from urllib.parse import quote, urlparse
@@ -298,7 +298,8 @@ def main(offline: bool = False) -> None:
     # Unlike automatically indexed headlines, these entries carry editorial verification.
     review = json.loads(EDITORIAL.read_text(encoding='utf-8')) if EDITORIAL.exists() else []
     curated = review + [a for a in old if a.get('origin') == 'curated' and a.get('id') not in {item.get('id') for item in review}]
-    existing = [a for a in old if a.get('origin') != 'curated']
+    existing = [a for a in old if a.get('origin') != 'curated'
+                and not (a.get('origin') == 'web-crawl' and LOW_SIGNAL_RE.search(a.get('title', '')))]
     updates = []
     success = 0
     errors = []

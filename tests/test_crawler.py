@@ -59,6 +59,45 @@ class CrawlTests(unittest.TestCase):
         </item></channel></rss>"""
         self.assertEqual(crawler.parse_feed(rss, "Rockstar Intel", self.NOW), [])
 
+    def test_walkthroughs_are_excluded_from_news(self):
+        rss = b"""<rss><channel><item>
+        <title>GTA 6 Chapter 3 mission walkthrough</title>
+        <link>https://www.videogameschronicle.com/guide/gta-vi-walkthrough/</link>
+        <pubDate>Mon, 23 Nov 2026 20:00:00 GMT</pubDate>
+        </item></channel></rss>"""
+        self.assertEqual(crawler.parse_feed(rss, "VGC", self.NOW), [])
+
+    def test_refused_host_does_not_trigger_more_requests(self):
+        from urllib.error import HTTPError
+        class Fake(crawler.Crawler):
+            def __init__(self):
+                super().__init__(CrawlTests.NOW, sleep=lambda _: None)
+                self.article_calls = 0
+            def allowed(self, url):
+                return True
+            def _request(self, url, limit, accept):
+                if url.endswith("/feed/"):
+                    return (b"""<rss><channel>
+                    <item><title>GTA 6 first report</title>
+                    <link>https://www.videogameschronicle.com/first/</link>
+                    <pubDate>Mon, 23 Nov 2026 20:00:00 GMT</pubDate></item>
+                    <item><title>GTA 6 second report</title>
+                    <link>https://www.videogameschronicle.com/second/</link>
+                    <pubDate>Mon, 23 Nov 2026 19:00:00 GMT</pubDate></item>
+                    </channel></rss>""", "text/xml")
+                self.article_calls += 1
+                raise HTTPError(url, 403, "Forbidden", None, None)
+        original = crawler.FEEDS
+        try:
+            crawler.FEEDS = (("VGC", "https://www.videogameschronicle.com/feed/"),)
+            c = Fake()
+            stories, stats = c.collect(max_articles=8)
+            self.assertEqual(stories, [])
+            self.assertEqual(c.article_calls, 1)
+            self.assertEqual(stats["blocked_publishers"], 1)
+        finally:
+            crawler.FEEDS = original
+
     def test_no_paywall_workarounds_or_remote_exec(self):
         self.assertFalse(crawler.safe_url("https://www.gamespot.com:8080/"))
         self.assertEqual(crawler.excerpt("A" * 500).__len__(), 200)

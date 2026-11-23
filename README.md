@@ -97,12 +97,13 @@ If a feed fails, the site retains earlier information where possible and records
 
 ## Lightweight publisher crawler (free)
 
-In addition to Google News search headlines, `scripts/crawler.py` checks direct RSS feeds from **VGC, Rockstar Intel, PC Gamer and GameSpot**. On each scheduled run, it may read up to **eight new recent articles** (maximum three per publisher host) to extract a **short, credited excerpt**. These articles link to the publisher's actual page, not a Google News wrapper.
+In addition to Google News search headlines, `scripts/crawler.py` checks direct RSS feeds from **VGC, Rockstar Intel, PC Gamer, GameSpot, DSOGaming and BleepingComputer**. On each scheduled run, it may read up to **eight new recent articles** (maximum three per publisher host) to extract a **short, credited excerpt**. These articles link to the publisher's actual page, not a Google News wrapper.
 
 The crawler:
 - Uses **only the Python standard library**. No LLM subscription, proxy service, API keys, or paid hosting.
 - Checks `robots.txt` for each feed and article, skips blocked content, limits requests to the named publisher hosts, follows only HTTPS redirects to approved hosts, and enforces a per-host delay and response-size ceiling.
 - Does **not** bypass paywalls, scrape sites that disallow it, run JavaScript, scan executable downloads, or automatically certify claims as safe or official.
+- Stops requesting articles from a publisher after access-denied or rate-limit responses, and excludes walkthroughs and other low-signal guides from the news feed.
 - Keeps only a **brief excerpt**. A publisher excerpt is *not* an AI fact-check or a complete summary. Readers should open the original report.
 - Records `metadata.crawler` counts for feed health, successful article excerpts, skipped robots rules, and request failures. Individual publishers can refuse access or have an incompatible feed; the broader news collector still works.
 
