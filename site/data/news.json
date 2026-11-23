@@ -1,15 +1,15 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-23T20:38:22.263858Z",
+    "checked_at": "2026-11-23T20:44:23.765892Z",
     "fetches_ok": 58,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 60,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 1271,
-    "publishers_seen": 100,
+    "new_items_seen": 1263,
+    "publishers_seen": 101,
     "crawler": {
       "feeds_attempted": 6,
       "feeds_ok": 4,
@@ -17,12 +17,29 @@
       "blocked_robots": 1,
       "fetch_failures": 2,
       "blocked_publishers": 1,
-      "checked_at": "2026-11-23T20:38:22.263858Z",
+      "checked_at": "2026-11-23T20:44:23.765892Z",
       "method": "Allowlisted publisher RSS, robots.txt and brief page excerpts (not fact-checking)"
     },
     "crawler_coverage": "Short publisher excerpts only; no automatic verification"
   },
   "articles": [
+    {
+      "id": "rss-e30746f5c976fe5d",
+      "title": "GTA 6 update fixes crashes, autosaving and story-progress bugs",
+      "published": "2026-11-23T20:43:49Z",
+      "source": "finchannel",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDVTQU9qemxmN2R1eGl2c2p6NmRYQWJhTV9CaWw3U0dvall1MG1XMzFNSG45a3YtcE1hUEhSOEwtclhDcGswM3NzdnBNbGZjSDJxSEpkR1lfQzl5VUFCTzNUcDljVEdCMklmTV84SVhVbldnUTRiQi1WOVB1dUpET3licWxINnR3M3FVQ0YtTHFseDZISHBwLXlBR3ZEQlhZNnJPUkNHOFl2Y0E?oc=5",
+      "publisher_url": "https://finchannel.com",
+      "summary": "Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss",
+      "headline_only": true
+    },
     {
       "id": "rss-3843ee352ea7085f",
       "title": "Fact Check Team: GTA VI generates $3.79 billion in first-day sales",
@@ -138,6 +155,24 @@
       "credibility": "coverage",
       "categories": [
         "pc"
+      ],
+      "origin": "rss",
+      "headline_only": true
+    },
+    {
+      "id": "rss-a7d9831d8e2a1c5f",
+      "title": "GTA 6 leaker reportedly releases file needed to run leaked Xbox build",
+      "published": "2026-11-23T20:00:00Z",
+      "source": "GameDev.net",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONmhWTnVmaVF5N0NDZzRlUnVQVC1IUERKM1pzck9iWUszbDRPcGxJVlZyUXZrSmVnVTZYdk9GVzJiNVdqRDVRSnBCVjBlVFl0ZjE5TG53eUVzWVR6VFprbU4wMHJ2eGpCRl9mQ0VaTWJnQWF3OFd3enlYS0gyalZfekFZelN6QXNNSXJDQUZPRkRxLVE5cG05WlhtVDh0Rlpqd1E?oc=5",
+      "publisher_url": "https://gamedev.net",
+      "summary": "Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc",
+        "piracy"
       ],
       "origin": "rss",
       "headline_only": true
@@ -265,24 +300,6 @@
         "social"
       ],
       "origin": "x-index",
-      "headline_only": true
-    },
-    {
-      "id": "rss-a7d9831d8e2a1c5f",
-      "title": "GTA 6 leaker reportedly releases file needed to run leaked Xbox build",
-      "published": "2026-11-23T19:43:30Z",
-      "source": "GamesIndustry.biz",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWi1TNlMzX2pabjF5djdEcUlPWjlnSWhUOW11MTVWTFlaZmhGLXRfZ3hSOC1BRVJ1U2x3Y0NCaXowOFlpUkFlc1lVSW5hbmM1UkpvOWNnd1pYejBKRlRWSmpMNEY3TXFfLXZ3TTRKR1BDOE54R3R3MmtRUTJrUnB2Wi1yMlVNXzA0V3dqYnI0aGxpT2F3SUY4ZVh0M0l3RkRU?oc=5",
-      "publisher_url": "https://www.gamesindustry.biz",
-      "summary": "Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss",
       "headline_only": true
     },
     {
@@ -3559,22 +3576,6 @@
       "origin": "rss"
     },
     {
-      "id": "rss-4de189c271a71ca6",
-      "title": "WoW Forever Breaks Records While PC Players Wait for GTA 6 - shattered.io",
-      "published": "2026-11-23T11:42:40Z",
-      "source": "shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Ya3ZPREcxTTlkTWEtWFV4RVY3anRqSHlUUFp6NEVlWjRBRkd4NDNHV0llSXZCSjVxTzNfVk10UDY5cnNEdGhvTERVLXVXN212RXZMRWhDbFVFZEF3VEdMcGxId3hZcjRWMU12RHZn?oc=5",
-      "publisher_url": "https://shattered.io",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "rss-57b1e417ca66716b",
       "title": "Rockstar Rolls Out GTA 6 Update 01.002.002 in Phases - Demokratis.co.id",
       "published": "2026-11-23T11:41:10Z",
@@ -4424,13 +4425,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 30352,
-        "open_issues": 4480,
+        "stars": 30496,
+        "open_issues": 4503,
         "last_push": "2026-11-23T20:34:39Z",
         "last_commit": "2026-11-23T20:34:37Z",
         "last_commit_title": "xgameruntime: export XErrorReport, which XGameRuntimeInitialize requires",
         "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/6312c057f88f5627108643e3e1f572d18232c8d2",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     },
     {
@@ -4451,7 +4452,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     },
     {
@@ -4466,13 +4467,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 60929,
-        "open_issues": 2900,
+        "stars": 60928,
+        "open_issues": 2858,
         "last_push": "2026-11-23T20:32:26Z",
         "last_commit": "2026-11-23T20:32:25Z",
         "last_commit_title": "Merge pull request #25892 from MarrasFederico/test/libressl3-wycheproof-rsa-pkcs1",
         "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/2b09db6f114eda877c347a59f138f777cad7ef96",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     },
     {
@@ -4493,7 +4494,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     },
     {
@@ -4514,7 +4515,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     },
     {
@@ -4530,12 +4531,12 @@
       "progress_url": "",
       "github": {
         "stars": 1479,
-        "open_issues": 71,
-        "last_push": "2026-11-23T20:38:35Z",
-        "last_commit": "2026-11-23T20:37:05Z",
-        "last_commit_title": "Merge pull request #985 from Ammmae0x/cpu/sse-fp",
-        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/986e7f6ef917454a9ae7580e1821ea6850f747a3",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "open_issues": 73,
+        "last_push": "2026-11-23T20:42:27Z",
+        "last_commit": "2026-11-23T20:40:23Z",
+        "last_commit_title": "Merge pull request #946 from stan495/codex/gfx1030-ds-add-f32",
+        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/da1c4473f8e2a87a61edf9f18977c4d244b2f677",
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     },
     {
@@ -4556,7 +4557,7 @@
         "last_commit": "2026-11-23T12:55:46Z",
         "last_commit_title": "ci: run the progress tooling tests",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/826d2839b9edcf4bc9d86ae8d18b653e1bcd7bb7",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     },
     {
@@ -4577,7 +4578,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-23T20:38:22.263858Z"
+        "checked_at": "2026-11-23T20:44:23.765892Z"
       }
     }
   ]
