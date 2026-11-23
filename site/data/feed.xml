@@ -5,6 +5,20 @@
 <description>Source-linked GTA VI news and developer activity with evidence labels.</description>
 <language>en</language>
 <item>
+<title>Fact Check Team: GTA VI generates $3.79 billion in first-day sales</title>
+<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxPek5Id29LcWNza0Vad1VlZmJEOUh6bmpPLTFWNHM3SWgtenE1VTJ3UWFGUTRNMm5BeklVXzZTTTRyOFJWVURyMEhTejAwUFJJZWFhWVQ3aUdROFp0MzROenllNU5qUVdkQ3RDbUdMeXV0YTB6S0RMWWNpMGtvR2hvU1c1ZVVxM1ZFWnlQaHRTNDh1RmpucnV2RjdpSldFX0dEV0h6UU4xbmJ2THJjOEhUdTVGRmlhVFVpRXVlc2NGVTY?oc=5</link>
+<guid isPermaLink="false">rss-3843ee352ea7085f</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Mon, 23 Nov 2026 20:27:17 +0000</pubDate>
+</item>
+<item>
+<title>AnyPS5: Merge pull request #26346 from Lyrnc/fix/perf-csv-gpu-busy-unit</title>
+<link>https://github.com/boykopovar/AnyPS5/commit/dcb934ffe2f70ad76648567d7cb0ffea884acaca</link>
+<guid isPermaLink="false">git-boykopovar-anyps5-dcb934ffe2f7</guid>
+<description>The AnyPS5 developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Mon, 23 Nov 2026 20:27:06 +0000</pubDate>
+</item>
+<item>
 <title>Xbox2Windows: Merge pull request #984 from Holastor/xmem/transfer-runtime-export</title>
 <link>https://github.com/R0Y00/Xbox2Windows/commit/dae1ca25cbc4170ebc62c93020b53800b66a5c22</link>
 <guid isPermaLink="false">git-r0y00-xbox2windows-dae1ca25cbc4</guid>
@@ -17,6 +31,13 @@
 <guid isPermaLink="false">git-r0y00-xbox2windows-2f2893f0a355</guid>
 <description>The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
 <pubDate>Mon, 23 Nov 2026 20:15:01 +0000</pubDate>
+</item>
+<item>
+<title>Want GTA VI on PC? Fake downloads and scams are everywhere – how to stay safe</title>
+<link>https://news.google.com/rss/articles/CBMicEFVX3lxTE9rQjM1MUJfalFTZzBHcm1QQklLRE5Ka1pQemluejRfMGtiUXBhV2p5bk84WHhsMjVWSE9JOU15YkxRUWZPM1VzUk9vUGxzYzY3aFNqYnJvOG55bjJ3azVCS1oxZ2VQcUdNcGpGODVjMkE?oc=5</link>
+<guid isPermaLink="false">rss-9acb6d5a265ec846</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Mon, 23 Nov 2026 20:15:00 +0000</pubDate>
 </item>
 <item>
 <title>GTA 6 Chapter 2 guide: Best moves, strategies and tips to progress faster</title>
@@ -206,6 +227,13 @@
 <guid isPermaLink="false">x-ce749450a3107c69</guid>
 <description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
 <pubDate>Mon, 23 Nov 2026 18:11:24 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6’s Preorder DLC Is Now Available By Itself For $5 dlvr.​it/TWRgrp</title>
+<link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE9zUUxzMWktY0pmY3J2X3dJWkY5X2Q4Mm5qcGZLOC1JQ3ZJeTVfTl9LajhDcHAxZURuMjl2d053WHVOYnZKd2VwZzFIaDZVWTZ2N19SZk5raE5iYVplZnc?oc=5</link>
+<guid isPermaLink="false">x-066a4853e37dfd00</guid>
+<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Mon, 23 Nov 2026 18:10:58 +0000</pubDate>
 </item>
 <item>
 <title>‘Grand Theft Auto VI’ first impressions: A love story, in my ‘GTA’?</title>
@@ -675,33 +703,5 @@
 <guid isPermaLink="false">rss-9696642d72ebde70</guid>
 <description>This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
 <pubDate>Mon, 23 Nov 2026 15:48:42 +0000</pubDate>
-</item>
-<item>
-<title>Cyberleek Predicts GTA 6 Could Run on PC Within a Week - www.suaralandak.co.id</title>
-<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5RUGtzQXU0TFF6YWZucDFnWmF6REQzSkNJdS02LUVabXBxWnBEdlF4M2xVeWN3djNRbFktT3RvRWlpOVk0dS1yckdSTVNrclF6dm90cjBlNjk1cUxYcDJMaTlNekJlblE?oc=5</link>
-<guid isPermaLink="false">rss-3484307acdaa0d2c</guid>
-<description>This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Mon, 23 Nov 2026 15:48:32 +0000</pubDate>
-</item>
-<item>
-<title>Leaked GTA 6 Xbox Build Gets Main Executable as PC Recompilation Efforts Continue</title>
-<link>https://news.google.com/rss/articles/CBMib0FVX3lxTE1WOG9SVWZacDVSYWtDSFNpZDlrYk93blh4MkR6Q3k0V3JXanhiV0t0cWxZMEhUZ2xjaXFPcDJmT2VzZ2h0QzYtWHM0NXJpaE9DblBjdmtBd3Nwc01OOW83aVFsYlp3ckhaLXZWRWQyQQ?oc=5</link>
-<guid isPermaLink="false">rss-5249902e8ec902a7</guid>
-<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Mon, 23 Nov 2026 15:47:16 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 Xbox Build Executable Released by Cyberleek - TwistedVoxel</title>
-<link>https://news.google.com/rss/articles/CBMib0FVX3lxTE1WOG9SVWZacDVSYWtDSFNpZDlrYk93blh4MkR6Q3k0V3JXanhiV0t0cWxZMEhUZ2xjaXFPcDJmT2VzZ2h0QzYtWHM0NXJpaE9DblBjdmtBd3Nwc01OOW83aVFsYlp3ckhaLXZWRWQyQQ?oc=5</link>
-<guid isPermaLink="false">rss-ff130f3f8b77d249</guid>
-<description>This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Mon, 23 Nov 2026 15:47:16 +0000</pubDate>
-</item>
-<item>
-<title>Robbing Banks Is a Blast, but I Wish There Were More Houses to Repair in GTA 6</title>
-<link>https://news.google.com/rss/articles/CBMi1AFBVV95cUxOdmU1MlZiR3ZzSUVDd3E0X3dQajZnYUhfTjM4QVd2VU96dHdJMk1jYmNqeExPVHZJaC1vSHl1d0NzSFBhdDJUTm82MEpqRkRIUTVDZmZRX2xZdXlrbldBczB5X1IzeEVxeDl2N1BILUtZNFl6SWxHOFBEdEZBRHJSMU10WjdqUk5DbjFubU1aUk8xbURBWHhoamUzNXV5dzJXbUcyaEdIOHYwSDlIX2pLYnZManJxOTY1cFZuT0tqMzVoUkRsMmFIQXczZGVKekREb2xPTA?oc=5</link>
-<guid isPermaLink="false">rss-5aea4473070e2911</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Mon, 23 Nov 2026 15:46:42 +0000</pubDate>
 </item>
 </channel></rss>
