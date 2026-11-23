@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const $ = (s) => document.querySelector(s);
-  const state = { data: null, category: 'all', q: '', shown: 9, scope: 'all', sort: 'newest', details: false };
+  const state = { data: null, category: 'all', q: '', shown: 6, scope: 'all', sort: 'newest', details: false };
   const TYPE = { official: 'OFFICIAL', developer: 'DEVELOPER', coverage: 'COVERAGE', rumor: 'UNVERIFIED', social: 'X INDEX' };
   const el = (value) => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const validURL = url => { try { const u = new URL(url, location.href); return ['https:', 'http:'].includes(u.protocol) ? u.href : '#'; } catch { return '#'; } };
@@ -80,7 +80,7 @@
     const selected = (state.data?.articles || [])
       .filter(a => a.origin === 'curated' && a.featured)
       .sort((a,b) => (b.published||'').localeCompare(a.published||''))
-      .slice(0,6);
+      .slice(0,3);
     target.innerHTML = selected.length ? selected.map(a => `<a class="briefing-card" href="${el(validURL(a.url))}" target="_blank" rel="noopener noreferrer">
       <div class="briefing-top"><span class="badge ${a.credibility==='official'?'verified':a.credibility==='rumor'?'rumor':'report'}">${el(TYPE[a.credibility]||'COVERAGE')}</span><span>${el(day(a.published))}</span></div>
       <h3>${el(a.title)}</h3><p>${el(a.summary)}</p>
@@ -142,10 +142,10 @@
       console.warn('VICEWIRE:', err);
     } finally { for(const b of buttons) b.disabled=false; }
   }
-  $('#filters').addEventListener('click',e=>{const b=e.target.closest('button[data-filter]');if(!b) return;state.category=b.dataset.filter;state.shown=9;document.querySelectorAll('#filters button').forEach(x=>x.classList.toggle('active',x===b));renderNews();});
-  $('#news-search').addEventListener('input',e=>{state.q=slug(e.target.value.trim());state.shown=9;renderNews();});
-  $('#news-scope').addEventListener('change',e=>{state.scope=e.target.value;state.shown=9;renderNews();});
-  $('#news-sort').addEventListener('change',e=>{state.sort=e.target.value;state.shown=9;renderNews();});
+  $('#filters').addEventListener('click',e=>{const b=e.target.closest('button[data-filter]');if(!b) return;state.category=b.dataset.filter;state.shown=6;document.querySelectorAll('#filters button').forEach(x=>x.classList.toggle('active',x===b));renderNews();});
+  $('#news-search').addEventListener('input',e=>{state.q=slug(e.target.value.trim());state.shown=6;renderNews();});
+  $('#news-scope').addEventListener('change',e=>{state.scope=e.target.value;state.shown=6;renderNews();});
+  $('#news-sort').addEventListener('change',e=>{state.sort=e.target.value;state.shown=6;renderNews();});
   $('#news-detail-toggle').addEventListener('click',()=>{
     state.details=!state.details;
     const button=$('#news-detail-toggle');
@@ -153,7 +153,7 @@
     button.setAttribute('aria-pressed',String(state.details));
     renderNews();
   });
-  $('#show-more').addEventListener('click',()=>{state.shown+=9;renderNews();});
+  $('#show-more').addEventListener('click',()=>{state.shown+=6;renderNews();});
   $('#refresh-top').addEventListener('click',()=>load());
   $('#refresh-bottom').addEventListener('click',()=>load());
   load({silent:true});
