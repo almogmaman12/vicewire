@@ -1,16 +1,404 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-22T21:03:53.475437Z",
+    "checked_at": "2026-11-23T01:42:35.239768Z",
     "fetches_ok": 37,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 37,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 976
+    "new_items_seen": 951
   },
   "articles": [
+    {
+      "id": "rss-a986a839ebbde2a2",
+      "title": "Bills' Grand Theft Auto VI-themed jab at Dolphins tops NFL Week 11 trolls - 6abc Philadelphia",
+      "published": "2026-11-23T01:30:00Z",
+      "source": "6abc Philadelphia",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWnQ0NTFtd3dlYk1jS0lvZFJIUXJlUFYwMV9UMjRqV0lsdnNPOU0xY3dyU1FUdlByUG5EeDRrZFdCc1FKUmZKTjdMQlBnRUF6cE1BZGl1c25DX2d4M2VwM29YQk16RVFYNXU0dWZNZXhLQ0tTRkZSZWxmejBiQ1k3aDAwclB6ZTNtbTgtSzY0LV90TjRKb0l1QkdGaXJoLUp0VUY4?oc=5",
+      "publisher_url": "https://6abc.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-ac8dea11b47f630f",
+      "title": "The Hunger Games: Sunrise on the Reaping Plows Through GTA 6 Hype With $225 Million Opening Weekend - IGN Nordic",
+      "published": "2026-11-23T01:00:56Z",
+      "source": "IGN Nordic",
+      "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPVVRWbkVJYmstWlhaSHJnbllCeU9VYi1UczFNaGthOW82WTh6TkctQWhTcW9vMUMwXzZhVXQ1NWE5Y3VlOFhPbUp5aUpmbGxhOWhrY2ZKUDg0ZmZmQnQ0aUR0bVRjb0w2cFV1RVlCeUFQa2JSOUFhamo3d1o4b3NVUldkSFBzelNCVllwSWdiRmc3c2Vtekl4UHJzTFp2YWFCRW9zNW0xalJFRjF0WXFTTWE3cWZLVEt2QUc3bUM4Vi02bl8welZrQ25sdlgtY3h4OUZjRHlPOTJHUGxhbFlST0xQck56NmxZTmtYSzZWTWdHMGUyVkVPeWlORQ?oc=5",
+      "publisher_url": "https://nordic.ign.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "git-itsnotrexed-leonida-03b09a086592",
+      "title": "Leonida: Merge pull request #4279 from radv-tinker/pr/make-game-preflight-resume",
+      "published": "2026-11-23T00:33:23Z",
+      "source": "Leonida / GitHub",
+      "url": "https://github.com/ItsNotRexed/Leonida/commit/03b09a086592a197db64d91655c6e65c30764d96",
+      "summary": "The Leonida developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run.",
+      "why_it_matters": "Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.",
+      "verification": "First-party GitHub commit metadata; no verified game compatibility implied",
+      "credibility": "developer",
+      "categories": [
+        "recompilation",
+        "emulation",
+        "pc"
+      ],
+      "origin": "git"
+    },
+    {
+      "id": "x-d5a03acbeecbec59",
+      "title": "GTA VI NEWS (@_GTAVI_) - X",
+      "published": "2026-11-23T00:29:09Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiOEFVX3lxTFBaM3YxVlN3ZG9nZkEycEN2RGh3LWRURksxX01QeEJXMlZhY2k5blhzdWR0LTVIaTU4?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "rss-a2bd0ceb5d7322cb",
+      "title": "Already “thousands” of developers want to bring GTA VI to PC following build leak — they are working on Xbox Series emulators and recompilation - iXBT.games",
+      "published": "2026-11-23T00:26:00Z",
+      "source": "iXBT.games",
+      "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaXNabWtYNmVNSHBLWEROLUJZdFhQaVJtNlFuSktZVG5XQU9TYkFvYlhrM3ZHNHdXT0VpSF9LR2RaN2l2NjhyLXVRQ3oyODZ3TVBLbGZKVHlzeW9vTlI3RVJabFFObzRqNUdyRmFpdjN5UUF6aXlXRnI4bVM0aHF3Q1JjODFWZ1VQeUpHYkJkV2RWUnR3ei0yM1RWTDVZZ01RZDZFWXlwaGxaYUkzcE54RjFJUThSdlBxcXFiWS12T0pzcUMxZkh2WnFMZm9ReVNqU3RsNjFXdmZBc3dIaVMzTVlvZThLLXhfcW9jckxqYzRBLTlXNEJmY1ZxMC1MTEE3cVg1aDlCbDZ0WlQy0gGMAkFVX3lxTE1pc1pta1g2ZU1IcEtYRE4tQll0WFBpUm02UW5KS1lUbldBT1NiQW9iWGszdkc0d1dPRWlIX0tHZFo3aXY2OHItdVFDejI4NndNUEtsZkpUeXN5b29OUjdFUlpsUU5vNGo1R3JGYWl2M3lRQXppeVdGcjhtUzRocXdDUmM4MVZnVVB5SkdiQmRXZFZSdHd6LTIzVFZMNVlnTVFkNkVZeXBobFphSTNwTnhGMUlROFJ2UHFxcWJZLXZPSnNxQzFmSHZacUxmb1F5U2pTdGw2MVd2ZkFzd0hpUzNNWW9lOEsteF9xb2NyTGpjNEEtOVc0QmZjVnEwLUxMQTdxWDVoOUJsNnRaVDI?oc=5",
+      "publisher_url": "https://ixbt.games",
+      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc",
+        "recompilation",
+        "emulation",
+        "piracy"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-2eadbd05edaa76e3",
+      "title": "GTA 6 Dev Honors Late Mother With In-Game Memorial That Players Can Visit - IGN Southeast Asia",
+      "published": "2026-11-23T00:01:37Z",
+      "source": "IGN Southeast Asia",
+      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNN2c1TVNqYVp3ZUdWMGNzdXdkeVYzMG1TVElVc2FUZklkZUk3UFBvZmNVZ29tTkp5X2cxNUN4VU15RFB4VTZJMG1DYW1PVzlVQU9XMUVPZ2F4R1k1UnF5ZWE1bzktTUFoMDVUYm0wMGROV29GY3FlTzdnejF1aC1zOXdDYXo4TVBVUkxjQTR2VFVmWE9ZNTB4T3BIekJDLXgtMjFsRW94bXUwbmNfWHp4eTFTZTZxcWE2OEZaYjFucVlwQmFNd0d5SGtEZVRTcWM?oc=5",
+      "publisher_url": "https://sea.ign.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-d12aa5fc962fff3c",
+      "title": "'Miss You, Mum' — GTA 6 Honors Rockstar Team's Late Friends and Family With Leonida Memorial That Players Can Visit Themselves - IGN",
+      "published": "2026-11-22T23:29:08Z",
+      "source": "IGN",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQakNtTGZoZUZjSkRPVXRrbWJ2OFhxanlZM2pfbi1EZERqTEpZdzljRElnWlRDWXN1b3ZNVERYdm1Wb2NaWjJEZmZYeXBIMXRHRm16dVVXbm1Ja0k4OVRNb0ZzV0tLN2lfNXJBeThNR0tsTl9yR1QtRkxZQjJXYTZHTXNJLUFhaVVhblVTb3NFWGo3MW4zUU5HOHZKU0RJdzM2V1Bpbg?oc=5",
+      "publisher_url": "https://www.ign.com",
+      "summary": "This news report concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "official",
+        "recompilation"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-4352fab59b28cd1e",
+      "title": "Cyberleak's GTA 6 Xbox Build Could Reach PC Before an Official Port - MMOs.com",
+      "published": "2026-11-22T23:16:24Z",
+      "source": "MMOs.com",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWEVCV3pjUXo0T29hNG9VeEYya0x4azJTRnh5VW5CR3k5Q0VCVTVkNm9oTjVwQmZEQkNQeDlTYXc0ZWY3Njg1dndldURZN0o0REs2a2RzMnZFWDd4S3FLYmdXSWZBRUVROHludWJodG5DVDRXbFBINlFQQ3owenpDUWpKb2daRVFRc2NB?oc=5",
+      "publisher_url": "https://mmos.com",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "official",
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "x-a6f9ac8c5cbe2552",
+      "title": "In today's video we deep dive into the new Project Leonida bringing GTA 6 to PC, made by the Switch 2 emulator helper ItsNotRexed, and the ongoing drama of the Grand Theft Auto 6 PC race Our video here: https://t.co/pe32rsaHc8 giv",
+      "published": "2026-11-22T23:15:47Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5hbVdIbU5rZUN0SDdKQ21haERBZFg1SjRRaDhMcFJEQVR0eExFVTdxdGdMSFpHMGlYRjZOdWNrWlg3MnBZYjJHSXJLUF9YcndEZjVrcE4xX1l0NEF6dFJF?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "recompilation",
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "x-8e3a160400e275c8",
+      "title": "GTA 6 players are seriously considering leaving Lucia in prison just to enjoy Jason's peaceful life.' Before picking her up, Jason has a boat, a car, and all the time in the world to fish, drink beer, and explore Leonida. Handfull",
+      "published": "2026-11-22T23:03:11Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xX1diMXlPd0tkcmNnNmxwUkVIZFlsMEIzOHMyZmRzX25IUnFHMGhHUGJtQzRLa3BsSXNmUEZEb1pyWndsem9WalNTRXViYkJTQU9SczRDQWlxU2lpM3p3?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "rss-c676ed185b7f1c2f",
+      "title": "First Impressions: Grand Theft Auto VI has all the makings of a modern masterpiece - The AU Review",
+      "published": "2026-11-22T22:58:56Z",
+      "source": "The AU Review",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1uZngxeHppVXNWbEdFUVJXTDlBNklidDljdmtLdHlidmp0VmdYRlg3S1RUSHlnSU5CaGUxRE5Ndm9obnhuUk1WVVdBUEJlR2R1aGlGVlVGZzN1aG02R3lFQWw3ZkZ0V3M4MW1QTnpHR3l1cjVYUVA2X3Bpblc?oc=5",
+      "publisher_url": "https://www.theaureview.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-1e629e9d2993ab4b",
+      "title": "A GTA 6 listing has appeared on Steam, but it isn’t the PC port fans are waiting for - Mezha.net",
+      "published": "2026-11-22T22:55:26Z",
+      "source": "Mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE83dUZ5eE9jbTE4Mi13b2tVMUprQ0szXzkwWExuWWhBQm5hZ2lwOWlHRm1UYW1vbmlrS0theFBuUXpTdzY0UWhGd0E1cDJmY0NXNjRKNEVGTF8tZmpGQ0kxcU1hamxqZ0dIaDk2QkZLc053dE1Y?oc=5",
+      "publisher_url": "https://mezha.net",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-12d3a8f220d3f539",
+      "title": "'GTA 6' on Xbox Series S: How well it actually runs - Mashable",
+      "published": "2026-11-22T22:51:29Z",
+      "source": "Mashable",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5weWZnSU1NaXVSOFhMNEtzUFJrTFgtZzVqX2psczFBY1pxcTRGekhqVWdsRDJUQjJMbGJtR1Frc01qT19zREZRQzNlWU5sYXdhc0dSazJRaGNtM3QweXREbndPV2xHUDRSbzFpY1dycDl6UUtwcG1PcDlPc3E?oc=5",
+      "publisher_url": "https://mashable.com",
+      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "emulation"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-8aba27533c31936d",
+      "title": "GTA 6 has appeared on Steam, but it's not the PC port fans are waiting for - Notebookcheck",
+      "published": "2026-11-22T22:41:00Z",
+      "source": "Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOR2dtZlFwSHUzbXJKRjFZcTI2YkF2c1VLWWhKaTJLYXFEQVpINDNETUVlaHNTcUwxYllSbFJLTENvVWw2ZmwwYU1odkxLdW5xekZoUFJvMzl4T205SG1IWEh5cjBqc2Q2aHYzTXdpcUNnNUJSVTBYeGJlSWRJc29hRmlMWGtrQl81V2Nna05VUnlEV01rRUcyb0x5NWU2cU5wR3AzampPMzlfc3dHbGF2RlI1VmJETFNfYmc?oc=5",
+      "publisher_url": "https://www.notebookcheck.net",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-fc531d5b50dfe584",
+      "title": "GTA 6 drew a mammoth 61% of active U.S. PS5 players on launch day, averaging more than eight hours per player - Notebookcheck",
+      "published": "2026-11-22T22:23:00Z",
+      "source": "Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNLWZfd3dSNFJ6NUF2T0tHS2RiZmlIWUdHdFpheDNlTlAxbERnNGk3QXRqR2xuRDZPSkNKY000TUhMbVJZTlpacUx3eU93Z1NIdktneWJvbXNycDg4eTlZSWdlTjhmQXJhaGsyNVJMSFkyNVFhTERuXzVhd3d0SG9XX08xS2Z3YnlYSGE4V1JCQlFNdEh0U1RrQndxWUlYU3paR3FXbFNPam5RYkFGQkl2VkVGeXZ4eFZjZUNRd003THpub1ltR2ZIV2pFNXpPczdITDFOOG5sTTZLMDV5UktFRk5UXzJRZw?oc=5",
+      "publisher_url": "https://www.notebookcheck.net",
+      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc",
+        "emulation"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-16f5b67cba6043c4",
+      "title": "GTA 5 Steam player counts rise as fans await a GTA 6 PC release date - Mezha.net",
+      "published": "2026-11-22T21:46:51Z",
+      "source": "Mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE93R2JUM0UzTENjczhXUERxMHllczRyOXNzazBna2NDSTdkSUhSbUJ6TGtORTV4MDVQWEhjQUpvelFOb2R1Z2Jhamo2bUJlV1BXN1hDQ2hzOVFCUFRfQVh5VmNoY2FEQU5RQ0pJSUNscHp1SU5tSFhiTUFB?oc=5",
+      "publisher_url": "https://mezha.net",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "x-d0fdc2edb86d7699",
+      "title": "asking Gemini Nano if my PC can run GTA VI it is pissed 💀 - X",
+      "published": "2026-11-22T21:30:00Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GSTVXQko0S01BTFVnVUF0VVN2bXZFUE12dGs4c0ZBMktVemczNjNOSEhQUnplczJVY3I2Qzdrb2FBY0hsVUVqcHJsV0tEWUt1S0pSNjJEQVNoMTItM0pr?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "rss-0b8a29dff13b25e6",
+      "title": "GTA 5 Steam player counts surge in anticipation of GTA 6 PC port release date - Notebookcheck",
+      "published": "2026-11-22T21:29:00Z",
+      "source": "Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbk1LTVlXWGVma2lVUGtKdDFrNGtTTmFUNmtBRDN5eml6Yk0wMV9CY1ItT3g2VU5jV0FlSklSbXlvSTVCdEZPS2pnT284eUxTNWVqdnhvZ2JQS2NOcUtJN0FXbHNXSm5IZTBUbGQxbzVMdENTMU1EeVJHc1JmS0drSnlDTGg1Y1YwMUxqbzFBLUJIY21INDhmLXZpRE5qN2xueENoa29HNlJpVXNBNmVtdWltMHFxRTcxVzhnMUtORQ?oc=5",
+      "publisher_url": "https://www.notebookcheck.net",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-69bd4ccfb5fc11ba",
+      "title": "Can Cyberleek’s leaked GTA 6 Xbox build become a PC port? Three projects are trying without the executable - Mezha.net",
+      "published": "2026-11-22T21:02:36Z",
+      "source": "Mezha.net",
+      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMm9HeFZEdV95NlZENXRkaXl4U0lnNVJVeV9aSXNqQTVIUE9obzl5akliU0ZGZGJwVTdWMWtaWTRzRU40RUZRRWZhaVdaSlN4bDlNMEw4SW1iSE4xT0hoaVVzMEhpUlVlU01oUHVGU2NMTlZIRWxUNnR1aldSOENUazR2UDVDQnlE?oc=5",
+      "publisher_url": "https://mezha.net",
+      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc",
+        "piracy"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-2c1ab61926f0a9c4",
+      "title": "Can Cyberleek's leaked GTA 6 Xbox build become a PC port? Three GitHub projects are trying, without the executable - Notebookcheck",
+      "published": "2026-11-22T20:58:00Z",
+      "source": "Notebookcheck",
+      "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQbWdWUVg3WTkwb2lLVTY2YkZnclN4Wkh4Nmx3QklfTEpCNTZjVTBURmRTZDQ0MGQ0NXo1NG5KX256a3FORVhVaFhycVRIbDkwTXJhOWJrQlZhaGc3YnFjajFhWk92R3htbWpyZzFBVlRLOXJISU1VQ3E4Mkl4dHhYQmFpamRJTmFaWnFKQnlXSy1DcGtucV9WcmVvUnpBbC1hMmFXYi1FT1FJSUZ5VmFET3JyX2tJcEZQWDhlUzFUaEU0WEJTSVlrUTVSd3k3YnFLMGtpZGIwb3UtdXd6YWVNS0EtdDNUbDliS0ZMdzBB?oc=5",
+      "publisher_url": "https://www.notebookcheck.net",
+      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc",
+        "piracy"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-cfab80ed185f4e46",
+      "title": "Rockstar Says Darts Were Cut From GTA 6 Because It Didn't Have 'Unlimited Money or Time' to Make It 'Feel Proper' - IGN Nordic",
+      "published": "2026-11-22T20:50:51Z",
+      "source": "IGN Nordic",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNFNUSHF5N01US1JFUG9TeEZkREpZTWRIZnZ2Tnd1aWpQNEZTOWRrNjFmd3c2MjJvejRMQWQyeUdiVS00VzlBRkotMEdRTERmdHMxcUxRYmhLOXpJQUJ0anhTTjNZTF9EZ0UzYktlVTlnNHBQcnQ5bkJ3dEpDYWR3ZnlLYzE1dzZpeDRZYjdCMVVhUThNdDJRRHFLZjF1QjRMampQZWxVUFY2MHlhd0lQSW5sR08yQ3dOaFp1ZjRFTEhMX1M3V0l2VklLY2NDSVVHVENzN043TXMzUXJaQWo5bXJOcXI?oc=5",
+      "publisher_url": "https://nordic.ign.com",
+      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "official"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "x-1c1c6ede68512967",
+      "title": "I made Claude optimize the Cyberleek GTA 6 build. Frame times dropped hard. It went through the hot paths and cut the biggest spikes. Shader compilation: 2.9 → 0.3 ms Shaders were compiling during the frame. Fix pre-builds them in",
+      "published": "2026-11-22T20:42:13Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8xSDNmVXN5Z1hhT3doc2ttYzE4YmU5c3N3OVdqRHktM1o4TW9ta3FmelVITGNndnlJemxJMXZYa0VZVGNQd0NQaVlRdkp3ZWZNR1pBZkdkcEpSZW9Oa1E?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "rss-726bf6e357953ef2",
+      "title": "Rockstar Says Jason's Viral Personality in GTA 6 Comes From Steve McQueen and Real-Life Veterans - IGN",
+      "published": "2026-11-22T20:39:15Z",
+      "source": "IGN",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQaU5aVE1rV3lyU3cwWTI1WGE3a1N2N1RMREJOdk1fREhvXzJZZmwzcUl1ekV6aElpemVOZkdXSFZkTy04a2hXaDVUOWNYY1pPbUg2R0F4SXlFeS16RVFtOFNMbUlrWkFiYmZpc0JaaVZxU3l2Z19iTDZKRno5bmtWSWFwY19pd2dDbHU4WmNqX19TYzJGQUlNTHplS0JDWXdrRHdtbVpNaEdGbXRyRXhYV3hwV0g0dUJNNFM0V1hWRC1OZw?oc=5",
+      "publisher_url": "https://www.ign.com",
+      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "official"
+      ],
+      "origin": "rss"
+    },
     {
       "id": "x-fd59ea9be5c2e2d0",
       "title": "Once GTA 6 Online hits PC I don’t see how it dies given the success of GTA 5 RP. The creative possibilities will be endless with Ai and I genuinely think there will be a serious GTA RP economy that servers may earn you a better li",
@@ -29,17 +417,36 @@
       "origin": "x-index"
     },
     {
-      "id": "x-d5a03acbeecbec59",
-      "title": "GTA VI NEWS (@_GTAVI_) - X",
-      "published": "2026-11-22T19:57:05Z",
+      "id": "rss-317561a70beaeba4",
+      "title": "GTA 6 needed a dedicated team to make sure all its different body types could share animations: 'It was a huge team effort' - PC Gamer",
+      "published": "2026-11-22T20:16:21Z",
+      "source": "PC Gamer",
+      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQenhaWjdSVGV2SUJaVk5CRFVuRFM3TzJfUWhTX0hXclUtWHYzLU41dU80S2I4bzNzWHRfenNwNXp6MnFkdlg5cEFMWlR5QUVuVm5idTlUcVlwakl3Mi15WmFmZ1E3Y3BSN3psZ3FFd3BnRDVISmZtYV9RdGNIcjdONHpvSVpNOW1PSEdoWjBVWHNaaDZtT21sN3pIVXdqSXU1Y2FVWmpta1lWVWZPRkxhUjRma0c1ZTNnV0NyMnBlX3FsbXM1Tm9uMkRRc0sxandpMGdIcGs4YXJHdkdmaWxtN3RPSVd1Q0J5M3g1Si13STZ4ZWdhcmtNWUstTlo?oc=5",
+      "publisher_url": "https://www.pcgamer.com",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "x-7ddd9e892b1dce5c",
+      "title": "CyberLeak just dropped another new GTA 6 footage and it's on PC 😱 Full menus, settings, even the rockstar terms screen Will CyberLeak leak the full pc version before Rockstar Games even releases it? - X",
+      "published": "2026-11-22T20:02:54Z",
       "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiOEFVX3lxTFBaM3YxVlN3ZG9nZkEycEN2RGh3LWRURksxX01QeEJXMlZhY2k5blhzdWR0LTVIaTU4?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YSE1GcW1xczZ5X2RWUmpFbU1SNmdxaUd6QVM2SThRNHlaNlpJOWtEdTJzczR6QTNrU1NRVVBoTzNRX3lBLVJQbFdhMWVvanFUV0I3d0o1WWFlb3pO?oc=5",
       "publisher_url": "https://x.com",
       "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
       "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
       "verification": "Public X post indexed by Google News; author and claims not independently validated",
       "credibility": "social",
       "categories": [
+        "official",
+        "pc",
         "piracy",
         "social"
       ],
@@ -83,23 +490,6 @@
       "origin": "x-index"
     },
     {
-      "id": "rss-12d3a8f220d3f539",
-      "title": "'GTA 6' on Xbox Series S: How well it actually runs - Mashable",
-      "published": "2026-11-22T19:50:07Z",
-      "source": "Mashable",
-      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5weWZnSU1NaXVSOFhMNEtzUFJrTFgtZzVqX2psczFBY1pxcTRGekhqVWdsRDJUQjJMbGJtR1Frc01qT19zREZRQzNlWU5sYXdhc0dSazJRaGNtM3QweXREbndPV2xHUDRSbzFpY1dycDl6UUtwcG1PcDlPc3E?oc=5",
-      "publisher_url": "https://mashable.com",
-      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "emulation"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "rss-74c0564a9d962618",
       "title": "'Grand theft without auto': Shashi Tharoor's dig at Modi government's 2016 demonetisation over GTA 6. Watc - The Economic Times",
       "published": "2026-11-22T19:12:40Z",
@@ -112,6 +502,22 @@
       "credibility": "coverage",
       "categories": [
         "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-8bd411953ce20f1d",
+      "title": "A resurgent ‘Hunger Games’ goes big at the box office, despite competition of 'Grand Theft Auto VI' - ABC News - Breaking News, Latest News and Videos",
+      "published": "2026-11-22T19:11:40Z",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSzdQM283N3BCeDhLUWRvd256MTNUallTU2dwOUZFdW45bUg2dkM0eXpVZWNYaHFMT2RwQkd5WHQxY3YxYm83dWNZZV9GbzhRWUEyMHJldkpMa3V5RzAyNFBGRjhudS1EeDM0c0pTNVNjNGZGbENKdVlnOHJnVHJSaFJuZGQ0cVFKUkFLbktrZHUtWHBiMWUwZGdnaDViNE9Ibzc2Q0FIQ0dYV0lMbHVuc9IBtgFBVV95cUxOUWlvTHVzaWtmRmJOaDVLN2VNUWdoRm9IZ180eEVacjZNV0NuZVJFaUROZFFEM2E1T0hValY4bGd0UzlfQ1ZmOXZ2eFZWMmNsNDFXVjBCVHU3SUJ1XzJvNURsU1R6dk1WZjN0anllQlQ3bUt2MVhXSDB2aWNpSFRPZWlYeVR1cVB4cWFfaVpJdGZseUFCbGxxYUM2TExaeFo0RnZzRERzaFRzRjFVV3BTT3JKUVYzZw?oc=5",
+      "publisher_url": "https://abcnews.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
       ],
       "origin": "rss"
     },
@@ -135,6 +541,23 @@
     {
       "id": "rss-be04c944b91f2441",
       "title": "GTA 6 discourse is already suffering from the flat earther effect - PC Gamer",
+      "published": "2026-11-22T18:43:01Z",
+      "source": "PC Gamer",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaGhSRkgwUzRIMjY0VDM2Wll4bzczdU9IVFNPODYzeHdVZFVSWW9Ddl8tY0QxV0ZaeVdXSm5qVmdCejdaZGxtWFNyNlVZcDU4WGJ6VzlOQWlCcm12YlRaakQtd0NJTkhzaUx4SEtuWGdQYnpPWDVXZDEwTjhhblA2d3Z3cVRrdXhya2VqQXFUckNrWVhUNjVnUkNRcDVEUXdWOGYyRlg5ZkNFaDAxcWVBNGxWZw?oc=5",
+      "publisher_url": "https://www.pcgamer.com",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-4cfadc988e5e6e1e",
+      "title": "GTA 6 discourse is suffering from the flat earther effect - PC Gamer",
       "published": "2026-11-22T18:43:01Z",
       "source": "PC Gamer",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaGhSRkgwUzRIMjY0VDM2Wll4bzczdU9IVFNPODYzeHdVZFVSWW9Ddl8tY0QxV0ZaeVdXSm5qVmdCejdaZGxtWFNyNlVZcDU4WGJ6VzlOQWlCcm12YlRaakQtd0NJTkhzaUx4SEtuWGdQYnpPWDVXZDEwTjhhblA2d3Z3cVRrdXhya2VqQXFUckNrWVhUNjVnUkNRcDVEUXdWOGYyRlg5ZkNFaDAxcWVBNGxWZw?oc=5",
@@ -219,6 +642,39 @@
       "origin": "rss"
     },
     {
+      "id": "rss-d3e66a7c93db7289",
+      "title": "GTA 6's casino and go-karts aren't open, but are they really coming soon?🙏 - PC Gamer",
+      "published": "2026-11-22T17:51:53Z",
+      "source": "PC Gamer",
+      "url": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNU0JNNnEyYXh1QnlENWZ4dGV5VlFQdENXNk9kNWVHYU5uLVdoaDgxamI0Zm83TkExazFKWTRkUDhxNkdPZUpYN0kyS3dlc1V3UU1uVl84NjNpRjBOS18tX3pON0VqajI4ZDJpVWl3aFZiQ2xfakJpS0t6N0gyTmp2d2FoMmJLY3pmeXV4MEVSUFdRUEJjcUFnUkFoOVlTMkRobUlab1QxUzVkWmJFeXJzWGJyQmFNcElYRzBXWTJSTGZJdF8wUTc0U1RWOWRQUHVXYm5FUGJQS3U2ZFVESlZ5YUhSUWVYZURrNnBXMVlRTE1ndnFMTlR3?oc=5",
+      "publisher_url": "https://www.pcgamer.com",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-315a2dcabf8b3349",
+      "title": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat - IGN Nordic",
+      "published": "2026-11-22T17:42:59Z",
+      "source": "IGN Nordic",
+      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPUFpyZW11MlBoVjlkb3M0RnhneTFzM3piSEdRWnNKSXlyUmtFVXJ1ZXlrWnYzZHhCRnYyejhqdlFsSzBKNk40WWcyZEd2eXRqZXU2RERscXYxSlltS19ZMTF1eVJYMFBhdFl2aUdOUkM0ZGd3YkF1SHdiMHhjSXJGcFE5M0tTX0hpbTljdVY0VE1FWEJwODhRTjRKbklfb2JIWHpqQzR3N3lYMk5CMnc0X2tRYU1CV0twVElmbkVUQ0FMMzJaUWhnNG1rejRITHRLRmtXakp3bXpZdE5McEsyZGtzdlM?oc=5",
+      "publisher_url": "https://nordic.ign.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "rss-249c15b14ef79346",
       "title": "Oh No, I Can’t Stop Watching People Play ‘GTA VI’ - Defector",
       "published": "2026-11-22T17:31:00Z",
@@ -235,20 +691,38 @@
       "origin": "rss"
     },
     {
-      "id": "rss-315a2dcabf8b3349",
-      "title": "Forget the Lighthouse, GTA 6’s Best Minigame Is a Full-Blown Zombie Shooter That Will Take You Hours To Beat - IGN",
-      "published": "2026-11-22T17:30:00Z",
-      "source": "IGN",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQMnVBc01wUGo5NGNNUmZDanFFY1VUdVhpMGRVN3FQVWlkU3NyWjdqcFJ0ejN5Z29TLUpTWFh5YmlNZTNjd3dmT1dBODE2WlJGdHlfT0VaclFzTUNzUHdHWGVHQXI2LS1fUi1veGJuMUpYQklmUlEyUTR6OTdIOXo4MDNSYXNKTE9PY2d4UEk4OEpJNlp6UTdTTjd6M1ROSmM4dm5TSms2WHgtTTAwR0lXNEJsT28zdEZ3UWlEUnZpSGxDX1FNX2ZzUUxXV3BfLWJu?oc=5",
-      "publisher_url": "https://www.ign.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
+      "id": "x-d492b37b8987a561",
+      "title": "NPCs in Leonida seeing Man United fans loading up GTA 6 at full time - X",
+      "published": "2026-11-22T17:11:03Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE51ZjZQZDVDQ1BUUDFGZks2cDZKTVh6bThxM0hwVWtSMDg1OGpPQmVCQUdGRWpPNWRCc2szZVN2UFYtcnJBOWJtUTVlVzBHc2pKcEJiQVBHdFowY0VJcFMwN19URWI?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
       "categories": [
-        "game"
+        "recompilation",
+        "social"
       ],
-      "origin": "rss"
+      "origin": "x-index"
+    },
+    {
+      "id": "x-df9ac20e1625171a",
+      "title": "Now that we know #GTA6 easily runs above 40 FPS, and could likely handle a 60 FPS mode...I have to ask #PlayStation gamers: Will you accept it if @RockstarGames doesn't eventually release that rumored performance patch? You were t",
+      "published": "2026-11-22T16:57:01Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JWXZnbTJTTjlnVVhqcVNoTTdFblRvakxvQ2dGakwyUkI0a1N2MFNxMTA0aVVmaVRwRFpwODFYTkc1bU1oQlV0aU5nV2prLUlCSjR6dkxoT0FYVjlqRFpKN2NNaTNGMDA?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "social"
+      ],
+      "origin": "x-index"
     },
     {
       "id": "rss-cbaeb80b0b624772",
@@ -301,6 +775,23 @@
         "piracy"
       ],
       "origin": "rss"
+    },
+    {
+      "id": "x-ce6043093386fe55",
+      "title": "24 Hours through GTA 6 Review ☀️🌴 ✅ Some of the best world design I’ve seen to date ✅ Two incredible main protagonists ✅ Soundtrack doesn’t miss a beat ✅ Game doesn’t get boring even in the slower parts ✅ Earning money is a fun ch",
+      "published": "2026-11-22T16:35:00Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBBTkhwcEFYWnV1WDBQaUx2bGpNMHJMMVpwNmNxci1oRWJQUFl6QVlSNl9hV3JCa3ZmLVYyWE80b3pMV2dZUTZHSkYyRUlQdzcyUGFjLUsySnlpQXJ1OU5hVw?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
     },
     {
       "id": "rss-35e9c831846a9bd1",
@@ -388,6 +879,23 @@
       "origin": "rss"
     },
     {
+      "id": "x-6d7c977010435a9b",
+      "title": "8 Secret Car Locations In GTA 6 #GTA #GTA6 - X",
+      "published": "2026-11-22T15:12:57Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5TdmwwZXNsRmUxMTNYVktUTm4xMHZIdXlvTTJhWl9qakpGZHdFUk5pUVViQ2JjeVozdlRrQkNaN0pvb0g3Z0txTllsVEVVaW9VWE51UDNfTXl0ZGM3?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "rss-c940ee7520d122eb",
       "title": "GTA 6 Early PC Port Rumors Grow as Xbox Build Leaked Online - Beebom",
       "published": "2026-11-22T15:11:56Z",
@@ -409,6 +917,23 @@
       "published": "2026-11-22T15:00:00Z",
       "source": "PC Gamer",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQU9rZTJHdFl0eGE1cmFQdV9mQjVLUUQxZ2FLaTNhaFRvc1RMcWVRSkFxUkJrMkhCNlNsbXMyVU9SaEJKcERyVGtST3FrWmVfcDdIQWk3QzVxYmlVZXRoVjAyUW82aE1QNkNPRTVCWlRYNzMyNllDMy11QThvM3JOQmFxN1c5RGpXWWpXcGh2bVdocm1HLTN3UTg0MlpZZEF4ZGJHRXlHb3lXSEFFTk1NOHFKQ05rNlU?oc=5",
+      "publisher_url": "https://www.pcgamer.com",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "pc"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-2b634395a1b2eb3d",
+      "title": "Here's where to find the Mamba GTs for Wyman in GTA 6 - PC Gamer",
+      "published": "2026-11-22T14:53:59Z",
+      "source": "PC Gamer",
+      "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5HcHdnZi10UWNKSDdiUHdydGYtQkdzdHgwc0x3MzNCR3V2dTM5RnpDSENSRF9DZEM3Uy1uUjZiaFVQYXEtdzhxbWlqNXV0VjQ4SVZHWjRLZnJOS2p3ejlnT3hBaURRVU5LcE5ZZ29WVWZmNjJDbFloOTFfUHc?oc=5",
       "publisher_url": "https://www.pcgamer.com",
       "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
       "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
@@ -457,6 +982,23 @@
       "origin": "rss"
     },
     {
+      "id": "x-7fa286f592161e34",
+      "title": "Arthur Morgan's iconic hat can be found at a yard sale in GTA 6. It's only $5, which might be the biggest bargain in Leonida. https://t.co/lZZP1RBI5G - X",
+      "published": "2026-11-22T14:30:09Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA3U1NrWUtsYm5OVDFIWDRjNzdwZGQ0eWl5Q3BXQk9HTlkzNTQ0dUlzM2phTV8xeGFyZ0F6bW9NV2hQUnc4dW5BZkc1YWt6RVBkWml6WjktLUwzRmN3c0xwN3B6QjZkMWM?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "x-3e56999b60219676",
       "title": "So, when exactly are PC gamers going to get GTA VI? 🤔 We broke down all the available info we have right now, and the answer? Sooner than you think! Check out our detailed analysis in the comments below. 👇 And while you’re at it, ",
       "published": "2026-11-22T14:30:01Z",
@@ -474,6 +1016,59 @@
       "origin": "x-index"
     },
     {
+      "id": "x-ec732cc3b6740aa7",
+      "title": "From the developers of Hookshot comes Leonida. A native PC port of GTA 6 Based on the Xbox build. Getting to work. Github:https://t.co/MnLuj1inLj - X",
+      "published": "2026-11-22T14:12:32Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zcVhfMkpzNnlJUlhWVENZcUdaN0hjOWdsVXBhT0hzZk1HQ3JHVGN4Nkd5UXNkU2NNdzFKOW9mUV91dXkzT3hob1FvRUNLXzk5ajI1MVphbVc1elk?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "x-aeb057d1f7622115",
+      "title": "🚨 GTA 6 COULD BE PLAYABLE ON PC IN JUST TWO DAYS! > Hackers and modders are racing to bring GTA 6 to PC before Rockstar's official release. > Hacker Lichii has reportedly joined the effort > GitHub projects are using AI to acceler",
+      "published": "2026-11-22T14:11:59Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE12amljZkExUnB4SmJiZ0RHcUstUHRCQk0xaHhwcUliZTRwZHd6cVR3OEJEcEFqdjV4Q1ZvM185Sm5sNTBWdUJWWXRzOF9RLTlCYUZzYnRoYW9Dbkl2VGkyU21Jdw?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "official",
+        "pc",
+        "piracy",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "rss-d6cb93094a642af1",
+      "title": "In GTA 6, Cars Are Way, Way More Than Just Getaway Wheels - IGN Southeast Asia",
+      "published": "2026-11-22T14:01:03Z",
+      "source": "IGN Southeast Asia",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONkRxdk4xRGxwazdQWkpGVEhjTnNzOEIzcGFGR1kwRDhFWTducDdJWm05ZjlmOENRNGdwV3l5Ty1YYk04SWg2R3QwSmNGa1VlTkRMU3BJbTNyTWllWjU1WDQtMkJtTldwWG9ibjNJZ2ViTnVXNWNzNk1jRVNnUmtycVJEeTQ5bTdDQTBhYjA5V0pHMnRSRHdvR0NsSXVyUE1zX0ZxMlBfV0tzQXFyYjBJRG1BN19GaWc?oc=5",
+      "publisher_url": "https://sea.ign.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "git-r0y00-xbox2windows-bbebcad0855b",
       "title": "Xbox2Windows: shader: lower gfx1013 24-bit integer multiplies in pixel_aot (#542)",
       "published": "2026-11-22T14:00:39Z",
@@ -489,6 +1084,22 @@
         "pc"
       ],
       "origin": "git"
+    },
+    {
+      "id": "rss-d193b3bc3b6f3bf5",
+      "title": "This Is the One Thing I’ll Never Do Again in GTA 6 - IGN Nordic",
+      "published": "2026-11-22T14:00:00Z",
+      "source": "IGN Nordic",
+      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTVNza0VGTWd5WmoyLWpDclVNS3Rwb0VPT3pST0JBU2dXbHp6T1QtOHVGMU5GM3dmYXd4OVZleEpiTWQyWU04NkFKZlVfYkdOMTFpVEJfRHdDQTJhRmdlSlZuU1VLcHZ6MG92RGpydjNPVFR4TG9OaVNHSTNjREp1X0lnYUJ0ZEkwSlMtLXY0ZklRc2dkNEp2dUU1eDd2MjhO?oc=5",
+      "publisher_url": "https://nordic.ign.com",
+      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss"
     },
     {
       "id": "rss-c5d0b166e0fead24",
@@ -557,22 +1168,6 @@
         "pc"
       ],
       "origin": "git"
-    },
-    {
-      "id": "rss-d6cb93094a642af1",
-      "title": "In GTA 6, Cars Are Way, Way More Than Just Getaway Wheels - IGN Nordic",
-      "published": "2026-11-22T13:42:52Z",
-      "source": "IGN Nordic",
-      "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUVJlajJEQ2FLTzc1blQxLTBUMVVTT1BXQl84NkYycjZIVHZVeDRCODJ6anRoaFZzaE0tRkRWSVdsVWY5aW9ELV9HSVNfYkgzM2dlQVJnanU2aVRxb0RHbUpscXE2SXRzQmUtTXlOdFVVdWJ2TVZmaE9xZUFxNUdna29ULUFYTUMyZFY3VEZhZHpDUVBQd3lIYXY2UjExR0tVM0J3cUpqSzE?oc=5",
-      "publisher_url": "https://nordic.ign.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
     },
     {
       "id": "rss-07724c52b7f5fc9d",
@@ -740,6 +1335,40 @@
         "pc"
       ],
       "origin": "rss"
+    },
+    {
+      "id": "rss-54ba83fb576c8068",
+      "title": "Leonida Brings GTA 6 PC Porting Tools to GitHub - Demokratis.co.id",
+      "published": "2026-11-22T11:48:24Z",
+      "source": "Demokratis.co.id",
+      "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KNGJrWENhS1ZacXN5LVNwSVNtU2tQNEpkTXNpYVk1M3dlMTFLUjdEQ2x6M1ZwUmMtRGoyWVhBOFhXYndYYVMwMjZPendfNVp6UHlMU0Y1OVVqdG1HZm1vdWxjNlk4Q2daUjVIVA?oc=5",
+      "publisher_url": "https://demokratis.co.id",
+      "summary": "This news report concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc",
+        "recompilation"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "x-76d66fea701b400f",
+      "title": "GTA 6 DualSense is back in stock on Amazon and is currently the #1 bestseller in its category. Grab yours here: https://t.co/1zbKl2oYQs The black version is also available on PS Direct: https://t.co/DBRTj65Fzq #ad - X",
+      "published": "2026-11-22T11:44:02Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTNF9ENzd6SGJVS0NyU1Ixb0JOM0NLMTdsRlN3TXdYeFZZM3JrdVVPa1hHOEN4dThhVWxvVmVwV1FmY2lvNk5tcXNKeHNlZDNNdHo4aEl4Z3NVWVBTNWY0bzlMV1RyVUk?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
     },
     {
       "id": "rss-f07501085f47ecc2",
@@ -1179,6 +1808,25 @@
       "origin": "rss"
     },
     {
+      "id": "x-0bcd8f78616a5374",
+      "title": "GTA 6 isn't on PC. Someone is already porting it. Leonida is a GitHub project that recompiles the Xbox Series version of GTA 6 to run natively on Windows. It has 6,400+ stars in 2 days. → All 26,503 of the game's shaders already t",
+      "published": "2026-11-22T08:15:00Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAtdk1fRWkycEdMaFRKNFU0dFl6X1ZHVTVFbzZYVm9tN2tyclk0YUxtT1lBQW9DekxFbWZxakk4NkF0ckJUdG0zdEE1ZzRmR0dCMm12bkJGbFg5M0NTei1sNlVxeXZsMjQ?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "recompilation",
+        "emulation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "x-d9d1f495db887f3f",
       "title": "Can your PC run GTA VI? The minimum RAM, GPU, and CPU requirements to expect - ZDNET https://t.co/9hZinbcUQb - X",
       "published": "2026-11-22T08:00:16Z",
@@ -1366,6 +2014,23 @@
         "piracy"
       ],
       "origin": "rss"
+    },
+    {
+      "id": "x-3c3800437741cbce",
+      "title": "iPhone Duo + GTA 6 make for a helluva match - X",
+      "published": "2026-11-22T03:03:10Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5fX2JCX2Z4bkprdEtYTjhhd1RKMGphcVAtYnVEYjFwRUdZRUp1bkxEcjZIcFdDeThSRWU2bGZMUkE0ZXcxOHdicjFKXzNjQ2ZacUNGX2pTc2laSHoxNjdFSWpXRzBIZw?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
     },
     {
       "id": "rss-1f9056c8d1a03f43",
@@ -1567,6 +2232,22 @@
       "credibility": "coverage",
       "categories": [
         "game"
+      ],
+      "origin": "rss"
+    },
+    {
+      "id": "rss-446a875e6e4b38d6",
+      "title": "Fake GTA VI PC Downloads Are Spreading Malware - www.techbarrista.com",
+      "published": "2026-11-22T00:00:00Z",
+      "source": "www.techbarrista.com",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94RnJqTTNiLU9sUm9kSi00V1prakw0WGFWdnV0c1I5c3ZMaEpfXzhHNVpGWktpLVdZN3g4S2huN05DN05XNU85ek1zdGMtZnBkVEdVOEx1S1ZsWDlHNngtXzcyM3Bvc2MwVHZveU1OQQ?oc=5",
+      "publisher_url": "https://www.techbarrista.com",
+      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "pc"
       ],
       "origin": "rss"
     },
@@ -2032,6 +2713,23 @@
       "origin": "rss"
     },
     {
+      "id": "x-97a034acbac62e77",
+      "title": "I can wait for GTA VI on PC I can wait for GTA VI on PC I can wait for GTA VI on PC I can wait for GTA VI on PC I can wait for GTA VI on PC I can wait for GTA VI on PC I can wait for GTA VI on PC I can wait for GTA VI on PC I can ",
+      "published": "2026-11-21T20:08:04Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1lbkZnUnVZRXBnc2RSWXZRd3ZKQlVPQVZkS29qbVNkMy10OEQySEtUVlVnUk0xMFBEYUQtNnpwWTlWay11X0NEUkNwSWdvVE1xU3l5bGJfNDZLLTdrTHFZS3hoam8?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "pc",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "x-8066afef5f38694c",
       "title": "We waited 13 years and GTA 6 is a construction sim #pcgaming #pcgamer #gta6 - X",
       "published": "2026-11-21T20:00:33Z",
@@ -2202,6 +2900,23 @@
       "origin": "rss"
     },
     {
+      "id": "x-1daaf4a98b4d8362",
+      "title": "styled Lucia & Jason myself in GTA 6 and now they're the most dangerous couple in Leonida 🖤 be honest… how would you rate their style out of 10? 👀 #GTA6 #GTAVI #Lucia - X",
+      "published": "2026-11-21T18:33:17Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBKa1d4SUJKSFlzck1ZbXdDNGt5ZmEwR295VUtQMkdCTGdoU1Q2Y2dENFcyUFFaM0ZIbl93VkZBODhPc05hRGhUZDBseG1DaTQ0d0F3YjE3N0w2NGhRbnk5bTJXSEs?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
       "id": "rss-33c0d27df57591b9",
       "title": "All Chapter 1 Missables - GTA 6 Guide - IGN",
       "published": "2026-11-21T18:28:51Z",
@@ -2216,6 +2931,23 @@
         "game"
       ],
       "origin": "rss"
+    },
+    {
+      "id": "x-f354a92dc762fb13",
+      "title": "GTA 6 has an NPC who thinks he’s living in a video game. His conspiracy board tracks 140 identical people and asks, “Why can’t I leave Leonida???” His house even appeared in a UFO photo in the GTA San Andreas remaster five years a",
+      "published": "2026-11-21T18:26:02Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9wS2picnVKX3loenFFTC00b3N4eEJSVkJBMF80RzZkNVB1bHA5azFPSjFOYmZvWDV0QnljU3hFT2ZEZlVlRkRNQjFWUnpSVV9lVkVTaGlyTlFWRENRa0d5RA?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
+        "social"
+      ],
+      "origin": "x-index"
     },
     {
       "id": "rss-11e2686e36002ab4",
@@ -2556,6 +3288,23 @@
       "credibility": "social",
       "categories": [
         "pc",
+        "social"
+      ],
+      "origin": "x-index"
+    },
+    {
+      "id": "x-cb99be7016949570",
+      "title": "THE GTA 6 SECRET BUNKER MYSTERY HAS BEEN SOLVED & INCLUDES A FREE TANK YOU CAN KEEP! 😱 - X",
+      "published": "2026-11-21T15:48:21Z",
+      "source": "X",
+      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBZUFRYa2g0VzFPMkZCNlVxM21aMU9oZGVkdldkM1cwV2d0aGNoR01FcnFBTG5pZ2VlcDVSNE5jSmpzRzdUdjBXQzJwa25EcElYbENlcU5aMFNfbl91N0Nr?oc=5",
+      "publisher_url": "https://x.com",
+      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
+      "verification": "Public X post indexed by Google News; author and claims not independently validated",
+      "credibility": "social",
+      "categories": [
+        "recompilation",
         "social"
       ],
       "origin": "x-index"
@@ -3349,54 +4098,6 @@
       "origin": "rss"
     },
     {
-      "id": "rss-eebadd65a5a8cffe",
-      "title": "Fake GTA VI Streaming Client Installs Data-Stealing Malware on Windows PCs - Hackread",
-      "published": "2026-11-21T09:01:06Z",
-      "source": "Hackread",
-      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBRdXVmQTY5WUpzODRldEJTaVVDeFcxTW5SYUVLME9aYXVIc0w3bzZiY09hb2IwUW5pZDRGYkxFVkJPWU40UmJfaFp2NW1zVV9YNmFRdk8wVy1PUDFCOHRsc3FhTS1WT2Z1ai10V2FoSElxajllZzRNMA?oc=5",
-      "publisher_url": "https://hackread.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-7fe76b346bcdbf38",
-      "title": "GTA VI PC requirements: Here are the specs your gaming rig may need - SSBCrack",
-      "published": "2026-11-21T08:24:16Z",
-      "source": "SSBCrack",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTGIzU1pFSWhVLVJyemFaMTFMNk1XMHlWUDRFMDZTRnc2WDZIdmluXzNhMnowbUtSVjEyTmZHQkhmeklrZGpLQk15UE1nQkdqbEdCbV9FMjd6bUpNMmVTVU1FN1c1elVtbzlBbUVjNzB4cTBHbnVvV1N1M1FBY0lyV0R1a3otdFZlSlA2dlNxbnBPMEpCcFBWbg?oc=5",
-      "publisher_url": "https://news.ssbcrack.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-e20205dd415d1dc1",
-      "title": "Grand Theft Auto VI shatters entertainment records with staggering $3.79B debut - Fox Business",
-      "published": "2026-11-21T07:59:58Z",
-      "source": "Fox Business",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN241czJCWFM1TGtvSm1LbGctd2k5N1BwZTIyNXFZN2JHcEVycE96M1RtZlJvQjRHZFlfMkQ5dkh1MXotWGI0U0pnV1d5aVZvdmZXMnBEVjdxNGF3TjQyNEVBTHUySWI0OUJGTU41Qy1GbGVOQVphcmNSYW1qSkx5bTBxMmVzWVVGa3VkTTF5NUl3aldrWmowODR3T0JkNnlDZVM3bk1SWnJPQS1nb0dyQWlFWUtfZ9IBuwFBVV95cUxPNnJxaDlrbkZ4SlBDV2p0ekZkQjVBUWVpOHVzSkp4ZUZIQ1dEMTEzd055YmVFNk1DclFNZzRxUWNmMkRKYzFraGc4WU9RRGVGcWdJcWRYTTVMVVJ5SVh4LTJqZlRkQzBRSGtXVmFZYnZBbXdKMU5RbmlxOXBqOEhiZ0ROYkgxbGZ6Nlk5Mk5QSm5Ld0RGS2M1RUZoZkxkVVBLcmg4SHQ2OUYwT2d5NE5BQmYzNWYtaXc4aHAw?oc=5",
-      "publisher_url": "https://www.foxbusiness.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "x-4236e9772355c9ff",
       "title": "Cyberleek lowered the early .exe release milestone to a $6M market cap for the CYBERLEEK token. The file will come in a ZIP with SHA-256 hashes, strictly meant for Xbox emulator developers. Cyberleek also warned fans to avoid fake",
       "published": "2026-11-21T07:46:07Z",
@@ -3412,697 +4113,6 @@
         "social"
       ],
       "origin": "x-index"
-    },
-    {
-      "id": "rss-ca3414050b283135",
-      "title": "GTA 6 PC scam kit reportedly sold on the dark web for 200 USD to steal user data - Sportskeeda Tech",
-      "published": "2026-11-21T07:42:52Z",
-      "source": "Sportskeeda Tech",
-      "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSkFLRHM4S3daZ0pUbGttZUVpa1N5MG1taEwyS3lEMnNyVkhGYlQwS2laRV9icUdlOEVfdG56cGxiQUtDNEJWWGdwcUZJWS1maDhtbzlENVM3Q002Umd6cUt4ekY1b05HMlpsNlV1TjVnZlhwVEZUOGJjMmp0cjE5UjlrWlJURC1lQmFsWWNWSHBoYWcxeEdOWXR5YmxDM1oyaVdVdWpEUEo5NUtuRDZ5djFR?oc=5",
-      "publisher_url": "https://tech.sportskeeda.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-888c697c7b6e6373",
-      "title": "The Guide #270: Grand Theft Auto VI is everywhere – but is it really the cultural event of the decade? - The Guardian",
-      "published": "2026-11-21T07:02:00Z",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQYnZPcFRMeWs3Si1yR1dpcDEtbUhqdjUteC01aWxwVzhyOHF3MXc3aHBZX1F4bURrZWo3NnFhRVAxcmVMcldrRm1vT0xwaTNFNWpUaFplMENiQ3dRdVZ2Mzh1aUlRT01KbDBxR3RMX2tiSkhzWm1BOWxhM2hyNHRUWmNDcW5ocGUyQ3RWcEw5aER3LUwxWnFKMVViaHpnTnZYMUlaTjAwb01kNXp4cUVEZGpUN1dKQ0VSZVNaQjBFMDRhczlDbWRNM1YtNA?oc=5",
-      "publisher_url": "https://www.theguardian.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-7fc3f1d119e3ee61",
-      "title": "I Tried Being a Law-Abiding Boyfriend in GTA 6, Until a $6 Beer Forced Me Into a Life of Crime - IGN",
-      "published": "2026-11-21T06:00:00Z",
-      "source": "IGN",
-      "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONDRWcU1HU1hzODRWV0I5UFF4bUNZN2xzTUpKbVhKR1ZrUXU0RVc2SzMwcUVGcHVsMVFKNEFFQTRyTDFaQ0tKZzFTanNXXzJMOUNrUmtxLUFlVExHUTgxeU1ZWV9Ya213RGtwd3N4X3VFLTI4c3FqZGZFb09kVjhxSXBHdmx6STl3NVFSU2FuY1d0NUw2aXlfYw?oc=5",
-      "publisher_url": "https://www.ign.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-133bf1e4be5c65ab",
-      "title": "I got my copy of GTA 6 on PC have you? thank you Cyberleek! ☺️ https://t.co/bHrg6sLVbd - X",
-      "published": "2026-11-21T05:56:06Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE10cEhwVUluc3ZlRVpPdGhvQms5T2hrX2RMbDFFbWd6LXg2dmk4eVZURV8ySWF2QzAtLTNtVVhwSmw3bGt1WFpVV1BQQ2hrM0Z2NFczaU1vZ21ybXBDTHQ0aTU5U0laV28?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-926d4a807726961a",
-      "title": "GTA 6 PC Port Leak: 209 GB Xbox Dump, No Emulator - shattered.io",
-      "published": "2026-11-21T05:44:21Z",
-      "source": "shattered.io",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSlZBemIzRUpSVjJxSDVyZEJ6VkdLaEV5QnJaWnpBWlgzdXBjNklQX0xrRDZ0UEFCajV0bDhybDl3UEF2RlAxaHUyejhTV3JBWWloSldDVXhVMzVnWXpGb05WT2Rfalg1VmhPdVJHTUZoU2pTRjNCWXJaNzJiZlBSZlV5MS15R1Jz?oc=5",
-      "publisher_url": "https://shattered.io",
-      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-d48358fa63bb04eb",
-      "title": "Hollywood Minute: ‘Grand Theft Auto VI’ first day figures - CNN",
-      "published": "2026-11-21T05:33:02Z",
-      "source": "CNN",
-      "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNZ0dtYUJYRkNJOXIxeTV2aGQ0UTVUWmNBS0Y0NERuaDBKTnRIWVh1SmpiUHpzYVlCVzBlZjVrNVM4X3djd2tqZDRVWDhtWGUwZVF1X0k4VkxQN2UycUhyYVNDVEpFT25jUUhXSHBFOWRkaTM3a2dMYW41U3EtSnBDdmJFZ3d4Q3c2cVZ2MFdma1ZCYXY4M2N4eXF3YlVPLXU4UXg0Y3lybGFzR2l0YUpWNFM1RWV5VEdtT2hXUUlJZlpROG9kVlJuTDFPVHFpUVZfckk5cmRlV1R0NWk0V1hoalVSWF9KMnRQZjhHdzlOQ3prV1RqVk9RQzhUQmFEUQ?oc=5",
-      "publisher_url": "https://www.cnn.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-97247613b05c6f50",
-      "title": "GTA 6 Glitch Enables First-Person POV and Open-Source App Adds 120 FPS with DLSS 5 - TechPowerUp",
-      "published": "2026-11-21T05:22:40Z",
-      "source": "TechPowerUp",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPemkyQ2dSWFM1S1RsY0JuMGNFMmhGYzlsOWxsLVM3YXlEQndwVDhGNUhzdmN1VE53cHo0ckhnZDNmSUY1eWpuTjBuMVY1anVWZEhyejlpNnFXZXNKeDV4Z1ZHQ1JjcEQxbGhuRm9tNFJYOU92aVhucG9nOHk3cGZ3ZExiYnJSS0FlWmRxNFotNXVKZUJxazJPaW9kbjFjUTFLdkVRa21feW5LaUM2ZFYtSlJVYzkzamRr0gG-AUFVX3lxTE1xcWREb2RueTBtOE9GTTlETFRaT3dEMXNXQl9TRWFwTHctUjlCRk1xNzRFMUQ0SkNLS1VTaVpWT3hhRlYyYS1XdjJybHF3VmFfN2I2NjEwZHBVTGNkODJTVE5hVGZPcDEwRUNyV3JFV2FDOGZra05oZHVWRnF3OFFRUWktWTEwckJrc0JHZzFsZm5sS2pUOXl6ejE4Wk9rWllURDBsbjdfcWZScnpVTEJQRkdvcER2ek9kMnh0WVE?oc=5",
-      "publisher_url": "https://www.techpowerup.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-9dd076751193b31a",
-      "title": "‘Grand Theft Auto VI’ makes $3.79B in a day, the biggest media launch ever - The Washington Post",
-      "published": "2026-11-21T05:09:00Z",
-      "source": "The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaGpJVV9vQ3REeEVTSmJqQUZtNEh6eG1SdGlnVzFBRy05am9fODVCcjJLZG9RXzF4V3JxazVnNjQ5SnJzR21qNFdQbWdQWnM2YXdzeGNtNXJ6RlJFaWd4dmE2RW1NV3FoalZJTlNXVUR0VWJoWmZ1N0Q3REZmOHowanlESnBDa1YyT25Hb01UZG1vSFV3VlBIaDdjMXA4RXowc0Zhd0F4VjZxbDIycGlkZy1KdW1pNzc5UlJzV19SbkQwd3NZSURoMQ?oc=5",
-      "publisher_url": "https://www.washingtonpost.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-bf293e7d77e524e8",
-      "title": "Free Veyra app uses RTX 40 and 50 GPUs to make GTA 6 on PS5 look like 60 FPS - TweakTown",
-      "published": "2026-11-21T04:39:15Z",
-      "source": "TweakTown",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQT1V2SDlJQzFlV2YyTm41WmJWaUhDaDNpbWNoTjNxX05Gbl9FZVI0SFAzQjlLXzZZU183QW5HS0RJbW1PQzBFSVhMZ3VBOFVCSHYtMFRPX21idTN0djlsNElxaGxGUEpWcGQ4dDZfTjZscUNnSl83X2ZQZ05HbmhxNERRaG9CTzNrdDJseERvcnc2SWs1Tjk4VzFZRG5XVVhYdXBaeXEzRHlaVWkybWpaRjFlRXI2Rkk4VjlZMEx0TmpZMm8?oc=5",
-      "publisher_url": "https://www.tweaktown.com",
-      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "emulation"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-8921c68f91967cd9",
-      "title": "GTA 6 pre-orders almost hit 16 million - and exceed $1.5 billion revenue - as the game continues to sell at a blistering pace - TweakTown",
-      "published": "2026-11-21T04:39:15Z",
-      "source": "TweakTown",
-      "url": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPMmxVOEpsckkyalJPeTljQ0FLRzNHSzBEcFR5UExsS0M0d3Q4a1E0czdoLXhRZnBpdS1YbWtLZ3lybm5haW5aMzFaRXRYUEc3eXdzeldpcXVJS0xDWHktNVhmMjNiUzFRbngyQlJWWGJlbXNuX2dvZFlJTzN0N3N2TFVISFFjYzRHRXZHc0V3aThFa0IxS2M1SmpUdFhibW1sV1o0YnhKNXBVYkxKRHhZU1hVbDdoZUtackhFY3YycVBqbEg2MnNCTk9RelJuSmZLY2JHTFA4MVFqUlVEVDI5c1lWZmVNT3BjTVpJR1czd3BnMzJqdl9KR3lSbTAyN1JBM0I5cG1pSQ?oc=5",
-      "publisher_url": "https://www.tweaktown.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-d19ffca67be52428",
-      "title": "GTA 6's dynamic, persistent weather exposed in new first look from the Weather Channel - TweakTown",
-      "published": "2026-11-21T04:39:15Z",
-      "source": "TweakTown",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNS3FKeWZpZFk0TUJDcnVCQjNSU0lrQkdLOThUYUp0TjM5ZVdWUWRzeDJlYjYyY2JpS2Z3R1BxNTFGNS1ZVWlWazlIemFnSjZUT18yTVVDMUtCWmVYQnVPRklMUDRvMnBpazZnWWxzZklPWlItZkxoVGE4dzk1b3BwTjNnSVo0NlB3SFp2dGR4S05GcUV5Wk9mX2NDNFdFbG5tbTdJTE16YUxPVi1MNWs1S3FsRnFSV3RFeXhtMTA4bElOb1lzTG9peUNPMUd0UQ?oc=5",
-      "publisher_url": "https://www.tweaktown.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-5795e3ad9d73511e",
-      "title": "GTA 6 hitting a consistent 60 FPS even with PC hardware is 'doubtful' - TweakTown",
-      "published": "2026-11-21T04:39:15Z",
-      "source": "TweakTown",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQSU5uOHYtOHU4MEs2TWJ4dlhYMVdZNUdldHZRbEFEckV6QndfQVl4a3I1Y3BFQUNuRDZzY3ozVWZkemJnUWV6YjVwblFxbDBPX0REMEYyWDk1OWpjcS1rem9pa1M4a29fMmc3UTIteDIzTEFXbmJUYXFiei1UZ0RTNC1ZbzdiNTdMRk9sbDlQQnNXQU1yNkFtbnprQlNOaWhXSWxZN2JsejRkamFfdGo4Tndfa19fQVU?oc=5",
-      "publisher_url": "https://www.tweaktown.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-56f71469bd4a7344",
-      "title": "A 'GTA 6 PC port' scam kit is selling for $200 in Bitcoin or Tether on the dark web, NordVPN says, bundling a fake keygen that steals logged-in browser sessions, a crypto wallet drainer and a hidden miner, though GTA 6 is only out",
-      "published": "2026-11-21T04:02:31Z",
-      "source": "Make Tech Easier",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BeVVfcXZCX3RHYnY2OTViV3p2a2hNcDQ0ZHlLMllkbDhhT0tGcWRrd3hLcllfejVnd1REVHNkelVuRV9VSU1ZZzBGOVNpS0h6NGNtZjBiaGxqSjlJZFdj?oc=5",
-      "publisher_url": "https://maketecheasier.com",
-      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "emulation"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-23e74b8fda9e57a8",
-      "title": "GTA 6 PC port leak: Cyberleak threatens Xbox build dump - GameLuster",
-      "published": "2026-11-21T03:55:29Z",
-      "source": "GameLuster",
-      "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9NZXZCUHBUOFo0Smt4ZU1ZWGVQYVQtcTR0ejBBNGRxUkR5MmYtR2dUclRKWGt6eGxqNkJ6cC05X3pjWlVyT2s0bFdQTF9FcW5JdXZzVmdQQUJpa1lMZDFMbld6UklhNmJxZDUw?oc=5",
-      "publisher_url": "https://gameluster.com",
-      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-1ad352a49d1539ed",
-      "title": "‘A new record for entertainment’: Grand Theft Auto VI sales hit $3.8bn on first day of release, developer says - The Guardian",
-      "published": "2026-11-21T03:51:00Z",
-      "source": "The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOMHZSb0pldUpaQWE5ajJBWUlDWlAyV3VubVFBSVNYNGFvbTllMlRYb0JHUmlVYTJhZzM2ZFRFZnRKaEw0TGJ0ZEtxTzNjNUhmQzI4bnVTaHlnb0poZmFaNmdmRXVaWUxqX0k2VEpmQ3V3eFlrQi12WnM1N3JHNzZpMkh3YVpqMmpGR05JSFhHRnhVM0pyUVFMZ1g0RFVzUVdaRzhSbFcwbjdxSS1HLUVZcGx4TTJhdmZuVFo3ejZQY1VrNV9Fdzc0a3BFQUY5VHgtV1Y1TXYxQnVja0c5N0ItaF8zSks?oc=5",
-      "publisher_url": "https://www.theguardian.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-083be30336fb5e0a",
-      "title": "Apokolips comes to Leonida. Ray Porter, the voice of Darkseid in ZACK SNYDER'S JUSTICE LEAGUE, is voicing a mystery character in GTA 6. \"Who am I? You'll just have to play the game and find out.\" - X",
-      "published": "2026-11-21T03:24:14Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xTmZKNFVaM19KTVVwblRfSVYxaTZFVXhzNlM3SjBFMGp4UEpoaTBkaWhOeU5yUGE1czk3bm1xUC1IMFNqVU1QWElEM00xTTVFTW9ySUp5U3pya2U5bDZMYw?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "recompilation",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-2189ded647d75090",
-      "title": "Why GTA VI Won't Support 60 FPS on Consoles - Tempo.co English",
-      "published": "2026-11-21T03:13:43Z",
-      "source": "Tempo.co English",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQZ2dwYUgyc2h1YmtLSldlLUdMdmZZMUF3dkRpbWJEYlpzLWZ3SXNHY2pQejdCcllDQV9RcS1xWUpQVU5oRmkzVTRFdmg2OEtmYjVXM29meU50Mk52Nlk0WFMtbUJIY28zUWJWbXVCc3Q2TWVpSEpJVndST0ZsTmQ3dg?oc=5",
-      "publisher_url": "https://en.tempo.co",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-f269c90d0da3e988",
-      "title": "Cyberleek is NOT me. And please don't pay them for GTA 6. The leaker is Cyberleek with two E's. My channel is Cyberleak with an A. Just buy the game. #GTA6 #GTAVI #Cyberleek #Xbox #Gaming - X",
-      "published": "2026-11-21T03:05:38Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9ObnVNWDlKSWlpdk9BUnFGNEZmckVLZHBld004WllKVndOZHI1Y3lMemRSU001ekpzTEdjXy1zbVNjQl9yYTBIcHFRbEZBQVpFMVZYWDFqNkhaRmpsNXlZ?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-a3ba93a41f6a8df2",
-      "title": "Reliable GTA 6 Updates: Official News and Support Sources - Gizmo Times",
-      "published": "2026-11-21T02:21:22Z",
-      "source": "Gizmo Times",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPZW83ZEdER25OY25yOGVCbWZKWnBtR0lqOFlOaFVMdG9TaHBGSzhKNUIzLXRnN0hNSGVtZU9pZm5STWpJLVd6R185cFJ2bjBNQ1p1TGIzWElmcnVyX3BJUWdlMXk4UHBUSk41SGJBb3hNSk1hckhYYm5UTXROcTZzU011QTFWU0VmZWp5Vg?oc=5",
-      "publisher_url": "https://www.gizmotimes.com",
-      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "official"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-fcc98bcb385ea2b9",
-      "title": "GTA 6 on PS5, PS5 Pro and Xbox: Graphics and Performance Compared - Gizmo Times",
-      "published": "2026-11-21T02:21:22Z",
-      "source": "Gizmo Times",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVkhoU1ZnN3VFZC1tM0xET19lQkFqU0o1MjlGb2lyLWI1REFYOTI1b29PdVhXTDBTWlI1UVh2Y2F1V29ZTXlTN3NaOHB3SjBXdnVoaV94elJmS3F0ZDlvR2x6Y2h6Q2FXSHJzYjRGYTlVTFFOU21lTkNsUldpeV9VM1Qtc2VSYV95VkpXcXlPZ3VoVHlW?oc=5",
-      "publisher_url": "https://www.gizmotimes.com",
-      "summary": "This news report concerns emulator and console compatibility development. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "An emulator running homebrew or another game does not mean it can run GTA VI. Compatibility must be demonstrated for this exact title.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "emulation"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-d430b495cea64f0f",
-      "title": "How to Avoid GTA 6 Spoilers on YouTube and Instagram - Gizmo Times",
-      "published": "2026-11-21T02:21:22Z",
-      "source": "Gizmo Times",
-      "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNUGFMUDJ5TklmX2FXdFJXSUNrVnBQOTRPQnNZbEl4bjF6VjZQMmdmT2IzckVaOUhVQkcwYVdnUUE2UzVSbWdsUnV3bERNMkdmMkw5dWRheUNBdGY1Rmk3MDhYejAwQ1FTcHlZYU1rMFJPS1NZWDJUSGM0UW9HYlpvMW03ZnM?oc=5",
-      "publisher_url": "https://www.gizmotimes.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-2d60db56c89b81f5",
-      "title": "How to Turn GTA 6 Gameplay into YouTube Shorts and Instagram Reels - Gizmo Times",
-      "published": "2026-11-21T02:21:22Z",
-      "source": "Gizmo Times",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRDBuc2JHcjlPSEhwWGx5Z3F1eThxbHd1V3RfdHdBSHlCQmoyY2V2cHllQVlfa1FRLVEzSHhDeDVNRDcyblA3MVhXOVlBUFJMV1U3cGhOZy1oVzN6WmZGRVJUM0F3a2lwNUQ4eUR0MXlNNF9fMG5aQ1gyZXFJQUwxdi1QYkhTQ0JOazM1NTVn?oc=5",
-      "publisher_url": "https://www.gizmotimes.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-5c5bb9865710ee55",
-      "title": "GTA VI is finally here! We’re kicking things off with a coastal road trip to the Leonida Keys and immediate Vice City chaos. What’s your first move? Presented by @Xfinity. low latency internet made for gaming. Xfinity. Imagine Tha",
-      "published": "2026-11-21T02:18:49Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEbDRmUmg2OGx4X25pTkFjYy1tSXRDRXZLY0FqbFNPSE5veW5ZNXBqdXpVRFczLTUxLUcwbzE3WkdMR0dxV2d2dkxlZzJWMm5QdnM5b0VOZw?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "recompilation",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "x-ea65457fc7961de7",
-      "title": "🚨 All the endings of GTA 6 revealed so far: 1st (Bad Ending): Both Jason and Lucia die on the bridge by choosing surrender. 2nd (Bad Ending): Jason decides to jump in the water but still both get killed by cops in the car 3rd (Goo",
-      "published": "2026-11-21T02:07:40Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1MS3BFcXIwcDFvZDZYVDYyWE1Zd0JyV1EzYm9hNTBOQm85QzY1QVBReDU2WmM0UkZkUnRzd0JfdkdNREdDOERUZENyOEdkMDZqNnU2bE40R2Z4eEtpWFpWZjNGcw?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "recompilation",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-405a8ce781941b50",
-      "title": "GTA 6 on PC next week? A leaked Xbox build has sparked a bold claim - MIXED News",
-      "published": "2026-11-21T01:43:21Z",
-      "source": "MIXED News",
-      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbkVYZzNGZ01zb0c0cExGZjVRdE85ODg2YU0tekNDTWdUVm5lQUN6dm9ib0puWFhGWTdEZWNOWnhsdHNxN3ZTRzdMVDM1bkd1MVVCTTVJNXhuYjE3c3VyRjJTc0xRdER4akU3Q2NQbHE3bDhYd1BwOEZtbjhpSkJzanBPMA?oc=5",
-      "publisher_url": "https://mixed-news.com",
-      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-329f997540dba998",
-      "title": "‘Every file except one’: Hacker group CyberLeek claims full development build of ‘GTA VI’ released, but withholds executable dlvr.​it/TWQD7b - X",
-      "published": "2026-11-21T01:35:21Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NdWVTMUlSYllNa3ZpY1JpWm9UX3NVemU3NWo2d0d5ZnBwbk5ROVM1RFZqWXV0UVNxYkRXZjlIZVBnVkYxSWRZMTlEYmlvVnNXdGFldlU0clpCb0JMQ1FJ?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-34389031ec0697bd",
-      "title": "6 Signs Grand Theft Auto VI Is Coming Between You and Your Partner - Psychology Today",
-      "published": "2026-11-21T01:29:53Z",
-      "source": "Psychology Today",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOUt4eGlvQTg3OEtnbFZFc0tkZ2pHM3VZLXBuRE1sV3lmR0tfMjNhT0lacFNPZ2VfbWNsRXE4dGVnQkgtQ3hhNnRCMmMtSkV6bHlDYlRHb0Z5R3pWX1h2U0RvSU1HaXJjSGtLblJzU3gxU2FhUzk5bDBrVVMta0tSNi1IV1U1MUloejhyeGlaQmU3NFA3YkNZcFVnd2NMUjltV3hYclY2VGtVUldCaWJHUmV2RkNwbjRuOEJvbkN3?oc=5",
-      "publisher_url": "https://www.psychologytoday.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-52280ee4b54af9df",
-      "title": "That Claude Code beat GTA 6 overnight story is fake. at least six accounts posted the same pitch, one with 3.6M views, and a Community Note says it doesn't hold up. what the Community Note says: • GTA VI is not available on PC at ",
-      "published": "2026-11-21T01:15:00Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE83bFQ2SmRsQXpSaXFzWFY4VThpLWItN0tqZzRqR050dmthT0JvVGtTSVN3a1E3Y2p4UFdTdzVXb3ZQYWNmOXNaQUxmaUQwQjA0MjlHY2w0VUxyR2N5UDhnWTJfeDN4ZG8?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-222549f02100d187",
-      "title": "From Bad Bunny to Sexyy Red, Here’s Every Music Cameo in ‘Grand Theft Auto VI’ - Billboard",
-      "published": "2026-11-21T01:12:24Z",
-      "source": "Billboard",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVUN3TUhYVm5leGxIaGJRcnlFU18wbnAyX2hTdmwybnFZUE5Ub0p6TVU1bVFBeE1abEk0Y0J2VVd2c0ZsY0lYbmRKUDBhN3ZtY05ET1hEcG1IakNCdVlVMDlwek1vQS1ZanlScFZMOEp2Z0ZEX3NWbG1fMXd6dGdNWmk1SmZyZw?oc=5",
-      "publisher_url": "https://www.billboard.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-a7c79429017cbf32",
-      "title": "Can your PC run GTA VI? The minimum RAM, GPU, and CPU requirements to expect - ZDNET https://t.co/CiYGKqljQy - X",
-      "published": "2026-11-21T01:00:26Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9fQUo5MVp5RGFfQ24ybDJZSU1CLVZwNkVqYzVLdU9HbWpCMl9WSXd4ZjBrS0lnQnQxRzRmcnBxZWFjXzBEa05FSTVNTlpLOEh5VUh6X2xzNEs2dw?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-7ce66c32cb55e5fb",
-      "title": "Play GTA 6 In First Person With This Glitch - GameSpot",
-      "published": "2026-11-21T01:00:00Z",
-      "source": "GameSpot",
-      "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUk1pdEh0aFZaTHVYQVhrMnVJTmlDUkRFV1o5RThEUjdPYXlqODQ3YVZBQm93UDVkczZpV2N0TWllbDluWWpoZDZ0a3U5eVVhYWd4RVFtd2NiTGJjZ0xMQjFoZDdha21sYTFWekEtUWJTN0FtZjR5T2hwS0ZjYldhZHRB?oc=5",
-      "publisher_url": "https://www.gamespot.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-ce8835585cd748c8",
-      "title": "PSA: GTA 6 has secret radio stations you can unlock by scanning posters https://t.co/dekkPNYXc4 - X",
-      "published": "2026-11-21T00:50:22Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMaXBMRTJSLVkzWTBPNmJYdFh0TVdzOUxaV2YxNnI3aE1VT3IxQWtSbmpKVlp5ZzNvMzZoNXJjcXgybVhCMmhzcTlkTTRSM1NNbW9aLTM1cEw2NnIz?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "x-ff973fbe1fe13b1e",
-      "title": "🎮 GTA VI GIVEAWAY - DAY 2/6 If you start the story on day one, you’re playing GTA VI wrong. Exploring Leonida first or jumping straight into missions? 👀 🎁 Win a GTA VI Xbox code! ✅ Follow @2game 💬 Reply AGREE or DISAGREE and tell ",
-      "published": "2026-11-21T00:48:47Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1BOWFMTWZlZWp3dFJZcXB2RXp4YzFObm1pWnROY0RiS2MwRWljYlVpS092WWRLd3AtUEhkZHdLMElsZmktbzEtaW5MQ0F2OEtHejNpQW5LVjdXQQ?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "recompilation",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "x-855798f491270f0b",
-      "title": "GTA 6 PC port could come from hackers before Rockstar, if Cyberleek makes good on its latest threat https://t.co/Iv6Y7QXL6R - X",
-      "published": "2026-11-20T21:55:10Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UOTlXQmdxR01mbGwyX2o0cERzUXlOSEtadzBJbnp5OHVQcXM2TGh1a1V2djlIdzlYZzlyMGZQTTZEUFV5OWVYdDBMMThxaFVnNFBtSnRzX3p3UVZFY2RlQQ?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "official",
-        "pc",
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-98f0176865ce1c24",
-      "title": "GTA 6 PC port could come from hackers before Rockstar, if Cyberleek makes good on its latest threat: \"This community will have it emulated inside a week\" - GamesRadar+",
-      "published": "2026-11-20T21:49:49Z",
-      "source": "GamesRadar+",
-      "url": "https://news.google.com/rss/articles/CBMipwJBVV95cUxONWwycUVoR3BtQmkwTkNyZ08yQU9aZlZ6cHo2a3pqODd4QVZnZEo1b3BIeGhjdldwMnVNekdXQnkyOVg4RUxfNUxMS1lWQWE5LXlESFpKUWp1TlJLVG5vM1RMUEZjUG0tRnBjMmNIaUUzTTBiNk40cXY4Ylo3UUNJNWw0M2lsOTF0TzQzSFctMFgtYVBGTmR1RXpKYU05QTdwblh1MEhabEtoWWttY01za3JTWEloN1VDQ0NPdGV2b2FxaURCM2xWYmhrZGNmUDYtS2I4bUtnQ1gzZ2ZFOWxoSktaN0VZMEk5dTlnTHVwNnF1MndnVFJ0UUZKeVBFM1hBQ0xlM3lOMlVSS3J2d1dkUjFtTnBsSFk1T3FtX2lKRkpjSHF6Zmlj?oc=5",
-      "publisher_url": "https://www.gamesradar.com",
-      "summary": "This news report concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "official",
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-7492cd6dbf9dbf0c",
-      "title": "21% of Rockstar staff have been employed by the company for over 10 years, which explains a lot about GTA 6's record-breaking launch - PC Gamer",
-      "published": "2026-11-20T20:41:34Z",
-      "source": "PC Gamer",
-      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNYXVpbGt4Zk1wSGFqR05hRU9oZUpXVS1sdlNBeWRMc1N5TUY5Vi1uTXJPaG1obkZ5NDBRMTlMX2FUQm1tLXJFMXkyZ3BNVF9jdTdXa2tsNE00ajYyRE80QU5FcVdJbWZzSUFkYnJoLUk3eTFDYXhuWWVjSHBHWWFTRC15eFVmTzVINlhtVm1FTDFmRmFCRkpBZmVtczI3ai0tLWtBeW5EeFpqUEFVMDRqVWEwTWxnd3pldHBxS2ZWQWthSnJqbVREcUk3anpzZU9uVnV4bEFDX2R3NExQSk10YS1STE1pUVVsOUdiN2l6NU5mQ2VoN2JNc3VsdmxGVDZ5WWVDdzE2M0lFbHBCdnl5ZUhHMA?oc=5",
-      "publisher_url": "https://www.pcgamer.com",
-      "summary": "This news report concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "official",
-        "pc"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "rss-96c586c11e7af518",
-      "title": "Take-Two’s ‘Grand Theft Auto VI’ Hits Nearly $4 Billion in Sales on Launch Day - WSJ",
-      "published": "2026-11-20T20:41:00Z",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNQ21QbUU2aE9uVUNabDBiZk5IbnZxeGhTTnhaV0duNU8wWmxEVmlHbU9iN0I1TVdMX3R6OERSazRXY05xT1V3bTRXaHFhM0puRjZYVUZseHZpVzg3UUlnODhpSGM4QTB4eG9NWno0WmZIMFVEMWdrN0VuQWxtb1VzYTRoa25DTFFZTm9DQ1JXLWxGZFFLaHdONU8yazhXbmtzUV85MzBDei1nNFdnNlMwWXZuWUNFbVNiaEE?oc=5",
-      "publisher_url": "https://www.wsj.com",
-      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "official"
-      ],
-      "origin": "rss"
-    },
-    {
-      "id": "x-081d545a79a4a5e0",
-      "title": "It’s official now : GTA 6 on PC by Cyberleek 🤯 - X",
-      "published": "2026-11-20T20:18:46Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE11cWxSYWV3V2Zxa1hLc2hSNUJTNG54M1cxdmQyV2JQWUdtdnpYaTFINmNOZEVyVUZqREsyZkJlTEE3QlJKSDlnOWd0Mk5BYlF5ZG5oeHFqbzRXWXpt?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "official",
-        "pc",
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "x-54453adf7c6e976a",
-      "title": "Rockstar says GTA VI made $3.79 billion in its first day, setting “a new record for entertainment across any medium.” The game also sold 32.5 million in pre-orders https://t.co/1Vv60AFgwg - X",
-      "published": "2026-11-20T20:02:14Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBSRlhKbzRBNTdNVGVkYU1PbTlqWTUtNHcwanFjSnR5bk1iLTkwakVWcmlYVDhiM3NRNEtXSHhqY2xFbkRhM1FESEhpcFJDYVFCUDJScTNxTVE0a1VocFMw?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "official",
-        "pc",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "x-66335b4841b49ca3",
-      "title": "Take-Two announces Grand Theft Auto VI has sold over 32.5M copies and brought in $3.79B in revenue from its first day of release. Source: https://t.co/pN4E7ip7xl - X",
-      "published": "2026-11-20T19:42:03Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4wMnV2bmFIVWVnbDF4ZFpMbW9SY0VidDczSXA5RzdJZDZkdzg4bWVqOThvSm1Hc0ZjUFFxa3NwYWV6VE9ad3lOd3phY1ZBWXRwRUNiS09nNUh1TC1aaDVN?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "official",
-        "recompilation",
-        "social"
-      ],
-      "origin": "x-index"
-    },
-    {
-      "id": "rss-3a9e9d73f93146a4",
-      "title": "Grand Theft Auto VI Shatters Entertainment Box Office Records with $3.79 Billion in Day One Retail Sales - Take-Two Interactive Software, Inc.",
-      "published": "2026-11-20T19:31:41Z",
-      "source": "Take-Two Interactive Software, Inc.",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNMWZqYVN1ZTMtVDlFWjBUclI5SHd2T2tKUVFUOU85RDhsam84NDdwREpScWYtMVpCVEgtakV3bm1TR0R0S28xeGttTFFaQklabmVnMVBBdy1RRkxWWEVsVHY1YjJWM2NwNWJ2Mm1YcTZTRFhRdHpmNW5yUnFpTHNnMURmcWVjMXkwRHc1YXZzb0ZuZTktcmU4Z09TaGs?oc=5",
-      "publisher_url": "https://www.take2games.com",
-      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "official"
-      ],
-      "origin": "rss"
     },
     {
       "id": "review-album-2026-11-20",
@@ -4251,17 +4261,17 @@
       "platform": "XBOX SERIES → WINDOWS",
       "description": "Static recompilation and translation of GTA VI's Xbox Series edition for Windows, using a user's own readable game package. Tracks shader translation and system runtime work.",
       "status": "GTA VI does not boot (project README)",
-      "status_as_of": "2026-11-22",
+      "status_as_of": "2026-11-23",
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 13857,
-        "open_issues": 1150,
-        "last_push": "2026-11-22T20:00:43Z",
-        "last_commit": "2026-11-22T19:46:26Z",
-        "last_commit_title": "Merge origin/main (7 pull requests merged on GitHub)",
-        "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/f847748cc76bd3777f9c070c4034eb2fc1c04e64",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "stars": 15388,
+        "open_issues": 1561,
+        "last_push": "2026-11-23T00:33:23Z",
+        "last_commit": "2026-11-23T00:33:23Z",
+        "last_commit_title": "Merge pull request #4279 from radv-tinker/pr/make-game-preflight-resume",
+        "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/03b09a086592a197db64d91655c6e65c30764d96",
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     },
     {
@@ -4276,13 +4286,13 @@
       "url": "https://github.com/Freminet/ScarlettX",
       "progress_url": "https://github.com/Freminet/ScarlettX#status",
       "github": {
-        "stars": 162,
+        "stars": 168,
         "open_issues": 28,
         "last_push": "2026-11-22T10:38:07Z",
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     },
     {
@@ -4297,13 +4307,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 60180,
-        "open_issues": 2805,
-        "last_push": "2026-11-22T20:43:38Z",
-        "last_commit": "2026-11-22T20:43:37Z",
-        "last_commit_title": "Merge pull request #25807 from PolkadotDom/feat/ghidra-unwind-starts",
-        "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/6bedd8e28dbb81f3b0b86a84f60f597526d69651",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "stars": 60282,
+        "open_issues": 2763,
+        "last_push": "2026-11-23T01:42:21Z",
+        "last_commit": "2026-11-23T01:42:20Z",
+        "last_commit_title": "Merge pull request #25387 from ToRaNek/fix/nkwebkit-js-context-small-fixes",
+        "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/499aaea16bf4c68b93145b3f2671c9a9f258de30",
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     },
     {
@@ -4324,7 +4334,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     },
     {
@@ -4339,13 +4349,13 @@
       "url": "https://github.com/RPCSX/rpcsx",
       "progress_url": "https://github.com/RPCSX/wiki/blob/main/faq.md",
       "github": {
-        "stars": 2044,
+        "stars": 2043,
         "open_issues": 7,
         "last_push": "2026-06-29T21:12:31Z",
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     },
     {
@@ -4360,13 +4370,13 @@
       "url": "https://github.com/R0Y00/Xbox2Windows",
       "progress_url": "",
       "github": {
-        "stars": 1271,
-        "open_issues": 105,
-        "last_push": "2026-11-22T20:21:16Z",
-        "last_commit": "2026-11-22T20:12:36Z",
-        "last_commit_title": "Cover six packed FMA3 lowerings (#677)",
-        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/3b9bb1aaf412aa3e6de4626aa309c7f289ac9daf",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "stars": 1316,
+        "open_issues": 99,
+        "last_push": "2026-11-23T01:41:00Z",
+        "last_commit": "2026-11-23T01:41:00Z",
+        "last_commit_title": "Merge pull request #613 from Joacoorandom/textures/bcpack-rans",
+        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/f77b829260d231928530f652093dd119533fa0d6",
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     },
     {
@@ -4381,13 +4391,13 @@
       "url": "https://github.com/JamesCicada/GTAVI-Recomp",
       "progress_url": "",
       "github": {
-        "stars": 31,
-        "open_issues": 0,
-        "last_push": "2026-11-21T18:20:49Z",
-        "last_commit": "2026-11-21T18:20:45Z",
-        "last_commit_title": "feat(bot): welcome new members and log joins and leaves",
-        "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/0c9632f60033124661cf81bf50eea645d26aee7f",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "stars": 32,
+        "open_issues": 2,
+        "last_push": "2026-11-23T00:11:43Z",
+        "last_commit": "2026-11-23T00:11:41Z",
+        "last_commit_title": "docs: add a related-projects page with licence limits",
+        "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/7f55439b87bac8d099c3829ca309a9cfb74367b5",
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     },
     {
@@ -4402,13 +4412,13 @@
       "url": "https://github.com/ymatrix1/PortPS5",
       "progress_url": "https://github.com/ymatrix1/PortPS5",
       "github": {
-        "stars": 452,
+        "stars": 454,
         "open_issues": 1,
         "last_push": "2026-10-01T23:28:16Z",
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-22T21:03:53.475437Z"
+        "checked_at": "2026-11-23T01:42:35.239768Z"
       }
     }
   ]
