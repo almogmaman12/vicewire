@@ -46,7 +46,7 @@ TITLE_RE = re.compile(
 BAD_RE = re.compile(r"\b(?:free\s+download|download\s+now|torrent\s+download|crack\s+download)\b", re.I)
 # A news tracker should not flood its front page with character guides,
 # chapter walkthroughs or SEO filler just because those are new articles.
-LOW_SIGNAL_RE = re.compile(r"\b(?:walkthrough|mission guide|how to find|where to find|who plays|tips and tricks|cheat codes|collectibles guide)\b", re.I)
+LOW_SIGNAL_RE = re.compile(r"\b(?:walkthrough|mission (?:guide|list)|every mission in order|chapter\s+\d+\s+mission|how to find|where to find|who plays|tips and tricks|cheat codes|collectibles guide)\b", re.I)
 SKIP_DESCRIPTION = re.compile(r"(?:subscribe to our newsletter|sign up for our newsletter|enable javascript)", re.I)
 
 

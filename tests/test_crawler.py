@@ -67,6 +67,9 @@ class CrawlTests(unittest.TestCase):
         </item></channel></rss>"""
         self.assertEqual(crawler.parse_feed(rss, "VGC", self.NOW), [])
 
+    def test_mission_lists_are_not_news(self):
+        self.assertTrue(crawler.LOW_SIGNAL_RE.search("GTA 6 Chapter 4 Mission List: every mission in order"))
+
     def test_refused_host_does_not_trigger_more_requests(self):
         from urllib.error import HTTPError
         class Fake(crawler.Crawler):
