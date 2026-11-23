@@ -32,6 +32,19 @@ class SourceTests(unittest.TestCase):
         src=self.sample().replace(b'Cyberleek GTA VI files claim', b'GTA VI free download now')
         self.assertEqual(u.read_google_rss(src,['piracy']),[])
 
+    def test_console_news_is_not_emulation(self):
+        self.assertNotIn('emulation', u.classify('GTA 6 performance on PS5 and Xbox Series X', ['game']))
+        self.assertNotIn('recompilation', u.classify('GTA 6 visitors explore Leonida on PS5', ['game']))
+
+    def test_explicit_emulation_and_security_topics(self):
+        self.assertIn('emulation', u.classify('GTA VI Xbox emulator shader compatibility test', ['pc']))
+        self.assertIn('security', u.classify('Cyberleek GTA VI fake launcher malware', ['piracy']))
+
+    def test_headline_only_and_publisher_suffix(self):
+        a=u.read_google_rss(self.sample(), ['piracy'])[0]
+        self.assertEqual(a['title'], 'Cyberleek GTA VI files claim')
+        self.assertTrue(a['headline_only'])
+
     def test_feed_is_valid_xml(self):
         articles=u.read_google_rss(self.sample(),['piracy'])
         self.assertEqual(ET.fromstring(u.build_feed(articles)).tag,'rss')

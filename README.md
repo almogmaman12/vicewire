@@ -79,11 +79,11 @@ The workflow uses `17 */3 * * *` in **UTC**. Scheduled GitHub jobs are best-effo
 ## Where does the information come from?
 
 - **Original announcements:** [Rockstar Newswire](https://www.rockstargames.com/newswire), [Rockstar Support](https://support.rockstargames.com/), and [Take-Two](https://www.take2games.com/).
-- **Independent publishers:** Sources surfaced through Google News searches, including coverage from VGC, PC Gamer, IGN, GameSpot, Eurogamer, Digital Foundry, and others.
+- **Independent publishers:** Google News source queries now additionally watch Reuters, AP News, Polygon, Game Informer, Digital Foundry, BleepingComputer, Malwarebytes and other specialist publishers. Inclusion in a search query does not guarantee Google News indexes every story.
 - **Technical development:** Public repositories and commit metadata from the projects listed in [Developer radar](https://almogmaman12.github.io/vicewire/#projects).
 - **Social:** Public X posts discoverable via a search index. **X visibility is incomplete**, and not all posts can be collected without restricted or paid access.
 
-The collector primarily indexes **headlines, publication times, publisher links, and public GitHub metadata**. Many automatically created descriptions are **topic-based contextual notes**, not full-article summaries. Click through to the publisher before treating a new assertion as fact.
+The collector primarily indexes **headlines, publication times, publisher links, and public GitHub metadata**. Automatically indexed headlines are not full-article summaries. Console performance (PS5/Xbox) is not falsely tagged as emulation; original Rockstar support notes are reviewed separately. The UI can show concise headlines first, with source evidence on request. Many automatically created descriptions are **topic-based contextual notes**, not full-article summaries. Click through to the publisher before treating a new assertion as fact.
 
 If a feed fails, the site retains earlier information where possible and records the failure rather than claiming everything was checked successfully.
 

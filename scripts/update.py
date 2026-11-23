@@ -56,6 +56,16 @@ QUERIES = [
     ('"GTA 6" site:videogameschronicle.com PS5 Series S performance when:21d', ['game'], 'news'),
     ('"GTA VI" accessibility haptics controller graphics when:30d', ['game'], 'news'),
     ('"GTA 6" site:apnews.com when:30d', ['game'], 'news'),
+    # Targeted original support, specialist coverage and security research.
+    ('"Grand Theft Auto VI" "Launch Updates" site:support.rockstargames.com when:14d', ['game'], 'news'),
+    ('"Grand Theft Auto VI" autosaving crash patch when:14d', ['game'], 'news'),
+    ('"GTA 6" patches PS5 Xbox site:ign.com OR site:gamespot.com when:14d', ['game'], 'news'),
+    ('"GTA VI" pc site:rockstargames.com OR site:take2games.com when:30d', ['pc'], 'news'),
+    ('"GTA 6" site:reuters.com OR site:apnews.com when:30d', ['game'], 'news'),
+    ('"GTA 6" Digital Foundry performance site:eurogamer.net when:14d', ['game'], 'news'),
+    ('"GTA 6" site:polygon.com OR site:gameinformer.com when:14d', ['game'], 'news'),
+    ('"Cyberleek" malware site:bleepingcomputer.com OR site:malwarebytes.com when:21d', ['security','piracy'], 'news'),
+    ('"GTA VI" fake launcher malware site:arstechnica.com OR site:thehackernews.com when:30d', ['security','piracy'], 'news'),
     ('"Cyberleek" site:decrypt.co when:21d', ['piracy','pc'], 'news'),
     ('"GTA VI" "PC release" when:30d', ['pc'], 'news'),
     ('"GTA 6" "PC port" when:30d', ['pc'], 'news'),
@@ -128,9 +138,11 @@ def classify(title: str, initial: list[str]) -> list[str]:
     text = title.casefold()
     result = set(initial)
     if re.search(r'\b(?:pc|windows|steam|epic games|computer|desktop)\b', text): result.add('pc')
-    if re.search(r'\b(?:leonida|recompil|relink|portps5|xbox2windows|native port|translation layer)\b', text): result.add('recompilation')
-    if re.search(r'\b(?:emulat|ps5|xbox series|scarlettx|anyps5|kyty|rpcsx)\b', text): result.add('emulation')
-    if re.search(r'\b(?:piracy|pirated|crack|cyberleek|leak|dump|unofficial port|torrent|repack)\b', text): result.add('piracy')
+    # Leonida is also a GTA VI setting; PS5/Xbox are not automatically emulators.
+    if re.search(r'\b(?:recompil\w*|relink\w*|portps5|xbox2windows|native port|translation layer|leonida\s+(?:project|recompilation|port|shader))\b', text): result.add('recompilation')
+    if re.search(r'\b(?:emulat\w*|scarlettx|anyps5|kyty|rpcsx|xbox\s*emulator|ps5\s*emulator)\b', text): result.add('emulation')
+    if re.search(r'\b(?:piracy|pirated|crack|cyberleek|leak\w*|dump|unofficial port|torrent|repack)\b', text): result.add('piracy')
+    if re.search(r'\b(?:malware|ransomware|trojan|phishing|security researchers|virus ?total|fake launcher|malicious)\b', text): result.add('security')
     if re.search(r'\b(?:rockstar|take.two|official|newswire)\b', text): result.add('official')
     return [c for c in CATS if c in result]
 
@@ -184,16 +196,21 @@ def read_google_rss(raw: bytes, baseline_categories: list[str], kind: str = 'new
         cats = classify(title, baseline_categories)
         what, why = topic_description(cats)
         credibility = 'social' if kind == 'x-index' else 'coverage'
+        # Syndicated titles sometimes repeat the publisher after a trailing dash.
+        if source and re.search(r'\s+[-–|]\s+' + re.escape(source) + r'$', title, flags=re.I):
+            title = re.sub(r'\s+[-–|]\s+' + re.escape(source) + r'$', '', title, flags=re.I)
         items.append({
             'id': ('x-' if kind == 'x-index' else 'rss-') + hashlib.sha1(titlekey(title).encode()).hexdigest()[:16],
             'title': title[:230], 'published': published,
             'source': source[:100] if source else 'Google News',
             'url': url, 'publisher_url': source_link[:250],
-            'summary': f'This {"public X post" if kind == "x-index" else "news report"} concerns {what}. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.',
+            'summary': (f'Indexed social post about {what}; the original claim has not been verified.' if kind == 'x-index'
+                        else f'Publisher headline about {what}. Open the source for the details.'),
             'why_it_matters': why,
             'verification': ('Public X post indexed by Google News; author and claims not independently validated' if kind == 'x-index' else 'Automated publisher headline; the full article has not been independently fact-checked'),
             'credibility': credibility, 'categories': cats,
             'origin': 'x-index' if kind == 'x-index' else 'rss',
+            'headline_only': True,
         })
     return items
 
@@ -343,6 +360,7 @@ def main(offline: bool = False) -> None:
         data['metadata']['errors'] = errors[:30]
         data['metadata']['x_method'] = 'Google News indexed public X posts; incomplete by nature'
         data['metadata']['new_items_seen'] = len(updates)
+        data['metadata']['publishers_seen'] = len({a.get('source','').casefold() for a in data['articles'] if a.get('source') and a.get('origin') in ('rss','x-index')})
     OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     BOOTSTRAP.write_text('window.__VICEWIRE_DATA__ = '+json.dumps(data,ensure_ascii=False,separators=(',',':')).replace('</','<\\/')+';\n',encoding='utf-8')
     RSS.write_text(build_feed(data['articles']),encoding='utf-8')

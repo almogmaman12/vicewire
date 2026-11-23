@@ -1,5 +1,22 @@
 [
   {
+    "id": "rockstar-gtavi-nov23-launch-fixes",
+    "title": "Rockstar's November 23 GTA VI update fixes crashes, autosave, weather and mission calls",
+    "published": "2026-11-23T12:00:00Z",
+    "source": "Rockstar Support",
+    "url": "https://support.rockstargames.com/articles/sN5pEdFYZdlvijKXd6xpJ/grand-theft-auto-vi-launch-updates-ps5-xbox-series-x-or-s",
+    "summary": "Rockstar's November 23 support notes for PS5 and Xbox Series X|S list fixes for game crashes, autosaves, weather not changing, and phone calls that sometimes failed to trigger story or mission progress. The notes also cover wanted-level behavior, gym interactions and partner handoffs.",
+    "why_it_matters": "These are confirmed console maintenance changes, not a Windows launch announcement or proof that an unofficial executable works.",
+    "verification": "Original Rockstar Support launch-update notes, last updated November 23, 2026.",
+    "credibility": "official",
+    "categories": [
+      "official",
+      "game"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
     "id": "security-vx-underground-assets-2026-11-21",
     "title": "VX Underground examined alleged GTA VI assets; this is not an executable safety test",
     "published": "2026-11-21T12:00:00Z",
