@@ -5,6 +5,13 @@
 <description>Source-linked GTA VI news and developer activity with evidence labels.</description>
 <language>en</language>
 <item>
+<title>Leonida: Runtime: offline XStoreImpl (the game license, package licenses, empty queries)</title>
+<link>https://github.com/ItsNotRexed/Leonida/commit/594f3485ee77db15b4ff1d9f747c4cc288db7138</link>
+<guid isPermaLink="false">git-itsnotrexed-leonida-594f3485ee77</guid>
+<description>The Leonida developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Mon, 23 Nov 2026 05:45:20 +0000</pubDate>
+</item>
+<item>
 <title>Leonida: Runtime: offline XGameSaveImpl (save provider, containers, blobs, updates)</title>
 <link>https://github.com/ItsNotRexed/Leonida/commit/de6713524633c63045583321291e6bad647dadf3</link>
 <guid isPermaLink="false">git-itsnotrexed-leonida-de6713524633</guid>
@@ -432,6 +439,13 @@
 <pubDate>Sun, 22 Nov 2026 16:11:00 +0000</pubDate>
 </item>
 <item>
+<title>Is Rockstar Games’ ‘Grand Theft Auto VI’ Gaming’s Last Blockbuster? - WSJ</title>
+<link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ3Vxd1UtQUV0bWdZY1ZhSWFVSFZoamNFd1o4UHhBX1kyTTcyem1iejd2SXk4eVV4Y1NOV2MyUXdmQWV5NVB6a29pcUctVmU5WUtaOGRCcFpFYldNZDVVRXFrWm5aVmNETjRNbWpPOGNnTmUzbWlycUlPbGVITm1DbWVoQWdCaDFmMk0ydDNNQ09qaVdoNkhfejJpQ1JXazVSOTRiaENWZG1uV2JxeUFn?oc=5</link>
+<guid isPermaLink="false">rss-f07501085f47ecc2</guid>
+<description>This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.</description>
+<pubDate>Sun, 22 Nov 2026 16:10:06 +0000</pubDate>
+</item>
+<item>
 <title>Cyberleek claims modders could get GTA 6 running on PC within a week after reported Xbox build leak - TweakTown</title>
 <link>https://news.google.com/rss/articles/CBMi4gFBVV95cUxNOTBSZGdpTDFwZEhrNVAxNkxMWS1Ta1Z0TDhlTFpqNi11RHdfdjRHcGZXUGdGVEZBOWNXMWtpMXhUYU92Yzk1ckNVb2dFYV9mUU1fVEp6TEZoMXNkNFNWRjk5Vl9xS0JIanRIcFZmMUZELVhwcnhkZHdsZy1xdFRBWUhCYlE0SnJsVkY0bFlOMHBBU1NMb3pDeVIwLS1tc0RFRFA0eWlPVzJnN3ZMTUNoUmlFMVRZRW9wTVVxN2NCM0laVEVFRkYxc2RlTlVlN0JXV2duUkxOTkZzV2VrdWM3bExR?oc=5</link>
 <guid isPermaLink="false">rss-a424753665c462a3</guid>
@@ -656,13 +670,6 @@
 <pubDate>Sun, 22 Nov 2026 11:44:02 +0000</pubDate>
 </item>
 <item>
-<title>Is Rockstar Games’ ‘Grand Theft Auto VI’ Gaming’s Last Blockbuster? - WSJ</title>
-<link>https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ3Vxd1UtQUV0bWdZY1ZhSWFVSFZoamNFd1o4UHhBX1kyTTcyem1iejd2SXk4eVV4Y1NOV2MyUXdmQWV5NVB6a29pcUctVmU5WUtaOGRCcFpFYldNZDVVRXFrWm5aVmNETjRNbWpPOGNnTmUzbWlycUlPbGVITm1DbWVoQWdCaDFmMk0ydDNNQ09qaVdoNkhfejJpQ1JXazVSOTRiaENWZG1uV2JxeUFn?oc=5</link>
-<guid isPermaLink="false">rss-f07501085f47ecc2</guid>
-<description>This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.</description>
-<pubDate>Sun, 22 Nov 2026 11:40:05 +0000</pubDate>
-</item>
-<item>
 <title>GTA 6 PC port rumours grow as hacker claims Xbox build could be playable on computers within days - The Economic Times</title>
 <link>https://news.google.com/rss/articles/CBMi_AFBVV95cUxOU2dHTWp1STdGLW85SzV1bHRHd1I3UFZrTTNGVzltWTRCSzI3dFRVMnY3QUR0ckVKVHU3SU52MFBvZGhCRENRS0ZvQ0Y5clBBZE1LQ0pDMzliSi1ZQWhwakQtTjE3MGI5LTlGZHFLZVVrLXlISGEweFh5TEVTOFVjRVI4d2o0NnU0cm1ZUlYwUFBzU0lKZGN5alh5MEZ4NHRsemNBMzl2U3dwcjQ3OWJNYVZ2Nm10NTMybXc2RTlYaGQ2YXFhUXA4UlJEWkFDM1FEeHFsODMzQUhPUUQyLVBUUm8ybWc1NTdkRDhvck4xWllRRFNwVzZtQmRfTFnSAYICQVVfeXFMT19Xck1TTmRIVHpmQlpDRGpLLVNCRkM3ZDdSS3l3Sy1IbmdRZ094V2hvNTI5Q19IMWpWSmpVQnJlcTN4ZEhEV1c2M1M5OVBoWEMwdWtubFFHMGtyeUtfampyM19GRnBGU0htM2g0SWJ6YkR1dHpDdmpINUtCMVZrQVB6LVlOUUtaRlVUeC1hTXFMTG5mQnBoX0RsYUNaVmpGNjV3TWtEMndKeGpYZWdRZ2lnY21TeUNLa3gyVkN6QWFqZm56anl2UGFYWUk4U2o3OTQxaUdmdmFNRlJITXc0bmJ6bFBNN25yeXAyV0tRT1VLUWhCcDlWN2JsRVB3enkxaVRB?oc=5</link>
 <guid isPermaLink="false">rss-0f5644a77d947cb7</guid>
@@ -696,12 +703,5 @@
 <guid isPermaLink="false">x-6c68441d579969dc</guid>
 <description>This public X post concerns the future PC version of GTA VI. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Sun, 22 Nov 2026 11:20:37 +0000</pubDate>
-</item>
-<item>
-<title>Open-Source Leonida Project Aims to Recompile GTA VI for Xbox Series X on PC - SSBCrack</title>
-<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxObnIxTVhiQVNUelVQODVjMzlwZ2U0TmpZbjY2Zk1ybmk3R1JNQjdaU1RKMVZmXzhCWm9ZYVdvQ042QVR2OGNiV3owWnhZUktwUnNvZjEzU185dW5Wc1ZkZU5HdENha0ptaC1EMG12MFpUT2IweHNwMzUwcWN6dGUxRjh5c0JfUURmcXJKZFBNYXpLS25uUGJzTnUyd0xiTHZQR2E4MW9B?oc=5</link>
-<guid isPermaLink="false">rss-08b0b3cc667feca2</guid>
-<description>This news report concerns the effort to translate console game code for PCs. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Sun, 22 Nov 2026 11:18:15 +0000</pubDate>
 </item>
 </channel></rss>

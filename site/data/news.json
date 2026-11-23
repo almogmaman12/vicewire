@@ -1,16 +1,33 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-23T05:43:56.498410Z",
+    "checked_at": "2026-11-23T05:46:31.172551Z",
     "fetches_ok": 42,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 42,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 971
+    "new_items_seen": 990
   },
   "articles": [
+    {
+      "id": "git-itsnotrexed-leonida-594f3485ee77",
+      "title": "Leonida: Runtime: offline XStoreImpl (the game license, package licenses, empty queries)",
+      "published": "2026-11-23T05:45:20Z",
+      "source": "Leonida / GitHub",
+      "url": "https://github.com/ItsNotRexed/Leonida/commit/594f3485ee77db15b4ff1d9f747c4cc288db7138",
+      "summary": "The Leonida developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run.",
+      "why_it_matters": "Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.",
+      "verification": "First-party GitHub commit metadata; no verified game compatibility implied",
+      "credibility": "developer",
+      "categories": [
+        "recompilation",
+        "emulation",
+        "pc"
+      ],
+      "origin": "git"
+    },
     {
       "id": "git-itsnotrexed-leonida-de6713524633",
       "title": "Leonida: Runtime: offline XGameSaveImpl (save provider, containers, blobs, updates)",
@@ -1049,6 +1066,23 @@
       "origin": "rss"
     },
     {
+      "id": "rss-f07501085f47ecc2",
+      "title": "Is Rockstar Games’ ‘Grand Theft Auto VI’ Gaming’s Last Blockbuster? - WSJ",
+      "published": "2026-11-22T16:10:06Z",
+      "source": "WSJ",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ3Vxd1UtQUV0bWdZY1ZhSWFVSFZoamNFd1o4UHhBX1kyTTcyem1iejd2SXk4eVV4Y1NOV2MyUXdmQWV5NVB6a29pcUctVmU5WUtaOGRCcFpFYldNZDVVRXFrWm5aVmNETjRNbWpPOGNnTmUzbWlycUlPbGVITm1DbWVoQWdCaDFmMk0ydDNNQ09qaVdoNkhfejJpQ1JXazVSOTRiaENWZG1uV2JxeUFn?oc=5",
+      "publisher_url": "https://www.wsj.com",
+      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
+      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "official"
+      ],
+      "origin": "rss"
+    },
+    {
       "id": "rss-a424753665c462a3",
       "title": "Cyberleek claims modders could get GTA 6 running on PC within a week after reported Xbox build leak - TweakTown",
       "published": "2026-11-22T16:10:02Z",
@@ -1591,23 +1625,6 @@
         "social"
       ],
       "origin": "x-index"
-    },
-    {
-      "id": "rss-f07501085f47ecc2",
-      "title": "Is Rockstar Games’ ‘Grand Theft Auto VI’ Gaming’s Last Blockbuster? - WSJ",
-      "published": "2026-11-22T11:40:05Z",
-      "source": "WSJ",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ3Vxd1UtQUV0bWdZY1ZhSWFVSFZoamNFd1o4UHhBX1kyTTcyem1iejd2SXk4eVV4Y1NOV2MyUXdmQWV5NVB6a29pcUctVmU5WUtaOGRCcFpFYldNZDVVRXFrWm5aVmNETjRNbWpPOGNnTmUzbWlycUlPbGVITm1DbWVoQWdCaDFmMk0ydDNNQ09qaVdoNkhfejJpQ1JXazVSOTRiaENWZG1uV2JxeUFn?oc=5",
-      "publisher_url": "https://www.wsj.com",
-      "summary": "This news report concerns Rockstar-related announcements or official game activity. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game",
-        "official"
-      ],
-      "origin": "rss"
     },
     {
       "id": "rss-0f5644a77d947cb7",
@@ -3966,22 +3983,6 @@
       "origin": "rss"
     },
     {
-      "id": "rss-3a0e7c188a94368c",
-      "title": "A Cow Preparing for a Mud Bath With a Fan Isn’t Even the Weirdest Part of This GTA 6 Random Encounter - IGN",
-      "published": "2026-11-21T13:30:00Z",
-      "source": "IGN",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQdFUxS2FXZVV2RmxERkc1bjZiNjhOaFI3M1FxdTV0WDQ1RjJHenJaaEhuS045dkdHWkhNRlI2dDJzVDNURmwzMUNwS2pYVTJ3clp3MVg2SlNNTlhMa2lDd2sxclRTRXpGNk5oSzdZT0tpRVB6R2pPN21GT1FhSGV3Mkp4ZHBsWkgyb2RXY1M0Mk9JUTRBMGlkY25Pd0Z2UlNwM0lCa3dkLWlQa2czNExXekZ1TWt2QQ?oc=5",
-      "publisher_url": "https://www.ign.com",
-      "summary": "This news report concerns the launched game, including updates, reviews and player experience. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "rss"
-    },
-    {
       "id": "rss-c5200d8e4b0f540c",
       "title": "Cyberleek is once again threatening Rockstar regarding GTA 6. - virus.hr",
       "published": "2026-11-21T13:00:00Z",
@@ -4275,13 +4276,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 16609,
-        "open_issues": 1535,
-        "last_push": "2026-11-23T05:38:01Z",
-        "last_commit": "2026-11-23T05:38:01Z",
-        "last_commit_title": "Runtime: offline XGameSaveImpl (save provider, containers, blobs, updates)",
-        "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/de6713524633c63045583321291e6bad647dadf3",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "stars": 16618,
+        "open_issues": 1536,
+        "last_push": "2026-11-23T05:45:21Z",
+        "last_commit": "2026-11-23T05:45:20Z",
+        "last_commit_title": "Runtime: offline XStoreImpl (the game license, package licenses, empty queries)",
+        "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/594f3485ee77db15b4ff1d9f747c4cc288db7138",
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     },
     {
@@ -4302,7 +4303,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     },
     {
@@ -4317,13 +4318,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 60451,
+        "stars": 60454,
         "open_issues": 2796,
         "last_push": "2026-11-23T05:43:09Z",
         "last_commit": "2026-11-23T05:43:09Z",
         "last_commit_title": "Merge pull request #26027 from sschandra2006/refactor/libfreetype-drop-font-metadata-guest-copy-errno",
         "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/8ce09de9ef68dfb7b268e782e6c08f78e94d835c",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     },
     {
@@ -4344,7 +4345,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     },
     {
@@ -4365,7 +4366,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     },
     {
@@ -4380,13 +4381,13 @@
       "url": "https://github.com/R0Y00/Xbox2Windows",
       "progress_url": "",
       "github": {
-        "stars": 1346,
+        "stars": 1347,
         "open_issues": 83,
-        "last_push": "2026-11-23T05:37:23Z",
+        "last_push": "2026-11-23T05:44:58Z",
         "last_commit": "2026-11-23T05:37:23Z",
         "last_commit_title": "Create the EXE shadow device through the Xbox shim (#799)",
         "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/7d463b35ae7e8ec6bbae7d7754805e797a9017bc",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     },
     {
@@ -4407,7 +4408,7 @@
         "last_commit": "2026-11-23T00:11:41Z",
         "last_commit_title": "docs: add a related-projects page with licence limits",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/7f55439b87bac8d099c3829ca309a9cfb74367b5",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     },
     {
@@ -4428,7 +4429,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-23T05:43:56.498410Z"
+        "checked_at": "2026-11-23T05:46:31.172551Z"
       }
     }
   ]
