@@ -36,6 +36,11 @@ jobs:
           python-version: '3.12'
       - name: Validate RSS parser and category labels
         run: python -m unittest discover -s tests -v
+      - name: Check website JavaScript syntax
+        run: |
+          node --check site/assets/app.js
+          node --check site/assets/claim-clock.js
+          node --check site/assets/subscribe.js
       - name: Check news sources and GitHub projects
         run: python scripts/update.py
         env:
