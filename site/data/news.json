@@ -1,45 +1,28 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-23T20:36:29.490160Z",
+    "checked_at": "2026-11-23T20:38:22.263858Z",
     "fetches_ok": 58,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
     "sources_attempted": 60,
     "errors": [],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 1259,
+    "new_items_seen": 1271,
     "publishers_seen": 100,
     "crawler": {
       "feeds_attempted": 6,
       "feeds_ok": 4,
-      "articles_crawled": 6,
+      "articles_crawled": 3,
       "blocked_robots": 1,
       "fetch_failures": 2,
       "blocked_publishers": 1,
-      "checked_at": "2026-11-23T20:36:29.490160Z",
+      "checked_at": "2026-11-23T20:38:22.263858Z",
       "method": "Allowlisted publisher RSS, robots.txt and brief page excerpts (not fact-checking)"
     },
     "crawler_coverage": "Short publisher excerpts only; no automatic verification"
   },
   "articles": [
-    {
-      "id": "crawl-e63ec195989a94a616",
-      "title": "GTA 6 Chapter 4 Mission List: Every Mission in Order & Point of No Return",
-      "url": "https://www.videogameschronicle.com/guide/gta-6-chapter-4-mission-list-every-mission-in-order-point-of-no-return/",
-      "published": "2026-11-23T20:35:37Z",
-      "source": "VGC",
-      "summary": "From the publisher (publisher article excerpt): How many missions are in GTA 6 Chapter 4? All missions listed GTA 6 Chapter 4 sees Jason and Lucia go undercover to find out more about a potential massive heist taking place at the airport. For…",
-      "why_it_matters": "This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.",
-      "verification": "Automatically fetched from the publisher page with robots.txt checks. Excerpt is not independently fact-checked.",
-      "credibility": "coverage",
-      "categories": [
-        "game"
-      ],
-      "origin": "web-crawl",
-      "headline_only": false,
-      "excerpt_method": "publisher article excerpt"
-    },
     {
       "id": "rss-3843ee352ea7085f",
       "title": "Fact Check Team: GTA VI generates $3.79 billion in first-day sales",
@@ -309,6 +292,23 @@
       "source": "Tech Xplore",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8taGlEdk8tanBjTW0xX2lickNXaFFaeFRwb3NyYWNGSUt1SDdpUm1tZTFtRkZURWF1NmVUUGlaOHNLeU1FVjhsbC1XeF9tbDFRNGpuRjZROWJxMl9YdkFiVXFoQ05TTWNVOXIwcUpJOVdmNXc?oc=5",
       "publisher_url": "https://techxplore.com",
+      "summary": "Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
+      ],
+      "origin": "rss",
+      "headline_only": true
+    },
+    {
+      "id": "rss-b1b2d532f92b8149",
+      "title": "All Chapter 1 Missables - GTA 6 Guide",
+      "published": "2026-11-23T19:32:30Z",
+      "source": "IGN",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1rVl9ZMzFLaGVCUTgwVmJyMlVuamFqUW5MX1ViMkN3a0dvWWkzNExIWUsyR0RvWHRBRUlyTWRZN1AtNWxhaWw1YnBkQmhoV05KQ193M1hYMC1Ubm5NTzQzbTZmRUNlUQ?oc=5",
+      "publisher_url": "https://www.ign.com",
       "summary": "Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details.",
       "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
       "verification": "Automated publisher headline; the full article has not been independently fact-checked",
@@ -4424,13 +4424,13 @@
       "url": "https://github.com/ItsNotRexed/Leonida",
       "progress_url": "https://github.com/ItsNotRexed/Leonida#project-status",
       "github": {
-        "stars": 30293,
-        "open_issues": 4465,
+        "stars": 30352,
+        "open_issues": 4480,
         "last_push": "2026-11-23T20:34:39Z",
         "last_commit": "2026-11-23T20:34:37Z",
         "last_commit_title": "xgameruntime: export XErrorReport, which XGameRuntimeInitialize requires",
         "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/6312c057f88f5627108643e3e1f572d18232c8d2",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     },
     {
@@ -4451,7 +4451,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     },
     {
@@ -4466,13 +4466,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 60928,
+        "stars": 60929,
         "open_issues": 2900,
         "last_push": "2026-11-23T20:32:26Z",
         "last_commit": "2026-11-23T20:32:25Z",
         "last_commit_title": "Merge pull request #25892 from MarrasFederico/test/libressl3-wycheproof-rsa-pkcs1",
         "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/2b09db6f114eda877c347a59f138f777cad7ef96",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     },
     {
@@ -4493,7 +4493,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     },
     {
@@ -4514,7 +4514,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     },
     {
@@ -4529,13 +4529,13 @@
       "url": "https://github.com/R0Y00/Xbox2Windows",
       "progress_url": "",
       "github": {
-        "stars": 1478,
-        "open_issues": 70,
-        "last_push": "2026-11-23T20:35:16Z",
-        "last_commit": "2026-11-23T20:35:16Z",
-        "last_commit_title": "Merge pull request #994 from Joacoorandom/pe/preflight-machine-compatibility",
-        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/9131266370718a7f3e98872fdb03cbff447a1d46",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "stars": 1479,
+        "open_issues": 71,
+        "last_push": "2026-11-23T20:38:35Z",
+        "last_commit": "2026-11-23T20:37:05Z",
+        "last_commit_title": "Merge pull request #985 from Ammmae0x/cpu/sse-fp",
+        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/986e7f6ef917454a9ae7580e1821ea6850f747a3",
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     },
     {
@@ -4556,7 +4556,7 @@
         "last_commit": "2026-11-23T12:55:46Z",
         "last_commit_title": "ci: run the progress tooling tests",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/826d2839b9edcf4bc9d86ae8d18b653e1bcd7bb7",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     },
     {
@@ -4577,7 +4577,7 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-23T20:36:29.490160Z"
+        "checked_at": "2026-11-23T20:38:22.263858Z"
       }
     }
   ]
