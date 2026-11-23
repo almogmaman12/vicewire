@@ -99,3 +99,47 @@ body{font-size:15px;line-height:1.65;letter-spacing:-.005em}.grain{opacity:.035}
 .news-card.indexed-story .news-content h3{margin-bottom:7px}
 @media(max-width:900px){.news-reader-highlights{grid-template-columns:1fr}}
 @media(max-width:640px){.news-reader-intro{padding:17px}.reader-highlight{padding:15px}.news-toolbar{align-items:stretch;flex-direction:column}.news-toolbar label{justify-content:space-between}.news-toolbar select{flex:1;max-width:100%}.news-toolbar button{margin-left:0}}
+
+
+/* Progressive disclosure: visible Cyberleek overview, optional research detail. */
+.developing-compact{padding:26px 30px}
+.developing-compact .developing-head{margin-bottom:17px}
+.cyber-glance{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:25px;align-items:center;padding:24px 25px;background:linear-gradient(115deg,#231c2d,#151a28);border:1px solid #725467;border-radius:11px}
+.cyber-glance-label{font:800 10px var(--mono);letter-spacing:.06em;color:#ffb58f}
+.developing-panel .cyber-glance h3{margin:9px 0 8px;font:800 clamp(24px,3vw,37px)/1.15 var(--font-head);letter-spacing:-.02em}
+.cyber-glance h3 span{color:#ffb797}
+.cyber-glance-intro p{margin:0;max-width:520px;color:#ccc3d0;font:400 13px/1.6 var(--body)}
+.cyber-glance-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.cyber-glance-facts>div{min-width:0;display:flex;flex-direction:column;justify-content:center;gap:11px;min-height:94px;padding:14px 12px;background:#101522;border:1px solid #574553;border-radius:8px}
+.cyber-glance-facts small{font:800 9px/1.5 var(--mono);color:#b9aebd}
+.cyber-glance-facts strong{font:800 13px/1.3 var(--body);color:#ffb68d}
+.developing-compact .compact-clock{padding:18px 22px;margin:13px 0 0;border-color:#58485b;background:#191a27}
+.compact-clock h4{font-size:clamp(19px,2.2vw,28px);margin:12px 0 4px}
+.compact-clock .claim-time{margin:0}
+.compact-clock .claim-clock{max-width:490px;gap:8px;margin:13px 0}
+.compact-clock .claim-clock>div{padding:12px 2px;gap:5px;border-color:#514256}
+.compact-clock .claim-clock strong{font-size:clamp(26px,3.2vw,43px)}
+.compact-clock .claim-clock-status{display:block;font-size:10px;line-height:1.5}
+.compact-clock .compact-clock-note{margin:8px 0 0;font-size:12px;line-height:1.6;color:#c9c0ce}
+.cyber-subdetails{margin-top:13px;padding-top:10px;border-top:1px solid #493c51}
+.cyber-subdetails summary,.cyber-deep-dive summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:9px;color:#ffbaa0;font:750 12px/1.5 var(--body)}
+.cyber-subdetails summary::-webkit-details-marker,.cyber-deep-dive summary::-webkit-details-marker{display:none}
+.cyber-subdetails summary:before{content:"+";font:800 17px var(--mono)}
+.cyber-subdetails[open] summary:before{content:"−"}
+.cyber-hidden-copy{padding:12px 2px 0;color:#c9c0ce;font:400 13px/1.75 var(--body)}
+.cyber-hidden-copy p{max-width:850px}
+.cyber-deep-dive{margin-top:15px;border:1px solid #72576d;background:#1b1925;border-radius:10px;overflow:hidden}
+.cyber-deep-dive>summary{justify-content:space-between;padding:18px 21px;color:#ffe1ce;background:#282034;font-size:14px}
+.cyber-deep-dive>summary span{font:900 22px var(--mono);color:#ffac8e}
+.cyber-deep-dive[open]>summary span{transform:rotate(45deg)}
+.cyber-deep-dive>summary:hover,.cyber-deep-dive>summary:focus-visible{background:#38293d}
+.cyber-deep-dive-body{padding:4px 22px 22px}
+.cyber-deep-dive .claim-safety{margin-bottom:0}
+.briefing-card>p,.reader-highlight span{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;overflow:hidden}
+.briefing-card .briefing-bottom{display:none}
+.briefing-card{padding:21px}
+.briefing-card h3{margin:16px 0 10px}
+.briefing-source{margin-top:auto;padding-top:18px}
+.news-reader-intro>p{max-width:670px}
+@media(max-width:950px){.cyber-glance{grid-template-columns:1fr}}
+@media(max-width:640px){.developing-compact{padding:18px 14px}.cyber-glance{padding:18px;gap:16px}.cyber-glance-facts{grid-template-columns:1fr 1fr}.cyber-glance-facts>div{min-height:78px}.cyber-glance-facts>div:last-child{grid-column:1 / -1}.developing-compact .compact-clock{padding:16px 14px}.compact-clock .claim-clock{gap:6px}.compact-clock .claim-clock strong{font-size:clamp(24px,7vw,35px)}.cyber-deep-dive>summary{padding:15px;font-size:13px}.cyber-deep-dive-body{padding:5px 13px 15px}}
