@@ -94,7 +94,7 @@
         data = await response.json();
       }
       if(!Array.isArray(data.articles) || !Array.isArray(data.projects)) throw new Error('Invalid data format');
-      state.data=data; renderNews(); renderBriefing(); renderProjects(); renderMeta();
+      state.data=data; renderNews(); renderBriefing(); renderProjects(); renderMeta(); window.dispatchEvent(new CustomEvent('vicewire:data',{detail:data}));
       if(!silent) toast('Feed reloaded. New stories arrive when the scheduled source check runs.');
       if(!sessionStorage.getItem('vicewire_seen')) {
         const previous=localStorage.getItem('vicewire_last_seen');
@@ -106,7 +106,7 @@
       }
       localStorage.setItem('vicewire_last_seen', new Date().toISOString());
     } catch(err) {
-      if(window.__VICEWIRE_DATA__) { state.data=window.__VICEWIRE_DATA__; renderNews();renderBriefing();renderProjects();renderMeta(); if(!silent) toast('Offline mode: showing last bundled snapshot.'); }
+      if(window.__VICEWIRE_DATA__) { state.data=window.__VICEWIRE_DATA__; renderNews();renderBriefing();renderProjects();renderMeta();window.dispatchEvent(new CustomEvent('vicewire:data',{detail:state.data})); if(!silent) toast('Offline mode: showing last bundled snapshot.'); }
       else { $('#news-list').innerHTML='<div class="empty-state"><strong>FEED OFFLINE.</strong>Please reload. If viewing a downloaded site, serve it using a local web server.</div>'; $('#project-cards').innerHTML='<div class="loading-block">PROJECT DATA UNAVAILABLE.</div>'; if(!silent) toast('Could not refresh feed.'); }
       console.warn('VICEWIRE:', err);
     } finally { for(const b of buttons) b.disabled=false; }

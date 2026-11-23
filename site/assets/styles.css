@@ -38,3 +38,18 @@ body{font-size:15px;line-height:1.65;letter-spacing:-.005em}.grain{opacity:.035}
 .claim-clock strong{font:900 clamp(31px,4.8vw,59px)/1 var(--font-head);font-variant-numeric:tabular-nums;color:#ffae92}.claim-clock small{font:800 10px var(--mono);color:#c8b6c6}.claim-clock-status{font:800 12px var(--mono);color:#ffdbb2}
 .claim-clock-panel>p,.claim-safety>p{font-size:13px;line-height:1.8;color:#c9bfcb}.claim-clock-panel>p strong,.claim-safety>p strong{color:#fff}.claim-links{display:flex;gap:19px;flex-wrap:wrap}.claim-links a,.claim-security-link{font-size:12px;color:#ffba9e;font-weight:800}.claim-source-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:22px 0}.claim-source-grid>a{display:flex;flex-direction:column;gap:11px;border:1px solid #664b60;background:#191923;border-radius:8px;padding:17px}.claim-source-grid>a:hover{border-color:#ffb69c}.claim-source-grid small{font:700 10px var(--mono);color:#f1b0b8}.claim-source-grid strong{font-size:15px;color:#fff}.claim-source-grid span{font-size:12px;line-height:1.7;color:#c3b7c5}.claim-safety .claim-disclaimer{font-size:11px;color:#e1adb6}.claim-security-link{display:inline-block;margin-top:4px}
 @media(max-width:960px){.claim-source-grid{grid-template-columns:1fr}}@media(max-width:640px){.claim-clock-panel,.claim-safety{padding:17px}.claim-clock{gap:6px}.claim-clock strong{font-size:clamp(25px,7vw,40px)}.claim-clock small{font-size:8px}}
+
+/* New reports are indexed publisher headlines, not an automated safety verdict. */
+.claim-reviewed-status{padding:17px 20px;margin:20px 0;border-left:3px solid #f7a66c;background:#4a302b66}
+.claim-reviewed-status>strong{display:block;color:#ffe0c3;font:800 11px var(--mono)}
+.claim-reviewed-status p{color:#d5bdc3;font:400 12px/1.8 var(--body);margin:8px 0 0}
+.claim-new-reports{margin:22px 0;border-top:1px solid #6c526a;padding-top:18px}
+.claim-new-reports h5{font:800 14px var(--body);color:#ffbc9c;margin:0 0 5px}
+.claim-new-reports>p{color:#afa6b4;font:400 12px/1.7 var(--body);margin:0 0 15px}
+.claim-safety-reports{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:16px}
+.claim-safety-reports>a{min-width:0;display:flex;flex-direction:column;gap:8px;padding:13px;border:1px solid #715566;background:#151422}
+.claim-safety-reports>a:hover{border-color:#ffbe9d}
+.claim-safety-reports>a strong{color:#eee5ef;font:650 13px/1.5 var(--body)}
+.claim-safety-reports>a small{color:#b0a2b1;font:700 9px/1.5 var(--mono)}
+.claim-safety-reports>p,.claim-safety-reports>span{color:#beb4c0;font-size:12px}
+@media(max-width:640px){.claim-safety-reports{grid-template-columns:1fr}.claim-reviewed-status{padding:13px}}
