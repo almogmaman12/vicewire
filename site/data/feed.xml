@@ -40,23 +40,9 @@
 <pubDate>Tue, 24 Nov 2026 06:28:05 +0000</pubDate>
 </item>
 <item>
-<title>New GitHub project discovered: portwatch-vi (4lwayz/portwatch-vi)</title>
-<link>https://github.com/4lwayz/portwatch-vi</link>
-<guid isPermaLink="false">repo-discovered-6218b1c59aad9e</guid>
-<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
-<pubDate>Tue, 24 Nov 2026 06:28:05 +0000</pubDate>
-</item>
-<item>
 <title>New GitHub project discovered: leonida (ubiquitarianism/leonida)</title>
 <link>https://github.com/ubiquitarianism/leonida</link>
 <guid isPermaLink="false">repo-discovered-1f5b6cbf484ef6</guid>
-<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
-<pubDate>Tue, 24 Nov 2026 06:28:05 +0000</pubDate>
-</item>
-<item>
-<title>New GitHub project discovered: gta-6-pc-emulator (lenguyenkhang816792-arch/gta-6-pc-emulator)</title>
-<link>https://github.com/lenguyenkhang816792-arch/gta-6-pc-emulator</link>
-<guid isPermaLink="false">repo-discovered-5f447d84ebe924</guid>
 <description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
 <pubDate>Tue, 24 Nov 2026 06:28:05 +0000</pubDate>
 </item>
@@ -201,6 +187,13 @@
 <pubDate>Tue, 24 Nov 2026 01:26:11 +0000</pubDate>
 </item>
 <item>
+<title>Looks like I was right all along.. well, who would've thought. It doesn't matter anymore, GTA 6 officially runnable on PC in the coming days 😉 Stay tuned..</title>
+<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9ObF9ZOG9ock5pSmRvRGZtMWZ0dkpjRmVpM3N2THA2MElqRFhmeTlUUkFjbm8yNHhUbVF3RWpjRGV2b2JzdUg5aXR1UXBSUUxabHg4Yzg0Q2txSjJUUml6OU91NmdTZnc?oc=5</link>
+<guid isPermaLink="false">x-1c753296c967e94b</guid>
+<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Tue, 24 Nov 2026 01:13:40 +0000</pubDate>
+</item>
+<item>
 <title>GTA 6 Was Biggest Launch in PlayStation History</title>
 <link>https://news.google.com/rss/articles/CBMirAFBVV95cUxOOFVEZmhQcDA1c2pBS3JERlJwaUhaQkxJNDVVNEIzX2pRYXR0MTY3bHBaNHdhQmE1WDNwR1M4Yk82Yk5QRVZYcVc2NXBKRlM1Y1hzWUgzVkU3RkIwLUo5VU9qT3Q1TmNJOTB0NzFwTFNYQ0ZuckxmV0MyM3l4NkVBUDFQY21YQjF4cjNpMmxMSENCVzFuU3dKeXNtalJKb3F1T3h6a0RwQ3NjRHpO?oc=5</link>
 <guid isPermaLink="false">rss-97aeaf2e726957cc</guid>
@@ -213,6 +206,13 @@
 <guid isPermaLink="false">x-0cc025eedd2bc759</guid>
 <description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Tue, 24 Nov 2026 01:00:19 +0000</pubDate>
+</item>
+<item>
+<title>VIctory developer reports GTA VI menus and partial world startup; not playable</title>
+<link>https://github.com/Marvisak/VIctory</link>
+<guid isPermaLink="false">nov24-victory-technical-readme</guid>
+<description>VIctory is a new Rust-based attempt to run the Xbox Series GTA VI build on Windows. Its November 23 README reports 30 FPS menus, an intro video and reaching early world-loading stages; world rendering is incomplete and slow. The author explicitly says the project is not playable yet. These are developer-reported results, not independently reproduced tests. Why it matters: The project represents a concrete research effort with public source code, but its README also warns that real-GPU world loading can crash the display driver. Neither source visibility nor self-reported footage proves a safe, working PC port.</description>
+<pubDate>Tue, 24 Nov 2026 01:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Why Warriors' Draymond Green baffled by ‘unbelievable' Grand Theft Auto VI hype</title>
@@ -339,6 +339,13 @@
 <guid isPermaLink="false">rss-f1ba07b5dcbcf57c</guid>
 <description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
 <pubDate>Mon, 23 Nov 2026 23:45:54 +0000</pubDate>
+</item>
+<item>
+<title>Why GTA 6's Jason Duval says so little: Rockstar points to Steve McQueen in The Getaway and real Army Rangers</title>
+<link>https://news.google.com/rss/articles/CBMi6AFBVV95cUxQV0dFb25YMTZnYVJmWE1jeUJPQUFPR2N6ajFFN0hpb19nRER1b1ZuV3JMWjJQZEdVdDY1Tjc4djJfVjFnb2hPR2N1ejVfRkdGczNOTlVnaWQ5SlFsQjRkM01kbVhLNXhjTWtMQTJ3NmxpYUNaeEgyRm8xSWRQMG82Yy1teHpYOE80WUQ0Sk45MlZjUF9qYldfVzM4ZFJjbThHckZEcHNDSmFhR3ZselhMc1NTSGNJRlNFT3J6MmRtNC1Nb2VGZUNhT0txU0xuQ3B6UDBvLWEtWnNuYnRrY2tweGhnZkxoeFF1?oc=5</link>
+<guid isPermaLink="false">rss-ae2807eca7ae121c</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Mon, 23 Nov 2026 23:40:00 +0000</pubDate>
 </item>
 <item>
 <title>Cyberleek Posts Missing GTA 6 Executable: What Changes for a PC Version</title>
@@ -696,12 +703,5 @@
 <guid isPermaLink="false">rss-e30746f5c976fe5d</guid>
 <description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
 <pubDate>Mon, 23 Nov 2026 20:51:13 +0000</pubDate>
-</item>
-<item>
-<title>This website is tracking the progress of several unofficial GTA 6 PC ports. https://t.co/EfN20v9Ih9</title>
-<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUanBsY3hlUzQ5T0dBUkJVb2l4UmhtY1RLRHpfYU1Sajc0Mkx6SWpXS2lGckpaMFF1cDlVZG1UZnB4M0E3SFhuVUJWcDRaZEpaUlp3SVpIUllMMDduOExZaDNNWjNVdE0?oc=5</link>
-<guid isPermaLink="false">x-63be6441d7a9cda5</guid>
-<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Mon, 23 Nov 2026 20:50:19 +0000</pubDate>
 </item>
 </channel></rss>
