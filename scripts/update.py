@@ -24,6 +24,7 @@ import sys
 # Also works when update.py is loaded directly by the unit test suite.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crawler import Crawler, LOW_SIGNAL_RE
+from discovery import discover_projects
 import re
 import time
 from urllib.parse import quote, urlparse
@@ -322,6 +323,20 @@ def main(offline: bool = False) -> None:
     success = 0
     errors = []
     crawler_stats = None
+    discovery_stats = None
+    if not offline:
+        # GitHub Search finds NEW projects not in the static watchlist.
+        # README text is inspected for topic relevance, not boot verification.
+        try:
+            new_projects, discoveries, discovery_stats = discover_projects(data.get('projects', []), NOW, fetch)
+            data.setdefault('projects', []).extend(new_projects)
+            updates.extend(discoveries)
+            success += discovery_stats['queries_ok']
+            errors.extend('Github discovery: '+x for x in discovery_stats.get('errors', []))
+            print(f"GitHub search: {discovery_stats['queries_ok']} queries; {len(new_projects)} new projects")
+        except Exception as exc:
+            errors.append('GitHub discovery error: '+str(exc)[:150])
+            discovery_stats = {'queries_attempted': 0, 'queries_ok': 0, 'added': 0, 'errors': [str(exc)[:150]]}
     if not offline:
         for query, cats, kind in QUERIES:
             url = 'https://news.google.com/rss/search?q='+quote(query)+'&hl=en-US&gl=US&ceid=US:en'
@@ -401,6 +416,8 @@ def main(offline: bool = False) -> None:
         data.setdefault('metadata',{})['checked_at'] = NOW.isoformat().replace('+00:00','Z')
         data['metadata']['fetches_ok'] = success
         data['metadata']['sources_attempted'] = len(QUERIES)+len(data.get('projects',[]))
+        data['metadata']['github_discovery'] = discovery_stats or {}
+        data['metadata']['sources_attempted'] += (discovery_stats or {}).get('queries_attempted',0)
         data['metadata']['errors'] = errors[:30]
         data['metadata']['x_method'] = 'Google News indexed public X posts; incomplete by nature'
         data['metadata']['new_items_seen'] = len(updates)
