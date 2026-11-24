@@ -1,5 +1,22 @@
 [
   {
+    "id": "review-victory-nov24-developer-status",
+    "title": "VIctory says GTA VI menus reach 30 FPS and the world loads, but the port is not playable",
+    "published": "2026-11-24T06:30:00Z",
+    "source": "VIctory developer README / GitHub",
+    "url": "https://github.com/Marvisak/VIctory#status-2026-11-23",
+    "summary": "Marvisak's VIctory project reports GTA VI Xbox Series code booting on Windows, menus at 30 FPS and loading into the world. Its README says the world rendering is still broken, frames can take seconds, and the software is not playable. These are developer statements, not independently reproduced tests.",
+    "why_it_matters": "An initial boot and world loading are not playable gameplay. VIctory's README warns that the world-rendering path may hang a real GPU and reset the Windows display driver. Do not treat the project or a claimed build as independently cleared for safety.",
+    "verification": "First-party VIctory README dated November 23, 2026. Independent compatibility or security testing not established.",
+    "credibility": "developer",
+    "categories": [
+      "pc",
+      "recompilation"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
     "id": "nov24-victory-technical-readme",
     "title": "VIctory developer reports GTA VI menus and partial world startup; not playable",
     "published": "2026-11-24T01:00:00Z",
