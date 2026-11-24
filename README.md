@@ -15,7 +15,7 @@ VICEWIRE is an **independent, fan-made news tracker**. It brings together offici
 | **Latest news** | GTA VI game updates, launch coverage, reviews, patches, performance, and gameplay reporting |
 | **Rockstar / official** | Directly reviewed Rockstar and Take-Two announcements, separated from articles *about* them |
 | **PC release watch** | Official PC announcements when available, plus third-party reporting and speculation clearly labeled |
-| **Developer radar** | Actual GitHub activity from Leonida, ScarlettX, AnyPS5, Kyty, RPCSX, Xbox2Windows, GTAVI-Recomp, and PortPS5 |
+| **Developer radar** | GitHub activity from tracked repositories and newly discovered GTA VI PC research projects such as VIctory |
 | **Emulation and recompilation** | Console compatibility experiments, shader work, relinking, runtime progress, and what those milestones do *not* prove |
 | **Leaks and piracy reporting** | News about claims such as Cyberleek, alleged builds, unofficial ports, and cracks, without distributing game files |
 | **X / social watch** | Some publicly indexed X posts plus direct links to relevant X searches; not a complete X feed |
@@ -83,6 +83,8 @@ The site is deliberately cautious about claims involving GTA VI console files, e
 | **Reviewed explainers** | When manually added | Longer articles with stronger source review are **not** automatically fact-checked or rewritten by the crawler |
 
 The workflow uses `17 * * * *` in **UTC**. Scheduled GitHub jobs are best-effort, may run late and can occasionally be skipped. The dashboard shows the most recent source-check timestamp and how many checks succeeded.
+
+**Automatic GitHub discovery:** Each scheduled source run searches GitHub for new GTA VI PC-compatibility projects, checks public README text and a source-code directory listing, avoids duplicates and filters obvious installer/download bait or tracker-only websites. This improves discovery but does **not** independently verify that GTA VI boots, plays, or that software is safe. No repository binaries are downloaded or executed. GitHub Search can miss projects or encounter API limits; its results are logged in the feed metadata.
 
 **Cost:** The public GitHub Pages + public-repository GitHub Actions setup is designed to run on free GitHub allowances. It **does not use ChatGPT messages or credits**. Limits and policies are controlled by GitHub.
 
