@@ -322,7 +322,9 @@ def main(offline: bool = False) -> None:
     # Reviewed articles have direct publisher links and specific, source-checked summaries.
     # Unlike automatically indexed headlines, these entries carry editorial verification.
     review = json.loads(EDITORIAL.read_text(encoding='utf-8')) if EDITORIAL.exists() else []
-    curated = review + [a for a in old if a.get('origin') == 'curated' and a.get('id') not in {item.get('id') for item in review}]
+    # editorial.json is authoritative for manually reviewed stories. Avoid
+    # retaining withdrawn, corrected or duplicate curated entries forever.
+    curated = review
     existing = [a for a in old if a.get('origin') != 'curated'
                 and not (a.get('origin') == 'web-crawl' and LOW_SIGNAL_RE.search(a.get('title', '')))]
     updates = []
