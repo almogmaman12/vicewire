@@ -222,13 +222,6 @@
 <pubDate>Tue, 24 Nov 2026 01:00:19 +0000</pubDate>
 </item>
 <item>
-<title>VIctory developer reports GTA VI menus and partial world startup; not playable</title>
-<link>https://github.com/Marvisak/VIctory</link>
-<guid isPermaLink="false">nov24-victory-technical-readme</guid>
-<description>VIctory is a new Rust-based attempt to run the Xbox Series GTA VI build on Windows. Its November 23 README reports 30 FPS menus, an intro video and reaching early world-loading stages; world rendering is incomplete and slow. The author explicitly says the project is not playable yet. These are developer-reported results, not independently reproduced tests. Why it matters: The project represents a concrete research effort with public source code, but its README also warns that real-GPU world loading can crash the display driver. Neither source visibility nor self-reported footage proves a safe, working PC port.</description>
-<pubDate>Tue, 24 Nov 2026 01:00:00 +0000</pubDate>
-</item>
-<item>
 <title>Why Warriors' Draymond Green baffled by ‘unbelievable' Grand Theft Auto VI hype</title>
 <link>https://news.google.com/rss/articles/CBMioAFBVV95cUxNS2R3VkFSbF9QX3hTTndoMlpkOEtVZEZmamJzenVlSGQtcDZ2M0F2Zy16NnVXdWhkeTVKcExsaFM2MXZVeU1KMDZCRUhYZ0lROUFEaWxQVVgweGtjUjhiRmRkMlRwNzA3dXpyMzNsQ0RqSkZ3ZUhqaEhLLTV3UlZwempBN2lnOTdTNUhfaGtjQjhBMDNxSDRPTElTd3NkQVBt0gGoAUFVX3lxTE9sQ0ZBZTVCdy0tNUM2TzctOGVPVHctMFd4RUJiRnhEcWprbHlzTDhQcXp5YWdfekJITWlMVHJTM1NSSVVNX0d6TnRaZmhfMmtZUE5RbTJXRHBrX2xqSW5SSkNNa000V0d5R0haSFExNGZPanJmWF9KZWFTNlJuX2lfTUE4Z3pBTG1rV0s2NDA2ejVCeXY4NFlENWJkUGxENXg4RHJreUFXZQ?oc=5</link>
 <guid isPermaLink="false">rss-3e60c5fc1a2f1adf</guid>
@@ -703,5 +696,12 @@
 <guid isPermaLink="false">rss-dbcad0295f69f855</guid>
 <description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Mon, 23 Nov 2026 20:55:56 +0000</pubDate>
+</item>
+<item>
+<title>See the Biggest Stars Who Made Cameos in ‘GTA 6’</title>
+<link>https://news.google.com/rss/articles/CBMic0FVX3lxTFBZYmc5bXE5VERKMkM4R0RGalF0bFRBVTBiX2xiMURIaWtGTTFablgwOUxralhuNDFWb3I1czNyOWlDOHJhZFJfU0p0Ni1yZUlueXE0M1FrSUsybjdWQVEwZVdtQnVlVXlXUHFwS2hNT3N2TkU?oc=5</link>
+<guid isPermaLink="false">rss-f4129eedf92dbd54</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Mon, 23 Nov 2026 20:55:54 +0000</pubDate>
 </item>
 </channel></rss>
