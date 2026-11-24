@@ -87,6 +87,8 @@ class Tests(unittest.TestCase):
         html_installer={**INFO, "full_name":"new/gta-6-pc-emulator", "language":"HTML"}
         self.assertFalse(d._candidate(html_installer,NOW))
         self.assertFalse(d._readme_ok(README+" PowerShell Quick Install run the installer"))
+        self.assertFalse(d._readme_ok(README+" Password: leonida. DOWNLOAD NOW"))
+        self.assertIn("sailmakerenhance/leonida",d.BLOCKED_REPOS)
 
     def test_search_failure_is_isolated(self):
         def fallback(url,*,accept=None):
