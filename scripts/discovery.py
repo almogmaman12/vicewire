@@ -15,7 +15,13 @@ SEEDS = ("Marvisak/VIctory",)
 GTA = re.compile(r"\b(?:gta[\s-]*(?:6|vi)|grand theft auto[\s-]*(?:6|vi))\b", re.I)
 PORT = re.compile(r"\b(?:pc|windows|xbox|ps5|port|recompil\w*|emulat\w*|compatib\w*|run(?:s|ning)?|boot\w*|translation|loader|runtime)\b", re.I)
 TECH = re.compile(r"\b(?:shader\w*|recompil\w*|emulat\w*|runtime|loader|d3d12|direct3d|vulkan|gpu|cpu|xma|xinput|dxil|memory|texture\w*|render\w*|boot\w*|dll|x86[-_ ]?64|wine|proton)\b", re.I)
-BAIT = re.compile(r"\b(?:free[\s-]*download|download[\s-]*(?:gta|game|now)|crack(?:ed)?[\s-]*(?:gta|game)|torrent|repack|keygen|serial key|no[\s-]*survey|unlocked[\s-]*version|download link)\b", re.I)
+BAIT = re.compile(r"\b(?:free[\s-]*download|download[\s-]*(?:gta|game|now)|crack(?:ed)?[\s-]*(?:gta|game)|torrent|repack|keygen|serial key|no[\s-]*survey|unlocked[\s-]*version|download link|switch[\s-]*version|gta[\s-]*(?:6|vi)[\s-]*(?:launcher|installer|preload))\b", re.I)
+# Code is evidence that this is a software repository, not evidence that it
+# is safe or that the claimed GTA VI compatibility is genuine.
+CODE_DIRS = frozenset(("src","source","crates","apps","engine","runtime","compiler","lib","include","native","modules"))
+CODE_SUFFIXES = (".rs",".cpp",".cc",".cxx",".c",".h",".hpp",".cs",".py",".go",".zig",".kt",".java")
+DANGEROUS_ROOT_SUFFIXES = (".exe",".msi",".apk",".7z",".rar",".torrent",".iso")
+
 ID = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 MAX_NEW = 4
 MAX_AUTO = 16
@@ -46,6 +52,16 @@ def _readme_ok(value):
         return False
     return len({m.group().lower() for m in TECH.finditer(value[:35000])}) >= 3
 
+def _has_source_tree(entries):
+    """Demand visible source paths; do not inspect or download executables."""
+    if not isinstance(entries, list):
+        return False
+    named = [(str(e.get("name","")).lower(), e.get("type")) for e in entries if isinstance(e,dict)]
+    if any(n.endswith(DANGEROUS_ROOT_SUFFIXES) for n,t in named if t=="file"):
+        return False
+    return any((t=="dir" and n in CODE_DIRS) or
+               (t=="file" and n.endswith(CODE_SUFFIXES)) for n,t in named)
+
 def _project(info, now):
     name, repo = info["name"], info["full_name"]
     summary = re.sub(r"\s+"," ",str(info.get("description") or "")).strip()[:150]
@@ -55,7 +71,7 @@ def _project(info, now):
         "name":name[:65], "repo":repo, "url":"https://github.com/"+repo,
         "group":"AUTO-DISCOVERED", "focus":focus, "platform":"GTA VI → PC (RESEARCH)",
         "description":summary+". Developer description only; not independently verified.",
-        "status":"Developer claims; GTA VI playability and safety not independently verified",
+        "status":"Developer-reported project; no independent GTA VI compatibility or security verification",
         "status_as_of":now.date().isoformat(),
         "discovery":"github-search",
         "github":{"availability":"public","stars":info.get("stargazers_count"),
@@ -114,7 +130,19 @@ def discover_projects(existing, now, fetch):
             continue
         if not _readme_ok(readme):
             continue
+        # A README full of technical claims is not sufficient by itself.
+        # Inspect the root *listing* for source files/directories, not binaries.
+        try:
+            root=json.loads(fetch("https://api.github.com/repos/"+repo+"/contents",
+                                  accept="application/vnd.github+json"))
+        except (RuntimeError,ValueError,TypeError):
+            continue
+        if not _has_source_tree(root):
+            continue
         project = _project(info,now)
+        if re.search(r"\bnot playable(?:\s+yet)?\b",readme[:35000],re.I):
+            project["status"]="README explicitly says not playable; developer claims unverified"
+
         added.append(project)
         known.add(repo.casefold())
         news.append({
@@ -125,7 +153,7 @@ def discover_projects(existing, now, fetch):
             "url":project["url"],
             "summary":"GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified.",
             "why_it_matters":"New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.",
-            "verification":"Automated GitHub metadata and README topic matching only; no executable test.",
+            "verification":"Automated GitHub search, README and root source-tree checks only; no code execution, compatibility test, or malware clearance.",
             "credibility":"developer", "categories":["pc","recompilation"], "origin":"git-discovery",
         })
     stats["added"] = len(added)

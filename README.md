@@ -21,6 +21,18 @@ VICEWIRE is an **independent, fan-made news tracker**. It brings together offici
 | **X / social watch** | Some publicly indexed X posts plus direct links to relevant X searches; not a complete X feed |
 | **Source-reviewed explainers** | Selected stories with a more specific summary, evidence notes, and a practical "why it matters" explanation |
 
+### Automatic GitHub project discovery
+
+GitHub repository search now runs as part of every scheduled news update. It looks
+for GTA VI PC compatibility, recompilation and emulation projects, including
+new projects that were never placed on a manual watchlist. Candidates must pass
+minimum metadata/activity checks, technical README relevance, and a visible
+source-tree check. The collector downloads no binaries and executes no
+third-party code. Up to four new projects are admitted per run, with a bounded
+automatic watchlist. Auto-discovered cards are labeled **unreviewed**; a repository
+being visible and popular does not establish authentic gameplay or file safety.
+GitHub Search and scheduled Actions are best-effort, so discovery may lag.
+
 **Start here:** [vicewire live site](https://almogmaman12.github.io/vicewire/).
 
 ### How to use the dashboard

@@ -71,7 +71,7 @@
     const issues = unavailable ? 'N/A' : typeof github.open_issues === 'number' ? compact(github.open_issues) : '—';
     const recent = !unavailable && github.last_commit_title ? `<div class="latest-commit"><span>LATEST PUBLIC COMMIT</span><a href="${el(validURL(github.last_commit_url||p.url))}" target="_blank" rel="noopener noreferrer">${el(github.last_commit_title)} ↗</a></div>` : '';
     return `<article class="project-card ${index===0?'highlight':''}"><div class="project-top"><span class="project-class">${el(p.group || 'PROJECT')} / ${el(p.focus || 'RESEARCH')}</span><span class="project-type">${el(p.platform || 'PC')}</span></div>
-      <h3>${el(p.name)}</h3><p>${el(p.description)}</p><div class="project-status"><span class="mini-dot"></span>${el(p.status)}${p.status_as_of?' · AS OF '+el(shortDate(p.status_as_of)):''}</div>
+      <h3>${el(p.name)}</h3>${p.discovery==='github-search'?'<small class="project-discovery-label">AUTO-DISCOVERED · NOT INDEPENDENTLY VERIFIED</small>':''}<p>${el(p.description)}</p><div class="project-status"><span class="mini-dot"></span>${el(p.status)}${p.status_as_of?' · AS OF '+el(shortDate(p.status_as_of)):''}</div>
       <div class="project-stats"><div><strong>${unavailable?'N/A':compact(github.stars)}</strong><small>GITHUB STARS</small></div><div><strong>${last}</strong><small>LAST COMMIT</small></div><div><strong>${issues}</strong><small>OPEN ISSUES*</small></div></div>
       ${recent}<div class="project-links"><a href="${el(validURL(unavailable?'https://twistedvoxel.com/gta-6-pc-recompilation-leonida-developer-quits/':p.url))}" target="_blank" rel="noopener noreferrer">${unavailable?'READ COVERAGE':'VIEW REPOSITORY'} ↗</a>${p.progress_url?`<a href="${el(validURL(p.progress_url))}" target="_blank" rel="noopener noreferrer">PROJECT PROGRESS ↗</a>`:''}</div></article>`;
   }
@@ -89,7 +89,10 @@
       <div class="briefing-source">SOURCE: ${el(a.source)} <span>↗</span></div></a>`).join('') : '<div class="loading-block">NO REVIEWED BRIEFINGS IN THIS SNAPSHOT.</div>';
   }
   function renderProjects() {
-    const projects = state.data?.projects || [];
+    const projects = (state.data?.projects || []).slice().sort((a,b)=>{
+      const wa=a.discovery==='github-search'?1:0, wb=b.discovery==='github-search'?1:0;
+      return wb-wa;
+    });
     $('#project-cards').innerHTML = projects.length ? projects.map(renderProject).join('') : '<div class="loading-block">NO PROJECTS AVAILABLE.</div>';
     $('#mini-projects').innerHTML = projects.slice(0,4).map(p=>`<div class="mini-project"><div><strong>${el(p.name)}</strong><small>${el(p.status)}</small></div><a href="${el(validURL(p.url))}" target="_blank" rel="noopener noreferrer" aria-label="Open ${el(p.name)}">↗</a></div>`).join('');
   }
@@ -103,7 +106,10 @@
     const attempted = typeof m.sources_attempted === 'number' ? m.sources_attempted : null;
     if ($('#source-time')) $('#source-time').textContent = updated;
     if ($('#source-health')) $('#source-health').textContent = successful === null ? 'Run the GitHub workflow' : `${successful} of ${attempted || '?'} source checks${delayed?' · scheduled check is late':''}`;
-    if ($('#source-total')) $('#source-total').textContent = `${(state.data?.articles || []).length} linked stories · ${(state.data?.projects || []).length} repositories`;
+    if ($('#source-total')) {
+      const auto=(state.data?.projects||[]).filter(p=>p.discovery==='github-search').length;
+      $('#source-total').textContent = `${(state.data?.articles||[]).length} linked stories · ${(state.data?.projects||[]).length} repositories (${auto} auto-found)`;
+    }
     const leonida = (state.data?.projects || []).find(p=>(p.repo||'').toLowerCase()==='itsnotrexed/leonida');
     const card = document.querySelector('.status-card.progress');
     if (leonida && card) {
