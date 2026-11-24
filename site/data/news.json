@@ -1,17 +1,17 @@
 {
   "metadata": {
     "site": "VICEWIRE",
-    "checked_at": "2026-11-24T06:18:07.880890Z",
-    "fetches_ok": 59,
+    "checked_at": "2026-11-24T06:28:05.599599Z",
+    "fetches_ok": 67,
     "note": "Verified baseline with Cyberleek claim attributed to VGC and PC Gamer. Automated updates mark indexed coverage and social posts as unverified until manually checked.",
     "last_manually_reviewed_at": "2026-11-22T12:46:00Z",
-    "sources_attempted": 62,
+    "sources_attempted": 70,
     "errors": [
       "GitHub fetch failed: ItsNotRexed/Leonida"
     ],
     "x_method": "Google News indexed public X posts; incomplete by nature",
-    "new_items_seen": 1339,
-    "publishers_seen": 95,
+    "new_items_seen": 1293,
+    "publishers_seen": 94,
     "crawler": {
       "feeds_attempted": 6,
       "feeds_ok": 4,
@@ -19,12 +19,84 @@
       "blocked_robots": 1,
       "fetch_failures": 2,
       "blocked_publishers": 1,
-      "checked_at": "2026-11-24T06:18:07.880890Z",
+      "checked_at": "2026-11-24T06:28:05.599599Z",
       "method": "Allowlisted publisher RSS, robots.txt and brief page excerpts (not fact-checking)"
     },
-    "crawler_coverage": "Short publisher excerpts only; no automatic verification"
+    "crawler_coverage": "Short publisher excerpts only; no automatic verification",
+    "github_discovery": {
+      "queries_attempted": 4,
+      "queries_ok": 4,
+      "candidates": 25,
+      "readmes_checked": 4,
+      "added": 4,
+      "errors": []
+    }
   },
   "articles": [
+    {
+      "id": "repo-discovered-f62c3cba93390a",
+      "title": "New GitHub project discovered: VIctory (Marvisak/VIctory)",
+      "published": "2026-11-24T06:28:05.599599Z",
+      "source": "VIctory / GitHub",
+      "url": "https://github.com/Marvisak/VIctory",
+      "summary": "GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified.",
+      "why_it_matters": "New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.",
+      "verification": "Automated GitHub metadata and README topic matching only; no executable test.",
+      "credibility": "developer",
+      "categories": [
+        "pc",
+        "recompilation"
+      ],
+      "origin": "git-discovery"
+    },
+    {
+      "id": "repo-discovered-6218b1c59aad9e",
+      "title": "New GitHub project discovered: portwatch-vi (4lwayz/portwatch-vi)",
+      "published": "2026-11-24T06:28:05.599599Z",
+      "source": "portwatch-vi / GitHub",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "summary": "GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified.",
+      "why_it_matters": "New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.",
+      "verification": "Automated GitHub metadata and README topic matching only; no executable test.",
+      "credibility": "developer",
+      "categories": [
+        "pc",
+        "recompilation"
+      ],
+      "origin": "git-discovery"
+    },
+    {
+      "id": "repo-discovered-1f5b6cbf484ef6",
+      "title": "New GitHub project discovered: leonida (ubiquitarianism/leonida)",
+      "published": "2026-11-24T06:28:05.599599Z",
+      "source": "leonida / GitHub",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "summary": "GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified.",
+      "why_it_matters": "New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.",
+      "verification": "Automated GitHub metadata and README topic matching only; no executable test.",
+      "credibility": "developer",
+      "categories": [
+        "pc",
+        "recompilation"
+      ],
+      "origin": "git-discovery"
+    },
+    {
+      "id": "repo-discovered-5f447d84ebe924",
+      "title": "New GitHub project discovered: gta-6-pc-emulator (lenguyenkhang816792-arch/gta-6-pc-emulator)",
+      "published": "2026-11-24T06:28:05.599599Z",
+      "source": "gta-6-pc-emulator / GitHub",
+      "url": "https://github.com/lenguyenkhang816792-arch/gta-6-pc-emulator",
+      "summary": "GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified.",
+      "why_it_matters": "New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.",
+      "verification": "Automated GitHub metadata and README topic matching only; no executable test.",
+      "credibility": "developer",
+      "categories": [
+        "pc",
+        "recompilation"
+      ],
+      "origin": "git-discovery"
+    },
     {
       "id": "rss-4fe2dd945be8f34c",
       "title": "After Leonid's closure, Rockstar Games' XCL project for GTA VI was hit.",
@@ -185,6 +257,23 @@
         "official",
         "pc",
         "recompilation"
+      ],
+      "origin": "rss",
+      "headline_only": true
+    },
+    {
+      "id": "rss-e601ceeb2b0d79d0",
+      "title": "The voice of Channel 5 joins Grand Theft Auto VI’s star-studded radio lineup",
+      "published": "2026-11-24T03:44:00Z",
+      "source": "WCVB",
+      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQkk1b0V0RU5DVmpRbGpLN2U2d2ZRa214TmktSC11TnN0TEZVZk1kY2NZNjc4bnFLempiaURhcEliMjRtd1huOUN1cmNuNktKakt5eTdfa1dlNmM3TUkwR2VFcU9HRXgyRlZjY3pWUERjSW5zWUx2Y3V0enVvendubVFIY3IyeE1MZHpNcDRuUQ?oc=5",
+      "publisher_url": "https://www.wcvb.com",
+      "summary": "Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details.",
+      "why_it_matters": "Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game"
       ],
       "origin": "rss",
       "headline_only": true
@@ -906,6 +995,24 @@
       "credibility": "coverage",
       "categories": [
         "game"
+      ],
+      "origin": "rss",
+      "headline_only": true
+    },
+    {
+      "id": "rss-be5e9275b5d64841",
+      "title": "GTA 6 Players Are Convinced Rockstar Painted a Fake Tunnel Just to Trick Them Into a Looney Tunes-Style Crash",
+      "published": "2026-11-23T23:03:37Z",
+      "source": "IGN",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWGNhdmJJN0pIeHdISG55dWk5T1NJbzZEbVhPSDZMMkFvOEM0NzN3Nmd1RW5YSUMzYTFlelRyUTBhODJ0d3dHaFo4b3VJbndFalFXZVZrOE9Rc2N5dXlVZUxvdmlyeloxdURHN0tsRXdRWm9paV9KcWJmdng3OXphWXpBNW5WTUxQSjMxQVZhZk1OSDFXb3dkeU9GTi1zaTY4Ui1pVHMxbGl6SFVNcUc3eTRKOHQtZHNySThwUTZITEdZdDNBazlWUWE1Nmc5cVZSZHN3Tw?oc=5",
+      "publisher_url": "https://www.ign.com",
+      "summary": "Publisher headline about Rockstar-related announcements or official game activity. Open the source for the details.",
+      "why_it_matters": "This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.",
+      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
+      "credibility": "coverage",
+      "categories": [
+        "game",
+        "official"
       ],
       "origin": "rss",
       "headline_only": true
@@ -3345,99 +3452,6 @@
       "headline_only": true
     },
     {
-      "id": "x-d62d4a3fc471274d",
-      "title": "GTA 6 PC version is close, modders say after Cyberleek releases executable: \"The game almost boots\" https://t.co/Dlp6XWXeVR",
-      "published": "2026-11-23T16:43:43Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UUlR3a0ZfRzFZZW9Hc1M2UjktNmNxZV9CekRTakNGbTJMc0EwUWdJbV9MOHgzbnh5cW9DV05IX3prMnl2NEFxNmQ1TGdwVEYxT2VHb2NrWm1FLWwwdTRCRw?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index",
-      "headline_only": true
-    },
-    {
-      "id": "x-e4a91cc629cfabcf",
-      "title": "We're getting close to an unofficial GTA 6 PC port dropping. GTA 6's Xbox executable has leaked (just like Cyberleek promised), opening the door for unofficial PC port projects to start testing. https://t.co/f0pccosup8",
-      "published": "2026-11-23T16:39:59Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tbHEyQkIzeWxFcDBLMlhTUmt2RWhESHh5QTNXSGZISXo5MEdhYWlfUkE1MEJtMlpfR3JhZzV1b0p5ZG9LRnpBeUhOUVluTmVMbEdxVHhpZDhJa1JBMjdkY2JVaDBQNEU?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index",
-      "headline_only": true
-    },
-    {
-      "id": "rss-1abad5f5c59e8070",
-      "title": "GTA 6 PC version is close, modders say after Cyberleek releases executable: \"The game almost boots\"",
-      "published": "2026-11-23T16:39:01Z",
-      "source": "GamesRadar+",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPUXVYLTdmZzQtYkcyTVExZXRhMlNfbjBDdk9SeWpzUFpMYzlsQ1Y4cmJGenItTzFuS2RTSG9MUjFmd2pYQXZaN0J0NlpZZHJubDdUS3ZLME5jRnV4X3hIbktjR3h3QUFzT05hbkxKWjd4RzNRSWJuWWdFdTI4OTVEZzNjZ0tnZklHMk84bTRBbE9lWWJrelRSeGtPdmJubW9Dc3ZPaDd5bWExTGg4Yzk0YzBNYVcyUEl1SFVGNWxLNEF6MW5pVk42cnpTYkczRWdxbFJ2cTBLaVoyblk3OHhR?oc=5",
-      "publisher_url": "https://www.gamesradar.com",
-      "summary": "Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss",
-      "headline_only": true
-    },
-    {
-      "id": "rss-f104cca6b82b59d1",
-      "title": "GTA 6's Xbox executable has leaked, opening the door for unofficial PC port projects to start testing",
-      "published": "2026-11-23T16:38:15Z",
-      "source": "XDA",
-      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPaWFidTVMVWlDQW9YbEFvYXRKZmw4UEtkV21lTHRfY0FZc1ZWbjM0X1dad2puejhlQkdJVU1ueFJDUU5CRUdYSVhuWXVESlk5a05iQ2pJeDd5cVlCdG9MdUYwZG1rYXYzM3VSUERTVEhOMUZma09sSF94dlVJRkNTT29yem0tSXgybmNlVHMzSGZRV1hEYXp0S193QVhnZnF0SVo0a1lKN0RkWlZBRnN5UW5kVUExN1dH?oc=5",
-      "publisher_url": "https://www.xda-developers.com",
-      "summary": "Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Automated publisher headline; the full article has not been independently fact-checked",
-      "credibility": "coverage",
-      "categories": [
-        "pc",
-        "piracy"
-      ],
-      "origin": "rss",
-      "headline_only": true
-    },
-    {
-      "id": "x-a134d24cab35c640",
-      "title": "For anyone trying to get GTA 6 running on PC and has the Cyberleek files with the .exe, start with this repo: https://t.co/7ITIrvFYN8",
-      "published": "2026-11-23T16:34:28Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1kQ3RLU1p4ME8zSjd0WVBQdFBUZjJocFptcFc2X0V6ZnJBZ3o0MEtseWR2TWFjTlc2bXZ5X2VYZGJJYnVqQVQzM2YtSGlBZ3JzcUNaLVNjMGxIODkwSXlj?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "pc",
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index",
-      "headline_only": true
-    },
-    {
       "id": "x-15af4c1205d4ea76",
       "title": "60 hours in GTA 6 has me yearning for an online Leonida https://t.co/d6u5ACGdTN - X",
       "published": "2026-11-23T16:07:43Z",
@@ -3901,24 +3915,6 @@
         "pc"
       ],
       "origin": "rss"
-    },
-    {
-      "id": "x-e5318746ed989d05",
-      "title": "7 hours to go until the .exe file for GTA 6 reaches the surface, according to CyberLeek website! Do you believe that we will have this by the end of the day? What do you think that it will happen once they release the .exe file? W",
-      "published": "2026-11-23T09:55:19Z",
-      "source": "X",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93QzVFYjhZTmowWVlVM1l5aHJBaHRqSXBCZUhidWhNTjhub3FfNWdUMkZEcHNwdGtPMzBtS1VZZVRkTWVibHZlSGYyQUgtUnJzemZ3a2NJZkI5eTNTWFBFa2d2TzJXdl9vMVE?oc=5",
-      "publisher_url": "https://x.com",
-      "summary": "This public X post concerns leak, piracy or unofficial-port claims. VICEWIRE indexed the headline and publication time, but has not independently verified the complete underlying story.",
-      "why_it_matters": "A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.",
-      "verification": "Public X post indexed by Google News; author and claims not independently validated",
-      "credibility": "social",
-      "categories": [
-        "official",
-        "piracy",
-        "social"
-      ],
-      "origin": "x-index"
     },
     {
       "id": "rss-deb11353cd10f985",
@@ -4476,7 +4472,7 @@
         "last_commit": "2026-11-23T20:34:37Z",
         "last_commit_title": "xgameruntime: export XErrorReport, which XGameRuntimeInitialize requires",
         "last_commit_url": "https://github.com/ItsNotRexed/Leonida/commit/6312c057f88f5627108643e3e1f572d18232c8d2",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "unavailable"
       }
     },
@@ -4498,7 +4494,7 @@
         "last_commit": "2026-11-22T10:38:04Z",
         "last_commit_title": "Frame pacing: --fcap N replaces --uncapped; status refresh for fullscreen, rumble and pacing",
         "last_commit_url": "https://github.com/Freminet/ScarlettX/commit/01c642cf62a6d9978f535e2c438c488ebcb4cd39",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "public"
       }
     },
@@ -4514,13 +4510,13 @@
       "url": "https://github.com/boykopovar/AnyPS5",
       "progress_url": "https://boykopovar.github.io/AnyPS5/progress.html",
       "github": {
-        "stars": 61078,
-        "open_issues": 2888,
+        "stars": 61079,
+        "open_issues": 2891,
         "last_push": "2026-11-24T06:17:07Z",
         "last_commit": "2026-11-24T06:17:06Z",
         "last_commit_title": "Merge pull request #26442 from ToRaNek/feat/nkwebkit-nicosia-scene",
         "last_commit_url": "https://github.com/boykopovar/AnyPS5/commit/74a4ddce62f63da5bdcad32cf103683a39da69a9",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "public"
       }
     },
@@ -4542,7 +4538,7 @@
         "last_commit": "2022-10-03T09:57:05Z",
         "last_commit_title": "fix compile warning",
         "last_commit_url": "https://github.com/InoriRus/Kyty/commit/4733b7e1c91b10554a52007903d74dc76c39a230",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "public"
       }
     },
@@ -4564,7 +4560,7 @@
         "last_commit": "2026-06-29T21:12:30Z",
         "last_commit_title": "build: add missing includes for GCC 16 compatibility",
         "last_commit_url": "https://github.com/RPCSX/rpcsx/commit/e8ae1481ab7ba04d5c6bef89dd852aabba2c88ff",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "public"
       }
     },
@@ -4580,13 +4576,13 @@
       "url": "https://github.com/R0Y00/Xbox2Windows",
       "progress_url": "",
       "github": {
-        "stars": 1647,
-        "open_issues": 95,
-        "last_push": "2026-11-24T06:09:38Z",
-        "last_commit": "2026-11-24T06:09:37Z",
-        "last_commit_title": "Merge pull request #1258 from tedin7/x2w-gfx2hlsl-image-sample-l-explicit-lod",
-        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/f1b16abd266144c4ec3517fb989060a4ee7a50ce",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "stars": 1651,
+        "open_issues": 99,
+        "last_push": "2026-11-24T06:27:34Z",
+        "last_commit": "2026-11-24T06:23:41Z",
+        "last_commit_title": "Merge pull request #1269 from R0Y00/codex/language-selector-readback",
+        "last_commit_url": "https://github.com/R0Y00/Xbox2Windows/commit/943a9ccdcfd222b358e088e1b23b1b68abc07289",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "public"
       }
     },
@@ -4608,7 +4604,7 @@
         "last_commit": "2026-11-24T01:21:36Z",
         "last_commit_title": "Merge pull request #6 from Batushn/test/discord-notify",
         "last_commit_url": "https://github.com/JamesCicada/GTAVI-Recomp/commit/77cbfcd8863770fa347eeb00b159b8c37b4ca4ca",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "public"
       }
     },
@@ -4630,8 +4626,96 @@
         "last_commit": "2026-10-01T23:28:14Z",
         "last_commit_title": "Merge pull request #96 from yuriolive/chore/anyps5-port-candidates",
         "last_commit_url": "https://github.com/ymatrix1/PortPS5/commit/aa7d6da4759b3e9d5da8c1e580bf7b3ec3739725",
-        "checked_at": "2026-11-24T06:18:07.880890Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
         "availability": "public"
+      }
+    },
+    {
+      "name": "VIctory",
+      "repo": "Marvisak/VIctory",
+      "url": "https://github.com/Marvisak/VIctory",
+      "group": "AUTO-DISCOVERED",
+      "focus": "PC COMPATIBILITY / RECOMPILATION",
+      "platform": "GTA VI → PC (RESEARCH)",
+      "description": "An attempt at running GTA VI on PC. Developer description only; not independently verified.",
+      "status": "Developer claims; GTA VI playability and safety not independently verified",
+      "status_as_of": "2026-11-24",
+      "discovery": "github-search",
+      "github": {
+        "availability": "public",
+        "stars": 5284,
+        "open_issues": 576,
+        "last_push": "2026-11-24T00:57:52Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
+        "last_commit": "2026-11-24T00:57:52Z",
+        "last_commit_title": "Merge pull request #129 from Luislariosss/fix/duplicate-test-module",
+        "last_commit_url": "https://github.com/Marvisak/VIctory/commit/d2a4bae1f49533ef5cb512fd1b1ba1513f2e1989"
+      }
+    },
+    {
+      "name": "portwatch-vi",
+      "repo": "4lwayz/portwatch-vi",
+      "url": "https://github.com/4lwayz/portwatch-vi",
+      "group": "AUTO-DISCOVERED",
+      "focus": "EMULATION RESEARCH",
+      "platform": "GTA VI → PC (RESEARCH)",
+      "description": "Does GTA VI run on PC yet? A live tracker of community recompilation and emulation efforts, updated daily.. Developer description only; not independently verified.",
+      "status": "Developer claims; GTA VI playability and safety not independently verified",
+      "status_as_of": "2026-11-24",
+      "discovery": "github-search",
+      "github": {
+        "availability": "public",
+        "stars": 1148,
+        "open_issues": 19,
+        "last_push": "2026-11-24T04:15:52Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
+        "last_commit": "2026-11-24T04:15:50Z",
+        "last_commit_title": "scout: update 2026-11-24 04:15 UTC",
+        "last_commit_url": "https://github.com/4lwayz/portwatch-vi/commit/023a1047a229783b6203439e774765b4d34347ab"
+      }
+    },
+    {
+      "name": "leonida",
+      "repo": "ubiquitarianism/leonida",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "group": "AUTO-DISCOVERED",
+      "focus": "PC COMPATIBILITY / RECOMPILATION",
+      "platform": "GTA VI → PC (RESEARCH)",
+      "description": "A continuation of Leonida, the Xbox > PC port of GTA VI. Developer description only; not independently verified.",
+      "status": "Developer claims; GTA VI playability and safety not independently verified",
+      "status_as_of": "2026-11-24",
+      "discovery": "github-search",
+      "github": {
+        "availability": "public",
+        "stars": 545,
+        "open_issues": 423,
+        "last_push": "2026-11-24T06:27:22Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
+        "last_commit": "2026-11-24T05:09:56Z",
+        "last_commit_title": "Merge pull request #393 from oddmaniv/fix/test-fs-host-drive",
+        "last_commit_url": "https://github.com/ubiquitarianism/leonida/commit/8f481cf16f261c7f37458aeb45e8f4e19994146d"
+      }
+    },
+    {
+      "name": "gta-6-pc-emulator",
+      "repo": "lenguyenkhang816792-arch/gta-6-pc-emulator",
+      "url": "https://github.com/lenguyenkhang816792-arch/gta-6-pc-emulator",
+      "group": "AUTO-DISCOVERED",
+      "focus": "EMULATION RESEARCH",
+      "platform": "GTA VI → PC (RESEARCH)",
+      "description": "GTA 6 PC Emulator: Your Portal to Grand Theft Auto VI on Windows. Developer description only; not independently verified.",
+      "status": "Developer claims; GTA VI playability and safety not independently verified",
+      "status_as_of": "2026-11-24",
+      "discovery": "github-search",
+      "github": {
+        "availability": "public",
+        "stars": 339,
+        "open_issues": 0,
+        "last_push": "2026-11-24T02:43:48Z",
+        "checked_at": "2026-11-24T06:28:05.599599Z",
+        "last_commit": "2026-11-24T02:43:48Z",
+        "last_commit_title": "patch style #437",
+        "last_commit_url": "https://github.com/lenguyenkhang816792-arch/gta-6-pc-emulator/commit/4e05db9dcc99b89b64a61098d23f7db438e0eed1"
       }
     }
   ]
