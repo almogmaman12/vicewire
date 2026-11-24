@@ -5,11 +5,11 @@
 <description>Source-linked GTA VI news and developer activity with evidence labels.</description>
 <language>en</language>
 <item>
-<title>New GitHub project discovered: Leonida (SailmakerEnhance/Leonida)</title>
-<link>https://github.com/SailmakerEnhance/Leonida</link>
-<guid isPermaLink="false">repo-discovered-1e838684dd0a6b</guid>
-<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
-<pubDate>Tue, 24 Nov 2026 06:30:11 +0000</pubDate>
+<title>Xbox2Windows: Merge pull request #1264 from rasptum/runtime/xmem-pool-commit-2004</title>
+<link>https://github.com/R0Y00/Xbox2Windows/commit/79f0f84a92edee9f2ab5f14d44a73e38ea75610f</link>
+<guid isPermaLink="false">git-r0y00-xbox2windows-79f0f84a92ed</guid>
+<description>The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Tue, 24 Nov 2026 06:33:37 +0000</pubDate>
 </item>
 <item>
 <title>New GitHub project discovered: five-star-recomp (ThatRecompDev/five-star-recomp)</title>
@@ -80,6 +80,13 @@
 <guid isPermaLink="false">rss-7958eb806a854c2c</guid>
 <description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
 <pubDate>Tue, 24 Nov 2026 05:08:52 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 leaker releases Xbox build of the game for PC emulation #Gaming #Cyberleek #Gta6 #RockstarGames #UAE https://t.co/CtoNKoYkfg</title>
+<link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE51Zmp6UXlENjA0Z2sxRFpSVzJXUTZ6M1p6eE9qSnN5SzdtbUZBRWhZYnpmbDhDeXc2YTd4aktzY0dBN2pMTjdFTjRjeDVFeHBsOUc0VWJQcjdJNTlySXFGa2pfOA?oc=5</link>
+<guid isPermaLink="false">x-46bdfacc37bb69b9</guid>
+<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Tue, 24 Nov 2026 05:07:11 +0000</pubDate>
 </item>
 <item>
 <title>GTA VI on PC: GTA 6 Xbox build reportedly leaks online, GitHub developers race to get it running</title>
@@ -418,6 +425,13 @@
 <pubDate>Mon, 23 Nov 2026 23:23:12 +0000</pubDate>
 </item>
 <item>
+<title>THIS IS F*CKING WILD... Rockstar said GTA VI on PC no earlier than 2027. on closed Discord servers people are already driving around Miami. the Leonida project is already 350 GB. more than 75 people have played it. the newest Clau</title>
+<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE0xVEFBdGVzWldCZDF1SW0wdE5CdjhzYlFSSEtqWVhETUlNWWNpQ3JrbzBYdnlJMHNmR252cnlnVDdCMUQ0bnRHeDJzZTZpNWpTcDJfdE41UkVEMkZoRFdv?oc=5</link>
+<guid isPermaLink="false">x-deeb7d98037fa329</guid>
+<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Mon, 23 Nov 2026 23:21:51 +0000</pubDate>
+</item>
+<item>
 <title>There's a free silenced pistol in GTA 6 that you can grab in Chapter 1</title>
 <link>https://news.google.com/rss/articles/CBMijgFBVV95cUxQVzVHNWZ5MWxIa1lNNnM5TEczX041ZmJIMDVZTkdraV8zaEVRb2Y2dkVJT3JJOE5UQlVRZl9YSHRaR01hUGxYc1ZaVmdINHZBRGFmTi0xNlF1OWRVSEdOemhNQkhkS3BXWkxxWVFucnpDS1FFcWNkbERhSm8xcVR0cjB2V3lnTVdQSlFlUXVR?oc=5</link>
 <guid isPermaLink="false">rss-245c6efcd6568e16</guid>
@@ -689,19 +703,5 @@
 <guid isPermaLink="false">rss-dbcad0295f69f855</guid>
 <description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Mon, 23 Nov 2026 20:55:56 +0000</pubDate>
-</item>
-<item>
-<title>See the Biggest Stars Who Made Cameos in ‘GTA 6’</title>
-<link>https://news.google.com/rss/articles/CBMic0FVX3lxTFBZYmc5bXE5VERKMkM4R0RGalF0bFRBVTBiX2xiMURIaWtGTTFablgwOUxralhuNDFWb3I1czNyOWlDOHJhZFJfU0p0Ni1yZUlueXE0M1FrSUsybjdWQVEwZVdtQnVlVXlXUHFwS2hNT3N2TkU?oc=5</link>
-<guid isPermaLink="false">rss-f4129eedf92dbd54</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Mon, 23 Nov 2026 20:55:54 +0000</pubDate>
-</item>
-<item>
-<title>CyberLeek Releases GTA 6 Xbox Executable, And Modders Reportedly Have It Booting On PC</title>
-<link>https://news.google.com/rss/articles/CBMigAFBVV95cUxPVWdjVkZ2WVppUnp3T0tNSTNaczdPSTIzVU9WNGdMTTNsTUlOY2lGYkd5YVhPTWhxOVJmTUp3c19yOEpmNlRPSWlIYVlXSWt4emY1VktNaEcyUGZ4TFc1UXFILVN1STE2dnNjYUJhdmFnV3pGZnFOTFJONmhtYkd5Mg?oc=5</link>
-<guid isPermaLink="false">rss-7dc6f1a002988177</guid>
-<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Mon, 23 Nov 2026 20:52:52 +0000</pubDate>
 </item>
 </channel></rss>
