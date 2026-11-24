@@ -66,13 +66,14 @@
   }
   function renderProject(p, index) {
     const github = p.github || {};
-    const last = github.last_commit ? shortDate(github.last_commit) : 'UNAVAILABLE';
-    const issues = typeof github.open_issues === 'number' ? compact(github.open_issues) : '—';
-    const recent = github.last_commit_title ? `<div class="latest-commit"><span>LATEST PUBLIC COMMIT</span><a href="${el(validURL(github.last_commit_url||p.url))}" target="_blank" rel="noopener noreferrer">${el(github.last_commit_title)} ↗</a></div>` : '';
+    const unavailable = github.availability === 'unavailable';
+    const last = unavailable ? 'N/A' : github.last_commit ? shortDate(github.last_commit) : 'UNAVAILABLE';
+    const issues = unavailable ? 'N/A' : typeof github.open_issues === 'number' ? compact(github.open_issues) : '—';
+    const recent = !unavailable && github.last_commit_title ? `<div class="latest-commit"><span>LATEST PUBLIC COMMIT</span><a href="${el(validURL(github.last_commit_url||p.url))}" target="_blank" rel="noopener noreferrer">${el(github.last_commit_title)} ↗</a></div>` : '';
     return `<article class="project-card ${index===0?'highlight':''}"><div class="project-top"><span class="project-class">${el(p.group || 'PROJECT')} / ${el(p.focus || 'RESEARCH')}</span><span class="project-type">${el(p.platform || 'PC')}</span></div>
       <h3>${el(p.name)}</h3><p>${el(p.description)}</p><div class="project-status"><span class="mini-dot"></span>${el(p.status)}${p.status_as_of?' · AS OF '+el(shortDate(p.status_as_of)):''}</div>
-      <div class="project-stats"><div><strong>${compact(github.stars)}</strong><small>GITHUB STARS</small></div><div><strong>${last}</strong><small>LAST COMMIT</small></div><div><strong>${issues}</strong><small>OPEN ISSUES*</small></div></div>
-      ${recent}<div class="project-links"><a href="${el(validURL(p.url))}" target="_blank" rel="noopener noreferrer">VIEW REPOSITORY ↗</a>${p.progress_url?`<a href="${el(validURL(p.progress_url))}" target="_blank" rel="noopener noreferrer">PROJECT PROGRESS ↗</a>`:''}</div></article>`;
+      <div class="project-stats"><div><strong>${unavailable?'N/A':compact(github.stars)}</strong><small>GITHUB STARS</small></div><div><strong>${last}</strong><small>LAST COMMIT</small></div><div><strong>${issues}</strong><small>OPEN ISSUES*</small></div></div>
+      ${recent}<div class="project-links"><a href="${el(validURL(unavailable?'https://twistedvoxel.com/gta-6-pc-recompilation-leonida-developer-quits/':p.url))}" target="_blank" rel="noopener noreferrer">${unavailable?'READ COVERAGE':'VIEW REPOSITORY'} ↗</a>${p.progress_url?`<a href="${el(validURL(p.progress_url))}" target="_blank" rel="noopener noreferrer">PROJECT PROGRESS ↗</a>`:''}</div></article>`;
   }
   function renderBriefing() {
     const target = $('#briefing-grid');
@@ -95,13 +96,37 @@
   function renderMeta() {
     const m = state.data?.metadata || {};
     const n = m.checked_at ? new Date(m.checked_at) : null;
-    const updated = n && !isNaN(n) ? new Intl.DateTimeFormat('en-US', {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',timeZone:'UTC',hour12:false}).format(n)+' UTC' : 'Not yet checked';
-    $('#top-updated').textContent = 'LAST SOURCE CHECK: '+updated;
+    const updated = n && !isNaN(n) ? new Intl.DateTimeFormat('en-US', {month:'short',day:'numeric',hour:'2-digit',minute:'2-digit',hour12:false}).format(n)+' LOCAL' : 'Not yet checked';
+    const delayed = !!(n && !isNaN(n) && (Date.now()-n.getTime()) > 2.5*3600000);
+    $('#top-updated').textContent = 'LAST SOURCE CHECK: '+updated+(delayed?' · DELAYED':'');
     const successful = typeof m.fetches_ok === 'number' ? m.fetches_ok : null;
     const attempted = typeof m.sources_attempted === 'number' ? m.sources_attempted : null;
     if ($('#source-time')) $('#source-time').textContent = updated;
-    if ($('#source-health')) $('#source-health').textContent = successful === null ? 'Run the GitHub workflow' : `${successful} of ${attempted || '?'} source checks`;
+    if ($('#source-health')) $('#source-health').textContent = successful === null ? 'Run the GitHub workflow' : `${successful} of ${attempted || '?'} source checks${delayed?' · scheduled check is late':''}`;
     if ($('#source-total')) $('#source-total').textContent = `${(state.data?.articles || []).length} linked stories · ${(state.data?.projects || []).length} repositories`;
+    const leonida = (state.data?.projects || []).find(p=>(p.repo||'').toLowerCase()==='itsnotrexed/leonida');
+    const card = document.querySelector('.status-card.progress');
+    if (leonida && card) {
+      const health = leonida.github?.availability;
+      const headline = card.querySelector('strong');
+      const note = card.querySelector('p');
+      const foot = card.querySelector('.status-foot');
+      if (health==='unavailable') {
+        headline.textContent='REPO UNAVAILABLE';
+        note.textContent='GitHub returned 404/410 at last check. Cause unknown; claimed boot footage is unverified.';
+        foot.textContent='● REPOSITORY CHECK, NOT TAKEDOWN PROOF';
+        card.href='https://twistedvoxel.com/gta-6-pc-recompilation-leonida-developer-quits/';
+      } else if (health==='check_failed') {
+        headline.textContent='STATUS UNKNOWN';
+        note.textContent='Latest GitHub check failed. Repository and game compatibility unverified.';
+        foot.textContent='● REPOSITORY CHECK FAILED';
+      } else if (health==='public') {
+        headline.textContent='BOOT UNVERIFIED';
+        note.textContent=leonida.status||'A public repository is not proof of gameplay.';
+        foot.textContent='● PUBLIC GITHUB REPOSITORY';
+        card.href=leonida.url;
+      }
+    }
     const cyber = (state.data?.articles || []).filter(a => /cyberleek/i.test(a.title));
     if ($('#leak-activity') && cyber.length) $('#leak-activity').textContent = `Latest Cyberleek-related headline: ${cyber[0].title} (${day(cyber[0].published)}). Read the feed for the source and evidence notes.`;
     if (location.protocol === 'file:') { $('#top-updated').textContent += ' · LOCAL SNAPSHOT'; if ($('#source-health')) $('#source-health').textContent = 'Local snapshot (not live)'; }

@@ -74,6 +74,8 @@ QUERIES = [
     ('"GTA VI" "PC release" when:30d', ['pc'], 'news'),
     ('"GTA 6" "PC port" when:30d', ['pc'], 'news'),
     ('"GTA VI" Leonida recompilation when:30d', ['recompilation','pc'], 'news'),
+    ('"Leonida" "GitHub" "taken down" when:7d', ['recompilation','pc'], 'news'),
+    ('"Leonida" "boot" "creator" when:7d', ['recompilation','pc'], 'news'),
     ('"GTA 6" Xbox Series emulator ScarlettX when:30d', ['emulation'], 'news'),
     ('"GTA VI" PS5 emulator RPCSX AnyPS5 when:30d', ['emulation'], 'news'),
     ('"Cyberleek" "GTA 6" when:30d', ['piracy','pc'], 'news'),
@@ -235,13 +237,20 @@ def update_github(project: dict) -> tuple[bool, dict | None]:
         gh['last_commit_title'] = (commits[0]['commit']['message'].splitlines() or [''])[0][:170] if commits else None
         gh['last_commit_url'] = commits[0].get('html_url') if commits else None
         gh['checked_at'] = NOW.isoformat().replace('+00:00','Z')
+        gh['availability'] = 'public'
         project['github'] = gh
         if repo.lower() == 'itsnotrexed/leonida':
-            readme = fetch('https://raw.githubusercontent.com/ItsNotRexed/Leonida/main/README.md').decode('utf-8','replace').lower()
-            if re.search(r'(?:game|gta\s*vi) does not boot',readme):
-                project['status'] = 'GTA VI does not boot (project README)'
-            else:
-                project['status'] = 'README changed: GTA VI boot status requires review'
+            try:
+                readme = fetch('https://raw.githubusercontent.com/ItsNotRexed/Leonida/main/README.md').decode('utf-8','replace').lower()
+                if re.search(r'(?:game|gta\s*vi) does not boot',readme):
+                    project['status'] = 'GTA VI does not boot (current README)'
+                else:
+                    project['status'] = 'Current README does not verify gameplay'
+            except RuntimeError:
+                project['status'] = 'Repository public; README/boot status requires review'
+            project['status_as_of'] = NOW.date().isoformat()
+        elif project.get('status','').startswith('Repository unavailable'):
+            project['status'] = 'Repository restored; compatibility requires review'
             project['status_as_of'] = NOW.date().isoformat()
         # A fresh, public commit is useful developer news but does not confirm a game boot.
         commit = commits[0] if commits else None
@@ -266,6 +275,15 @@ def update_github(project: dict) -> tuple[bool, dict | None]:
                     }
         return True, None
     except (RuntimeError, ValueError, KeyError, IndexError, TypeError) as exc:
+        # Repository 404 means inaccessible, not proof of a DMCA takedown.
+        missing = bool(re.search(r'HTTP Error (?:404|410)\b', str(exc)))
+        gh = project.get('github',{}).copy()
+        gh['availability'] = 'unavailable' if missing else 'check_failed'
+        gh['checked_at'] = NOW.isoformat().replace('+00:00','Z')
+        project['github'] = gh
+        project['status'] = ('Repository unavailable (HTTP 404/410); cause unverified'
+                             if missing else 'Latest GitHub check failed; current status unknown')
+        project['status_as_of'] = NOW.date().isoformat()
         print(f'Github error for {repo}: {exc}')
         return False, None
 

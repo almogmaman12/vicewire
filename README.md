@@ -65,12 +65,12 @@ The site is deliberately cautious about claims involving GTA VI console files, e
 
 | Activity | Frequency | What actually happens |
 | --- | --- | --- |
-| **News and repository source collection** | Approximately every **3 hours** | GitHub Actions runs the Python collector, writes fresh feed files, and deploys the website |
+| **News and repository source collection** | **Hourly scheduled**, subject to GitHub Actions delays | GitHub Actions runs the Python collector, writes fresh feed files, and deploys the website |
 | **Open browser tab** | Approximately every **10 minutes** | Reloads the *already published* feed; it does not initiate a new news crawl |
 | **Refresh button** | On demand | Reloads currently published data, not the source collector |
 | **Reviewed explainers** | When manually added | Longer articles with stronger source review are **not** automatically fact-checked or rewritten by the crawler |
 
-The workflow uses `17 */3 * * *` in **UTC**. Scheduled GitHub jobs are best-effort and may start late. The dashboard shows the most recent source-check timestamp and how many checks succeeded.
+The workflow uses `17 * * * *` in **UTC**. Scheduled GitHub jobs are best-effort, may run late and can occasionally be skipped. The dashboard shows the most recent source-check timestamp and how many checks succeeded.
 
 **Cost:** The public GitHub Pages + public-repository GitHub Actions setup is designed to run on free GitHub allowances. It **does not use ChatGPT messages or credits**. Limits and policies are controlled by GitHub.
 

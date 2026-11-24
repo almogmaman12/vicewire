@@ -1,5 +1,57 @@
 [
   {
+    "id": "nov24-leonida-repo-unavailable",
+    "title": "Leonida repositories become inaccessible: cause of removal unknown",
+    "published": "2026-11-24T01:33:00Z",
+    "source": "GitHub API / OnDevice",
+    "url": "https://news.ondevice-tools.com/articles/gta-6-pc-port-rockstar-modders/",
+    "summary": "GitHub returned 404 for both the original ItsNotRexed/Leonida repository and the proposed ProjectLeonida/Leonida address during a November 24 check. Reporting also says Leonida's Discord community went offline. These observations do not prove who removed the project, whether it was made private or whether development is permanently over.",
+    "why_it_matters": "Previously shown GitHub stars and commit data are historical, not current activity. The site now flags inaccessible repositories instead of silently preserving an old 'public development' status.",
+    "verification": "Direct 404 GitHub API responses checked November 24, plus attributed media coverage. Reason for removal unconfirmed.",
+    "credibility": "coverage",
+    "categories": [
+      "recompilation",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
+    "id": "nov24-leonida-early-boot-report",
+    "title": "Early boot footage and Leonida creator's departure reported, not independently confirmed",
+    "published": "2026-11-24T00:00:00Z",
+    "source": "Twisted Voxel",
+    "url": "https://twistedvoxel.com/gta-6-pc-recompilation-leonida-developer-quits/",
+    "summary": "Twisted Voxel reports footage showing an initial GTA VI boot stage and says Leonida's creator stepped away. VICEWIRE cannot independently reproduce the footage or confirm gameplay. An early boot screen, even if genuine, does not establish a playable port.",
+    "why_it_matters": "Startup, reaching menus and running actual gameplay are distinct technical milestones. There is no confirmed working native PC build.",
+    "verification": "November 24 reporting attributed to Twisted Voxel, not a verified independent boot test.",
+    "credibility": "coverage",
+    "categories": [
+      "recompilation",
+      "pc"
+    ],
+    "origin": "curated",
+    "featured": false
+  },
+  {
+    "id": "nov23-cyberleek-exe-pcgamer",
+    "title": "Cyberleek appears to publish missing Xbox executable, PC Gamer reports",
+    "published": "2026-11-23T12:00:00Z",
+    "source": "PC Gamer",
+    "url": "https://www.pcgamer.com/games/grand-theft-auto/cyberleek-releases-executable-for-gta-6-xbox-build-leaked-last-week-the-torch-passes-to-the-open-source-recomp-and-emulation-projects/",
+    "summary": "PC Gamer reported November 23 that Cyberleek appeared to publish the missing Xbox executable for its claimed GTA VI build. The outlet specifically said it had not verified the file's legitimacy. This does not establish a playable Windows game or a malware-free executable.",
+    "why_it_matters": "The latest development is the reported release, rather than a future timer. Watch for independent authentication and reproducible security testing of the exact bytes; do not execute untrusted files.",
+    "verification": "PC Gamer November 23 report, not independent executable authentication or safety clearance.",
+    "credibility": "coverage",
+    "categories": [
+      "piracy",
+      "pc",
+      "security"
+    ],
+    "origin": "curated",
+    "featured": true
+  },
+  {
     "id": "rockstar-gtavi-nov23-launch-fixes",
     "title": "Rockstar's November 23 GTA VI update fixes crashes, autosave, weather and mission calls",
     "published": "2026-11-23T12:00:00Z",
