@@ -33,6 +33,13 @@
 <pubDate>Tue, 24 Nov 2026 06:30:11 +0000</pubDate>
 </item>
 <item>
+<title>VIctory says GTA VI menus reach 30 FPS and the world loads, but the port is not playable</title>
+<link>https://github.com/Marvisak/VIctory#status-2026-11-23</link>
+<guid isPermaLink="false">review-victory-nov24-developer-status</guid>
+<description>Marvisak's VIctory project reports GTA VI Xbox Series code booting on Windows, menus at 30 FPS and loading into the world. Its README says the world rendering is still broken, frames can take seconds, and the software is not playable. These are developer statements, not independently reproduced tests. Why it matters: An initial boot and world loading are not playable gameplay. VIctory's README warns that the world-rendering path may hang a real GPU and reset the Windows display driver. Do not treat the project or a claimed build as independently cleared for safety.</description>
+<pubDate>Tue, 24 Nov 2026 06:30:00 +0000</pubDate>
+</item>
+<item>
 <title>New GitHub project discovered: VIctory (Marvisak/VIctory)</title>
 <link>https://github.com/Marvisak/VIctory</link>
 <guid isPermaLink="false">repo-discovered-f62c3cba93390a</guid>
@@ -696,12 +703,5 @@
 <guid isPermaLink="false">rss-7dc6f1a002988177</guid>
 <description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
 <pubDate>Mon, 23 Nov 2026 20:52:52 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 update fixes crashes, autosaving and story-progress bugs</title>
-<link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaDVTQU9qemxmN2R1eGl2c2p6NmRYQWJhTV9CaWw3U0dvall1MG1XMzFNSG45a3YtcE1hUEhSOEwtclhDcGswM3NzdnBNbGZjSDJxSEpkR1lfQzl5VUFCTzNUcDljVEdCMklmTV84SVhVbldnUTRiQi1WOVB1dUpET3licWxINnR3M3FVQ0YtTHFseDZISHBwLXlBR3ZEQlhZNnJPUkNHOFl2Y0E?oc=5</link>
-<guid isPermaLink="false">rss-e30746f5c976fe5d</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Mon, 23 Nov 2026 20:51:13 +0000</pubDate>
 </item>
 </channel></rss>
