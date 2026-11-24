@@ -24,7 +24,7 @@ import sys
 # Also works when update.py is loaded directly by the unit test suite.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crawler import Crawler, LOW_SIGNAL_RE
-from discovery import discover_projects
+from discovery import discover_projects, revalidate_auto_projects
 import re
 import time
 from urllib.parse import quote, urlparse
@@ -325,10 +325,22 @@ def main(offline: bool = False) -> None:
     crawler_stats = None
     discovery_stats = None
     if not offline:
+        # Recheck previously auto-found repositories; a README can masquerade
+        # as a real project, or a GitHub repository can change after discovery.
+        # Never delete manually curated entries or delete merely for a 404.
+        verified_list, audit = revalidate_auto_projects(data.get('projects', []), fetch)
+        data['projects'] = verified_list
+        removed = {p.casefold() for p in audit['removed']}
+        if removed:
+            existing = [a for a in existing if not (
+                a.get('origin') == 'git-discovery'
+                and str(a.get('url','')).removeprefix('https://github.com/').casefold() in removed)]
+        print(f"GitHub auto-watch audit: {audit['inspected']} checked, {len(audit['removed'])} removed")
         # GitHub Search finds NEW projects not in the static watchlist.
         # README text is inspected for topic relevance, not boot verification.
         try:
             new_projects, discoveries, discovery_stats = discover_projects(data.get('projects', []), NOW, fetch)
+            discovery_stats['audit'] = audit
             data.setdefault('projects', []).extend(new_projects)
             updates.extend(discoveries)
             success += discovery_stats['queries_ok']

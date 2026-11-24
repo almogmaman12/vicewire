@@ -62,6 +62,24 @@ class Tests(unittest.TestCase):
         self.assertFalse(stories)
         self.assertGreater(stats["readmes_checked"],0)
 
+    def test_audit_existing_auto_project(self):
+        bad = {"repo":"Marvisak/VIctory","discovery":"github-search"}
+        manual = {"repo":"OldDev/Manual","discovery":None}
+        def no_code(url,*,accept=None):
+            if url.endswith("/contents"):
+                return json.dumps([{"name":"README.md","type":"file"}]).encode()
+            raise RuntimeError("Unexpected request "+url)
+        kept,audit=d.revalidate_auto_projects([manual,bad],no_code)
+        self.assertEqual(kept,[manual])
+        self.assertEqual(audit["removed"],["Marvisak/VIctory"])
+
+    def test_audit_errors_preserve_the_repository(self):
+        watched = {"repo":"Marvisak/VIctory","discovery":"github-search"}
+        def denied(url,*,accept=None): raise RuntimeError("HTTP 404")
+        kept,audit=d.revalidate_auto_projects([watched],denied)
+        self.assertEqual(kept,[watched])
+        self.assertEqual(len(audit["errors"]),1)
+
     def test_search_failure_is_isolated(self):
         def fallback(url,*,accept=None):
             if "/search/repositories?" in url: raise RuntimeError("rate limit")

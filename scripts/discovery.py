@@ -62,6 +62,36 @@ def _has_source_tree(entries):
     return any((t=="dir" and n in CODE_DIRS) or
                (t=="file" and n.endswith(CODE_SUFFIXES)) for n,t in named)
 
+def revalidate_auto_projects(existing, fetch):
+    """Keep manually watched repos; drop auto discoveries that lack visible source.
+
+    Never remove a project solely because GitHub is unavailable: a disappeared
+    repository may itself be news, and a transient network error proves nothing.
+    """
+    kept, removed, errors = [], [], []
+    inspected = 0
+    for project in existing:
+        if project.get("discovery") != "github-search":
+            kept.append(project)
+            continue
+        repo = str(project.get("repo",""))
+        if not ID.fullmatch(repo):
+            removed.append(repo or "(invalid repo)")
+            continue
+        inspected += 1
+        try:
+            listing = json.loads(fetch("https://api.github.com/repos/"+repo+"/contents",
+                                       accept="application/vnd.github+json"))
+        except (RuntimeError, ValueError, TypeError) as exc:
+            kept.append(project)
+            errors.append("Recheck unavailable "+repo+": "+str(exc)[:100])
+            continue
+        if _has_source_tree(listing):
+            kept.append(project)
+        else:
+            removed.append(repo)
+    return kept, {"inspected":inspected,"removed":removed,"errors":errors}
+
 def _project(info, now):
     name, repo = info["name"], info["full_name"]
     summary = re.sub(r"\s+"," ",str(info.get("description") or "")).strip()[:150]
