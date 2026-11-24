@@ -17,23 +17,6 @@
     "featured": true
   },
   {
-    "id": "nov24-victory-technical-readme",
-    "title": "VIctory developer reports GTA VI menus and partial world startup; not playable",
-    "published": "2026-11-24T01:00:00Z",
-    "source": "Marvisak/VIctory · GitHub README",
-    "url": "https://github.com/Marvisak/VIctory",
-    "summary": "VIctory is a new Rust-based attempt to run the Xbox Series GTA VI build on Windows. Its November 23 README reports 30 FPS menus, an intro video and reaching early world-loading stages; world rendering is incomplete and slow. The author explicitly says the project is not playable yet. These are developer-reported results, not independently reproduced tests.",
-    "why_it_matters": "The project represents a concrete research effort with public source code, but its README also warns that real-GPU world loading can crash the display driver. Neither source visibility nor self-reported footage proves a safe, working PC port.",
-    "verification": "First-party repository README inspected November 24, 2026. Developer claims only; no independent compatibility or malware clearance established.",
-    "credibility": "developer",
-    "categories": [
-      "recompilation",
-      "pc"
-    ],
-    "origin": "curated",
-    "featured": true
-  },
-  {
     "id": "nov24-leonida-repo-unavailable",
     "title": "Leonida repositories become inaccessible: cause of removal unknown",
     "published": "2026-11-24T01:33:00Z",
