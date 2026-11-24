@@ -24,7 +24,7 @@ import sys
 # Also works when update.py is loaded directly by the unit test suite.
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from crawler import Crawler, LOW_SIGNAL_RE
-from discovery import discover_projects, revalidate_auto_projects
+from discovery import discover_projects, BLOCKED_REPOS, revalidate_auto_projects
 import re
 import time
 from urllib.parse import quote, urlparse
@@ -312,7 +312,13 @@ def build_feed(items: list[dict]) -> str:
 
 def main(offline: bool = False) -> None:
     data = json.loads(OUT.read_text(encoding='utf-8'))
-    old = data.get('articles',[])
+    # Clean past false-positive discoveries; prevent stale unsafe links from
+    # remaining in either the project radar or already-published news.
+    data['projects'] = [p for p in data.get('projects', [])
+                        if str(p.get('repo','')).casefold() not in BLOCKED_REPOS]
+    old = [a for a in data.get('articles', [])
+           if not any('/'+repo+'/' in (str(a.get('url','')).lower()+'/')
+                      for repo in BLOCKED_REPOS)]
     # Reviewed articles have direct publisher links and specific, source-checked summaries.
     # Unlike automatically indexed headlines, these entries carry editorial verification.
     review = json.loads(EDITORIAL.read_text(encoding='utf-8')) if EDITORIAL.exists() else []
