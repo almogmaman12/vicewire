@@ -22,6 +22,9 @@ CODE_DIRS = frozenset(("src","source","crates","apps","engine","runtime","compil
 CODE_SUFFIXES = (".rs",".cpp",".cc",".cxx",".c",".h",".hpp",".cs",".py",".go",".zig",".kt",".java")
 DANGEROUS_ROOT_SUFFIXES = (".exe",".msi",".apk",".7z",".rar",".torrent",".iso")
 
+NON_DEVELOPER = re.compile(r"\b(?:tracker|dashboard|news|watchlist|companion|preparation|optimizer|optimization|tutorial|guide|installer|your portal|benchmarking toolkit|launcher readiness)\b", re.I)
+INSTALL_LURE = re.compile(r"\b(?:powershell quick install|run the installer|run this installer|download the script|quick installer|one click installer|install gta 6 on pc)\b", re.I)
+BLOCKED_REPOS = frozenset(("4lwayz/portwatch-vi", "lenguyenkhang816792-arch/gta-6-pc-emulator"))
 ID = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 MAX_NEW = 4
 MAX_AUTO = 16
@@ -40,6 +43,10 @@ def _candidate(info, now):
     desc = str(info.get("description") or "")
     if not ID.fullmatch(repo) or info.get("private") or info.get("archived") or info.get("fork") or info.get("disabled"):
         return False
+    if repo.casefold() in BLOCKED_REPOS or str(info.get("language") or "").lower() in ("html", "css"):
+        return False
+    if NON_DEVELOPER.search(title+" "+desc):
+        return False
     if not GTA.search(title+" "+desc) or not PORT.search(title+" "+desc) or BAIT.search(title+" "+desc):
         return False
     if int(info.get("size") or 0) < 20 or int(info.get("stargazers_count") or 0) < 8:
@@ -48,7 +55,7 @@ def _candidate(info, now):
     return bool(pushed and timedelta(hours=-2) <= now-pushed <= timedelta(days=20))
 
 def _readme_ok(value):
-    if len(value) < 180 or not GTA.search(value) or BAIT.search(value[:1500]):
+    if len(value) < 180 or not GTA.search(value) or BAIT.search(value[:1500]) or INSTALL_LURE.search(value[:12000]):
         return False
     return len({m.group().lower() for m in TECH.finditer(value[:35000])}) >= 3
 
