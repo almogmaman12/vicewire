@@ -5,6 +5,34 @@
 <description>Source-linked GTA VI news and developer activity with evidence labels.</description>
 <language>en</language>
 <item>
+<title>New GitHub project discovered: Leonida (SailmakerEnhance/Leonida)</title>
+<link>https://github.com/SailmakerEnhance/Leonida</link>
+<guid isPermaLink="false">repo-discovered-1e838684dd0a6b</guid>
+<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
+<pubDate>Tue, 24 Nov 2026 06:30:11 +0000</pubDate>
+</item>
+<item>
+<title>New GitHub project discovered: five-star-recomp (ThatRecompDev/five-star-recomp)</title>
+<link>https://github.com/ThatRecompDev/five-star-recomp</link>
+<guid isPermaLink="false">repo-discovered-39aa7caf953d2f</guid>
+<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
+<pubDate>Tue, 24 Nov 2026 06:30:11 +0000</pubDate>
+</item>
+<item>
+<title>New GitHub project discovered: leonida (ProjectLeonidaL/leonida)</title>
+<link>https://github.com/ProjectLeonidaL/leonida</link>
+<guid isPermaLink="false">repo-discovered-fd4c1c8652f493</guid>
+<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
+<pubDate>Tue, 24 Nov 2026 06:30:11 +0000</pubDate>
+</item>
+<item>
+<title>New GitHub project discovered: leonida-ce (IAmNotSiob/leonida-ce)</title>
+<link>https://github.com/IAmNotSiob/leonida-ce</link>
+<guid isPermaLink="false">repo-discovered-8602f48d0ac010</guid>
+<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
+<pubDate>Tue, 24 Nov 2026 06:30:11 +0000</pubDate>
+</item>
+<item>
 <title>New GitHub project discovered: VIctory (Marvisak/VIctory)</title>
 <link>https://github.com/Marvisak/VIctory</link>
 <guid isPermaLink="false">repo-discovered-f62c3cba93390a</guid>
@@ -31,6 +59,13 @@
 <guid isPermaLink="false">repo-discovered-5f447d84ebe924</guid>
 <description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
 <pubDate>Tue, 24 Nov 2026 06:28:05 +0000</pubDate>
+</item>
+<item>
+<title>leonida: Allow known TFE failures on llvmpipe in linux-gpu-tools CI.</title>
+<link>https://github.com/ProjectLeonidaL/leonida/commit/57382605b011e41298ac847c8832c8c51bed1eac</link>
+<guid isPermaLink="false">git-projectleonidal-leonida-57382605b011</guid>
+<description>The leonida developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Tue, 24 Nov 2026 06:22:00 +0000</pubDate>
 </item>
 <item>
 <title>After Leonid's closure, Rockstar Games' XCL project for GTA VI was hit.</title>
@@ -143,6 +178,13 @@
 <guid isPermaLink="false">git-r0y00-xbox2windows-16c60586449b</guid>
 <description>The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
 <pubDate>Tue, 24 Nov 2026 02:13:05 +0000</pubDate>
+</item>
+<item>
+<title>PortWatch VI GTA VI PC is coming.</title>
+<link>https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xRWF2ZEtORDFmMFFaVzZUSTNzUUxSTFVENFVXbGZTYi1ZYzl1d2UtU0xHZm5nMWlQOUIzanpSdTVGeDY0eFlxLXFROFNid3Bib2pneHJZSklOWmJBUGJfaUxB?oc=5</link>
+<guid isPermaLink="false">x-00df4a29c6fa011d</guid>
+<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Tue, 24 Nov 2026 01:43:10 +0000</pubDate>
 </item>
 <item>
 <title>Leonida repositories become inaccessible: cause of removal unknown</title>
@@ -516,6 +558,13 @@
 <pubDate>Mon, 23 Nov 2026 22:10:24 +0000</pubDate>
 </item>
 <item>
+<title>Cyberleek Leaks GTA 6 EXE File, PC Port Efforts Begin 👀 Getting GTA 6 running on PC without waiting for @RockstarGames has become the latest goal for the modding community. https://t.co/2kFlbOcveS</title>
+<link>https://news.google.com/rss/articles/CBMiXEFVX3lxTE10VDl5cG96ZkJxMmJ3Z19BbFB6R0NacVd4OHo4a1hrblpFaUh0aUdvNGhBcXpKYW5PdXNvY0E4ZmVJXzhlSjFVWC1HcTNSOFVzMmpfWnpYZ3lTRlFx?oc=5</link>
+<guid isPermaLink="false">x-eb3eea79500a8059</guid>
+<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Mon, 23 Nov 2026 21:56:56 +0000</pubDate>
+</item>
+<item>
 <title>The missing piece needed to get the leaked GTA 6 Xbox build running on PC has reportedly surfaced online</title>
 <link>https://news.google.com/rss/articles/CBMi6AFBVV95cUxNcGpyaVQ3b1Byc2NGZ2FLMEZUYmFscXJuT0J5bE9zVkE4aUg3TFA5VWRNejB6QjhwdGtsSE5rcHkwUUlsQ1p0S0JickxoZHhTODJDRXlhVmdTcHVFUVJOYldOWTJfc0lmRkloSXFKcVVobHMtUGEySGpmdG9kYmZPbTZ1MHN0OHBiNWFXU0RrZWdacHZZS0wwWklvTk5CNXBrdWJ4a2dNb0Q5YVZSWWNNeVA4UkQ2MHRLeWZjeXFMVDFjbnBQMV9mSU9ROUljODlYZFdhaDhLRmg3WGN4a2FjY3Y4UnRhYkhp?oc=5</link>
 <guid isPermaLink="false">rss-e5560995513019c5</guid>
@@ -556,6 +605,13 @@
 <guid isPermaLink="false">rss-830fdf386e365c72</guid>
 <description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
 <pubDate>Mon, 23 Nov 2026 21:29:19 +0000</pubDate>
+</item>
+<item>
+<title>Modders officially got GTA 6 to boot👀</title>
+<link>https://news.google.com/rss/articles/CBMiakFVX3lxTE9mb21xZWFnYnRXbnlkb3pDaXBNd295Z2QtYlpfb0hPMXVTNHhpdHBwNGZCOWlzOHBuODMtQXdmVUxKSDZnYmxtd1FkNUlwQWVidy1aT3VqNDg1aXZ0cVU4eUJJRk9EM1lZcmc?oc=5</link>
+<guid isPermaLink="false">x-7ceb39fbdc5f7ea6</guid>
+<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Mon, 23 Nov 2026 21:28:48 +0000</pubDate>
 </item>
 <item>
 <title>GTA VI Xbox Executable Released by CyberLeek on November 23: The 209GB Leak Is Complete</title>
@@ -647,61 +703,5 @@
 <guid isPermaLink="false">x-63be6441d7a9cda5</guid>
 <description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Mon, 23 Nov 2026 20:50:19 +0000</pubDate>
-</item>
-<item>
-<title>Cyberleek releases missing GTA 6 Xbox executable file for PC modding teams More details: https://t.co/TdKGquA9jm #ARYNews</title>
-<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JanlSZFlZT0N0VmExdWhHS1NFNDdRbWE2c3hROFQzY1FMd09zWXpuVmFETjlPMWtFbVQtMlBUcDBFVEpBWGlPeEZ6R3ZSSU1LM1l3MXgyOENzSGZHcm9adUhOMWw0NWc?oc=5</link>
-<guid isPermaLink="false">x-4877e164d7e6f76c</guid>
-<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Mon, 23 Nov 2026 20:48:00 +0000</pubDate>
-</item>
-<item>
-<title>Xbox2Windows: Merge pull request #997 from R0Y00/codex/runtime-placeholder-interior</title>
-<link>https://github.com/R0Y00/Xbox2Windows/commit/3174eb3ac63b2faf6c364b096450eb5e88cfcac2</link>
-<guid isPermaLink="false">git-r0y00-xbox2windows-3174eb3ac63b</guid>
-<description>The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
-<pubDate>Mon, 23 Nov 2026 20:44:45 +0000</pubDate>
-</item>
-<item>
-<title>Cyberleek Releases Missing GTA 6 Xbox Executable</title>
-<link>https://news.google.com/rss/articles/CBMicEFVX3lxTE9nNk5MaVctZzdXYzJxQXhQanNYSHlpcmRMU0pibC1EWTVtSFF2ZnMyYnNoMmFaM3BiVUI5R3RfQ05xWnhQOFhhdnVYa1dPTzNzT09HMzZXSnN2bEU5ZFBscDJ4VW1sdnZjZlFaems1RlY?oc=5</link>
-<guid isPermaLink="false">rss-9d91410d7ff08447</guid>
-<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Mon, 23 Nov 2026 20:37:00 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 Online Could Be Bigger Than Fortnite, Bank Of America Stock Analyst Says</title>
-<link>https://news.google.com/rss/articles/CBMisgFBVV95cUxORVVZaXBEU2J3MXZvYTJKajQ5SlVlWVpiaS1ZQWhJeE9DalhYM3lGRWkxdXk1UVdrbUNiUDBzeVRmNWM3Qy0xY01QUk82N255bm9nTlhnM3JIX0M4WVp5bF9OSzl1QTdkejBrVnFnemlqWXJqTTlISXNIXzJIVzJrUF9DVFhQVWRqcGY3elY5VFFSbHZuSWxYWmQ3V28yYXl3UnNoOXNUcnBZRVBVVUxDdGZR?oc=5</link>
-<guid isPermaLink="false">rss-7bfa1f4fb90e7b41</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Mon, 23 Nov 2026 20:29:38 +0000</pubDate>
-</item>
-<item>
-<title>Fact Check Team: GTA VI generates $3.79 billion in first-day sales</title>
-<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxPek5Id29LcWNza0Vad1VlZmJEOUh6bmpPLTFWNHM3SWgtenE1VTJ3UWFGUTRNMm5BeklVXzZTTTRyOFJWVURyMEhTejAwUFJJZWFhWVQ3aUdROFp0MzROenllNU5qUVdkQ3RDbUdMeXV0YTB6S0RMWWNpMGtvR2hvU1c1ZVVxM1ZFWnlQaHRTNDh1RmpucnV2RjdpSldFX0dEV0h6UU4xbmJ2THJjOEhUdTVGRmlhVFVpRXVlc2NGVTY?oc=5</link>
-<guid isPermaLink="false">rss-3843ee352ea7085f</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Mon, 23 Nov 2026 20:27:17 +0000</pubDate>
-</item>
-<item>
-<title>AnyPS5: Merge pull request #26346 from Lyrnc/fix/perf-csv-gpu-busy-unit</title>
-<link>https://github.com/boykopovar/AnyPS5/commit/dcb934ffe2f70ad76648567d7cb0ffea884acaca</link>
-<guid isPermaLink="false">git-boykopovar-anyps5-dcb934ffe2f7</guid>
-<description>The AnyPS5 developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
-<pubDate>Mon, 23 Nov 2026 20:27:06 +0000</pubDate>
-</item>
-<item>
-<title>Where to find the Silent Hill hotel in GTA 6</title>
-<link>https://news.google.com/rss/articles/CBMikgFBVV95cUxQY3ljTzFQUGdVMjQxWUk2T19ZZHB4NHZxV2FINmdBbDJwTURMLUVhaXYyeDV5SzdnNFdwT3k1aDJWN0VnZ2dWdTltNURPRVNxRnl0b1hJMUFMd256RHRoZ2VXdVI5bWw0aXJVZmtYQWh6ek9lenFvUnNRdndvZHJQcnBuZktDbkpkQmFRYzJyeVFvZw?oc=5</link>
-<guid isPermaLink="false">rss-91e4cfaad07e38ba</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Mon, 23 Nov 2026 20:26:31 +0000</pubDate>
-</item>
-<item>
-<title>Xbox2Windows: Merge pull request #984 from Holastor/xmem/transfer-runtime-export</title>
-<link>https://github.com/R0Y00/Xbox2Windows/commit/dae1ca25cbc4170ebc62c93020b53800b66a5c22</link>
-<guid isPermaLink="false">git-r0y00-xbox2windows-dae1ca25cbc4</guid>
-<description>The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
-<pubDate>Mon, 23 Nov 2026 20:22:55 +0000</pubDate>
 </item>
 </channel></rss>
