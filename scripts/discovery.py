@@ -23,8 +23,8 @@ CODE_SUFFIXES = (".rs",".cpp",".cc",".cxx",".c",".h",".hpp",".cs",".py",".go",".
 DANGEROUS_ROOT_SUFFIXES = (".exe",".msi",".apk",".7z",".rar",".torrent",".iso")
 
 NON_DEVELOPER = re.compile(r"\b(?:tracker|dashboard|news|watchlist|companion|preparation|optimizer|optimization|tutorial|guide|installer|your portal|benchmarking toolkit|launcher readiness)\b", re.I)
-INSTALL_LURE = re.compile(r"\b(?:powershell quick install|run the installer|run this installer|download the script|quick installer|one click installer|install gta 6 on pc)\b", re.I)
-BLOCKED_REPOS = frozenset(("4lwayz/portwatch-vi", "lenguyenkhang816792-arch/gta-6-pc-emulator"))
+INSTALL_LURE = re.compile(r"\b(?:powershell quick install|run the installer|run this installer|download the script|quick installer|one click installer|install gta 6 on pc|password[: ]|download now)\b", re.I)
+BLOCKED_REPOS = frozenset(("4lwayz/portwatch-vi", "lenguyenkhang816792-arch/gta-6-pc-emulator", "sailmakerenhance/leonida"))
 ID = re.compile(r"^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$")
 MAX_NEW = 4
 MAX_AUTO = 16
