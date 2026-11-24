@@ -80,6 +80,14 @@ class Tests(unittest.TestCase):
         self.assertEqual(kept,[watched])
         self.assertEqual(len(audit["errors"]),1)
 
+    def test_excludes_news_trackers_and_installers(self):
+        tracker={**INFO, "full_name":"4lwayz/portwatch-vi",
+                 "description":"GTA VI PC project tracker and dashboard"}
+        self.assertFalse(d._candidate(tracker,NOW))
+        html_installer={**INFO, "full_name":"new/gta-6-pc-emulator", "language":"HTML"}
+        self.assertFalse(d._candidate(html_installer,NOW))
+        self.assertFalse(d._readme_ok(README+" PowerShell Quick Install run the installer"))
+
     def test_search_failure_is_isolated(self):
         def fallback(url,*,accept=None):
             if "/search/repositories?" in url: raise RuntimeError("rate limit")
