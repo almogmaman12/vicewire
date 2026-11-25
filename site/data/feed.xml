@@ -5,11 +5,382 @@
 <description>Source-linked GTA VI news and developer activity with evidence labels.</description>
 <language>en</language>
 <item>
+<title>Xbox2Windows: shader: lower 64-bit scalar shifts and s_bfe in gfx2hlsl (Part of #1723) (#2088)</title>
+<link>https://github.com/R0Y00/Xbox2Windows/commit/ea468f30b793e18102a369b2cf1d1d3580692465</link>
+<guid isPermaLink="false">git-r0y00-xbox2windows-ea468f30b793</guid>
+<description>The Xbox2Windows developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Wed, 25 Nov 2026 12:54:06 +0000</pubDate>
+</item>
+<item>
+<title>five-star-recomp: Merge lane-world: --check-null-addresses, GPU memory in the sample, pipeline host start/outcome lines</title>
+<link>https://github.com/ThatRecompDev/five-star-recomp/commit/2735cb04b7cedb338717f94efc7cdc4d57abe04e</link>
+<guid isPermaLink="false">git-thatrecompdev-five-star-recomp-2735cb04b7ce</guid>
+<description>The five-star-recomp developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Wed, 25 Nov 2026 12:50:50 +0000</pubDate>
+</item>
+<item>
+<title>Take-Two Battles Unofficial GTA 6 PC Port Work</title>
+<link>https://news.google.com/rss/articles/CBMi5wFBVV95cUxNUDczM2RIY3JnY2xIbEdqWmVJOFdwRlNIZ1dENWJxVXpDcFdNNnVSWnBXbU4zRS1lZ1ZkamJKMWE5X0U5c2RZcDFVbmI1S3JoVmtTeGpaQ2NGR2pwaVlEM2hCYTQ4alVXS2VMOVY4eUJSQ1E0Vlp2VV9rUXpBTnJydENBel9LQklIME4wOTdSUEhIUHFINnpoaHJockxncG04U1Y0MEdyY0pkM3MtRWQ2TWJEQV9YRVlsTURscFVkMEVqRlRYcE9oUTRkRVRPMXVmSEZZR0gyOVd4U1ZvYzZ6RkV0TjBNWWc?oc=5</link>
+<guid isPermaLink="false">rss-597219cb6f551adc</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 12:44:12 +0000</pubDate>
+</item>
+<item>
+<title>leonida: Merge pull request #1819 from aslan2142/tools-wine-game-run</title>
+<link>https://github.com/ubiquitarianism/leonida/commit/98c2f7777276f83eb90b491a51721ef90a43ea73</link>
+<guid isPermaLink="false">git-ubiquitarianism-leonida-98c2f7777276</guid>
+<description>The leonida developers published a code change. This is a public repository event, not a demonstration that GTA VI can launch or run. Why it matters: Review the commit and tests to understand the specific technical change. A commit count or GPU test result cannot be converted into a reliable game-readiness percentage.</description>
+<pubDate>Wed, 25 Nov 2026 12:37:17 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6: When to sell AudaCity’s Dacity Coin for maximum profit</title>
+<link>https://www.videogameschronicle.com/guide/gta-6-sell-audacity-coin-profit/</link>
+<guid isPermaLink="false">crawl-637e40888f3f2cc883</guid>
+<description>From the publisher (publisher article excerpt): How and when to sell Papa AudaCity’s Dacity Coin in Grand Theft Auto 6 Grand Theft Auto 6 is a parody of the modern day, so of course it features a bunch of crypto bros hyping up their latest coin. Why it matters: This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.</description>
+<pubDate>Wed, 25 Nov 2026 12:35:22 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 PC Build Project Shuts Down After Rockstar Targets XBOX Leak</title>
+<link>https://news.google.com/rss/articles/CBMie0FVX3lxTE9meXRERGItQS1UUVZDbVVuTTBtVjdYMk0zUTFNdGpTLTNmUXlHWWdkTDVrSHV5MGpoajhPUHJyaEp4bGc0ZkhxX2ZBXzhkRzhLYUwwclhWdXpIMHpfLVRweTNvbWZUZVRUYUFwWTZDS1ZFQTluNzA4QzlYNA?oc=5</link>
+<guid isPermaLink="false">rss-989d00b1cca7865b</guid>
+<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Wed, 25 Nov 2026 12:34:51 +0000</pubDate>
+</item>
+<item>
+<title>Steal a chopper listening to Liszt! I love how Grand Theft Auto VI went crazy for classical</title>
+<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxPNjF3aDRJdkEySDJJVHp0dW1zZ1g3TXpBYk9rRHJJN2VuNUFFOWdmQ3YzRUhzLVhHSU5rMmhvempHRUJWQnpyczI1RlkzZTVpUHNkcmp5Ulp3Ym5xWThoUmhySVFWbUF3akRzekZxc0dMalJncnI4Ykc5RjViWTBUVXZGVVBCcHNjZUFuWktOSVNlRGdNaVpaWENRaGpIeTctWkwydjFn?oc=5</link>
+<guid isPermaLink="false">rss-40ee9755dd56b923</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 12:16:00 +0000</pubDate>
+</item>
+<item>
+<title>Grand Theft Auto VI Runs Better on Xbox Series X Than PS5, With PS5 Dropping Below 30 FPS More Often in Fast Driving, Says Digital Foundry</title>
+<link>https://news.google.com/rss/articles/CBMikAFBVV95cUxQT0hWUGNtYnhtaEFiLUQ5NXV5cEVMbmdZTHRnci1YNWppMzlNTFN3RUp6SFZYbkwxaGY2X1hmdjFXXzBoV3VYYXpfdHc4VGpPcjY5dVd5dmNHaG5PaGJOeV80SElOV1pJdWNDVU8tUlRJMHZ5LTgwMWdrN0lkZmg1cFAwSnI3MUMyZVpCd1Q1cFPSAZYBQVVfeXFMUGJXZ2g1ZWQ0dmtEUFdFUUVrU0hZU2FabnM2enQ4aFdzekJCNllhUjdRNjNYLVFzMENscjA4eE9GYkdPVnJXT2pXNWlmNnR1SlVub3BLR0drMXhMSFpDZDIzWVNzb2c3S3pwT3FkX2Q1d20xcXNFbVc0NUVvQXlJLWZkR09qRUxvUFlydE5HTW1GYzJYVHBR?oc=5</link>
+<guid isPermaLink="false">rss-2938cce471658e9a</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 12:00:00 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6: All Criminal Profiles explained</title>
+<link>https://www.videogameschronicle.com/guide/gta-6-criminal-profiles-explained/</link>
+<guid isPermaLink="false">crawl-d155949b847f870d4d</guid>
+<description>From the publisher (publisher article excerpt): All Criminal Profiles and how they change the game in Grand Theft Auto 6 Grand Theft Auto 6 sports a new feature known as Criminal Profiles. A bit like a Hitman or Metal Gear Solid game, your… Why it matters: This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.</description>
+<pubDate>Wed, 25 Nov 2026 11:47:36 +0000</pubDate>
+</item>
+<item>
+<title>Rockstar shuts down Discord server behind unofficial GTA 6 PC port</title>
+<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxNalgyWnRId1ppcHdyYWpJRTJfLURydlNlSmw5Q3BBSUczM09iUlczMHIwZHNUUWpERl9yZWs4X3dHQU13WXpSYW1Rc1psWlVCZmp5M2RYMmQ5aHQ3dVRwcF9qMlZLYlZTZzRlLVlYTWJBS2J4Q29zU1dEblRJeEN0RUVZVlBqb2N0LWo2Zk01cVBuSEg2WnpYV0JUTTRZWnJLYkh6MWt30gGuAUFVX3lxTE5qbW0tNVRLOTROV2lZcUtXdm9QLUM1WUR5aGhpVm5ORnlJUVlScElwckxjWms1VGk0b2YwZlpNbjA0eXJFTTRCdXp6SUVJa2FrTTZGNms1VUFzQThkLWFTQVFuVmVELVVhUEZsT2QwbTdqY0FBdS1meE5kMEhMMS1VTEFRX0toendWakIzZEg1QUlra2tOdFkxMG9ZVk5VUEstb1NZQzNwSjRoVXNHUQ?oc=5</link>
+<guid isPermaLink="false">rss-0e3a3493e3eaac49</guid>
+<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 11:47:00 +0000</pubDate>
+</item>
+<item>
+<title>The 24-Hour GTA 6 PC Port Is a Warning Shot, Not a Product</title>
+<link>https://news.google.com/rss/articles/CBMijAFBVV95cUxOMjJFLUVQTl8wSjA5ajFkM2t6ZnpyalFJVFBYd2tWOFFjeTFtb1Z1TjVnWkZsTkdkd2xaRU9ZRzZoUXQ3bjR4RXRzMkR1QjhGS180OXFEN1RIcS1qbUZmXzZ2YVRjMF9oRUFRT1Joa0d0Si0wMDgyVjFTZ2htSHN2b2JyRWhFNG45dk8xRg?oc=5</link>
+<guid isPermaLink="false">rss-f5f58df8c3c38521</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 11:42:46 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 on Xbox Series X ‘Holds 30FPS Better Than PS5’ Says Digital Foundry</title>
+<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxON1ZlN0xQY1I5WkxaZ0REa0lJWTA0ZGRGT0dTTnZqTGZwUTlyNlhSVlZLUkYwRTlNWGNLTHJVeF8wNVJxRTIyak5JQlZuektOTzJVYnFaemloZVdzYXBnX0ZPU2pLQ3dLRW96a1ExVzNnVUpicTAtQ3k5NE9aSVBJdFJTejVhb19SbF9ETVBZUmJ2OG15c3JmeW1SSjRWS1BZX1NVYmxn?oc=5</link>
+<guid isPermaLink="false">rss-a810204bb2486e2b</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 11:34:15 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI On PS5 - Believe the Hype</title>
+<link>https://news.google.com/rss/articles/CBMifEFVX3lxTE00YzVROF83VzNLVVlFcmdHLVBDOVk4eGlFLVhLTkhJMGNjMExYWXBUUnA4S3FncmZRcjhnaUtYQTdNOF80WnhSbHBLdlJjV0x3M2VkWm5xSm5LckIwY1RUamhTUlpPOU1BYkFwNUNJWkhWSlBZNms0MEJDMlo?oc=5</link>
+<guid isPermaLink="false">rss-1e7183dae75ee25f</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 11:32:13 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI Breaks Sales Records in Massive Leonida Launch</title>
+<link>https://news.google.com/rss/articles/CBMiV0FVX3lxTE5oNjZnMm10NTBZYUZMaFpMZUJ3MDJHcl9pa3RMVFFHZHkxcDF6a19QdWNXVmhkcFFwZnJHM0lWRVl3azVRa0I5RVBKRlNMVWNFa0VhQUxXSQ?oc=5</link>
+<guid isPermaLink="false">x-892f5f230bdfb38a</guid>
+<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 11:29:50 +0000</pubDate>
+</item>
+<item>
+<title>Rockstar Takes Legal Action Against Popular GTA 6 PC Port</title>
+<link>https://news.google.com/rss/articles/CBMifEFVX3lxTFBDQThaNm1FMmh6NGNIc3haWWgwNmVfVTZ5Ylk0VGRQVVRPOEh5NjYzYktYNTlQTm1BRjhKQmJRZzRFNkY4U3AxZm1kN20zMEdrMHE4T1pLZXlsTmo0LVgwMDRYNFRWa1hERDl6RUdDZ3YxT3l3UWg5WnJvc3U?oc=5</link>
+<guid isPermaLink="false">rss-ff41f8d6b327940f</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 11:25:34 +0000</pubDate>
+</item>
+<item>
+<title>The Secret Controls GTA 6 Doesn't Tell You About</title>
+<link>https://news.google.com/rss/articles/CBMimAFBVV95cUxQTnphNlZ0YzFfenozMUNrdmZXQldMZDN0b2xON3JqQnFkLWZRZVVWR3EweEkxRFIxbTFqaGwyV3hYaHAzZVBfNnpmclU2Y05OQ2RaNEpMRENwWWVLS1dzS1ZZc0tFRm5NMFJKbF93WjBiTVY2bDdBX2NTY1lpNmx6QXJDeUxIa1dDbGFlSkdhSjZQY1FJYmdKZQ?oc=5</link>
+<guid isPermaLink="false">rss-6a7444819a4b0f67</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 11:15:35 +0000</pubDate>
+</item>
+<item>
+<title>'Grand Theft Auto VI: The Album': Every Song Ranked</title>
+<link>https://news.google.com/rss/articles/CBMigAFBVV95cUxPU0dMOEFXTlZ3czBHUlFocmNtMXZaaGVEX0dUa09YTFp0YUF4RHFnb1E4Zm0yX0l2OW1jZE03SVJZY2RaTUJOVkhDa2hQTk9PdWFEZmtUaEwxTGpfVnU0b3JjMURRbXFCWndTbzk2UlFMUURHNzRheWR3T25WZjBoRw?oc=5</link>
+<guid isPermaLink="false">rss-2d9c69071b3e9dfc</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 11:08:53 +0000</pubDate>
+</item>
+<item>
+<title>YouTube celebrates the launch and cultural impact of Grand Theft Auto VI</title>
+<link>https://news.google.com/rss/articles/CBMif0FVX3lxTE1Sd1lfcmxvTHkzVXhXT2NCOV9VcUZPSmlJLWtZQWJZQWVaQU50bHB0bHZCNnVzQkxWUG95QkFLQlNqWHQ3NnJFMnhiZTlXOXJiUVk2MGNrT3d1ci1kV0FDT00yX1c5QmNvdURqUUNsRkN6bmJFRjgzN01pQmhqak0?oc=5</link>
+<guid isPermaLink="false">rss-12189828fa2695f2</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 11:07:49 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI, Take-Two gets Leonida taken down on GitHub along with over 3,000 PC port repositories</title>
+<link>https://news.google.com/rss/articles/CBMihAFBVV95cUxPemNyM2pCTE1rUTB1cmZCYUFpRkY4US1qWV9ac3Zob2RWcllmMmw1cDFQZ2p1a2xNVllqanJfaWUybTNnekd2RVJvb2lINVpCTXhMUjlINkZhUW9BTWVzUHpzQ1Q3WXNwZVZQd2RHR1NnN0gzXzZhdndoT2otUFFORHFKY3E?oc=5</link>
+<guid isPermaLink="false">rss-593f357fbdaa7c3c</guid>
+<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 11:05:44 +0000</pubDate>
+</item>
+<item>
+<title>Unauthorized 'GTA 6' PC port shut down by Rockstar Games' parent company</title>
+<link>https://news.google.com/rss/articles/CBMieEFVX3lxTE12VTc3ZHQtR2xucW9IU0RZNmRsYVVMWUViamJ5Xzh4R3FJc1ZHc1V1STRLeDk1aEJfQ25TbTk1bTk5OVRpU21xSF9hNjNjQTdJNEd5d1pYXy1NU2s5TlhWLTEyOENSa0hPRHBMcVpZOWViY3dRejhjSQ?oc=5</link>
+<guid isPermaLink="false">rss-af396b9c6825d557</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 10:54:55 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI runs better on XBOX Series X than on PS5</title>
+<link>https://news.google.com/rss/articles/CBMingFBVV95cUxPNzVOUE5zQjlrM2lseFM0dHBLV25ZM0RGNldBRTFHWHM3T3N5VkZjeUxZSEZqeFpOeWx1dWY2MTdRNmNCbTVUWWRwdDI1LWpjQkxsMnpFZjFNSnRCNWF6NV9ZR0o3YS1ISU0wNTl4Vi05WnNxQjB2eWRkd3V5dktJcFhYTXJPOE50bF8wNWlBMm5yY01UdzVUM1Bja0t0QQ?oc=5</link>
+<guid isPermaLink="false">rss-82876e4ac47d7769</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 10:54:04 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 Company Property walkthrough: How to save the weapons cargo</title>
+<link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSVV0Z3U2RWlEQUN6ZEdIcWVDWWdqSl9iQ1FtTlk4YW5velE5VmZ6YnVxS3FMRC1Sd0pNTC0zdEZnbTltT09Mcy02OGJuc3NrR2hDSWFOaTdDcnNkR2ktcEpMdXZyUDdPS2l5TEhPTUlYLW9YNzZ4WUNjaFR5VEVGVXVJLWl0VVBnOWxucXB6dHp2TDZaX0x5aXZ6R0NRN2trbzhxSUFCTjh6bmc?oc=5</link>
+<guid isPermaLink="false">rss-a2c31ca87fd43cb6</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 10:53:37 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6: How to flip a car in Grand Theft Auto 6</title>
+<link>https://www.videogameschronicle.com/guide/gta-6-how-to-flip-car-grand-theft-auto/</link>
+<guid isPermaLink="false">crawl-75167d7a4d26b57072</guid>
+<description>From the publisher (publisher article excerpt): How to flip a car in the open world and reset your car in races in Grand Theft Auto 6 It happens to the best of us. You were driving down the road in Grand Theft Auto 6, and what should’ve been a… Why it matters: This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.</description>
+<pubDate>Wed, 25 Nov 2026 10:51:12 +0000</pubDate>
+</item>
+<item>
+<title>Fake GTA 6 PC installers are stealing accounts for a port that doesn't exist</title>
+<link>https://news.google.com/rss/articles/CBMieEFVX3lxTE5aUGpXNVUzTHdUYXIxNnRVcjZ1VGREUGVzamtITnRERGJLNENiR3RVZGcySDNuM3BJVW9xajhmaHdmM0ZQTlJYcHJsdkhTV3JZMU9VOTJYb3l1U0hTbXZWS3NoTlVtRzVKdTAtTmJIUFV1M2I5OEludQ?oc=5</link>
+<guid isPermaLink="false">rss-f0db95d3ea87917c</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 10:48:09 +0000</pubDate>
+</item>
+<item>
+<title>AI-generated GTA 6 PC ports get nuked in alleged Rockstar takedown spree, as former Bungie dev hails "most ridiculous dumpster fire ever"</title>
+<link>https://news.google.com/rss/articles/CBMi-wFBVV95cUxQa190THh3dkdCUFZpTDhvQWpJTkhUWjQya2lRLWFvTGItZTVUbzlIRFI5cnM4WGxsc29TX0MwVFU5U0VJTVZEQmdvTnprWHh4N2trNXdvRV95OGhfemhmS2RxQ1NBMWpFcVA1MVJ3V0NqeW9MU0M3ZFZxY2FheXg5bXh6WW5sYmYzaGg3R2lLLU1NMF9pZUhsNWVZYmo5MkY5eGpadDZ2dld6MW1zTE5rQV83ZHB6NGR3N2M1bTRiS3FsQmlqOWxBc1c4LTltTzg0RXhuQWVWSW5DY3pOT1RXejFnTklOOTQ0SzdZeC16cXFCb25YQjhlNjJMVQ?oc=5</link>
+<guid isPermaLink="false">rss-878ace4a1ce30a4e</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 10:38:50 +0000</pubDate>
+</item>
+<item>
+<title>Take-Two Hits GTA 6 PC Port Leonida With DMCA, Taking Down 3,007 GitHub Repos</title>
+<link>https://news.google.com/rss/articles/CBMiowFBVV95cUxQQTl1T3hHTklTaDNFRnNoZ2o4ai03dVFzTWswSmp6X29hblFBT3M4N09laXducTBHMWhhbXFhZzNPcGMzQXVBZ2wyV2J5THNsNGVWbFZfdnpFMnRxdVYwWEZKcElBaXQ4Tl9tVHA3VWpmNWlSeXluWjlMZGFXOE5GM2ZVbU5fMjk5aG1YdHBvNkJvTWVPMGhRanFGUzJYdDRzaFNN?oc=5</link>
+<guid isPermaLink="false">rss-4bc3033a080ec233</guid>
+<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Wed, 25 Nov 2026 10:35:57 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 Analysis Shows PS5 Version Suffers 'Substantially' More Frequent Frame Rate Drops Than Xbox Series X Version, Sparking Debate About Sony's 'Plays Best on PS5' Marketing</title>
+<link>https://news.google.com/rss/articles/CBMi5AFBVV95cUxOd1hBYTZhYVlJRElfTWZPRVNfbEl5R2RjWEMtN3hvdFhwbmtERUo1dE5xSmQzRXlvbmJ6VFc2Y2hZV2FLeXp2S1ZkNEUwSmlBeWI5OXRsMjJnSzBIaFRDa1dkVjk5OThDZWU0Rm9XQ2lXcHF2dUgyX2VpbVkwSVZMQURCdVZSUjNaUnZ0VWdIMzhPWVFFbm1pZUdCdkFPa0k3ZkdYZHZJTXZ0Uy1rUEpFdUQ4Wlp2NDc4T3RlRWl3RXR5NVFoVFZoakw3SDktLWcwVUNqQkYtVF9iSlV5M1VJMVZGM0c?oc=5</link>
+<guid isPermaLink="false">rss-416a10c6c4757236</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 10:28:29 +0000</pubDate>
+</item>
+<item>
+<title>Unofficial GTA 6 PC port and over 3,000 repositories taken down as Take-Two takes action</title>
+<link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbFRlX2lWbnlGcDhqcGRnSTB4Zmd1US1WOWYtbTBpTERKWl83SHRPalQ0OWQtOURCb1gwZFNRWXZVSDNUclpRSGNfM3VQM3dGMW84SjM4VXZsdUZKYVFwbW9JR204WDI1d3JJSGJfWkM3Tm5vLU8zUWM2aUpWR1dtWlRlMW9LclpoVW5scmxjanp6OGhIQ09JN1pRUWtNNEoxZUl3OThBMXJvQkdmb0pDREVmbW1wNlhW?oc=5</link>
+<guid isPermaLink="false">rss-38e3956b57dc4c37</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 10:27:41 +0000</pubDate>
+</item>
+<item>
+<title>'I've Been F***ing Fooled' — GTA 6 Analysis Shows PS5 Version Suffers 'Substantially' More Frequent Frame Rate Drops Than Xbox Series X Version, Sparking Debate About Sony's 'Plays Best on PS5' Marketing</title>
+<link>https://news.google.com/rss/articles/CBMiowJBVV95cUxOLUM0eWRlZUg2c3NfdmxadkkwWWMwcEh1aXpJdk1KR3pzeFhud0d5WG1SX3FWSGJOTHFGVk5uZE5uUlB6R2dTVUJaaEpkQ3FBenQtc2c0U0drQmZoSjhTY0JianVELU4yaEFfUDVCWWhzUWR5UEZtUXU5MXpnUzB0clFZVm1zZzBlbTB1eFVkMXBXMzRpV3FtNkFhZWNUYUIwYU5SY0I0cVdZTFJZRGJKMFF2RXRrWFJ3TG9rV1RNdjFhbDdYZ21EZ0FISFBYS2czbXFXNkdjRjhYX1NjQVZOTE1KVG1taENTSHlJLWxZbHJScWZJaEpiOXlfekpyeU42WlhycGNGQmV6cWdrWEJXTWFqMjVSR0FKR1VqSXVkd0I2OUU?oc=5</link>
+<guid isPermaLink="false">rss-40e5086ec9fe3221</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 10:15:46 +0000</pubDate>
+</item>
+<item>
+<title>The unofficial GTA VI PC ports are still in development despite Take-Two's efforts to shut them down</title>
+<link>https://news.google.com/rss/articles/CBMi5AFBVV95cUxPVXBSdGh4bFZTS0ptMG5kd0Y4UVdrb1luR3RuWnhVU0xFZXFYSmNTd3VlNlNKYnZad3h2cG5nVm94VldTQ0dYRjhqT01wSFpxOEltUG5KQzR2QUlwaTRRcUVMOExjY0FGS2x0bmk1ekdrbERLUHdoWTExQ0I5cWZGTUE5ZWtrY3JxanlDVWk0RFM2SDVCeVJuYnBCbTRySUh0RDVmYXE4Ukxua2lUakRMcjBpZ25lTXNkaHhnZXJNQzNvTjhValFvQUk0ZzRQcjVrTF9fZjhWQmg4bHFzZGZyVzVyYTk?oc=5</link>
+<guid isPermaLink="false">rss-55d6af94c17902dd</guid>
+<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 09:50:55 +0000</pubDate>
+</item>
+<item>
+<title>Xbox Series X Runs GTA 6 More Smoothly Than PS5</title>
+<link>https://news.google.com/rss/articles/CBMiggFBVV95cUxPc1pQRExBWVZrVGZCOVRyOFJNYkVva3hCZnlxelQzbktQTWUycWxCVFozMDZyM2VWSWpWTXVZMVZEbFBHV0ZiS1B5N2FSZzAzMXdXLWliMFRYRnlKVGtYejNsUmhEVG5aWjNDU0dPWlJhWjczcDhZSjU1UDVVWDIzXy13?oc=5</link>
+<guid isPermaLink="false">rss-bc496d7985afe294</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 09:38:11 +0000</pubDate>
+</item>
+<item>
+<title>Performance analysis reveals GTA 6 has a more stable frame-rate on Xbox Series X compared to PlayStation 5</title>
+<link>https://news.google.com/rss/articles/CBMifkFVX3lxTE5qSnF0ZkFqaVp0YmlwUFBOVmZqeGRsQ05SSXJvMFF6dVp3enNId1h6aTJVc0lQemlSRER4TVhWMDVMX2JtTlBBS3pqdDNHWFdkemh2TGJLc0tYTEZOVGFWUEtVMC16NjFKb0JwLWNDYWl1MDRmY0ZKOU1oakptQQ?oc=5</link>
+<guid isPermaLink="false">rss-c473579260c831d6</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 09:15:10 +0000</pubDate>
+</item>
+<item>
+<title>'GTA 6' on PC update: What we know about when it releases</title>
+<link>https://news.google.com/rss/articles/CBMid0FVX3lxTE9TdXBVeWdzSDFQU1VJdDRtWk81ck9yOVV6U0dEMEMycDFjQ084V244QmNBcDRMcDBCcWRRMGd0UlBqUTc4TjNackQwS0EzVC0xVDNlN1hISlRRMldhcEZYZ0ZZT2c2X1pxVFA0bVZKY0l1TXZqWFVJ?oc=5</link>
+<guid isPermaLink="false">rss-f468e58641b4351d</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 08:42:02 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI runs worse on PS5 than on Xbox Series X: console comparison results</title>
+<link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRTh3NGJ2M2pRNkNhdk1Va1B4QVhWMm4tTGdFckhyVlpfYVFkR2pPTF84UFEzWC1xbXV1a2Zfd203cTRmS2puTUUyUlJFa1lNV0RNYjd5T2RRWXZuQXlWbVlJemJGQVFpVzVaeW9US1FUMHRIa083cXZPc2c2R3FnVnVLaUllQTJGMDNXdzctTUR6aWs2WEt5N0dodGNlZXJhRUJIVDdFa29jcFdKVFk0X3h0ZFdHOUhJaWVjejlDYzh1eUXSAcMBQVVfeXFMUEU4dzRidjNqUTZDYXZNVWtQeEFYVjJuLUxnRXJIclZaX2FRZEdqT0xfOFBRM1gtcW11dWtmX3dtN3E0Zktqbk1FMlJSRWtZTVdETWI3eU9kUVl2bkF5Vm1ZSXpiRkFRaVc1WnlvVEtRVDB0SGtPN3F2T3NnNkdxZ1Z1S2lJZUEyRjAzV3c3LU1EemlrNlhLeTdHaHRjZWVyYUVCSFQ3RWtvY3BXSlRZNF94dGRXRzlISWllY3o5Q2M4dXlF?oc=5</link>
+<guid isPermaLink="false">rss-58b4f7c94a47a262</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 08:03:00 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI Glitch Unlocks Frame Rates on Xbox Series X</title>
+<link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE5FZW9KbC1hLVBRQVBLNWdsMGI5cjE5aXBUa2t5a3FXMmd5ck5BN1BaVUM5X01pNkZLTER0VlNiQ2FsOWJBQkNsU2pUQldLOHh1azZoVEFxRldoRldBYlZzTXJ5TQ?oc=5</link>
+<guid isPermaLink="false">rss-765c2f2928ace2a8</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 07:43:38 +0000</pubDate>
+</item>
+<item>
+<title>Xbox Glitch Unlocks GTA VI Frame Rates Beyond 30 FPS</title>
+<link>https://news.google.com/rss/articles/CBMiakFVX3lxTE5halJSTXUtc19pZjZPWHhjcFN0NzVJTDY0YUNuWFJXOTFILXZSUmdldFdDYkdEY2ZDSW9EbGhaY1ZrQXZRZkwwUmZxMlVaOEwwRnZSYzU1cmRyQzk5Mi1vNEV0YUJueDNSeWc?oc=5</link>
+<guid isPermaLink="false">rss-234e5df21af89c45</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 07:41:47 +0000</pubDate>
+</item>
+<item>
+<title>Take-Two takes down over 3,000 GTA VI PC repositories, but it may be too late: unofficial builds already render textures and ray-traced lighting 🔗https://t.co/DmpSgtdIaN</title>
+<link>https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FUHRlYzQ4LUFxaWllVkdTbHJhNnNNakxSNGNJQm9uekFScFpzTFFfbXF6VTltNV9QcWRldGhzelBvY2M4OFBNSks0Rm5zVkZaNUp5cW5QVURIZVRzdWpMVQ?oc=5</link>
+<guid isPermaLink="false">x-8d31b377a3a3cc73</guid>
+<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 07:25:40 +0000</pubDate>
+</item>
+<item>
+<title>A DMCA notice confirms Take-Two took down Leonida and 3,006 related repositories, arguing the GTA 6 PC project violated Rockstar's reverse-engineering ban. ⚖️ 🎮 https://t.co/rhWnjVEOXb</title>
+<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qTnhDbG45a29iazFQVHJVeEkyNXZWZm41WkNycE9mN3MtZzlQbjhhUllKNS12c3ZxYWNmZjZsVmxfaEZaNmNWZDhaU2laODNaSWVaNThNSlB3Q3JYeVBz?oc=5</link>
+<guid isPermaLink="false">x-c4dcec5f9a005c17</guid>
+<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 07:00:33 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 PC port takedown confirmed: Take-Two cites Rockstar's ban on reverse engineering</title>
+<link>https://news.google.com/rss/articles/CBMizgFBVV95cUxOa0hZMUZrS2Zqc3RHNzE2WWNTVTU5YUN4QlY1OUFxcjdrUVEtTElyb3g2emJjcENHV1g5dTE2ZWI5V3hMTmgxeE1BdkJlNkNURGRLY2liZTdUOE1zNW5mcWJJd2dnSnFsMGNFWUJpY1B0RVNwMXVwZl9qeGU4VENkU0NRakRFMS1FTVplbng0X0R3dkxyQW1DWVVnQ2VraHVtdUhsNHpkZHZpTFBoTjdwdW03dndUZUJpcFV0SUo1SVc3YnRMVDV3dkNVM0Q5UQ?oc=5</link>
+<guid isPermaLink="false">rss-1a363393d62126d8</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 07:00:03 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 PC port update: Take-Two shuts down Project Leonida, but developers refuse to give up</title>
+<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUzd0ZlNPbjRRd291Vkh4WEx2UU04enJMXzhBZFVDNTd4cFd3ZzZhTlJybU5fbkN2RnNXNVk4eXhfTllleF93bDlBc2tfZGoyQVVxRW0zaVVIN2dtT20xbHItZHN2eTJXYzNxTHZlUXBzWDJ1aXR1UmxRQkVpaFVUS3pnTkdBMTExamQzTnRKQkZrbXJQRURxUDFUWDhBMUFiSU5nZzQtUWx6WTh1dk91UHJid0JseU5TZU41Vi0wMGHSAcYBQVVfeXFMUDF1b2N2eHJYYjFpX3ZhVVdkS2FhS3dJOHh1MGEwZTFyN0ZCdkQwR3JHSDJjWWQ5TDRZX3UwY2UxNzNPT0otUFdvbVlTZkRvSGFoU2VYR0g4ODJ3Y3d3S3h2SlRFUDhKdU5wTjVWMzZteENNc2FDV2ZPX3cybGg5ZTQ4VWNzeDdnNl8xRjJmVWNFVVYtZnJpb2pVNUtacjczMmgtZ19zN2JUb1RGR1I2T3gxXzJoSWFCVWJmZWstM0FibU1uVkFn?oc=5</link>
+<guid isPermaLink="false">rss-722e01ff9832de97</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 06:57:18 +0000</pubDate>
+</item>
+<item>
+<title>Yes, One Minor Function Was Censored from GTA 6 in Australia, NZ, but It Would've Been Banned if It Wasn't</title>
+<link>https://news.google.com/rss/articles/CBMijAFBVV95cUxQUkFiZzNZLUpKekh2akRpOFZvYklJLURZbUtNYi1rSnpQaVUtNVJJSWlSSWZlZ25jdVRmQ0ZIWkhKQUFUVkxCZzJVd1ZZVW5tOXhIa0NMb2llX2oybEdGSHZBNTNfSVZ1czRZY2t1RElPTlV3eWY1U0VVVEpwaTFBOU5lWVlJNUZyN2V5Qw?oc=5</link>
+<guid isPermaLink="false">rss-27147ada4426de16</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 06:55:00 +0000</pubDate>
+</item>
+<item>
+<title>"GTA 6 Runs Smoother on Xbox Series X Than PS5, PS5 Pro The Best"</title>
+<link>https://news.google.com/rss/articles/CBMikgFBVV95cUxNY0dvNVpseHFWd05KMGhOZnhYa1VUSno2cGR2MzdFN1hvd3hsZG1idk9BNHZwSlRVM0FzSElYRlhOTTd0RENjNTFUSGVJbml6ME1HNEo2ZURNeWh1WUM3X1JlYUZWcEluLW5PcHpJZzhzNzdDYlRfNXNSNHN5dDBCem13WUZucnQ4M2VnanZpOXpidw?oc=5</link>
+<guid isPermaLink="false">rss-b565749ad5576b8a</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 06:46:17 +0000</pubDate>
+</item>
+<item>
+<title>grand theft auto vi: state of decay</title>
+<link>https://news.google.com/rss/articles/CBMickFVX3lxTE9MbE9GbEMzb2E1eVFaSTdoOUdSc0lDVllmUjV1TldQSWZtUkZNNzJ6cWVESVYzTUdwWFBqbVVhRzhZa2dJU010aHhqaHBlME90OUhfMmxPZ25GNmxfeEVWZEpObFFqSGJLRGpjd1owMG5CQQ?oc=5</link>
+<guid isPermaLink="false">rss-983c5e347daaf007</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 06:27:54 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 runs better on Xbox Series X despite Sony's PS5 marketing!</title>
+<link>https://news.google.com/rss/articles/CBMinAFBVV95cUxOUnhfRzdhVTJrWGJMVGVEbGxRTVF1dFc0aVA0czI4TzBMeTY4N251YlhvV3VtZUYzYWdLQV9zbTVnTm1TR0ZPVHBadGdGUVI3amRNTmZ4ZFd3M2ZVb3ZHMkJQSktrQWVGWkZNaS0tSGtXZ2dKb2pyYkxacTMzQlpEelhoRHkwMG0xZ19OQmt0SG5GNVhRR1M0alJmaW8?oc=5</link>
+<guid isPermaLink="false">rss-e577b63184545bd5</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 06:27:00 +0000</pubDate>
+</item>
+<item>
+<title>“Thousands” of Developers Want to Bring GTA VI to PC After Build Leak, Working on Xbox Series Emulators and Recompilation</title>
+<link>https://news.google.com/rss/articles/CBMi3AFBVV95cUxPYVVJRGlRWHpPNkNNcHFZVkZsRDlqQVdzT2U2aS1YVThSVnZvbEQ5V2VBZmNaMjRGdldOMFFCVUxWOXF1S3l0ekljNDRST3hCS29mR25TUzFwcmZVV0t3WGtGbzlpZXpnWTVMRXVlblpkVnJKb2RQbHc2XzJUb3pLNU1fcHMyRUhzVlVxQ2VHblBiWFpwNEYxVWg2S18tcWpPVmw0bW55UUYtamlZS2hrRjdaSmJldWJueGIzalRySWI1YVdZTDB3Y3dBYmh5aXprSFJfdGlXQ3NRRnkt?oc=5</link>
+<guid isPermaLink="false">rss-af0d926aaf629bf7</guid>
+<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
+<pubDate>Wed, 25 Nov 2026 06:20:44 +0000</pubDate>
+</item>
+<item>
+<title>'GTA 6' chapter 1 is so good that I'm afraid to move on to chapter 2</title>
+<link>https://news.google.com/rss/articles/CBMigAFBVV95cUxQUERUaGJBUEpZWGpoa244OTJMTU1wdGRpUkFUYkktSzhBcUpVX1FRdEdtYmJRQkNwMjBySmpuV0VfNWY5TTZGdmpHUi1USjlVSWcxbm5NVFI3bXlYSmRzaXZnRHdXblIyajd4SUN0U0ktTU1hWTBZRFZCOW5jQ2p6bA?oc=5</link>
+<guid isPermaLink="false">rss-87f8d5457f982e1c</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 05:31:21 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 Unofficial PC Version Taken Down As Rockstar Games Intensifies Copyright Crackdown</title>
+<link>https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUFhmcExTbEgwQjZjM3pwNzVsVzh5WGl1SEdlSV9vYkUwc2QxRmZWVzdTalhLajBFOEpNZnZCbWhQZTJqTmROa0oyOE1ZZmI3UVVuMVR0MDdabmRrSUcyR1loRG4yaUFIUnVyMFVSbEtVdUY5NnNYcjRWZjk3OUF0ekNsRERCcUtCekN2X2VETHZhMXBuU045MzRlam9wZ0xYR0ZsMFlZYXh4M2hGNlNPS3BCRVhuYURfQXo3d2t0QWFNeUXSAcgBQVVfeXFMTi1KZWYwVFFraVd6TUZNb3JmY19VclJwT3AwYVNCdml2OVhIRy0wdC1GLS16NFpfZzRXeTlqQWhFMDRxMmd2TUFSNE5FZHNCWUdvT1dUaUtQS3A1bk1qRDYwWGxuS2hsUDEtLWtwVHRBSERHaFNERlY1c1lqOE5ONmtqWnhZM0tyTDFYT3Z2Y0JQMGZva3p6aTM0Vlk0eXFUNVE3OEpHRDFwV1JabWpWVEZFUzVhbWlFYzZJWnlBTFBXdHBSeTlTMEY?oc=5</link>
+<guid isPermaLink="false">rss-27b0e784c60fefb0</guid>
+<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 04:18:34 +0000</pubDate>
+</item>
+<item>
+<title>GTA 6 PC Port on GitHub Shut Down Following Take-Two DMCA Complaint</title>
+<link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxPOTRJbXdiNHYtUkxRbW13RU9zRjZ1LXh5YkFTNEZHd0VrRVE4YThOcGZCb1Z1MTBrbXY5VXEyaThVbFFNU0djY19oNkF2dEZsYzItS3pXQUljOU9aRjA1MkNiMlA2V2puNUR0OEdFSkEycWNoTVR0N3RHODY2bHh1eXZnX3A2N1N4TS1Qck9Fd2xiODhoeGV3cm5GMGw4dHJDSXBZSXdpcU9sdw?oc=5</link>
+<guid isPermaLink="false">rss-f6b875f89463c969</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 04:17:36 +0000</pubDate>
+</item>
+<item>
+<title>Community Efforts to Port GTA 6 to PC and Mac Show Early Success</title>
+<link>https://news.google.com/rss/articles/CBMipgFBVV95cUxQb0xUU185ZkV0MnRKZjdybk9qMlo4WXdrM2tIeVpFU0hDQVVITjlXc182V3pZNWhmam1NNXE5U2xPcnN6dGk0VGdWMUhISTNiTFRNbnYzUnZGeXBzVUl6bnc2TFlQUEJUYWJ2Sld3NWg0c0RBSmZqcXAzdkpPdmpEVk4zcFljQkJmSGVDendFeERTTmFFSG51TWF6Tm1NNzJZclJhbHN3?oc=5</link>
+<guid isPermaLink="false">rss-319cb44c0738df48</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 04:12:16 +0000</pubDate>
+</item>
+<item>
+<title>Take-Two Gets GTA 6 PC Port Project Taken Down</title>
+<link>https://news.google.com/rss/articles/CBMifEFVX3lxTE9DZWVsTWdUOFVURU1NeVYtYTNJbEtNRFN1aTcxT3NxTWRPVGZ3cG9BZlBuLUk1ZTRSVDZMNUVaSXE2T2E5ajZoNS1TOTMtVW1rNWpFOWJTX3ZIeS01Qmk1V2ZuOFh2VkVweWVkVWVJemxkYkNYbDF5NTFqcWY?oc=5</link>
+<guid isPermaLink="false">rss-7d5cd6be27482c2a</guid>
+<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 03:51:57 +0000</pubDate>
+</item>
+<item>
+<title>Analyst estimates Call of Duty lost 44% of its players when GTA 6 came out, and unlike fans of its live-service competitors they've been slow to come back</title>
+<link>https://news.google.com/rss/articles/CBMisgJBVV95cUxNdVZtZUxqOERtQ1pUOFpMbW1jc3J1SlgtUUU0cUh1c2txQnBrRXpCSzIyX2tWZFZQSXZSSGFuZS1xUExBU0tPTEsyZFhpc2JXX3V6bnVfMHVRQlRpX2hXLUJKQzJqSUh5a1p3ZUJBdUVTN2ROUHdweFZyRF9NeTZkSzBldkRhemQ1ZlpMeF9MdmlRN0tyNlg1NHZEb3FQMVZWMUQxSlE2R09HcmU0RGl0M2wwclNWRWYyV0FXSE1IRU8wdGM2em9TRTE0NXg2QUNDTThqNlpuUWJqQ2o1UWVoUnFWbmZfVjVac0NpUmlVdlBBTklnSnNkY2FPelNEQTF0VGtZbzAwSEd3Wk5Ebm9WU2QtOVRIQk1Fd1lYRkFUTTN2MmxsazZIS1BYY1Z6NGdKQmc?oc=5</link>
+<guid isPermaLink="false">rss-39e32d26c6cf4351</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 03:34:01 +0000</pubDate>
+</item>
+<item>
+<title>Grand Theft Auto VI Review, Gameplay Impressions, Videos and Top Features</title>
+<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxOVWYzMVdVQ19UWWpseUhKUXQ4V0YzN0RuVk9KUElDYkhPaENmcEFmNURoNUJUcWQ0WWJwTjJMV0lWbzBfRG9sZUtiT1FZLUZ4bURoMzhHdFJaVE12cWJ0dmpRZ3lEbnd2TFR2a2VFMTd2ZVhWWTNpWjRaMkFvVzdnVmZJWjRzN1V5RTNRV25SVzRRU3d6S1FDMHd4cEpSYXFPMW8xZ2I5ZzBzRWJrTXpfQkFocE1ULW8?oc=5</link>
+<guid isPermaLink="false">rss-710b4b0f993ea378</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 03:27:46 +0000</pubDate>
+</item>
+<item>
 <title>New GitHub project discovered: VIctory-V2 (DesertGamer/VIctory-V2)</title>
 <link>https://github.com/DesertGamer/VIctory-V2</link>
 <guid isPermaLink="false">repo-discovered-3f556698d57dad</guid>
 <description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
 <pubDate>Wed, 25 Nov 2026 03:02:45 +0000</pubDate>
+</item>
+<item>
+<title>You can now experience the extreme weather in Leonida due to the new GTA 6 patch Look at the dynamic fog, cyclones, and thunderstorms Rockstar perfected</title>
+<link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CbmFvXzFFWTg0UFpxUW1vU0J4WFhsTHdtSTZVU0ZfMi10c0lmOGhmcGk2S09CQWtjLXBrOWtLSXpmUXQ1NzdqaGZFZ0Y3N2twaEM4ckJFMzFBdzdhSDdQdXRCaw?oc=5</link>
+<guid isPermaLink="false">x-7b1fed99648b092c</guid>
+<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 03:00:04 +0000</pubDate>
 </item>
 <item>
 <title>VIctory-V2: GPU: drop the doc comment the detile port added</title>
@@ -26,13 +397,6 @@
 <pubDate>Wed, 25 Nov 2026 02:37:03 +0000</pubDate>
 </item>
 <item>
-<title>'GTA 6' on PC update: What we know about when it releases</title>
-<link>https://news.google.com/rss/articles/CBMid0FVX3lxTE9TdXBVeWdzSDFQU1VJdDRtWk81ck9yOVV6U0dEMEMycDFjQ084V244QmNBcDRMcDBCcWRRMGd0UlBqUTc4TjNackQwS0EzVC0xVDNlN1hISlRRMldhcEZYZ0ZZT2c2X1pxVFA0bVZKY0l1TXZqWFVJ?oc=5</link>
-<guid isPermaLink="false">rss-f468e58641b4351d</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Wed, 25 Nov 2026 02:36:29 +0000</pubDate>
-</item>
-<item>
 <title>GTA 6 PC Ports ‘Nuked’ Just Days Before Devs Expected It to Be Playable Leonida and GTA6Modding went dark a day after Cyberleek released the executable file that porters had been waiting for. https://t.co/cRO0j3n4KO</title>
 <link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE9mNGZyRHVCNDF4aDEzTDZGcWdqUFhyc1FyM3B4Qzg3ZzZwRlMwS1QwRjNNTWNRcXBxQktBR1RHR2FNMTNxMGlKTy1rX1NBb3dUZk4xdGNHQm03MG9NT2hXS3BXdw?oc=5</link>
 <guid isPermaLink="false">x-43ad7afd77637e67</guid>
@@ -47,6 +411,13 @@
 <pubDate>Wed, 25 Nov 2026 02:16:28 +0000</pubDate>
 </item>
 <item>
+<title>The Waink app in GTA 6 can be used to scan specific magazines to unlock new hairstyles for Jason, as well as hair and makeup looks for Lucia — but these magazines are significantly harder to find. https://t.co/7h5rEfngU2</title>
+<link>https://news.google.com/rss/articles/CBMiV0FVX3lxTE84XzNnY3YxblJzTHprYnh5SjdSSU41eS1KalZBWlM2YTBZVmlGODd4R1BzQWFZYmZHLUZhQm1oM0tFclRvUGNrTXVhV25Xcm95SUhJS0dLQQ?oc=5</link>
+<guid isPermaLink="false">x-edc9b5b2300039e1</guid>
+<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Wed, 25 Nov 2026 02:16:01 +0000</pubDate>
+</item>
+<item>
 <title>What you wear in GTA 6 can affect how easily the police track you down after a crime. Here's everything you need to know about using outfits to your advantage in Leonida:</title>
 <link>https://news.google.com/rss/articles/CBMiV0FVX3lxTFBmN2pQb3BvN2QyRGN4M0F4TTZQVURtRWtSMlJfM2tfSXFNM3cwWHVqV2RtWV8wZzhDMW83bjFjeFBqQVlDOUNXSjE2VHVOLUdhWU5rS0ZsTQ?oc=5</link>
 <guid isPermaLink="false">x-50ae5b860bba6395</guid>
@@ -59,6 +430,20 @@
 <guid isPermaLink="false">rss-79e82b35f6efb1a2</guid>
 <description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
 <pubDate>Wed, 25 Nov 2026 02:05:28 +0000</pubDate>
+</item>
+<item>
+<title>GTA VI is great on PS5 but could be better on PC - 4 things I'm hoping for - ZDNET https://t.co/rX7ftqQRZB</title>
+<link>https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5Y195TjRJRld0MERibGxTVHRfY3I0enVoM09OS2FnWTFrZ0pURkdzdXIyNzBuMktfQ3IxUHJ3MUdaWGFZOUgxSTFJUkpKeEdEX2hfNDZ6V0p1Zw?oc=5</link>
+<guid isPermaLink="false">x-b58a31e87109c9f1</guid>
+<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Wed, 25 Nov 2026 02:00:28 +0000</pubDate>
+</item>
+<item>
+<title>Max Verstappen Spent 40 Hours Playing GTA 6 and Still Won the Las Vegas Grand Prix</title>
+<link>https://news.google.com/rss/articles/CBMi2wFBVV95cUxPN3VCXzc1RFVoaXhyWkRWczFJSXo2eHVSYkJkRmRGWU9HTjVLemU0aXl1NGlIaUY2QU5YdW1Kd1RuTkJhUTdoakJaVlhjS0dVMXZ4RGZFSy1zWmwycGJxc3MzZmM0d2p5UVg2MHdpeC15ek9QaTQtby0zM190MW5FTGFRN2RpLW83WFg2QjZIakVzSXRjYVJkdGtQc1BrQXE0ZTV5VlhMZkpoUmI5U25jb0VBYWg1MUhxSjRQTWk1WUtiTllLTWkzTE9EWmVOYl9jaVpudGpfRnp0MGs?oc=5</link>
+<guid isPermaLink="false">rss-6af1434124d7e739</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 01:38:36 +0000</pubDate>
 </item>
 <item>
 <title>VIctory: GPU: a marked page's copy-back does not save the page for its own copy</title>
@@ -96,18 +481,25 @@
 <pubDate>Wed, 25 Nov 2026 01:04:49 +0000</pubDate>
 </item>
 <item>
-<title>YouTube celebrates the launch and cultural impact of Grand Theft Auto VI</title>
-<link>https://news.google.com/rss/articles/CBMif0FVX3lxTE1Sd1lfcmxvTHkzVXhXT2NCOV9VcUZPSmlJLWtZQWJZQWVaQU50bHB0bHZCNnVzQkxWUG95QkFLQlNqWHQ3NnJFMnhiZTlXOXJiUVk2MGNrT3d1ci1kV0FDT00yX1c5QmNvdURqUUNsRkN6bmJFRjgzN01pQmhqak0?oc=5</link>
-<guid isPermaLink="false">rss-12189828fa2695f2</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Wed, 25 Nov 2026 01:04:38 +0000</pubDate>
-</item>
-<item>
 <title>Take-Two Takes Down Fan Project Rebuilding GTA VI for PC With DMCA Notice</title>
 <link>https://news.google.com/rss/articles/CBMiogFBVV95cUxONHNyM1BzeHYwVU5jdk9QeGQ0STY1MWJWU2xBQTV3LXc1NGU0dG5zVzloSnNNZzIwRWdXWUJmekhFWHFNQno5cUVCcHlFMVlRUjFhR0JOVzZHS0VSRC0zY2pGRU1OanlmYUxHTWVYOHNkdXdSZ2M0LV8wak11Q3dWZllTQXpYYkF4dmFBaTJmbW9SZW0zNHNIeERMSnE0QkhXbGc?oc=5</link>
 <guid isPermaLink="false">rss-d006a2a1bfa6a0f9</guid>
 <description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Wed, 25 Nov 2026 01:03:11 +0000</pubDate>
+</item>
+<item>
+<title>'Grand Theft Auto VI' sets record $3.79B in first-day retail sales, Rockstar Games reports</title>
+<link>https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYkdzNWhiclIzU2xHZ1M0Uy1tNUxqNm9KY0ZkMFRkQ05ZS2thT19LUmZhcF9zNUJYM1BZampsTUJTM3Q5MGZvNWVlU25nSXNfUkx0NEhtVl84QmgyeERDQVFBbnpfZmZzNmNHYUJWdGtUd1REaGlTcTVTQmtfSnNoaWxIbEZpU3YtaWVIR0xMS1lRVTFXaDBPTjNTWExmc2hrbUg5NDJEVmpSeHNNbnN2V3NUM0k4cnNCUUV0VEQxd2NTRGNZRlF4XzN4U3hQdFhxalpCMGZZWi0zVXl5YnhQN0J4WVBrN20xYmwtU01WWFEyai1tVjNQc3BkQzk?oc=5</link>
+<guid isPermaLink="false">rss-b9f97a922f375067</guid>
+<description>Publisher headline about Rockstar-related announcements or official game activity. Open the source for the details. Why it matters: This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.</description>
+<pubDate>Wed, 25 Nov 2026 01:03:00 +0000</pubDate>
+</item>
+<item>
+<title>Go To Hell In GTA 6 (And Get A Permanent Health Boost)</title>
+<link>https://news.google.com/rss/articles/CBMijgFBVV95cUxPQmxjS2RrX0N3YTJiaVpnUV9hM2VXSUswLVdCZnZnVWhPR1JRRFVSTGNuMVdEVktQNHV1N2lmNzAzY3ZRTGpzOGVidFNWbllyYnZDbEoweEpZM2JHV1pBTlQweGtMbVNsX2dCUDMwS1BKQW4wanA4MDFMNVJhcWxGa0FDMjdnSlVCZHpGSXNB?oc=5</link>
+<guid isPermaLink="false">rss-8ddfcc7d9cbd9211</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 01:00:00 +0000</pubDate>
 </item>
 <item>
 <title>GTA 6 leak raises prospect of unofficial PC port and earlier official release</title>
@@ -131,11 +523,25 @@
 <pubDate>Wed, 25 Nov 2026 00:15:43 +0000</pubDate>
 </item>
 <item>
+<title>Half of young men have played Grand Theft Auto VI or plan to</title>
+<link>https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR0ZLOEFuMzN4VXNmMnlXbHMyTV9XV0V4ejJQcnhtenY0M1JwOEFwZHAzWDE5Z2tHWmhXakR2blFFWjM2TmsyYkdkZlBMTXo2UW9DajVYaFFTTmgxaUx4N0w5SHU4Y2VqcGdNdThUTFFFQjByT2FLQ1ZMb3Buc2lic00tUk92N2xKa202U2lkM3FHeGpybTdFVGljM280YlF0ekw4VzU1d3hLMVJFT0NCRGJuVnZuNzdzVllsQk9vamx2YWxrWXoxb2NQT1lGblV5OGhERExRYUw2Tm52OW9HdGt1V0IwZw?oc=5</link>
+<guid isPermaLink="false">rss-a433422d6b9d8a1a</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 00:09:11 +0000</pubDate>
+</item>
+<item>
 <title>The north of Leonida is genuinely so beautiful. There’s so many easter eggs and weird side content up here too. Waited until I had a mission here to explore it. GTA 6’s map is by far Rockstar’s greatest ever, it’s a masterpiece in</title>
 <link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE5EZEZvREc3QWdCRGhMSEZmay1EdWJLN0hTWllKSXkwS2F4dFU0dTA5VXdKclE3VWo1dkoyU0c2aWcwejFvNVNxUXVISFpEbGxYdGF6RTk2b3ltUkZmenFj?oc=5</link>
 <guid isPermaLink="false">x-734bf43b8875c982</guid>
 <description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
 <pubDate>Wed, 25 Nov 2026 00:02:47 +0000</pubDate>
+</item>
+<item>
+<title>Hisense 55-Inch 4K ULED TV Gets a GTA 6-Ready Black Friday Discount at Amazon</title>
+<link>https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYkdyR0lTaGNiZEo3R3lrcWZSdE81dkIyT0htZGF0RHd4N2ZGOEllUzBIZF9nYm94UWJBeFRnLVhqY3I4Z3dtZnlJLXRDeWpNV2NWN1VKaFdXOFJTcm5nc195THJJbl9iSllua1JwWS1BQldMME54Q1psT2puMl90Zk1TRjk3Q3F6bUx4MXN5RDlQb1p6R2hrU0VnaE1VV3dYZW5HWUNBbm9vUQ?oc=5</link>
+<guid isPermaLink="false">rss-fa647831e86ddbf3</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Wed, 25 Nov 2026 00:00:00 +0000</pubDate>
 </item>
 <item>
 <title>Max Verstappen Spent the Weekend Playing 40 Hours of GTA 6 and Still Won the Las Vegas Grand Prix</title>
@@ -166,18 +572,25 @@
 <pubDate>Tue, 24 Nov 2026 23:16:36 +0000</pubDate>
 </item>
 <item>
+<title>After Project Leonida's Discord and @Github disappeared, the 15-year-old leading the GTA 6 PC port effort said he was quitting and blamed Rockstar for the Discord shutdown. 🎮 ⚠️ https://t.co/D8vM4VFuvi</title>
+<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UTUh0c3ZrM0hBM002U01ORllxV21LME5TajRPZEM4R2tTSU82X1lZenVjTmxDMjVocm8yRlVRZmVZMFZQdGdEQlc0T05nNHdWd0tYbXV4MklCSkNnYm9R?oc=5</link>
+<guid isPermaLink="false">x-66107af1a40e52ce</guid>
+<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
+<pubDate>Tue, 24 Nov 2026 23:08:46 +0000</pubDate>
+</item>
+<item>
+<title>The difference between The Witcher 3 and Witcher 4 will be 'comparable' to that of GTA 5 and GTA 6, CD Projekt boss says: 'I mean, it's been 11 years'</title>
+<link>https://news.google.com/rss/articles/CBMikwJBVV95cUxPNW9qekhYaVpRUmpWM0pLeHFhUTVvelFieHJWQmRhQ3FBMHpfTi1Ra0hQaWgycXFDbXpjMjRhaEdVeW5EbmdHX3JxTGhpS2daY1UxWDBHNkE0YTNiN2I2bFBPRFRyZklNX216RjBVRnR4MW5GQUJJSk5jZkxmRUtBS2NmSEl0MjBuLWNWZDU0NWp0djkwbmFMeUdMODZYQ2hBMHIyTWk5ZTJCVkNRSlRSNUIwOVVxdC1JWUw5dGdVNUgtalk4VnJjM0d0a1VWTDJRZFVoNjgxZzVNX0hORTRBZkVld1hja1NhRjZHMXFqSkhOTEpBQjByZTFnbGNLQUpkM1FoZTZleExkRHdNZXZXMW5CMA?oc=5</link>
+<guid isPermaLink="false">rss-bfa5e4cfd03d4f16</guid>
+<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
+<pubDate>Tue, 24 Nov 2026 23:03:45 +0000</pubDate>
+</item>
+<item>
 <title>Rockstar reportedly kills Project Leonida, a 15-year-old's GTA 6 PC port effort, along with its 180,000-member Discord</title>
 <link>https://news.google.com/rss/articles/CBMi9gFBVV95cUxPRDM3eFh6Qnp6VTdnM0hmOXdBQ3VvLXNFT25qN2pkRmk4ZHZnYkpsd3FGc1Jhb2Q0Q2xGTV90Y21oR3ctZVZ5cnZ4ZDlPYTNMX1lzRW5FZmt1QzRySlQxdXRxczJ6SG5WOWZPVnBXY3ptQ1hmdFFLeDk5Zkt4T215LXY2TUVDTjdDZUhQdmpJM21LRk5XbU05eUZBMENtcG9RRHpfeEhHVU9yc0J2VE5ZQmlPM2dlTkIyZ01pOGRBWmJlbFNzYmVsckMtR3Bzb09RMWthZXhHS0xzTS05bGdIRF9Ydm9zeFRtZnBQSXA1ZHZSR2N3T3c?oc=5</link>
 <guid isPermaLink="false">rss-4416e9fc283f9374</guid>
 <description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Tue, 24 Nov 2026 23:03:10 +0000</pubDate>
-</item>
-<item>
-<title>Unauthorized 'GTA 6' PC port shut down by Rockstar Games' parent company</title>
-<link>https://news.google.com/rss/articles/CBMieEFVX3lxTE12VTc3ZHQtR2xucW9IU0RZNmRsYVVMWUViamJ5Xzh4R3FJc1ZHc1V1STRLeDk1aEJfQ25TbTk1bTk5OVRpU21xSF9hNjNjQTdJNEd5d1pYXy1NU2s5TlhWLTEyOENSa0hPRHBMcVpZOWViY3dRejhjSQ?oc=5</link>
-<guid isPermaLink="false">rss-af396b9c6825d557</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 22:59:35 +0000</pubDate>
 </item>
 <item>
 <title>Grand Theft Auto VI takes over Miami, including its art destinations</title>
@@ -192,6 +605,20 @@
 <guid isPermaLink="false">rss-0a322759dc1037c0</guid>
 <description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
 <pubDate>Tue, 24 Nov 2026 22:50:26 +0000</pubDate>
+</item>
+<item>
+<title>How to flip your car in GTA 6</title>
+<link>https://news.google.com/rss/articles/CBMiWkFVX3lxTE14Znhsdk1qU0RsWW0wSGZLejh3TFBib3NFR3k2XzFDaUh4YlVXLXhEY1d6WDhIQ0Zhck9DTzVVQVZyQkpHcTJ1TWpWdm02bXo4TkhWU0Q0WndVQQ?oc=5</link>
+<guid isPermaLink="false">rss-662277709aad38b3</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Tue, 24 Nov 2026 22:27:23 +0000</pubDate>
+</item>
+<item>
+<title>Where to find all Randy's Wishlist cars in GTA 6</title>
+<link>https://news.google.com/rss/articles/CBMiaEFVX3lxTFByOUdKRXV5OWlzSDBJYkVyZFRkbndLRFFMZFYwZ1lqcno0TERBY21xenk0dDlYY29PdGVLNjZTRVdFOFJTYUt4a01LMmxRcFZlaUg4RHItQzU0MG9OR19vQXdzeDM5Yl9v?oc=5</link>
+<guid isPermaLink="false">rss-5b4a6934d8f89d80</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Tue, 24 Nov 2026 22:20:40 +0000</pubDate>
 </item>
 <item>
 <title>Should You Participate in the Safe Word Mission in GTA 6?</title>
@@ -220,6 +647,13 @@
 <guid isPermaLink="false">x-b0b6693359ab01fa</guid>
 <description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
 <pubDate>Tue, 24 Nov 2026 22:03:45 +0000</pubDate>
+</item>
+<item>
+<title>The Witcher 4 Will Have a Comparable Leap From GTA 5 to GTA 6, Says CD Projekt Red</title>
+<link>https://news.google.com/rss/articles/CBMi2gFBVV95cUxOUDVqQ0JTUUp4WUtVSS13YWF5NHdQLWhUMVlkSEYyNXI4Umt5X01UVTJYd21GTHd2T285c2FIRzBVRUxxODhLQmRSZG9WQkJ4TUxPZVd2RWx0Zkd2LUxkZ3FSb0FTSmQ1QVVDVjJsNi1ac3EzQjFnZ0xzZ1B4R09rcERwblktc3JvUmdDOTYtSG9sdTJraS1NVWlEM281aGh6S0R6Mm9DbEVWYVdWNnlGTmx3RVN0Tmo3YmJPWG9vTk0yUmNxWXY4TzNwcmpudFFESjZBRnIzSWxvdw?oc=5</link>
+<guid isPermaLink="false">rss-f61645178abe9112</guid>
+<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
+<pubDate>Tue, 24 Nov 2026 22:03:34 +0000</pubDate>
 </item>
 <item>
 <title>How to get your car out of the impound in GTA 6</title>
@@ -269,439 +703,5 @@
 <guid isPermaLink="false">x-d7dd85e96f5af136</guid>
 <description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
 <pubDate>Tue, 24 Nov 2026 21:40:26 +0000</pubDate>
-</item>
-<item>
-<title>GTA VI PC recompilation project shut down by Take-Two</title>
-<link>https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVkRLMVJOdU9mMGpFb2pZemhod0s5YkJ6Slk3emJwYUtQb3IxNGpUMmItZkNzYTU4YUJrdkJGaW8wTHB0c3d3OEQyMHZFdjhrZVhKWVQ5bEZ4Sk5xOURtdkZsdENqWGwwdmEwalR1QVdpdWlMLUs3eHYtMi1IQXF3dGlMR2FBR0VYN1JmVGVsMThEYW5ZRVJlaTl4WWoxdEhiTWgtTzdkV2JPQzA?oc=5</link>
-<guid isPermaLink="false">rss-f6808d9208eba960</guid>
-<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 21:39:14 +0000</pubDate>
-</item>
-<item>
-<title>MO2 plays Grand Theft Auto VI</title>
-<link>https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HNFpPdW9RZW1OYThQMExWTVVpVUx5eXFqOUZqSEpQeXcyZEt5V19YbHZQMC1QVkpCRmwwNmF4ZFJhWGpkN25DUENDXzRaY1YtWlMwNjFoMVdxRGfSAWBBVV95cUxOamF5ODJ1emp2ckhRSHotVlp4TDdGOEdQNDVOT0V4ZEVBTGJDd0paUWVYMUxZZHJrVEtCT0RXcmhxQVdJN2UxdXprZWFmdGpsT1JCMHJ2V1RrTklMelREZmQ?oc=5</link>
-<guid isPermaLink="false">rss-3e3518dab8174a55</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 21:36:06 +0000</pubDate>
-</item>
-<item>
-<title>Customers stocked up on gaming hardware ahead of 'Grand Theft Auto VI' launch</title>
-<link>https://news.google.com/rss/articles/CBMi1gFBVV95cUxQdHRtMjhhUmRkTDJxSEdZZ0QwNWtyODV3N1BYWm1rNUR5WENBM3ZXQkM1U1M4dmhmRW1PNy14SGdodUYzM0E3MUNEVTVhSmFXaUtaeDVTTThXNDl6M3NRSDFhdVBLaE0weXFEZVRDc29FQm9VRnd2WFIzbll1VXRTNXgzRFctdXZOajdpb2pIZ2RGMHczUkZqS0V2TEptZzNFNzB1RTlsTWZfMXRBS0V2MGloVlJrZUZHMWVNYTlUUXczWkdtWFVmd0tyRldzX09XOU83LWdB?oc=5</link>
-<guid isPermaLink="false">rss-c75193073dedf26e</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 21:30:56 +0000</pubDate>
-</item>
-<item>
-<title>The Witcher 4 Will Have a Comparable Leap From GTA 5 to GTA 6, Says CD Projekt Red</title>
-<link>https://news.google.com/rss/articles/CBMiywFBVV95cUxQQWRJYy04aG50MTByRktkejVTRzZqYUVPc2ZFRWVZa1M4a0hPaFphNXNpZ2hfTlEtNkFzQktaZ2hQYjREYXliR2UxNkR4VFlOQVZFR0daaHZDWjZRWnVsQTRwNmJKaU9FdlRCWFkxa25pSTAxMW5UQy0zOGtfQzZPVDJWcjRvRkJUUi1GT2cydGNwVThjQkN4OFFIdU5WelVNNXUySkhiemJTVkc2ZE9uTzZrX2hUdERzd0NaNmUtb1o4Qy1WSVN2UGsxSQ?oc=5</link>
-<guid isPermaLink="false">rss-f61645178abe9112</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 21:29:20 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 PC Port on GitHub Shut Down Following Take-Two DMCA Complaint</title>
-<link>https://news.google.com/rss/articles/CBMimgFBVV95cUxQbGxOOGlzdlhQRDBDdFRxXzBmM3VTbXh5R29OOGZGNkt6UmhKcW14UHpCSTZIMkdfQmsyQXgtWjlvZ1hoaF94LXhTY1NKYWZTUFdKUFNfVkFZWWNzMlZZT1NTeC1ZRzdiZXJRT2FyV3pZZUktNnd3dWRaY2t2aWJta3Y0Y21ndGNpVEEwaXdTV3RUYjVPY2RRU0dn?oc=5</link>
-<guid isPermaLink="false">rss-f6b875f89463c969</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 21:22:03 +0000</pubDate>
-</item>
-<item>
-<title>So, How Impactful Was the Launch of Grand Theft Auto VI?</title>
-<link>https://news.google.com/rss/articles/CBMiiwFBVV95cUxNeFhqRTBOMU94QUd0TnpXOGVIWWQ3VkZVMElQVzlVM1gwX3RwcFg0T1lOU29IRTNFc25RYzhvUjI0S1NKUlRucTV5NHRxSExmVlhyTnctRXhmNzYzc09ZU3pmZTdyS05KYUoxMXY1VGJfRFJrem9HbDAwTlMyYWE1MC1iOVJTZEtWMGE4?oc=5</link>
-<guid isPermaLink="false">rss-b6d471c5972bd7bc</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 21:10:32 +0000</pubDate>
-</item>
-<item>
-<title>How Is There No Florida Death Metal on the 'Grand Theft Auto VI' Soundtrack?</title>
-<link>https://news.google.com/rss/articles/CBMigAFBVV95cUxPR0JmdmxxbXVjUHNvdGJLdGtvOEVNNXB1dlByNFV3Ym5CZGVFdGlDZXpCOUlhSnNqT0t5RWVSMHp3aUlWNk9BX3N3Vkh6V2toQlVPRngwVEE3UEtLSnNNRVl0VWN5ZmVfT1V1NFE3QUxTdlgwV0Jac29fdTg0UElEcQ?oc=5</link>
-<guid isPermaLink="false">rss-2d05e0fbdcc0940e</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 21:07:14 +0000</pubDate>
-</item>
-<item>
-<title>Cyberleek pushes GTA 6 PC efforts forward with the Xbox build .exe release</title>
-<link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxQRkJHeVI5VWpHZE5QZnpTeEtveXlOYU9RenNuR1d2eXQyVlB3YnVEZzhSVFdBc3NoODVOUjE5OHNSWEdjQXdHeU4za3dCdHdoNkhsZWFUQ2l4WkhFclllNnpsR1lUQllCWEtYa2phYUhuNmFkYzRfSWlsUktWTFNMWDBSM0xxU0d2QVFJUVdreWJ1bDNNQmFhcWdOQjBENDFGay0zVW84UFBBaFJQTWFFUjZVYnFIVnpj?oc=5</link>
-<guid isPermaLink="false">rss-8d19cac7d444f8a6</guid>
-<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Tue, 24 Nov 2026 21:00:00 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6's Staggering Sales Still Might Never Catch GTA 5</title>
-<link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE93anp5TzY1NDdWanFYOEYzdElDWWZ3SEVUNk5ucDhNR2QtZG5zMVVJTm5KTWxjYkdKbTJaQUpiN29QVlJSQVc0dGhqWVk5bm1HU2EwT1k5Q1h1Z1R3a2c?oc=5</link>
-<guid isPermaLink="false">rss-f9be2e65aad59bcc</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 20:56:41 +0000</pubDate>
-</item>
-<item>
-<title>LIVE NOW to continue on the journey in Leonida on GTA 6. 🙌🔥 Today just might be the day we make our move👀 https://t.co/XDbtmgaN13</title>
-<link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE5zU0t5SU5RbGVTaHpEc0RhZ25FY0lGU0lhWDNPaGxVSnVteEE5TDVlc18yUC1kMHBNcHNPeDNFeUk2V3QycEpYM3BMYjJPLXRVLTZYRmstenJMZkxKYmc?oc=5</link>
-<guid isPermaLink="false">x-1a10c1c08b5c6925</guid>
-<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 20:55:28 +0000</pubDate>
-</item>
-<item>
-<title>Some controllers play the game. Our GTA VI AimController takes you there. 🌴 Available now 🔗👇</title>
-<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBST3l2TzUzQ0pza0w5cWlsN0kwZjFVWkV3czRqQjAtRjBmTFBCanQ2TnZabUR4QmJxT1MtWWx0aVh2ZTctcUxlRVhKbzRUV0w4N3lEVEJTLURBN1dIekM4dVpDUk50Q0k?oc=5</link>
-<guid isPermaLink="false">x-9631ba4ed40146e1</guid>
-<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 20:53:12 +0000</pubDate>
-</item>
-<item>
-<title>People are building GTA 6 PC ports and Rockstar keeps banning them Why doesn't Rockstar just release the PC version atp?? It would solve this problem, make people happy and make Rockstar earn tons of money</title>
-<link>https://news.google.com/rss/articles/CBMiXEFVX3lxTE01eXUwNElmZWdlZ0s5M2YyQTNMVUFySERkdGV0VDhFUGVRdV9kQ1U0YUZXYURuRHA0NUNab3NULXpUZnNNckVsaVM2VXJGdldqRUMxOVBVSzZOM3do?oc=5</link>
-<guid isPermaLink="false">x-e579b393d8306721</guid>
-<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 20:47:32 +0000</pubDate>
-</item>
-<item>
-<title>Review: ‘Grand Theft Auto VI’ focuses on romance but there’s more to love</title>
-<link>https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VRXB2c2o3Y2JIM2FLazBRdndISEdBYVR3X1AxUGM5Q3o4ek1EczJ0eDJickI3b1FMbWx0c29JR19pSHJBbTdZNjFLVmZPTS15aWFLdE1NdVBadUt6WkxPb2l3?oc=5</link>
-<guid isPermaLink="false">rss-019e39585fdbf011</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 20:44:07 +0000</pubDate>
-</item>
-<item>
-<title>'Crazy Secretive' — GTA 6 Voice Actor Reveals Details of Rockstar's 'Humongous' NDA</title>
-<link>https://news.google.com/rss/articles/CBMiqAFBVV95cUxQZC1pNFRHQjRIM1BCY3dBbV80WGxtdUF3cUxKcjJZd3BHQUJ0V09kQTJJLW52M0tlSkRHVTFxR1cyUWkyQUVWZ0VjQzZjUE5fOGlUQlhXNy0zdjFJa1VEMTJJOWh6QzVMR29LNE5XbHJDa3JOMUVGbXFKUHBxX05YcmFPWTBZNTVfWWJpY3FUMnY4T1VfVC14OE1YZmRjOGp1SUdkRkU2ejA?oc=5</link>
-<guid isPermaLink="false">rss-4ef7ef7a66d9a62f</guid>
-<description>Publisher headline about Rockstar-related announcements or official game activity. Open the source for the details. Why it matters: This may affect GTA VI players, but a third-party headline about Rockstar is not automatically a first-party confirmation. Check the linked publisher.</description>
-<pubDate>Tue, 24 Nov 2026 20:36:16 +0000</pubDate>
-</item>
-<item>
-<title>This GTA 6 robbery couldn't have gone any worse. See the full episode of Tales Of Leonida on our YouTube: https://t.co/Xl8MXhWmfN</title>
-<link>https://news.google.com/rss/articles/CBMiXkFVX3lxTE1McEs4aXhGRHRhTG1TdnJ1WFpib0JZM3ctR0loWkwxMnBmdTUya0VzTnNNZFppSXRhWWN0cm1EclRMRzlsdnltV21IUFpSYmFndE1mOWF0X0JBcy12Vnc?oc=5</link>
-<guid isPermaLink="false">x-41d127e9ed57a8d2</guid>
-<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 20:30:21 +0000</pubDate>
-</item>
-<item>
-<title>Just Like GTA 6, The Witcher 4 Has A PlayStation Deal</title>
-<link>https://news.google.com/rss/articles/CBMikAFBVV95cUxOWkw0blpBOUp1eEl5WWJYOFRKYU94Vktodm94Q0dzWWQ2bTVDaDVBRjNPQ013ZnU3RE9uTzNwVGJuYm5veGVPNmJEa3FLXzdMTGZyTjdEN1h4SWxJTVZlcE13RmdPX2VDVDI0c0dNMmNKcmM2dzBpdnE2TG5nUjNkUm5MS3E3NXNRZWxSTEhDYVY?oc=5</link>
-<guid isPermaLink="false">rss-2e7d2141432858c3</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 20:13:07 +0000</pubDate>
-</item>
-<item>
-<title>In 'GTA VI,' every stolen car is a music discovery machine</title>
-<link>https://news.google.com/rss/articles/CBMifkFVX3lxTE15QUwySXZWWWQ5RDRlVUp2QXMweHNGdjhsblVrbHkxdWZnZTEyUWRxUTB5SEE0QWNRR0pQU2xwckI3M3NiMWZJd3lOUkJiaWw1TW51b2l4VHplT3U5QkNkSzhXWDN0TkdnREUzSTR3RnNTenA1LUZ1LW5KdkRGQQ?oc=5</link>
-<guid isPermaLink="false">rss-e1fa0d4680786379</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 20:12:17 +0000</pubDate>
-</item>
-<item>
-<title>The Witcher 4 will be a GTA 6-like leap forward, CD Projekt Red says</title>
-<link>https://news.google.com/rss/articles/CBMif0FVX3lxTE1pakhlU0hUUE1YQ1g4VC1fTjR3eGZoLUEwUFhMVWxJSGQ0OXREZVFfbkNHMGp3S1Z4M0VLZW5ya2NiYXdqeTRXYXI4U3NsZU1YVC1yUE1XRmpLTHFlNGJUX2FuTmpiZXlvQmF5WFBidTRQRGlJWTlHSmRwNzd5WFE?oc=5</link>
-<guid isPermaLink="false">rss-62699cdc72867c57</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 20:10:45 +0000</pubDate>
-</item>
-<item>
-<title>Over Half of GTA 6 Watch Time Came From Viewers Under 25 Years Old</title>
-<link>https://news.google.com/rss/articles/CBMitwFBVV95cUxNb2JPUE82M1l0TkJ3TWdLV050d0ptUGxaRTN5SGNGZDVQZW95MzJ4TDBhaVc5aDAwa0ZLQTF3cjg0c1ZFV3I1QXFGV1B6dDhqMHdXS1BFS0RGMXB4SnU5ME5hVkFEQW12Vm9lTTVsVHdVcVB0alRka1A2SHc4SXNFNkh4eUtnaHNFb0t1dlk0YkMtcjJwTU1INnFtMng1NFlFbnJGazlqSFhTMjNJbER6U2Y4OEJuZm8?oc=5</link>
-<guid isPermaLink="false">rss-171e4ebeb0de0214</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 20:04:20 +0000</pubDate>
-</item>
-<item>
-<title>CDPR claims leap to Witcher 4 is ‘comparable’ to leap from GTA 5 to GTA 6</title>
-<link>https://www.videogameschronicle.com/news/cdpr-claims-leap-to-witcher-4-is-comparable-to-leap-from-gta-5-to-gta-6/</link>
-<guid isPermaLink="false">crawl-6204d58a0bfbee9d2c</guid>
-<description>From the publisher (publisher article excerpt): CDPR investors asked bosses how The Witcher 4 compares to GTA 6 CD Projekt Red claims the leap from The Witcher 3 to The Witcher 4 will be similar to that of GTA 5 to GTA 6. Why it matters: This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.</description>
-<pubDate>Tue, 24 Nov 2026 20:01:10 +0000</pubDate>
-</item>
-<item>
-<title>Rockstar shut down a Discord server behind an unofficial Grand Theft Auto VI PC port Project Leonida had already booted on some PCs</title>
-<link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE1FaEg0TFBPYkFmZXRiZzctOVR1TWozOV9XSmdNYXNpQXk0V0ZJdHZoM3NjZWhRakJzNW1BQlZDNGVrOGUtZm5wTWl4SW5IU3RyOGE2UnFfeTZWdWVpMWowVldBaw?oc=5</link>
-<guid isPermaLink="false">x-563a35a08ca6c755</guid>
-<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 19:59:00 +0000</pubDate>
-</item>
-<item>
-<title>I Can’t Believe It, They Put One Of Our Cars In Grand Theft Auto VI</title>
-<link>https://news.google.com/rss/articles/CBMimgFBVV95cUxOdHdSYzIzM1F3dndBOV84U2pRdHVpMGhEeDE4S2NWUWlsWlh0ckd5S3V1alpseERFcENXcWFFTS1zRnJ6d3RJRFhSTHQ5WHl2WVFZdGlYX3BlWGxGVHp3c3Zvd2Ywcm9SRE9oMVMwNzY1X0I2N0tkNUpITU9UQzlxQjdsYzFXSlZlTjV6Mm9tU1daUkxZNFhsME93?oc=5</link>
-<guid isPermaLink="false">rss-a6ac39e2702d3056</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:57:11 +0000</pubDate>
-</item>
-<item>
-<title>More Than Half of GTA 6 Watch Time on Streaming Platforms Came From Viewers Under 25 Years Old</title>
-<link>https://news.google.com/rss/articles/CBMimwFBVV95cUxNNTYwRFYxTG1ydlk1dk4xOHJndlY3dTRTQnYtbDlBaTlqMEw4R1dSSGcyWUpKb2pLeUZBVDJldmxEcXpUZmkzYWpzMzhKT1VNU2FwMXdjZ1VEMmVXbTVQRkJsWVB3ZkZzVTgweGpBRkUwcjF1SWE5NlhlNDhvTWFVNWxDTjEzR2FhcURGNWxYMmpEUzNPamdGRXhLcw?oc=5</link>
-<guid isPermaLink="false">rss-bf76439f942adb0c</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:51:57 +0000</pubDate>
-</item>
-<item>
-<title>Desperate Gamers Are Trying Bring GTA 6 To PCs And Break Free Of Its 30 Fps Cap</title>
-<link>https://news.google.com/rss/articles/CBMiswFBVV95cUxPQTl6ZHZlVThRb09faEJBUHBKM3dERGtFWTFROE5OM2JpVlVMUzZuZGNsTV9felVHUDRvV1VldWlKWkdXVnhVbjZOUEZudnp1eVhBX3NTWnZXYTVyQ1lyVUpUUElxRWk4d0UxTU83RkRORHNJY2NQcm02WTJSSTVoYXBEVGpXQUZsWGptaWlUOGpKVXhWX2pSal9FXzJhdHNpa3BTUnU3cG9lUDNlSE9sMkp5aw?oc=5</link>
-<guid isPermaLink="false">rss-3517012b90577d57</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 19:50:32 +0000</pubDate>
-</item>
-<item>
-<title>Rockstar Shuts Down Teenager's GTA 6 PC Project</title>
-<link>https://news.google.com/rss/articles/CBMibkFVX3lxTE1rNXlEcGI0dTBiN0tseE4xTW1fNEJMRjh1OUlKdjRlTnlrXzlPVG1SY2ZZNFB3bmdlLVdNd0F0SDhoNlpUM1B4OUUwdldwMmlEZGRZbjJlVVFvNlhiRm1NUDJjNl9OMUlpWXg3RnVn?oc=5</link>
-<guid isPermaLink="false">rss-b0cc06622dcc9cb0</guid>
-<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Tue, 24 Nov 2026 19:50:00 +0000</pubDate>
-</item>
-<item>
-<title>Rockstar should of just waited until PS6 or Helix, better yet, just release GTA 6 on PC first.</title>
-<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTFB3NlI0ZXgzRDEtMXg0U3ZkZVlrakhNbzJQd2RveWFPSFprazI4MzJHSHBwbzN0a3RJdXJJRzdCM2hUWmYxejVmY2NOclJnUFA4Q1dGQjZGSDBnR2FnWTVJ?oc=5</link>
-<guid isPermaLink="false">x-9b5f0244242f2c61</guid>
-<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 19:49:00 +0000</pubDate>
-</item>
-<item>
-<title>The One Thing to Know About Jason and Lucia Before You Play Too Much GTA 6</title>
-<link>https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fVERNWUJFUXUxVGR5SlFlWmVmWDFRVzZzMDNHOGdDNjN4WnJRdGMxM2xsRG9zNGM5TWZ2bVpEWDhZV2EyUWZfdjBVT1M3RjZkdEgyUGtvS2lVYWtnMThENw?oc=5</link>
-<guid isPermaLink="false">rss-223a61055b755c65</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:40:05 +0000</pubDate>
-</item>
-<item>
-<title>Take-Two is going after 2,900+ GTA VI PC port forks on GitHub in a massive DMCA takedown. The company has filed a DMCA takedown request against Leonida, a project designed to get the leaked Xbox Series version of GTA VI running on</title>
-<link>https://news.google.com/rss/articles/CBMiY0FVX3lxTE5OMUxZUEt1c2dHNC1OSUYwemRXTGdmYnU1Q2lqTF9LS0lENGxLb3dMU0pBT0VvT25iVUp2UEpQNXBZXzFIU2piZVJ5dnBLQ1BjSUV6ZzNYYUt2dE1GVXVpWTBNbw?oc=5</link>
-<guid isPermaLink="false">x-9c0cf64b5b70f55a</guid>
-<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Tue, 24 Nov 2026 19:36:55 +0000</pubDate>
-</item>
-<item>
-<title>‘Grand Theft Auto VI’ Album’s Secret Weapon? The ‘Barbie’ Soundtrack Creator</title>
-<link>https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQ092d3RieEtmWWt5RWVmWlNRWFVDMnhvMWR1VUcyRFcyN29rUENJNGdxbEdGYUphYlBvZXViQnlpZk9Qc1NXd1pWbjlxaWZGaDloa3BBdHFWTEhLZzNqSzhaYVhuZGw3czZFSDZJVkdUOG1QUFlwMml6UkJ5X21fSm5RWmR0aWIyWEVhTm5xdW1Wd1ZoV2tTSmNDR1FRM3JUM0w4akVSU2VZNXRqU0psX1ZuUWRrVmRDRWZz?oc=5</link>
-<guid isPermaLink="false">rss-3cbef2511b715463</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:31:36 +0000</pubDate>
-</item>
-<item>
-<title>TAKE-TWO HAS ISSUED A DMCA AGAINST THE LEONIDA PROJECT, ALONG WITH ITS 3,006 FORKS! 🚨 Leonida was one of the most popular projects aiming to port the Xbox version of GTA 6 to PC. Take-Two seems to have taken it down on the grounds</title>
-<link>https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1mUFFpTmVJNGl2WVRDZEJ1Q2JXUlJQSDU2clRSLWZ0NmdZdmJnNFBpRTJGQkVFNWZQMUJRQmExTnN0ck5pSDFmLUhIV3NNaHQ4NWFzaDhyNlBTOXNXUm5UMTZEcWNLYVk?oc=5</link>
-<guid isPermaLink="false">x-000d9bc62be06cb5</guid>
-<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 19:31:30 +0000</pubDate>
-</item>
-<item>
-<title>In a now-removed post on Reddit, GTA 6 hacker Cyberleek claims they were “fighting anti-consumerism” in the video games industry with their actions. Modders and homebrew enthusiasts are reportedly using Claude AI to reverse-engine</title>
-<link>https://news.google.com/rss/articles/CBMiXkFVX3lxTFBQbWtIRlZTZlYyVnBJVmR3bUxjd1R6SEd3Y1pvSlBfVmJBaGlzalF5V2xzYW53WnkwNi1zM0FwbUpabFhTRXgySkw1UklNYjRDLVF6SU1GVHdaZ0tBZGc?oc=5</link>
-<guid isPermaLink="false">x-a0e084378b455ed2</guid>
-<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Tue, 24 Nov 2026 19:30:08 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 Launches at $79.99 on PS5 and Xbox, PC Undated</title>
-<link>https://news.google.com/rss/articles/CBMiggFBVV95cUxNWkNPMUw3SnpRQlozekFuM1RVb1VGa29RUS1aTjZTemlpbFhVSTFnaHRFaDhuVGgwdUFKMTNYMldYeS1nQWlkZDFuVU5STUJWR2hial9rcEc3c0VNbDRwMTFzX0oyVUdseFJpZE10Y0twZ3l6bllyTWxPYTVRRkpuVVZR?oc=5</link>
-<guid isPermaLink="false">rss-50f3b24eef2d6b66</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 19:21:29 +0000</pubDate>
-</item>
-<item>
-<title>So here's the deal, GTA 6 is hands down the best video game I've ever played. It's not just a love letter to Florida, it's a love letter to video games. I've played for 30 hours and I'm not even done with Chapter 1 and I'm having </title>
-<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE5OV2VQN1RsRHVxRm84clY5TXV1VlBWMWEzTGNMOWRzeG5VN19hZXdVNklEczJUa0xXTWdHblJwa0pIbWg5WUcwbzdtdVNwd0lPRW5nNG5idHY2U3NmcTlB?oc=5</link>
-<guid isPermaLink="false">x-34cc9b7928ffde9b</guid>
-<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 19:20:37 +0000</pubDate>
-</item>
-<item>
-<title>Some of GTA 6's best story details are hidden inside old text messages</title>
-<link>https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQkNrVXVVTUNnVC1hWDRkSmZyMHJaZUNKZzhtV1pFbGJMTzQ0dFZKZE5tZ0hkcDdMSmZneDMwcVluTlhUM2RuRUlEZ1V4V2FvSWc0QmcwS3BoUFpaTHV1amJxSnNVRkpINk5GUjVBbXlXY0c1U241YU9wb04zWXFDQ1lITXV1bzVfSk9YdlBiZGZLU245NVZCX1ZDYTB4YW1KQmJzSUJpZUFxY2tyYU8zUHhjbnEtd3g2?oc=5</link>
-<guid isPermaLink="false">rss-e2bb1d1f86156f97</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 19:18:13 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 PC Recompile Odds Hit 63% on Manifold as Traders Pile In Before Nov 30</title>
-<link>https://news.google.com/rss/articles/CBMif0FVX3lxTFBSYnJtdmljYUtoZGhnYV96b1RSZlk3V1owMUlNT1B2anJuTlhLalpBWnNINmdWNlV2Mk50UUV5SW5jMUYyTC01cVl3MHdVY25XOHNiRVMxRHhQQXZKZG03c18teV95SV9YaEpqZnRuRnpkTkdGLTY3STl3cEdTamM?oc=5</link>
-<guid isPermaLink="false">rss-ea2f7060335346b2</guid>
-<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 19:17:38 +0000</pubDate>
-</item>
-<item>
-<title>Project Leonida, the GTA 6 PC Recompilation Effort, Goes Dark as Fake Builds Start Spreading Malware</title>
-<link>https://news.google.com/rss/articles/CBMixAFBVV95cUxNQTlua0ZBYUxZS2loVjRybDhQMGJBeVNsNGlmbE9EZHBDMFUtYjJhcU1nODI2RExYQ1RZOTNlVDVmNTJ6WXRZS3NWSEVOYnVMY0xxMGZHRk9SQTIwaXJWMWRteVVCQjhiaVBGSkNPS0lHSjlvdVBFeWFmREZTQzhDX0hlbFpTT2JZYU9VOGFXUWNjRUZlRTlSZ0RnOG9kUy1GdlBSQWNFX2ZWcXpBSTdOc2FqZERXVndLN1RXRnlVWUgtbzBx?oc=5</link>
-<guid isPermaLink="false">rss-806d260d45fe6ab6</guid>
-<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Tue, 24 Nov 2026 19:11:08 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 Data Reveals Only 40% of Players Have Cleared Chapter 2</title>
-<link>https://news.google.com/rss/articles/CBMidEFVX3lxTE0xLXE3YmpSUUxfUXBQVGpTU3Y2V0djUzNtTUZfWFpyUUo0TTNlYzU4SGJLenNoMlB2a1I1aDhjMW9sVGFZTFllUU9saFpnc1RFX2tHRGlIOGFYdjcxOG9GVjBvc0pkWndoTWhuZmYzNnlxdXFL?oc=5</link>
-<guid isPermaLink="false">rss-58517a7e57820ce2</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:08:18 +0000</pubDate>
-</item>
-<item>
-<title>Grand Theft Auto VI</title>
-<link>https://news.google.com/rss/articles/CBMia0FVX3lxTE1teWxjNHVVU3J1U2hWNjlVMk9najYtUmticVVfR2VaQzhER3FyR0FQaGJRZW9BWWhOUmU5SjlpV1dodWpiOUdxZ1huYmh0YXduZFpGZzRmejlSeVlkX1paaWVjMHVRS1VxZE1z?oc=5</link>
-<guid isPermaLink="false">rss-67a8698680247766</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:04:45 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 Gets Officially Licensed Trading Cards Based on In-Game Collectibles</title>
-<link>https://news.google.com/rss/articles/CBMiwgFBVV95cUxPblVKMWdQY04xNklIR0NPRzBfc0JRM0E4TW1ZOXNDRjhKNHFqLVJzRGlIMTB5aEJIbmFFSWtkX2tTTG5SalB1dV9DTVVNZEFKdlNGTnpyT0kwZDd5NVY0UVJtQ2IyU3JiTE9IVkdzUVNDaUtZdVZHdEdNNkFhNjJXY2xKTTctQXZ3aUlLTWVKVFJEalpJdHZhRFdhRUNJa0ZEX3JHSTlUODhYdjlqdDJBeWVnU0l0TjY4Y3MzN3RCbTVNQQ?oc=5</link>
-<guid isPermaLink="false">rss-d4797cb290939357</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:04:20 +0000</pubDate>
-</item>
-<item>
-<title>GTA VI will win at the game awards, PC version will shadow drop at the end of the ceremony</title>
-<link>https://news.google.com/rss/articles/CBMicEFVX3lxTE5JS3F5cHpwS0M1Rm43Ylgzd3NQV3gtLW50U1R5MzRGeC04ekVQVk9rYVlNYk5falp4QTBKMU5JXzNoWnBWUmpzdTJnNUhYa3JTWkNtQ1NjdUZCRDdtakc2LVc0UGJFZzAxNkJDVktkU1g?oc=5</link>
-<guid isPermaLink="false">x-cec511e420a32b78</guid>
-<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 19:03:31 +0000</pubDate>
-</item>
-<item>
-<title>Grand Theft Auto VI Is PlayStation's Biggest Launch Ever With Over 39 Million Unique Players On PS5</title>
-<link>https://news.google.com/rss/articles/CBMi0wFBVV95cUxOTUYyc19jM3NYVV82ZnRFdzJSY1FFZ3p0M2M3bXdrUzdZb3lYNk9vcW8tVzdfdmR1R2pPTWRsbGVuT05oOUl4V2Z1LWZxNmdCN045T3BmZjNyU3VqQkd2QVIwTDU3NWIwNzZoM29NU2RYV0pFczFjV0w3UW5FaldrdmRNNFBLejdfY3h1QnRYTndtQWwtZVAtN2xoUGxqNzYtUDFKdndpa3ZDWWdGNnh3YVVlWUcwd2lpclZIdWNIUFh0VUFHa0tBQjdzSHUzaHVCSmFF0gHfAUFVX3lxTE9ueVczbEo1ZjRhZkNlVzNPSldrRHBWZlh3anRmajUyYjVwaHg5djRMQi1lUE1mUVo1VGNydXdzSmZMTGQzcUd3bmpiaTQ2aXZrVGtSYms5U19wQ0ZjSGhSRzlvQl9MUEwyUWRyenJoNjVvbl84YWN4akdhZTFRVm1VaUN0RnBIRGRPemRXdHJ5NTRCRk9jV3RnUjBGREQ3Nmd3ZUJxU2JYU1EycHRhVkRURWxhOEVlMWFlMkdKNTB6YmpIUFN0eUw5NmMwS25FQ0pHNG5JUG1SdDFvbXNNTmc?oc=5</link>
-<guid isPermaLink="false">rss-b52805572fd611df</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 19:00:00 +0000</pubDate>
-</item>
-<item>
-<title>New GitHub project discovered: Leonida (CandlemakerBlast/Leonida)</title>
-<link>https://github.com/CandlemakerBlast/Leonida</link>
-<guid isPermaLink="false">repo-discovered-84983da8f6a022</guid>
-<description>GitHub search found a public source repository describing work on GTA VI PC compatibility. Only metadata and README topic relevance were checked; developer claims are not independently verified. Why it matters: New projects appear without manual watchlist edits. Popularity, source code, commits and README claims do not prove the game is playable or the software is safe.</description>
-<pubDate>Tue, 24 Nov 2026 18:54:41 +0000</pubDate>
-</item>
-<item>
-<title>NEW VIDEO! ✈️ https://t.co/G5AZF5tLWq I stole the BIGGEST PLANE in GTA 6 and had an absolute blast flying it around Leonida 😂 More free roam shenanigans inbound soon ENJOY!</title>
-<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE5NQWdCeHZQN0NJNEFQWlN6SThsaGVQNXplQjNHV2oyZmdqUFJWbklMYUJ2d3F3OWZESWJPaGg1OEV3TFhEM1Y2aURVamg4RFdCUVVPdkpla3Vhd0tpQUNr?oc=5</link>
-<guid isPermaLink="false">x-847677c6155075bd</guid>
-<description>Indexed social post about the effort to translate console game code for PCs; the original claim has not been verified. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 18:44:33 +0000</pubDate>
-</item>
-<item>
-<title>PC USERS ARE playing GTA 6 tomorrow CYBERLEEK upload 237 gigabytes of files and an emulator(native) for a successful launch Anything less than an RTX 3050 is just a pile of metal WTF CYBERLEEK👀</title>
-<link>https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZUEotT0Z1dTNrMjNrWkZmalVoV2s0WURyTURjNk1rOXNPLUhRSkpWOGZ6SEJnTnJoc1o2dGFuSG9DcjJPa1NtTlFMakhEWVJnNkFVVVNqRmVwNVk?oc=5</link>
-<guid isPermaLink="false">x-3856214d885dd490</guid>
-<description>Indexed social post about leak, piracy or unofficial-port claims; the original claim has not been verified. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Tue, 24 Nov 2026 18:32:34 +0000</pubDate>
-</item>
-<item>
-<title>Catastrophic GTA 6 leak officially kickstarts race for PC port</title>
-<link>https://news.google.com/rss/articles/CBMimwFBVV95cUxPLWdwSHRyMk81NWhEWE5RaGpyXzh6azhnWWVva2ZoaFFZN3RqNGU3cWpjSHVuWnBFd2RlWlhxWU5JSThBRGFNS1E1Z2Q3M0RCTklUQmxlcU9CWnVLNGxLdHhveF9MY0MtZHVtN2RCdEdZamdvb3EwU2hmUjduZkhhS2M4cnVlMWpyNjY4WXgwYXZHWUUxZnV3cXE2SQ?oc=5</link>
-<guid isPermaLink="false">rss-f6d7b578f70a7fb2</guid>
-<description>Publisher headline about leak, piracy or unofficial-port claims. Open the source for the details. Why it matters: A claimed archive, executable or crack is not evidence that GTA VI works on PC. Look for independent testing and original-source proof; avoid suspicious downloads.</description>
-<pubDate>Tue, 24 Nov 2026 18:24:27 +0000</pubDate>
-</item>
-<item>
-<title>Everyone is checking their GPU for the GTA VI PC port. The CPU is what's going to hold most people back After the GPU list I had Claude Opus 5.5 run the same math on 22 of the most popular processors The baseline is the PS5's CPU:</title>
-<link>https://news.google.com/rss/articles/CBMiakFVX3lxTFA2a1Z4MEhMYWtENndfenFEZVNmMUpDdjJIZ0dOV3BXeG1oZEtyUmFGZ0lSRm1KT2F2b2FMbGlDYlphYUJXN1RZMXE2aFV5MFowLWtLcDk3RWluUlJJY3hqU3cyOWl4R3o2dWc?oc=5</link>
-<guid isPermaLink="false">x-d66246e4fd46695e</guid>
-<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 18:21:33 +0000</pubDate>
-</item>
-<item>
-<title>GTA VI Official Trading Cards Announced by Panini</title>
-<link>https://rockstarintel.com/gta-vi-official-trading-cards-announced-by-panini/</link>
-<guid isPermaLink="false">crawl-28a96020c75d03d8ba</guid>
-<description>From the publisher (publisher article excerpt): Panini America has officially announced a new partnership with Rockstar Games to release Grand Theft Auto VI trading cards. The collection will bring some of the sports cards found in the game into… Why it matters: This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.</description>
-<pubDate>Tue, 24 Nov 2026 18:20:42 +0000</pubDate>
-</item>
-<item>
-<title>GTA VI Is Now Bootable On PC, Teams Racing Each Other For Fully Playable Build! Learn More 👇 https://t.co/z7fEbUpNjK</title>
-<link>https://news.google.com/rss/articles/CBMiZEFVX3lxTE5VNHUzT21oSURCaGNnaXBxVnNEeUVLXzBZS1dDZVJMcm1LdmVMbURsb3VZNWdxZm5aSndMbFBydHRVQUx6MVh4bURtVDR4UU1ScFQ3dHVDRjlnRmZXUVZsQWQ5NnU?oc=5</link>
-<guid isPermaLink="false">x-014a377d10467198</guid>
-<description>Indexed social post about the future PC version of GTA VI; the original claim has not been verified. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 18:19:00 +0000</pubDate>
-</item>
-<item>
-<title>You can expect a similar leap between The Witcher 3 and The Witcher 4 as there is between GTA 5 and GTA 6, CD Projekt Red says</title>
-<link>https://news.google.com/rss/articles/CBMic0FVX3lxTE5zY19Tb3k4RDlGa2hBUmJ4ZnFBVV9GVmhqNThwYXFGX2lnV2IzMzZJLWktdXQ2cnRDZkduUjVJcXRrd2xUTEpTWHhiOGMteTFxWnVnbUhIUzZwOUpVMXpMemhmcWdHVzYwZ01vWERYX2cwNTQ?oc=5</link>
-<guid isPermaLink="false">rss-bb9eca1e0122ea95</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 18:13:30 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 Performs Better on Xbox Series X Than Base PS5, Despite All of Sony's Marketing</title>
-<link>https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMXR1bThyT3UzdnBxM3pjV3RJc1dwVm9iME1HSEZUSkgtZTNuM2xWOU9jUy1KeC1lMm1Lc3pKcUJPTkZjM1plbHpMQm1ycXlrcVpzdnJGaDBqVGk0RzAzaUtydE5UZGY4cUtqZGRHTGVBTGVISTRxaFE4eGNCbHVWaTloSnlMOGFtQWVqeWF5RlNxdUQyQ0ZzNzNJWU9iampYbW9BeF9NSXlGX1VONHhBODl1QmtnTjQ0a3d3SkN4cWs?oc=5</link>
-<guid isPermaLink="false">rss-7989394a1460e297</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 18:00:00 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 has taken a huge bite out of Call of Duty’s player numbers, and it hasn't bounced back yet</title>
-<link>https://news.google.com/rss/articles/CBMihwFBVV95cUxPUnhnTC1wTjhtQzBDR2REbEl3QTdfazFhWTExVjZvM1F2cUZFRjdtcTAwUFk1U2wtUE1BcHBjVFRTZENuakRSbWs4YmJOQ3RJVGVrVGk2aGtHUnZSaTYxZnduekI3YjlqaDVqb3R3WS1qd2g4eHcyaWpSMlNlVjN4eHJxdmlyelE?oc=5</link>
-<guid isPermaLink="false">rss-d0577e0e50b00c27</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 17:59:50 +0000</pubDate>
-</item>
-<item>
-<title>Real Life Strip Club Says It's Had 'Hundreds of Inquiries' From GTA 6 Fans, as Pornhub Traffic Plummets</title>
-<link>https://news.google.com/rss/articles/CBMi4wFBVV95cUxOSXhUWXpweHB4R0FZZW92TWNjR0tyamxsWWVLTG9kZUpNVTZjdTc2b1JOUV8wNFhZLV9sZGhCOXVyWE5HSWRqWVJUeWt5U3pLMUZFblR4Mlk4YWlvV21lRlFtNGh5RTlCUC15LXA3RG5rd29WNzNvcGlmT0ZOUnB4Wi01THItd05IOWlTVE56UjdRRlBsZ2lQeXZNaEprMms2WS1zS1g5ZFVSWXRENnc1VkNSYXlWRldNUnlEZU5yY1hHU25WSjFPVkNkYkx2c0NTcVVUVTRuNlZyRE5WcTVzd3Q3OA?oc=5</link>
-<guid isPermaLink="false">rss-70f1d1f05cf75518</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 17:59:20 +0000</pubDate>
-</item>
-<item>
-<title>Community Efforts to Port GTA 6 to PC and Mac Show Early Success</title>
-<link>https://news.google.com/rss/articles/CBMilgFBVV95cUxPMGxvdlo0QzBpZlBuNjdBVTMycDQ2M0ttemRyTG8zeTJHbUM1bkE4NUFFdHlmeVpwOFYtWEpreEtWZjdVTEVxc0hlZmZObmp6dk12MWk2TlhIZW9qN1VvUnBFY0F0RWRzMUdTSjJkN0U2U291dkNaSnkwa3dNQWRtZW02blAxbHRXWGxmeTBBZHA5UkNERVE?oc=5</link>
-<guid isPermaLink="false">rss-319cb44c0738df48</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 17:55:56 +0000</pubDate>
-</item>
-<item>
-<title>'Grand Theft Auto VI': First Impressions</title>
-<link>https://news.google.com/rss/articles/CBMihgFBVV95cUxPMGhlTG5GZ01ZM0Z4MHFCd0E4UHhDMEctX0J5MEViZmNHRGZxem81bHRUTmVGQnRDVzVtNFkyUUw2UXlKWHZjY2NSNUJQRVI4N1N4NllSY1VwQ3VPUHc4YnJQaV9VWVhRdzZzYXNiQklwNVlBMUdFdUlKX0FfeGlRRU5id1lrQQ?oc=5</link>
-<guid isPermaLink="false">rss-6c0c8ef1a29e63a2</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 17:47:40 +0000</pubDate>
-</item>
-<item>
-<title>‘The Blood of Dawnwalker’ and ‘Grand Theft Auto VI’ lead the AP’s list of 2026 top video games</title>
-<link>https://news.google.com/rss/articles/CBMibEFVX3lxTE5qeUoyZ3A1WW9jUTlkUTNJTWl6aUdUV0RuZ1Vud1FSWVR3NVp2RmQ0UF9vNm4zdy1sWUdxV0Eyd3Q1cXpobFRYRnY5bHFPUVVKQnZtaElVSS1BcVlKME9uTGdtang0d0g3T3JXUA?oc=5</link>
-<guid isPermaLink="false">rss-5a0e7d6d9df1c5d8</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 17:32:58 +0000</pubDate>
-</item>
-<item>
-<title>‘Grand Theft Auto VI: The Album’ Adds 4 More Songs Following Deluxe Edition</title>
-<link>https://news.google.com/rss/articles/CBMisgFBVV95cUxPR1VFMDFvbGJtUVNLNGtLbDlCZkRQT1ZYZ3Z2TG9DZWtyUDdFNXNCcFp3anQ5cnFSOVkwVlFSdE5aX0pwOEtiTUFPQnNIREVET3I2Z2FBVF9XVXhydFJFQnpkWEQyTGM2OC1mNzFtTWwxVWdpSHdMbHZKYnZoM2lUUWN3ckh0RHducEF2YTh1VnE3ZlhwMFVWY0tJNlo4N3FJZnlxZ0xLbFVOcVZLVks1SW1n?oc=5</link>
-<guid isPermaLink="false">rss-a46299e528734de0</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 17:31:56 +0000</pubDate>
-</item>
-<item>
-<title>GTA 6 PC port projects are already going offline</title>
-<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rd18tRnF2OGFqQzg4NHY1NkhnQ2g3bHNoTFdEUjJDVDlWZTJtcHJFNnNsNlNwM0JBVzVsV1R1ZnU5SzJHUWhlVmNGdzktQkswd0JWRi1rXzZxVjhWUjlN?oc=5</link>
-<guid isPermaLink="false">rss-ecbe1e108917c6a5</guid>
-<description>Publisher headline about the effort to translate console game code for PCs. Open the source for the details. Why it matters: Shader translation, system-library work and code commits are engineering milestones. Only a real reproducible GTA VI boot or gameplay test would establish compatibility.</description>
-<pubDate>Tue, 24 Nov 2026 17:28:00 +0000</pubDate>
-</item>
-<item>
-<title>Unofficial GTA 6 PC ports are already going offline</title>
-<link>https://news.google.com/rss/articles/CBMiX0FVX3lxTE1rd18tRnF2OGFqQzg4NHY1NkhnQ2g3bHNoTFdEUjJDVDlWZTJtcHJFNnNsNlNwM0JBVzVsV1R1ZnU5SzJHUWhlVmNGdzktQkswd0JWRi1rXzZxVjhWUjlN?oc=5</link>
-<guid isPermaLink="false">rss-360af8913e953e30</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 17:28:00 +0000</pubDate>
-</item>
-<item>
-<title>Modders have launched GTA 6 on PC at around 4 FPS.</title>
-<link>https://news.google.com/rss/articles/CBMikAFBVV95cUxNWXI2WEJINHFWdlc1Q0NEeUUzVzYzdWVfSG8xZlBCemZFS0tqcVRJSHdROGJ4c2FLWTdlQVk5cXlsN01jTV9XRkNuTjJBZnpYUDZzcXhDQmhzaTg5QlR3Njc0WGt3X3FlZHg4N3A4U1pkX0k1dExqMUVTSWlhWWZIX0g3bm9IdlZoZEtQQS13dFg?oc=5</link>
-<guid isPermaLink="false">rss-e4cd2da37aa966a2</guid>
-<description>Publisher headline about the future PC version of GTA VI. Open the source for the details. Why it matters: For a PC release date or system requirements, an original Rockstar or Take-Two announcement is stronger evidence than speculation or timelines based on past releases.</description>
-<pubDate>Tue, 24 Nov 2026 17:27:30 +0000</pubDate>
-</item>
-<item>
-<title>Official GTA 6 trading cards are coming next month</title>
-<link>https://www.videogameschronicle.com/news/official-gta-6-trading-cards-are-coming-next-month/</link>
-<guid isPermaLink="false">crawl-7d079f08f2c72a6cf9</guid>
-<description>From the publisher (publisher article excerpt): GTA 6’s in-game trading cards are getting a physical release this December Grand Theft Auto 6 is getting an official trading card release. Why it matters: This excerpt gives more context than a headline. Consult the complete original article before relying on the claims.</description>
-<pubDate>Tue, 24 Nov 2026 17:23:31 +0000</pubDate>
-</item>
-<item>
-<title>D’Angelo’s Estate Releases ‘Kamikazi,’ Featured in ‘Grand Theft Auto VI’: Listen</title>
-<link>https://news.google.com/rss/articles/CBMidEFVX3lxTE1nckk2LUFuaDVNR3RNV1ZER3J2OUQ3Qm1MaG53VXNhSXNsUXpNM2R0QnI0REwtOWtBMHplRkswOVktVWpTeENLNTJzc1pXS3A0TXVoaTJGOXc3cGU1TEdWYWtnZmxXMmF2OUJkV1dFZTRpc2ZE?oc=5</link>
-<guid isPermaLink="false">rss-2af371faef27ebd8</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 17:18:59 +0000</pubDate>
-</item>
-<item>
-<title>Should You Trust Halifax in GTA 6?</title>
-<link>https://news.google.com/rss/articles/CBMimgFBVV95cUxPeF9YUTlYaGdNQkFxVjI0NFBYQnlLM3VObXhqU1hkSm1vWG9lQUI3LU9ST3ZJZmlHTmJTd3BoOVVaNjlDdDh1RUlCMVcxSEhZdlVKX2YtX3RfUHBicE5wS0J5YUFGYXRqQm5WR29fUTBVRGtiazA4MUN1QW5VaUl0cHpPaERFUGFFVW95NXVNNGNvRklhVGJPQS1B?oc=5</link>
-<guid isPermaLink="false">rss-045ee0f4fcc6edae</guid>
-<description>Publisher headline about the launched game, including updates, reviews and player experience. Open the source for the details. Why it matters: Console performance, accessibility, gameplay changes and post-launch patches matter even if no PC release has been announced.</description>
-<pubDate>Tue, 24 Nov 2026 17:18:32 +0000</pubDate>
 </item>
 </channel></rss>
